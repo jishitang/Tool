@@ -1,0 +1,239 @@
+#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV1.png" group-title="央视",CCTV1
+https://fjcm.iptv.darwinchow.com/channel/cctv1?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV2.png" group-title="央视",CCTV2
+https://fjcm.iptv.darwinchow.com/channel/cctv2?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV3.png" group-title="央视",CCTV3
+https://fjcm.iptv.darwinchow.com/channel/cctv3?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV4.png" group-title="央视",CCTV4
+https://fjcm.iptv.darwinchow.com/channel/cctv4?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV5.png" group-title="央视",CCTV5
+https://fjcm.iptv.darwinchow.com/channel/cctv5?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV5+.png" group-title="央视",CCTV5+
+https://fjcm.iptv.darwinchow.com/channel/cctv5p?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV6.png" group-title="央视",CCTV6
+https://fjcm.iptv.darwinchow.com/channel/cctv6?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV7.png" group-title="央视",CCTV7
+https://fjcm.iptv.darwinchow.com/channel/cctv7?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV8.png" group-title="央视",CCTV8
+https://fjcm.iptv.darwinchow.com/channel/cctv8?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV9.png" group-title="央视",CCTV9
+https://fjcm.iptv.darwinchow.com/channel/cctv9?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV10.png" group-title="央视",CCTV10
+https://fjcm.iptv.darwinchow.com/channel/cctv10?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV11.png" group-title="央视",CCTV11
+https://fjcm.iptv.darwinchow.com/channel/cctv11?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV12.png" group-title="央视",CCTV12
+https://fjcm.iptv.darwinchow.com/channel/cctv12?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV13.png" group-title="央视",CCTV13
+https://fjcm.iptv.darwinchow.com/channel/cctv13?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV14.png" group-title="央视",CCTV14
+https://fjcm.iptv.darwinchow.com/channel/cctv14?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV15.png" group-title="央视",CCTV15
+https://fjcm.iptv.darwinchow.com/channel/cctv15?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV16.png" group-title="央视",CCTV16
+https://fjcm.iptv.darwinchow.com/channel/cctv16?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV16.png" group-title="央视",CCTV16 4K
+https://fjcm.iptv.darwinchow.com/channel/cctv164k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV17.png" group-title="央视",CCTV17
+https://fjcm.iptv.darwinchow.com/channel/cctv17?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://static.iptv.darwinchow.com/logo/CCTV4K.png" group-title="央视",CCTV4K
+https://fjcm.iptv.darwinchow.com/channel/cctv4k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN.png" group-title="央视",CGTN
+https://fjcm.iptv.darwinchow.com/channel/cgtnsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN法语.png" group-title="央视",CGTN法语
+https://fjcm.iptv.darwinchow.com/channel/cgtnfrenchsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN俄语.png" group-title="央视",CGTN俄语
+https://fjcm.iptv.darwinchow.com/channel/cgtnrussiansd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN西语.png" group-title="央视",CGTN西语
+https://fjcm.iptv.darwinchow.com/channel/cgtnspanishsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN阿语.png" group-title="央视",CGTN阿语
+https://fjcm.iptv.darwinchow.com/channel/cgtnarabicsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://static.iptv.darwinchow.com/logo/CGTN纪录.png" group-title="央视",CGTN纪录
+https://fjcm.iptv.darwinchow.com/channel/cgtndocumentarysd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://static.iptv.darwinchow.com/logo/中国教育1台.png" group-title="央视",中国教育1台
+https://fjcm.iptv.darwinchow.com/channel/cetv1?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://static.iptv.darwinchow.com/logo/中国教育2台.png" group-title="央视",中国教育2台
+https://fjcm.iptv.darwinchow.com/channel/cetv2sd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/安徽卫视.png" group-title="卫视",安徽卫视
+https://fjcm.iptv.darwinchow.com/channel/anhuiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/北京卫视.png" group-title="卫视",北京卫视
+https://fjcm.iptv.darwinchow.com/channel/beijingweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/北京卫视4K.png" group-title="卫视",北京卫视4K
+https://fjcm.iptv.darwinchow.com/channel/beijingweishi4k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/兵团卫视.png" group-title="卫视",兵团卫视
+https://fjcm.iptv.darwinchow.com/channel/bingtuanweishisd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/重庆卫视.png" group-title="卫视",重庆卫视
+https://fjcm.iptv.darwinchow.com/channel/chongqingweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/东方卫视.png" group-title="卫视",东方卫视
+https://fjcm.iptv.darwinchow.com/channel/dongfangweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/东南卫视.png" group-title="卫视",东南卫视
+https://fjcm.iptv.darwinchow.com/channel/dongnanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/甘肃卫视.png" group-title="卫视",甘肃卫视
+https://fjcm.iptv.darwinchow.com/channel/gansuweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/广东卫视.png" group-title="卫视",广东卫视
+https://fjcm.iptv.darwinchow.com/channel/guangdongweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/广东卫视4K.png" group-title="卫视",广东卫视4K
+https://fjcm.iptv.darwinchow.com/channel/guangdongweishi4k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/广西卫视.png" group-title="卫视",广西卫视
+https://fjcm.iptv.darwinchow.com/channel/guangxiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/贵州卫视.png" group-title="卫视",贵州卫视
+https://fjcm.iptv.darwinchow.com/channel/guizhouweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/海南卫视.png" group-title="卫视",海南卫视
+https://fjcm.iptv.darwinchow.com/channel/hainanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="海峡卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/海峡卫视.png" group-title="卫视",海峡卫视
+https://fjcm.iptv.darwinchow.com/channel/haixiaweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/河北卫视.png" group-title="卫视",河北卫视
+https://fjcm.iptv.darwinchow.com/channel/hebeiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/河南卫视.png" group-title="卫视",河南卫视
+https://fjcm.iptv.darwinchow.com/channel/henanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+https://fjcm.iptv.darwinchow.com/channel/heilongjiangweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/湖北卫视.png" group-title="卫视",湖北卫视
+https://fjcm.iptv.darwinchow.com/channel/hubeiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/湖南卫视.png" group-title="卫视",湖南卫视
+https://fjcm.iptv.darwinchow.com/channel/hunanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/吉林卫视.png" group-title="卫视",吉林卫视
+https://fjcm.iptv.darwinchow.com/channel/jilinweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/江苏卫视.png" group-title="卫视",江苏卫视
+https://fjcm.iptv.darwinchow.com/channel/jiangsuweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/江西卫视.png" group-title="卫视",江西卫视
+https://fjcm.iptv.darwinchow.com/channel/jiangxiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/康巴卫视.png" group-title="卫视",康巴卫视
+https://fjcm.iptv.darwinchow.com/channel/kangbaweishisd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/辽宁卫视.png" group-title="卫视",辽宁卫视
+https://fjcm.iptv.darwinchow.com/channel/liaoningweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+https://fjcm.iptv.darwinchow.com/channel/neimengguweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/宁夏卫视.png" group-title="卫视",宁夏卫视
+https://fjcm.iptv.darwinchow.com/channel/ningxiaweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/青海卫视.png" group-title="卫视",青海卫视
+https://fjcm.iptv.darwinchow.com/channel/qinghaiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/三沙卫视.png" group-title="卫视",三沙卫视
+https://fjcm.iptv.darwinchow.com/channel/sanshaweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/厦门卫视.png" group-title="卫视",厦门卫视
+https://fjcm.iptv.darwinchow.com/channel/xiamenweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/山东教育.png" group-title="卫视",山东教育卫视
+https://fjcm.iptv.darwinchow.com/channel/shandongjiaoyusd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/山东卫视.png" group-title="卫视",山东卫视
+https://fjcm.iptv.darwinchow.com/channel/shandongweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/山西卫视.png" group-title="卫视",山西卫视
+https://fjcm.iptv.darwinchow.com/channel/shanxiweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/陕西卫视.png" group-title="卫视",陕西卫视
+https://fjcm.iptv.darwinchow.com/channel/shaanxiweishisd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/深圳卫视.png" group-title="卫视",深圳卫视
+https://fjcm.iptv.darwinchow.com/channel/shenzhenweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/深圳卫视4K.png" group-title="卫视",深圳卫视4K
+https://fjcm.iptv.darwinchow.com/channel/shenzhenweishi4k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/四川卫视.png" group-title="卫视",四川卫视
+https://fjcm.iptv.darwinchow.com/channel/sichuanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/天津卫视.png" group-title="卫视",天津卫视
+https://fjcm.iptv.darwinchow.com/channel/tianjinweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/西藏卫视.png" group-title="卫视",西藏卫视
+https://fjcm.iptv.darwinchow.com/channel/xizangweishisd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/新疆卫视.png" group-title="卫视",新疆卫视
+https://fjcm.iptv.darwinchow.com/channel/xinjiangweishisd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/云南卫视.png" group-title="卫视",云南卫视
+https://fjcm.iptv.darwinchow.com/channel/yunnanweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://static.iptv.darwinchow.com/logo/浙江卫视.png" group-title="卫视",浙江卫视
+https://fjcm.iptv.darwinchow.com/channel/zhejiangweishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="福建综合" tvg-logo="https://static.iptv.darwinchow.com/logo/福建综合.png" group-title="福建",福建综合
+https://fjcm.iptv.darwinchow.com/channel/fujianzonghe?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="福建新闻" tvg-logo="https://static.iptv.darwinchow.com/logo/福建新闻.png" group-title="福建",福建新闻
+https://fjcm.iptv.darwinchow.com/channel/fujianxinwen?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="福建文体" tvg-logo="https://static.iptv.darwinchow.com/logo/福建文体.png" group-title="福建",福建文体
+https://fjcm.iptv.darwinchow.com/channel/fujianwenti?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="福建电视剧" tvg-logo="https://static.iptv.darwinchow.com/logo/福建电视剧.png" group-title="福建",福建电视剧
+https://fjcm.iptv.darwinchow.com/channel/fujiandianshiju?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="福建旅游" tvg-logo="https://static.iptv.darwinchow.com/logo/福建旅游.png" group-title="福建",福建旅游
+https://fjcm.iptv.darwinchow.com/channel/fujianlvyou?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="厦门1台" tvg-logo="https://static.iptv.darwinchow.com/logo/厦门1.png" group-title="福建",厦门1
+https://fjcm.iptv.darwinchow.com/channel/xiamen1?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="厦门2台" tvg-logo="https://static.iptv.darwinchow.com/logo/厦门2.png" group-title="福建",厦门2
+https://fjcm.iptv.darwinchow.com/channel/xiamen2?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="厦门3台" tvg-logo="https://static.iptv.darwinchow.com/logo/厦门3.png" group-title="福建",厦门3
+https://fjcm.iptv.darwinchow.com/channel/xiamen3?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="哒啵电竞" tvg-logo="https://static.iptv.darwinchow.com/logo/哒啵电竞.png" group-title="NewTV",哒啵电竞
+https://fjcm.iptv.darwinchow.com/channel/newtvdabodianjing?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="哒啵赛事" tvg-logo="https://static.iptv.darwinchow.com/logo/哒啵赛事.png" group-title="NewTV",哒啵赛事
+https://fjcm.iptv.darwinchow.com/channel/newtvdabosaishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv爱情喜剧" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV爱情喜剧.png" group-title="NewTV",爱情喜剧
+https://fjcm.iptv.darwinchow.com/channel/newtvaiqingxiju?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv潮妈辣婆" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV潮妈辣婆.png" group-title="NewTV",潮妈辣婆
+https://fjcm.iptv.darwinchow.com/channel/newtvchaomalapo?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv动作电影" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV动作电影.png" group-title="NewTV",动作电影
+https://fjcm.iptv.darwinchow.com/channel/newtvdongzuodianying?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv古装剧场" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV古装剧场.png" group-title="NewTV",古装剧场
+https://fjcm.iptv.darwinchow.com/channel/newtvguzhuangjuchang?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv家庭剧场" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV家庭剧场.png" group-title="NewTV",家庭剧场
+https://fjcm.iptv.darwinchow.com/channel/newtvjiatingjuchang?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv金牌综艺" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV金牌综艺.png" group-title="NewTV",金牌综艺
+https://fjcm.iptv.darwinchow.com/channel/newtvjinpaizongyi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv惊悚悬疑" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV惊悚悬疑.png" group-title="NewTV",惊悚悬疑
+https://fjcm.iptv.darwinchow.com/channel/newtvjingsongxuanyi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv精彩轮播" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV精彩轮播.png" group-title="NewTV",精彩轮播
+https://fjcm.iptv.darwinchow.com/channel/newtvjingcailunbo?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv精品大剧" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV精品大剧.png" group-title="NewTV",精品大剧
+https://fjcm.iptv.darwinchow.com/channel/newtvjingpindaju?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv精品纪录" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV精品纪录.png" group-title="NewTV",精品纪录
+https://fjcm.iptv.darwinchow.com/channel/newtvjingpinjilu?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv精品萌宠" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV精品萌宠.png" group-title="NewTV",精品萌宠
+https://fjcm.iptv.darwinchow.com/channel/newtvjingpinmengchong?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv精品体育" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV精品体育.png" group-title="NewTV",精品体育
+https://fjcm.iptv.darwinchow.com/channel/newtvjingpintiyu?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv军旅剧场" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV军旅剧场.png" group-title="NewTV",军旅剧场
+https://fjcm.iptv.darwinchow.com/channel/newtvjunlvjuchang?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv军事评论" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV军事评论.png" group-title="NewTV",军事评论
+https://fjcm.iptv.darwinchow.com/channel/newtvjunshipinglun?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv热播精选" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV热播精选.png" group-title="NewTV",热播精选
+https://fjcm.iptv.darwinchow.com/channel/newtvrebojingxuan?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv炫舞未来" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV炫舞未来.png" group-title="NewTV",炫舞未来
+https://fjcm.iptv.darwinchow.com/channel/newtvxuanwuweilai?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv怡伴健康" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV怡伴健康.png" group-title="NewTV",怡伴健康
+https://fjcm.iptv.darwinchow.com/channel/newtvyibanjiankang?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="newtv中国功夫" tvg-logo="https://static.iptv.darwinchow.com/logo/NEWTV中国功夫.png" group-title="NewTV",中国功夫
+https://fjcm.iptv.darwinchow.com/channel/newtvzhongguogongfu?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://static.iptv.darwinchow.com/logo/纯享4K.png" group-title="数字",纯享4K
+https://fjcm.iptv.darwinchow.com/channel/chunxiang4k?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://static.iptv.darwinchow.com/logo/哈哈炫动.png" group-title="数字",哈哈炫动
+https://fjcm.iptv.darwinchow.com/channel/hahaxuandongsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://static.iptv.darwinchow.com/logo/黑莓电影.png" group-title="数字",黑莓电影
+https://fjcm.iptv.darwinchow.com/channel/heimeidianying?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://static.iptv.darwinchow.com/logo/黑莓动画.png" group-title="数字",黑莓动画
+https://fjcm.iptv.darwinchow.com/channel/heimeidonghua?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://static.iptv.darwinchow.com/logo/环球奇观.png" group-title="数字",环球奇观
+https://fjcm.iptv.darwinchow.com/channel/huanqiuqiguan?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://static.iptv.darwinchow.com/logo/嘉佳卡通.png" group-title="数字",嘉佳卡通
+https://fjcm.iptv.darwinchow.com/channel/jiajiakatongsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://static.iptv.darwinchow.com/logo/睛彩竞技.png" group-title="数字",睛彩竞技
+https://fjcm.iptv.darwinchow.com/channel/jingcaijingji?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://static.iptv.darwinchow.com/logo/睛彩篮球.png" group-title="数字",睛彩篮球
+https://fjcm.iptv.darwinchow.com/channel/jingcailanqiu?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://static.iptv.darwinchow.com/logo/睛彩青少.png" group-title="数字",睛彩青少
+https://fjcm.iptv.darwinchow.com/channel/jingcaiqingshao?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="生态环境" tvg-logo="https://static.iptv.darwinchow.com/logo/生态环境.png" group-title="数字",生态环境
+https://fjcm.iptv.darwinchow.com/channel/eetv?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="天下足球" tvg-logo="https://static.iptv.darwinchow.com/logo/天下足球.png" group-title="数字",天下足球
+https://fjcm.iptv.darwinchow.com/channel/tianxiazuqiu?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="新动漫" tvg-logo="https://static.iptv.darwinchow.com/logo/新动漫.png" group-title="数字",新动漫
+https://fjcm.iptv.darwinchow.com/channel/xindongman?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://static.iptv.darwinchow.com/logo/优漫卡通.png" group-title="数字",优漫卡通
+https://fjcm.iptv.darwinchow.com/channel/youmankatongsd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="优优宝贝" tvg-logo="https://static.iptv.darwinchow.com/logo/优优宝贝.png" group-title="数字",优优宝贝
+https://fjcm.iptv.darwinchow.com/channel/youyoubaobei?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://static.iptv.darwinchow.com/logo/中国天气.png" group-title="数字",中国天气
+https://fjcm.iptv.darwinchow.com/channel/zhongguotianqi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="中华特产" tvg-logo="https://static.iptv.darwinchow.com/logo/中华特产.png" group-title="数字",中华特产
+https://fjcm.iptv.darwinchow.com/channel/zhonghuatechan?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://static.iptv.darwinchow.com/logo/卡酷少儿.png" group-title="北京",卡酷少儿
+https://fjcm.iptv.darwinchow.com/channel/kakushaoersd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="纪实科教" tvg-logo="https://static.iptv.darwinchow.com/logo/纪实科教.png" group-title="北京",纪实科教
+https://fjcm.iptv.darwinchow.com/channel/jishikejiao?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://static.iptv.darwinchow.com/logo/金鹰纪实.png" group-title="湖南",金鹰纪实
+https://fjcm.iptv.darwinchow.com/channel/jinyingjishi?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="先锋乒羽" tvg-logo="https://static.iptv.darwinchow.com/logo/先锋乒羽.png" group-title="湖南",先锋乒羽
+https://fjcm.iptv.darwinchow.com/channel/xianfengpingyusd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://static.iptv.darwinchow.com/logo/快乐垂钓.png" group-title="湖南",快乐垂钓
+https://fjcm.iptv.darwinchow.com/channel/kuailechuijiao?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86
+#EXTINF:-1 tvg-name="茶" tvg-logo="https://static.iptv.darwinchow.com/logo/茶.png" group-title="湖南",茶频道
+https://fjcm.iptv.darwinchow.com/channel/chapindaosd?livekey=01WXj3JxY8HbezjYweOrk5iGNsJeh9iZiyrEP&userkey=fcafdfb739764c86

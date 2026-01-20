@@ -1,0 +1,91 @@
+央视频道,#genre#
+
+#EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV1
+https://live.sxrtv.com/iptv/cctv1.flv
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV2
+https://live.sxrtv.com/iptv/cctv2.flv
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV3
+https://live.sxrtv.com/iptv/cctv3.flv
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV4
+https://live.sxrtv.com/iptv/cctv4.flv
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV5
+https://live.sxrtv.com/iptv/cctv5.flv
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV5+
+https://live.sxrtv.com/iptv/cctv5p.flv
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV6
+https://live.sxrtv.com/iptv/cctv6.flv
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV7
+https://live.sxrtv.com/iptv/cctv7.flv
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV8
+https://live.sxrtv.com/iptv/cctv8.flv
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV9
+https://live.sxrtv.com/iptv/cctv9.flv
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV10
+https://live.sxrtv.com/iptv/cctv10.flv
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV11
+https://live.sxrtv.com/iptv/cctv11.flv
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV12
+https://live.sxrtv.com/iptv/cctv12.flv
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV13
+https://live.sxrtv.com/iptv/cctv13.flv
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV14
+https://live.sxrtv.com/iptv/cctv14.flv
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV15
+https://live.sxrtv.com/iptv/cctv15.flv
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV16
+https://live.sxrtv.com/iptv/cctv16.flv
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV17
+https://live.sxrtv.com/iptv/cctv17.flv
+
+卫视频道,#genre#
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",重庆卫视
+https://live.sxrtv.com/iptv/cqws.flv
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://epg.112114.xyz/logo/江苏卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",江苏卫视
+https://live.sxrtv.com/iptv/jsws.flv
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",浙江卫视
+https://live.sxrtv.com/iptv/zjws.flv
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",东方卫视
+https://live.sxrtv.com/iptv/dfws.flv
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://epg.112114.xyz/logo/深圳卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",深圳卫视
+https://live.sxrtv.com/iptv/szws.flv
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",北京卫视
+https://live.sxrtv.com/iptv/bjws.flv
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",山东卫视
+https://live.sxrtv.com/iptv/sdws.flv
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",天津卫视
+https://live.sxrtv.com/iptv/tjws.flv
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",四川卫视
+https://live.sxrtv.com/iptv/scws.flv
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://epg.112114.xyz/logo/黑龙江卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",黑龙江卫视
+https://live.sxrtv.com/iptv/hljws.flv
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",安徽卫视
+https://live.sxrtv.com/iptv/ahws.flv
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://epg.112114.xyz/logo/山西卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",山西卫视
+https://live.sxrtv.com/iptv/sxws.flv
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://epg.112114.xyz/logo/湖北卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",湖北卫视
+https://live.sxrtv.com/iptv/hubws.flv
+#EXTINF:-1 tvg-name="旅游卫视" tvg-logo="https://epg.112114.xyz/logo/旅游卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",旅游卫视
+https://live.sxrtv.com/iptv/hinws.flv
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://epg.112114.xyz/logo/陕西卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",陕西卫视
+https://live.sxrtv.com/iptv/shxws.flv
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://epg.112114.xyz/logo/东南卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",东南卫视
+https://live.sxrtv.com/iptv/dnws.flv
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://epg.112114.xyz/logo/吉林卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",吉林卫视
+https://live.sxrtv.com/iptv/jlws.flv
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://epg.112114.xyz/logo/辽宁卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",辽宁卫视
+https://live.sxrtv.com/iptv/lnws.flv
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",湖南卫视
+https://live.sxrtv.com/iptv/hunws.flv
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",广东卫视
+https://live.sxrtv.com/iptv/gdws.flv
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://epg.112114.xyz/logo/河南卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",河南卫视
+https://live.sxrtv.com/iptv/hnws.flv
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://epg.112114.xyz/logo/河北卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",河北卫视
+https://live.sxrtv.com/iptv/hbws.flv
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰中文
+https://live.sxrtv.com/iptv/fhzw.flv
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰资讯
+https://live.sxrtv.com/iptv/fhzx.flv
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰香港
+https://live.sxrtv.com/iptv/fhhk.flv

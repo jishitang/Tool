@@ -1,0 +1,26 @@
+直播接口地址：
+https://gongdian.top/tv/jiudian.txt
+https://gongdian.top/tv/others/haikouyidong.txt（移动宽带专用）
+https://gongdian.top/tv/Mursor/iptv.m3u（UA改为 okHttp/Mod-1.0.0）
+https://gongdian.top/tv/Mursor/huyayqk.m3u（UA改为 okHttp/Mod-1.0.0）
+https://gongdian.top/tv/Mursor/douyuyqk.m3u（UA改为 okHttp/Mod-1.0.0）
+https://gongdian.top/tv/Mursor/bililive.m3u（UA改为 okHttp/Mod-1.0.0）
+https://gongdian.top/tv/Mursor/yylunbo.m3u（UA改为 okHttp/Mod-1.0.0）
+  
+酷九使用：
+https://gongdian.top/tv/ku9/webview.txt#JS=https://gongdian.top/tv/ku9/js/webview.js
+https://gongdian.top/tv/ku9/quan.txt#JS=https://gongdian.top/tv/ku9/js/web.js
+  
+  
+点播接口地址（推荐OK影视）：
+宫殿拼接：https://gongdian.top/tvbox/gongdian/api.json
+小米：https://gongdian.top/tvbox/xiaomi/api.json
+潇洒接口：https://gongdian.top/tvbox/xiaosa/api.json
+南风接口：https://gongdian.top/tvbox/nanfeng/api.json
+PG接口：https://gongdian.top/tvbox/pg/api.json
+  
+学习内容：https://gongdian.top/tvbox/xuexi/api.json
+  
+uz影视使用：https://gh-proxy.com/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/uzAio.json
+uz影视使用：https://gongdian.top/tvbox/uz/uz.json（宫殿对官方源简单增删改）
+tbox使用：https://gongdian.top/tvbox/tbox/config.json

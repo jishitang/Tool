@@ -1,0 +1,13 @@
+外国成人频道
+成人1,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+成人2,http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
+成人3,http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+成人4,http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+成人5,http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+成人Extasy7,http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+成人EroxHD8,http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
+成人台NubilesTVHD,http://az9j3kic.ukminlt.fun/iptv/5ZUGG7LM59VPFH/6238/index.m3u8
+成人台NaughtyAmerica,http://az9j3kic.ukminlt.fun/iptv/5ZUGG7LM59VPFH/6237/index.m3u8
+成人台Plus,http://az9j3kic.ukminlt.fun/iptv/5ZUGG7LM59VPFH/6242/index.m3u8
+成人台PrivateHD,http://az9j3kic.ukminlt.fun/iptv/5ZUGG7LM59VPFH/6245/index.m3u8
+稳定

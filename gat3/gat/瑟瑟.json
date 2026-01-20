@@ -1,0 +1,1169 @@
+{
+    "spider": "./spider.jar",
+    "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
+    "logo": "https://14589.kstore.space/logo/Image_1746883716495.jpg",
+    "sites": [
+        {
+            "key": "ssnlsj",
+            "name": "🔞色爽女老司机",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "ext": {
+                "分类url": "https://www.wxjusen.com/index.php/vod/type/id/{cateId}/page/{catePg}.html[https://www.wxjusen.com/index.php/vod/type/id/{cateId}.html]",
+                "分类": "网红$1#主播$6#传媒$7#黑料$8#强奸乱伦$9#日本$10#欧美$11#诱惑$12"
+            }
+        },
+        {
+            "key": "农夫与少妇",
+            "name": "🧑‍🌾农夫┃少妇",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "分类url": "https://nfsfhf9.nfsf-a16.buzz/go/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类": "国产专区$6#制服诱惑$13#中文字幕$7#国产传媒$8#日本有码$9#日本无码$10#欧美无码$11#强奸乱伦$12#三级专区$23#人妖系列$30#韩国主播$31#国产主播$14#激情动漫$15#明星换脸$16#抖阴视频$20#女优明星$21#网曝黑料$22#AV解说$24#SM调教$25#少女萝莉$26"
+            }
+        },
+        {
+            "key": "无码黑料视频",
+            "name": "🐦‍⬛无码┃黑料",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "防走丢": "https://mixxx1.top/123/?form=xk",
+                "主页url": "https://mixxx3.xyz/123/?form=xk&date=20241227",
+                "数组": "<li>&&</li>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "text-right\">&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索url": "https://mixxx3.xyz/123/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://mixxx3.xyz/123/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类二次截取": "txtguanggao2 clearfix clear-cq&&</ul>",
+                "分类数组": "<a&&a>",
+                "分类标题": ">&&</",
+                "分类ID": "href=\"/123/index.php/vod/type/id/&&.html\""
+            }
+        },
+        {
+            "key": "乱姐黑料伦",
+            "name": "🏴乱姐┃黑料",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://seyo14.xyz/yy/?form=dydh&date=20241227",
+                "数组": "<li>&&</li>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "text-right\">&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索url": "https://seyo14.xyz/yy/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://seyo14.xyz/yy/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类二次截取": "class=\"clear-cq\"&&</ul>",
+                "分类数组": "<a&&a>",
+                "分类标题": ">&&</",
+                "分类ID": "/yy/index.php/vod/type/id/&&.html"
+            }
+        },
+        {
+            "key": "py_Miss",
+            "name": "🔞MissAV(T4)",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=Miss",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_AiDou",
+            "name": "🔞AiDou(T4)",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=AiDou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "1",
+            "name": "🏆如来神掌-零壹",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "请求头": "手机",
+                "站名": "奶很大",
+                "主页url": "https://hhicd-d63o3o.naihendawaq.buzz/index.php",
+                "直接播放": "1",
+                "标题": "<p&&</p>",
+                "图片": "data-src=\"&&\"",
+                "跳转播放链接": "var player_data*url\":\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "/index.php/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://hhicd-d63o3o.naihendawaq.buzz/index.php/vodtype/{cateId}-{catePg}.html",
+                "分类": "草莓猛料$136#玩偶姐姐$133#兔子先生$131#91茄子$129#奇兵有码$27#步兵无码$28#国产视频$1#日本视频$2#中文字幕$9#无码中文$34#主播大秀$12#欧美视频$5#女神学生$16#娇妻素人$18空姐模特$19#职场同事$23#强奸中文$35#制服中文$38#出轨中文$41#韩国制服主播$43#制服师生$50"
+            }
+        },
+        {
+            "key": "2",
+            "name": "🏆如来神掌-零贰",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://www.1av.shop/vodtype/25.html",
+                "播放数组": "mod play-list&&</ul",
+                "跳转播放链接": "var player_aaaa*url\":\"&&\"",
+                "链接": "href=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "直接播放": "1",
+                "分类url": "https://www.1av.shop/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "国产视频$1#欧美高清$18#日韩视频$17#熟女人妻$25#国产传媒$11#精品推荐$16#网曝私密$2#三级电影$21"
+            }
+        },
+        {
+            "key": "3",
+            "name": "🏆如来神掌-零叁",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://777170.xyz/%e6%97%a5%e9%9f%a9%e8%a7%86%e9%a2%91/",
+                "搜索url": "https://777170.xyz/?s={wd}",
+                "数组": "data-video-uid=&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "⚠️少看点，再看你就废了！！！",
+                "分类url": "https://777170.xyz/category/{cateId}/page/{catePg}/;;z",
+                "分类": "中文字幕$中文字幕#國產精選$國產精選#探花約炮$探花約炮#日韩视频$日韩视频#無碼素人$無碼素人#歐美專區$歐美專區#中字動漫$中字動漫"
+            }
+        },
+        {
+            "key": "4",
+            "name": "🏆如来神掌-零肆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://www.777mmx.com/yazhouxingai/index.html",
+                "播放数组": "mod play-list&&</ul",
+                "跳转播放链接": "var playUrl=\"&&\"",
+                "链接": "href=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "直接播放": "1",
+                "分类url": "https://www.777mmx.com/{cateId}/{class}/index.html",
+                "分类": "亚洲性爱$yazhouxingai#欧美高清$oumeixingai#亚洲无码$yazhouav#欧美短AV$oumeiav#熟女人妻$shunvrenqi#丝袜制服$siwazhifu#中文熟女$luanlunshunv#三级经典$sanjijingdian"
+            }
+        },
+        {
+            "key": "5",
+            "name": "🏆如来神掌-零伍",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://www.appleav65.xyz/",
+                "播放数组": "mod play-list&&</ul",
+                "跳转播放链接": "var playUrl=\"&&\"",
+                "链接": "href=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "直接播放": "1",
+                "分类url": "https://www.appleav65.xyz/vodtype/{cateId}/{catePg}/;;a",
+                "分类": "国产视频$1#欧美高清$5#日韩视频$2#国产传媒$7#精品推荐$21#网曝私密$3#3d动漫$4"
+            }
+        },
+        {
+            "key": "6",
+            "name": "🏆如来神掌-零陆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://www.112vv.me/vodtype/26.html",
+                "播放数组": "mod play-list&&</ul",
+                "跳转播放链接": "var player_aaaa*url\":\"&&\"",
+                "链接": "href=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "直接播放": "1",
+                "分类url": "https://www.112vv.me/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "国产视频$6#欧美高清$24#日韩视频$23#熟女人妻$32#国产传媒$12#亚洲专区$22#中文字幕$25#三级电影$26#高清名优$38#日本素人$37#少女萝莉$31#强奸乱伦$29#制服丝袜$30#童颜巨乳$28"
+            }
+        },
+        {
+            "key": "7",
+            "name": "🏆如来神掌-零柒",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/bk.json"
+        },
+        {
+            "key": "8",
+            "name": "🏆如来神掌-零捌",
+            "type": 3,
+            "api": "csp_XMVideo",
+            "searchable": 1,
+            "filterable": 1,
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar"
+        },
+        {
+            "key": "16",
+            "name": "🏆如来神掌-壹陆",
+            "type": 0,
+            "api": "https://dadiapi.com/api.php",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "日韩无码",
+                "强奸乱伦",
+                "欧美精品",
+                "国产精品",
+                "人妻系列",
+                "中文字幕",
+                "动漫精品",
+                "伦理影片",
+                "日韩精品",
+                "制服诱惑",
+                "自拍偷拍",
+                "AV明星",
+                "3P合辑",
+                "巨乳系列",
+                "颜射系列",
+                "口交视频",
+                "自慰系列",
+                "SM重味",
+                "教师学生",
+                "大秀视频",
+                "AV明星1"
+            ]
+        },
+        {
+            "key": "17",
+            "name": "🏆如来神掌-壹柒",
+            "type": 1,
+            "api": "https://py.nxog.eu.org/https://apiyutu.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "精品推荐",
+                "国产精品",
+                "主播秀色",
+                "日本有码",
+                "日本无码",
+                "中文字幕",
+                "童颜巨乳",
+                "性感人妻",
+                "强奸乱伦",
+                "欧美情色",
+                "童真萝莉",
+                "三级伦理",
+                "卡通动漫",
+                "丝袜OL",
+                "口爆颜射",
+                "自拍偷拍",
+                "日本片商",
+                "Cosplay",
+                "素人自拍",
+                "台湾色情",
+                "韩国自拍",
+                "性感港姐",
+                "东南亚情色",
+                "凌辱束缚",
+                "剧情介绍",
+                "多P 3P",
+                "91系列",
+                "网红系列",
+                "野外系列",
+                "女仆系列",
+                "学生中出",
+                "性感旗袍",
+                "兽耳作品",
+                "瑜伽裤",
+                "骚货护士",
+                "及膝袜",
+                "网曝系列",
+                "麻豆传媒",
+                "女同人妖",
+                "恋腿癖"
+            ]
+        },
+        {
+            "key": "18",
+            "name": "️🏆如来神掌-壹捌",
+            "type": 1,
+            "api": "https://py.nxog.eu.org/https://lbapi9.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "亚洲情色",
+                "国产主播",
+                "国产自拍",
+                "无码专区",
+                "欧美性爱",
+                "熟女人妻",
+                "强奸乱伦",
+                "巨乳美乳",
+                "中文字幕",
+                "制服诱惑",
+                "女同性恋",
+                "卡通动画",
+                "视频伦理",
+                "少女萝莉",
+                "重口色情",
+                "人兽性交"
+            ]
+        },
+        {
+            "key": "第一式",
+            "name": "🏆第一式-见龙在田🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "编码": "UTF-8",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； TAS-AN00 Build/HUAWEITAS-AN00；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36",
+                "直接播放": "1",
+                "搜索url": "/llq/index.php/vod/search.html?wd={wd}",
+                "主页url": "https://web.llq6.cc/",
+                "分类url": "https://web.llq6.cc/llq/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
+                "分类": "绿帽淫妻$96#国产精品$95#国产乱伦$98#美女主播$99#明星换脸$100#香港三级$101#麻豆传媒$102#杏吧传媒$103#兔子先生$104#天美传媒$105#sa国际传媒$106#性世界$107#扣扣传媒$108#果冻传媒$109#星空无限$110#精东影业$111#葫芦影业$112#蜜桃传媒$113#起点传媒$114#黄瓜资源$87#老鸭资源$135#仓库资源$191#森林资源$117#奥斯卡资源$86#国产探花$97"
+            }
+        },
+        {
+            "key": "第二式",
+            "name": "🏆第二式-飞龙在天🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "播放数组": "<a class=\"play-active\"&&</a>",
+                "直接播放": "1",
+                "主页url": "https://e--ubuyiaz.renshouxiangjiao.com/",
+                "分类url": "https://e--ubuyiaz.renshouxiangjiao.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/",
+                "分类": "奥斯卡资源$20#黄瓜资源$110#JKUN 资源网$21#奶香香资源$22#siwa 资源$23",
+                "类型": "国产视频$24#中文字幕$25#国产传媒$26#日本有码$27#日本无码$28#欧美无码$29#强奸乱伦$30#制服诱惑$31#国产主播$32#激情动漫$33#明星换脸$34#抖阴视频$35#女优明星$36#网曝黑料$40#伦理三级$41#AV解说$42#SM调教$43#萝莉少女$45#极品媚黑$46#女同性恋$47||国产精品$111#绿帽淫妻$112#国产探花$113#美女主播$114#明星淫梦$115#TS人妖$116#麻豆传媒$117#兔子先生$118#天美传媒$119#SA国际传媒$120#性世界$121#扣扣传媒$122#精东影业$123#蜜桃传媒$124#网曝门事件$125#杏吧传媒$139#果冻传媒$126#星空无限$127#葫芦影业$128#起点传媒$129||国产传媒$66#中文字幕$53#日本有码$54#日本无码$55#AV解说$56#cosplay$57#黑丝诱惑$58#SWAG$59#自拍偷拍$60#激情动漫$61#网红主播$62#探花系列$63#三级伦理$64#VR视角$65#素人搭讪$67#门事件$68||国产自拍$72#主播诱惑$73#探花约炮$74#偷拍偷窥$75#网曝吃瓜$76#抖阴短片$77#传媒剧情$78#日韩无码$80#中文字幕$81#AV解说$82#换脸明星$83#强奸乱伦$84#女优明星$85#欧美激情$86#重口激情$87#VR视角$92#剧情动漫$89#SM调教$90#女同性恋$91||亚洲无码$93#亚洲有码$94#欧美情色$95#中文字幕$96#动漫卡通$97#美女主播$98#人妻熟女$99#日韩伦理$101#国产自拍$102#精选口爆$103#同性同志$104#重口味$105#91大神$107#AV解说$108"
+            }
+        },
+        {
+            "key": "第三式",
+            "name": "🏆第三式-鸿渐于陆🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "链接": "href=\"&&\"[替换:voddetail>>v]",
+                "直接播放": "1",
+                "分类url": "https://b9t9a-61362-sz0803.wakuwakutvww3.cfd/t/{cateId}-{catePg}/",
+                "分类": "国产$20#日本有码$21#传媒系列$117#探花系列$153#上头黑料$155#里番动漫$24#翻牌子$45#令人上头$179#小清新$159#欧美$23#伦理$25#另类$41#国产精品$26#国产自拍$29#国产剧情$27#国产偷拍$30#国产女奴$81#国产主播$35#国模私拍$85"
+            }
+        },
+        {
+            "key": "第四式",
+            "name": "🏆第四式-或跃在渊🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "播放数组": "<a class=\"play-active\"&&</a>",
+                "直接播放": "1",
+                "分类url": "https://www.91gcjd20.xyz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类": "91国产经典$13#国产必看$15#高清无码$16#热门视频$2#今日黑料$14#性爱直播$21#国产偷拍$22#萝莉少女$23#热门事件$24"
+            }
+        },
+        {
+            "key": "第五式",
+            "name": "🏆第五式-羝羊触暮🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "链接": "href=\"&&\"[替换:vod>>shenma#.html>>-1-1.html]",
+                "直接播放": "1",
+                "搜索url": "https://www.fswst.com/vodsearch/{by}-------------.html",
+                "主页url": "https://www.fswst.com/",
+                "分类url": "https://www.fswst.com/play/{cateId}-{catePg}.html",
+                "分类": "中文字幕$20#国产自拍$21#日韩无码$22#极品萝莉$23#强奸乱伦$24#欧美极品$25#三级自慰$26#激情口交$27"
+            }
+        },
+        {
+            "key": "第六式",
+            "name": "🏆第六式-潜龙勿用🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "编码": "UTF-8",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； TAS-AN00 Build/HUAWEITAS-AN00；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36",
+                "链接": "href=\"&&\"[替换:detail>>play#.html]",
+                "直接播放": "1",
+                "搜索url": "https://leaves-fall-gracefully.sihuhub11.buzz/label/sort999/index.php/vod/search/?wd={wd}/",
+                "分类url": "https://leaves-fall-gracefully.sihuhub11.buzz/label/sort999/index.php/vod/type/id/{cateId}/page/{catePg}/",
+                "分类": "国产精品$20#中文字幕$21#国产探花$22#日本有码$23#绿帽淫妻$24#国产乱伦$25#美女主播$26#明星淫梦$27#TS人妖$28#香港三级$29#国产传媒$30#高清无码$31#精品素人$32#精品动漫$49#AV解说$50#VR专区$51#欧美专区$54#怀旧AV$52#JVID$53#SWAG$55"
+            }
+        },
+        {
+            "key": "第八式",
+            "name": "🏆第八式-神龙摆尾🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "编码": "UTF-8",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； TAS-AN00 Build/HUAWEITAS-AN00；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36",
+                "链接": "href=\"&&\"[替换:info>>play#.html]",
+                "直接播放": "1",
+                "搜索url": "https://bishejingxuan129.buzz/search/{wd}.html",
+                "主页url": "https://bishejingxuan129.buzz/",
+                "分类url": "https://bishejingxuan129.buzz/type/{cateId}/{catePg}.html",
+                "分类": "国产精品$158#必射精选$1106#必射仓库$246#另类仓库$327#网曝门$343#特色仓库$316#精品资源$161#番号大全$165#富二代区$166#热门视频$177#中文字幕$176#大众精品$164#成人动漫$160"
+            }
+        },
+        {
+            "key": "第九式",
+            "name": "🏆第九式-密云不雨🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "编码": "UTF-8",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； TAS-AN00 Build/HUAWEITAS-AN00；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36",
+                "链接": "href=\"&&\"[替换:info>>play#.html]",
+                "直接播放": "1",
+                "搜索url": "https://wxts.wuxiants268.com/search/{wd}.html",
+                "主页url": "https://wxts.wuxiants268.com/",
+                "分类url": "https://wxts.wuxiants268.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类": "网曝门$39#探花系列$41#抖音视频$62#热门头条$63#伦理三级$6#国产精品$7#偷拍自拍$8#主播大秀$9#亚洲无码$25#熟女人妻$21#中文字幕$26#强奸乱伦$23#巨乳美乳$20#制服丝袜$11#少女萝莉$12#翹臀美尻$31#欧美精品$32#过膝袜$38#淫妻绿帽$40#怀旧AV$58#极品媚黑$65#卡通动漫$10#Al换脸$28#同性专区$27#TS人妖$42#AV解说$56#VR视角$57#欺辱凌辱$81#野外激情$82#学生诱惑$83#SM调教$84#国产乱伦$85#国产传媒$33#麻豆传媒$43#杏吧传媒$44#兔子先生$45#天美传媒$46#SA国际传媒$47#性世界$48#扣扣传媒$49#果冻传媒$50#星空无限$51#精东影业$52#葫芦影业$53#蜜桃传媒$54#起点传媒$55#JVID$59#SWAG$60#口交颜射$34#女优明星$35#素人自拍$36#多人群交$37#cosplay$61#素人搭讪$80"
+            }
+        },
+        {
+            "key": "第十二式",
+            "name": "🏆第十二式-鱼跃于渊🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "跳转播放链接": "var player_aaaa\"url\":\"&&\"",
+                "免嗅": "1",
+                "直接播放": "1",
+                "搜索url": "https://trucks-carry-goods.adultporna-av1qqq111.xyz/s/{wd}/",
+                "分类url": "https://trucks-carry-goods.adultporna-av1qqq111.xyz/t/{cateId}/{catePg}/",
+                "分类": "国产视频$163#网络黑料$232主播大秀$236AV解说$233#国产自拍$48#国产偷拍$19#抖阴视频$231#空姐模特$67#国产学生$69#天美传媒$111#波多野结衣$89#麻豆合集$38#女优$86#国产传媒$2#乌鸦传媒$126"
+            }
+        },
+        {
+            "key": "第十四式",
+            "name": "🏆第十四式-损则有孚🏆",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "请求头": "手机",
+                "站名": "比卡比卡",
+                "主页url": "https://pika.bikaq.cc/",
+                "数组": "hl-list-item hl-col-xs-4 hl-col-sm-3 hl-col-md-20w hl-col-lg-2\">&&</i>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "免嗅": "1",
+                "播放数组": "hl-plays-list hl-sort-list clearfix\"&&</ul>",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://pika.bikaq.cc/vodsearch/{wd}----------{pg}---.html",
+                "嗅探词": ".m3u8#.mp4",
+                "分类url": "https://pika.bikaq.cc/vodtype/{cateId}-{catePg}.html",
+                "分类数组": "<li&&</li>",
+                "分类标题": ">&&/a>",
+                "分类ID": "/vodtype/&&.html"
+            }
+        },
+        {
+            "key": "第十六式",
+            "name": "🏆第十六式-龙战于野🏆",
+            "type": 1,
+            "api": "https://to.to-long.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "天闲",
+            "name": "🏆天闲星",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.17188.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类": "麻豆$1#中字$2#国产$3#欧美$4#日韩$5"
+            },
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar"
+        },
+        {
+            "key": "天勇",
+            "name": "🏆天勇星",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.17188.cc/index.php/vod/search/page/{catePg}/wd/{cateId}.html",
+                "分类": "麻豆传媒$麻豆#91制片厂$91制片厂#蜜桃影像$蜜桃影像#果冻传媒$果冻传媒#星空无限$星空无限#天美传媒$天美传媒#精东影业$精东影业#皇家华人$皇家华人#糖心Vlog$糖心Vlog#萝莉社$萝莉社#性视界$性视界#草霉视频$草霉视频"
+            },
+            "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar"
+        },
+        {
+            "key": "天威",
+            "name": "🏆天威星",
+            "type": 0,
+            "api": "https://api.souavzy.vip/api.php/provide/vod/at/xml",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "天伤",
+            "name": "🏆天伤星",
+            "type": 0,
+            "searchable": 0,
+            "quickSearch": 0,
+            "api": "https://shayuzy.com/api.php/provide/vod/at/xml/",
+            "playUrl": ""
+        },
+        {
+            "key": "十一",
+            "name": "🏆第十一章经",
+            "api": "https://apilsbzy1.com/api.php/provide/vod/",
+            "download": "",
+            "jiexiUrl": "",
+            "group": "影视",
+            "status": true,
+            "isActive": true,
+            "type": 1,
+            "id": 73
+        },
+        {
+            "key": "二十三",
+            "name": "🏆第二十三章经",
+            "type": 3,
+            "api": "https://www.mpimg.cn/down.php/f47322d9311833324f84644c42fd5f2d.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            
+            "key": "30",
+            "name": "🏆第三十章经",
+            "api": "https://www.mpimg.cn/down.php/15b176521f3a454c4e823e7405fff236.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "key": "荐",
+            "name": "py_stripchat",
+            "type": 3,
+            "api": "./py/py_stripchat.py",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "午",
+            "name": "午",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "categories": [
+                "理论片",
+                "福利"
+            ]
+        },
+        {
+            "key": "py_rou",
+            "name": "(翻墙)(18+)Rou(T3)",
+            "type": 3,
+            "api": "https://d.kstore.dev/download/14756/python/vod_rou.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "荐片",
+            "name": "色播聚合",
+            "type": 3,
+            "api": "./py/色播聚合.py",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "py_BadNews",
+            "name": "BadNews(T4)",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=BadNews",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "XMVideo",
+            "name": "熊猫视频",
+            "type": 3,
+            "api": "csp_XMVideo",
+            "searchable": 1,
+            "filterable": 1,
+            "jar": "https://py.nxog.eu.org/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
+        },
+        {
+            "key": "javxx",
+            "name": "javxx",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./py/javxx.py",
+            "ext": {
+                "proxy": {},
+                "plp": ""
+            }
+        },
+        {
+            "key": "改个马甲",
+            "name": "黄色仓库",
+            "type": 1,
+            "api": "https://hsckzy.vip/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+    ],
+    "parses": [
+        {
+            "name": "初心",
+            "type": 1,
+            "url": "http://sspa8.top:8100/api/?key=初心&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "超前",
+            "type": 1,
+            "url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "rx",
+                    "ltnb",
+                    "bilibili",
+                    "1905",
+                    "rrmj",
+                    "xigua",
+                    "ST4K",
+                    "ETH-XDA1",
+                    "xiong",
+                    "NBY",
+                    "mytv",
+                    "BBA"
+                ]
+            }
+        },
+        {
+            "name": "替换",
+            "type": 1,
+            "url": "http://niiuma.qi-simple.top/th/th.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "沙瓤",
+                    "letv",
+                    "薯片",
+                    "华数TV",
+                    "le",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "大葱",
+            "type": 0,
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"
+        },
+        {
+            "name": "涩涩",
+            "type": 0,
+            "url": "https://upld.zone.id/uploads/q9iq9e5iq/huangse.txt"
+        },
+        {
+            "name": "初心频道",
+            "type": 0,
+            "url": "http://8.138.7.223/v25.txt",
+            "playerType": 1
+        },
+        {
+            "name": "钵钵鸡(小风)",
+            "type": 0,
+            "url": "https://tv.xiaofengtv.com/tvbox/live.txt",
+            "playerType": 1
+        }
+    ],
+    "rules": [
+        {
+            "name": "农民",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "饭团点击",
+            "hosts": [
+                "dadagui",
+                "freeok",
+                "dadagui"
+            ],
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "name": "ofiii",
+            "hosts": [
+                "www.ofiii.com"
+            ],
+            "script": [
+                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+            ]
+        }
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+    ],
+    "flags": [
+        "youku",
+        "优酷",
+        "优 酷",
+        "优酷视频",
+        "qq",
+        "腾讯",
+        "腾 讯",
+        "腾讯视频",
+        "iqiyi",
+        "qiyi",
+        "奇艺",
+        "爱奇艺",
+        "爱 奇 艺",
+        "m1905",
+        "xigua",
+        "letv",
+        "leshi",
+        "乐视",
+        "乐 视",
+        "sohu",
+        "搜狐",
+        "搜 狐",
+        "搜狐视频",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "芒果",
+        "imgo",
+        "芒果TV",
+        "芒 果 T V",
+        "bilibili",
+        "哔 哩",
+        "哔 哩 哔 哩"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
+    ]
+}

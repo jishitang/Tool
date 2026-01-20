@@ -1,0 +1,480 @@
+https://12895.kstore.space/lzxw4K/uu4K
+{
+    "spider": "https://8815.kstore.vip/tvbox/lzxw.png",
+    "wallpaper": "https://t.alcy.cc/fj",
+    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743615977460/877590248a3e4fad90fb5f9faa52e70f.gif",
+    "sites": [
+        {
+            "key": "lzxw_豆瓣",
+            "name": "⁽⁽ଘ😇ଓ⁾⁾公众号:林中的小屋⁽⁽ଘ😇ଓ⁾⁾",
+            "type": 3,
+            "api": "csp_Douban",
+            "indexs": 1,
+            "searchable": 0
+        },
+        {
+            "key": "配置中心",
+            "name": "📥配置中心🌐网盘登录",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.001
+            }
+        },
+        {
+            "key": "夸克云盘",
+            "name": "⭕夸克网盘✨点击观看",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/quarkShare.json"
+        },
+        {
+            "key": "UC",
+            "name": "⭕UC网盘✨点击观看",
+            "type": 3,
+            "api": "csp_PanUc",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/ucShare.json"
+        },
+        {
+            "key": "tjKK",
+            "name": "✈️TG_夸克✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSouKK",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "tjBD",
+            "name": "✈️TG_百度✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSouBD",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "tjUC",
+            "name": "✈️TG_UC✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSouUC",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "tj123",
+            "name": "✈️TG_123✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSou123",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "tjTY",
+            "name": "✈️TG_天翼✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSouTY",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "tj综合",
+            "name": "✈️TG_综合✨网盘搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "AList",
+            "name": "⭕4K_Alist✨免扫码✅",
+            "type": 3,
+            "api": "csp_Alist",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./json/alist.png"
+        },
+        {
+            "key": "逸动",
+            "name": "🔵4K移动✨免扫码✅",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "小斑快映",
+            "name": "🟣4K小斑✨网盘合集🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/xbky.json"
+        },
+        {
+            "key": "玩偶哥哥",
+            "name": "🔴4K玩偶✨极致臻享🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/wogg.json"
+        },
+        {
+            "key": "木偶",
+            "name": "🔵4K木偶✨极致画质🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/mogg.json"
+        },
+        {
+            "key": "蜡笔",
+            "name": "⚫4K蜡笔✨极致画质🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/lb.json"
+        },
+        {
+            "key": "aomi",
+            "name": "🔵4K奥秘✨极致画质🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/aomi.json"
+        },
+        {
+            "key": "虎斑",
+            "name": "🟡4K虎斑✨极致画质🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/huban.json"
+        },
+        {
+            "key": "闪电",
+            "name": "🟢4K闪电✨极致画质🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/shandian.json"
+        },
+        {
+            "key": "小米",
+            "name": "🟡4K小米✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/xm.json"
+        },
+        {
+            "key": "至臻",
+            "name": "🟠4K至臻✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/zz.json"
+        },
+        {
+            "key": "多多",
+            "name": "🟣4K多多✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/yyds.json"
+        },
+        {
+            "key": "欧哥",
+            "name": "🔵4K欧哥✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/og.json"
+        },
+        {
+            "key": "二小",
+            "name": "⚫4K二小✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/ex.json"
+        },
+        {
+            "key": "团长",
+            "name": "⚪4K垮克✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebTz",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "夸父",
+            "name": "🟠4K垮父✨垮克资源🔰",
+            "type": 3,
+            "api": "csp_PanWebShareCloudKF",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "./json/kuafu.json"
+        },
+        {
+            "key": "雷鲸",
+            "name": "🔵4K天翼✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShareCloudLJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "./json/lj.json"
+        },
+        {
+            "key": "海绵",
+            "name": "🟠4K天翼✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShareCloudHM",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "./json/hm.json"
+        },
+        {
+            "key": "123pan",
+            "name": "🔴4K_123✨极致HDR🔰",
+            "type": 3,
+            "api": "csp_PanWebShareCloud123",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "./json/pan1.json"
+        },
+        {
+            "key": "趣盘",
+            "name": "🟠4K百度✨网盘资源🔰",
+            "type": 3,
+            "api": "csp_PanWebQu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
+        },
+        {
+            "key": "音海",
+            "name": "🔍4K音海✨网盘搜索🔰",
+            "type": 3,
+            "api": "csp_Yinhai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "盘搜",
+            "name": "🔍4K盘搜✨网盘搜索🔰",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "PP",
+            "name": "🔍4K_PP✨网盘搜索🔰",
+            "type": 3,
+            "api": "csp_PPapi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "聚合搜索丶",
+            "name": "🔍4K聚搜✨网盘搜索🔰",
+            "type": 3,
+            "api": "csp_JuSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "米盘",
+            "name": "🔍米盘搜✨网盘搜索🔰",
+            "type": 3,
+            "api": "csp_MPsou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "剧透社",
+            "name": "🟡4K剧透社✨网盘资源🔰",
+            "type": 3,
+            "api": "./JS/cloud.min.js",
+            "ext": "./JS/szx.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.00001
+            }
+        },
+        {
+            "key": "校长",
+            "name": "🟡4K校长✨网盘资源",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/校长.js"
+        },
+        {
+            "key": "百酷",
+            "name": "🔴4K百酷✨网盘资源🔰",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/百酷.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "学习指南",
+            "name": "🔵4K指南✨网盘资源🔰",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/xuexizhinan.js"
+        },
+        {
+            "key": "我的夸克",
+            "name": "🌐我的垮克✨网盘资源🔰",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/myquarkShare.json"
+        },
+        {
+            "key": "我的UC",
+            "name": "🌐我的UC✨网盘资源🔰",
+            "type": 3,
+            "api": "csp_PanUc",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/myucShare.json"
+        },
+        {
+            "key": "百度云盘",
+            "name": "🌐我的百度✨网盘资源🔰",
+            "type": 3,
+            "api": "csp_PanBaiDu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "文件",
+            "name": "⚖️加入资源圈丨防失联🔰",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "./json/lzxw.png"
+        },
+        {
+            "key": "push_agent",
+            "name": "⚖️公众号: 林中的小屋🔰",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0
+        }
+    ]
+}

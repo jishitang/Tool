@@ -1,0 +1,58 @@
+// ==UserScript==
+// @name         提取M3U
+// @namespace    http://tampermonkey.net/
+// @version      2024-06-26
+// @description  try to take over the world!
+// @author       You
+// @match        *://*dushe*/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=dushe8.app
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    const newLink = document.createElement('a');
+    newLink.className = 'detail-tags-item';
+    newLink.innerText = '下载M3U';
+    newLink.href = '#';
+
+    newLink.onclick = async function() {
+        const divs = document.querySelectorAll('.play-box-side-main .episode-list.fs-margin');
+        let result = "#EXTM3U";
+
+        let fetchPromises = [];
+
+        divs.forEach(div => {
+            if (div.getAttribute('style') === "") {
+                const links = div.querySelectorAll('a');
+                links.forEach(link => {
+                    fetchPromises.push(
+                        fetch(link.href)
+                        .then(response => response.text())
+                        .then(html => {
+                            const regex = /https:\/\/.+?\.m3u8/g;
+                            const matches = html.match(regex);
+                            result += "\n#EXTINF:-1 group-title=\"" + document.title.split("-")[0] + "\","  + link.querySelector('span').innerText + "\n" + matches;
+                        })
+                    );
+                });
+            }
+        });
+
+        Promise.all(fetchPromises)
+            .then(() => {
+            const downloadLink = document.createElement('a');
+            const blob = new Blob([result], { type: 'audio/mpegurl' });
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = document.title.split("-")[0] + '.m3u';
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        })
+            .catch(error => alert("发生错误：" + error));
+    };
+
+    const targetDiv = document.querySelector('div.detail-tags.fs-margin').appendChild(newLink);
+
+})();

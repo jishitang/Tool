@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title></title><link rel=icon href=/static/images/favicon.ico><meta http-equiv=Expires content=0><meta http-equiv=Pragma content=no-cache><meta http-equiv=Cache-control content=no-cache><meta http-equiv=Cache content=no-cache><meta name=referrer content=always><script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS
+				.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><link rel=stylesheet href=/static/index.883130ca.css><link rel=stylesheet href=static/css/video-js.min.css><script src=static/js/AliyunCaptcha.js></script><script src=static/js/video.min.js></script><script src=static/js/jsvm_all.js></script><script src=static/js/uni.webview.js></script></head><body><div id=app></div><script src=/./static/js/chunk-vendors.1756378679994.js></script><script src=/./static/js/index.1756378679994.js></script></body><script>// #ifdef H5
+		if (location.href.indexOf('/pages/index/components/detail/newaddlist') == -1) {
+			document.title = `任推邦 - 不扣量的项目拉新平台`;
+		}
+		if(location.href.indexOf('https://rtb.sgj.cn') != -1 || location.href.indexOf('http://csj.sgj.cn') != -1){
+			document.querySelector("link[rel*='icon']").href = '/static/images/favicon2.ico';
+			document.title = '';
+		}
+		// #endif</script></html>

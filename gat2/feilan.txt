@@ -1,0 +1,21 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+飞蓝科技,#genre#
+不定时更新,https://vd3.bdstatic.com/mda-mbiqgzsnfeyv74y6/v1-cae/1080p/mda-mbiqgzsnfeyv74y6.mp4
+凤凰中文,http://push-rtmp-hs-spe-f5.douyincdn.com/live/fhzwtoooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+凤凰资讯,http://push-rtmp-hs-spe-f5.douyincdn.com/live/fhzxtoooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+Now新闻台,http://push-rtmp-hs-spe-f5.douyincdn.com/live/nowxwtoooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+Now星影台,http://push-rtmp-hs-spe-f5.douyincdn.com/live/yU8AAUm9MpL5qwiSyewAkms5LtKjQp9G9LEk5mnLosrF1EgdRk.flv
+HOY76,http://push-rtmp-hs-spe-f5.douyincdn.com/live/hoy76oooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+HOY77,http://push-rtmp-hs-spe-f5.douyincdn.com/live/hoy77oooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+HOY78,http://push-rtmp-hs-spe-f5.douyincdn.com/live/hoy78oooeifdj5shf6shhe3whvkd5euic3wmt8ozge74qjmej5dhf2.flv
+极限,http://pull.infojin.cyou:80/live/2760ff9c7d7de53b365a1bf5fdd745a7.m3u8
+happy,http://pull.infojin.cyou:80/live/ec1cdb1074a1d593917baf07b2078cb1.m3u8
+香蕉,http://pull.infojin.cyou:80/live/5b11857fa9cb91d5d011ce8371a003da.m3u8
+惊艳http://pullsstx.peiyou.eaydu.com:80/live/b3883fbb1bb1e5885510d0e21307b5eb.m3u8
+潘朵拉,http://pull.infojin.cyou:80/live/9c5d63c416945212a3ed76d26bea57f7.m3u8
+彩虹电影http://pullsstx.peiyou.eaydu.com:80/live/33309fd002dbfeeabd88ab98914fa454.m3u8
+K频道,http://pull.infojin.cyou:80/live/0a7fdfdb0968f9735544d35bd9b970e2.m3u8
+E频道,http://pull.infojin.cyou:80/live/8acbb2b31af3de5bf4c915e978583b13.m3u8
+松视3,http://pull.infojin.cyou:80/live/27231d99bd41c4ba69f715c400fc8fee.m3u8
+松视1,http://pull.infojin.cyou:80/live/f22d981571d9be65335d1aa2ff1e4e83.m3u8
+pigo,http://aliliveplay.wacai.com:80/live/17acf28ba47d0acb7a0327c8d57b8d75.m3u8

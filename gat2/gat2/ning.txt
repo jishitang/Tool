@@ -1,0 +1,24 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+🇭🇰ning,#genre#
+凤凰中文台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3i1RTu&tk=cl177bPI6scY
+凤凰资讯台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YxOkYv&tk=cl177bPI6scY
+凤凰香港台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9cTr17&tk=cl177bPI6scY
+翡翠台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mGBd9L&tk=cl177bPI6scY
+翡翠台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9Zz2E8&tk=cl177bPI6scY
+明珠台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vG1VQS&tk=cl177bPI6scY
+无线新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cyf4ny&tk=cl177bPI6scY
+TVB plus,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZMlkD0&tk=cl177bPI6scY
+HOY77,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5Yqc4Z&tk=cl177bPI6scY
+HOY78,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4va9PT&tk=cl177bPI6scY
+天映频道,http://push-rtmp-hs-spe-f5.douyincdn.com/live/hktv-gtyhf24.flv
+天映经典,http://push-rtmp-hs-spe-f5.douyincdn.com/live/hktv-gtyhf25.flv
+🇨🇳ning_ο,#genre#
+彩虹e,http://live.urren.net/live/712c34cea5927a4667e653eea6fc3c6d.flv
+松视3,http://live.urren.net/live/51fb1c059c2e54f4909b9c0b4f7a5e84.flv
+Happy,http://live.urren.net/live/51fb1c059c2e54f4909b9c0b4f7a5e84.flv
+极限,http://live.urren.net:80/live/95752691dec60c603e57864a259b718d.flv
+惊艳,http://live.urren.net:80/live/69653f64d4d2ca3438539699830006d3.flv
+潘多拉,http://live.urren.net:80/live/0f2f57f9cf31a967855a552d25fbd499.flv
+彩虹电影,http://live.urren.net:80/live/a950c7e6f771d5f19894d1f35e434960.flv
+K,http://live.urren.net:80/live/96f2bd46b9db91a544168d779a2756bf.flv
+松视1,http://live.urren.net:80/live/e14feec32cd4d9427810bc00fee583a2.flv

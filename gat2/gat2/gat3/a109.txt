@@ -1,0 +1,9 @@
+http://zz.zoho.to//z/=4k
+北京卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.111:5140
+广东卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.114:5140
+深圳卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.113:5140
+四川卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.115:5140
+湖南卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.116:5140
+江苏卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.117:5140
+浙江卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.118:5140
+东方卫视4K,http://xdnas.teop.cn:8189/rtp/239.94.0.119:5140

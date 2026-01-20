@@ -1,0 +1,16 @@
+CCTV1,http://A/ku9/js/480.js?id=cctv1
+CCTV3,http://A/ku9/js/480.js?id=cctv3
+CCTV5,http://A/ku9/js/480.js?id=cctv5
+CCTV6,http://A/ku9/js/480.js?id=cctv6
+CCTV7,http://A/ku9/js/480.js?id=cctv7
+CCTV9,http://A/ku9/js/480.js?id=cctv9
+CCTV10,http://A/ku9/js/480.js?id=cctv10
+CCTV11,http://A/ku9/js/480.js?id=cctv11
+CCTV12,http://A/ku9/js/480.js?id=cctv12
+CCTV13,http://A/ku9/js/480.js?id=cctv13
+北京卫视,http://A/ku9/js/480.js?id=bjws
+浙江卫视,http://A/ku9/js/480.js?id=zjws
+河南都市,http://A/ku9/js/480.js?id=hnds
+河南卫视,http://A/ku9/js/480.js?id=hnws
+河南民生,http://A/ku9/js/480.js?id=hnms
+河南戏曲,http://A/ku9/js/480.js?id=hnly

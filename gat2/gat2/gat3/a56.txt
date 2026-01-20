@@ -1,0 +1,208 @@
+http://ku9.fr.to/ku9/1757952210.m3u
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",狂怒沙暴
+https://super.ffzy-online6.com/20230728/15732_833bb9b4/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",十二生肖
+https://vip1.lz-cdn8.com/20220816/21825_d7835860/1000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",红番区
+https://vip.ffzy-play6.com/20221112/6346_239e11e8/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",我是谁
+https://vip.ffzy-play6.com/20221022/881_da82c5bb/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",新警察故事
+https://vip.ffzy-play6.com/20221017/15_7bd9a94d/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",飞鹰计划
+https://vip.ffzy-play6.com/20221112/6252_a77ddc97/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",A计划
+https://vod.lyhuicheng.com/20230717/puDV0OrF/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",醉拳
+https://vip.lzcdn2.com/20220407/2609_2d217427/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",醉拳
+https://vip.ffzy-play7.com/20230202/13070_b42acba9/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",醉拳II
+https://vip.ffzy-play6.com/20221129/9308_1fceb255/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙虎武师
+https://vip.ffzy-play6.com/20221124/7972_7d6545a3/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",警察故事
+https://vip.lz-cdn1.com/20220404/878_6675a846/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",警察故事III超级警察
+https://vip.ffzy-play7.com/20221206/8266_97359a93/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",警察故事4简单任务
+https://vod.lyhuicheng.com/20230717/iaziYAzc/hls/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",喜剧之王
+https://vip.lzcdn2.com/20220318/38_f03aa8b5/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",功夫熊猫
+https://vip.ffzy-play2.com/20221021/185_cbb77bf7/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",功夫熊猫2
+https://vip.ffzy-play6.com/20221019/152_598bf3c6/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",A计划续集
+https://vip1.lz-cdn10.com/20221012/2732_9fd148be/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙马精神
+https://super.ffzy-online6.com/20230603/12901_b0997ad4/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",总是有爱在隔离
+https://vip.ffzy-play7.com/20230509/24402_8dc9f535/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",急先锋
+https://vip.ffzy-play6.com/20221113/6503_476b3f6c/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",许愿神龙
+https://vip.ffzy-play.com/20221015/902_baeb6b70/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",十二生肖
+https://vip1.lz-cdn8.com/20220816/21825_d7835860/1000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",攀登者
+https://vip.ffzy-play7.com/20221111/3124_7cca31fc/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",神话
+https://vip.ffzy-play6.com/20221017/20_989dd1f8/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",福星高照
+https://vip.ffzy-play6.com/20221128/8904_328483ba/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",重案组
+https://vip1.lz-cdn1.com/20220522/6367_d2e376be/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",私人订制
+https://vip.ffzy-play6.com/20221019/192_52684124/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙腾虎跃
+https://vip.ffzy-play7.com/20221117/5171_c2d4c959/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",城市猎人
+https://vip.ffzy-play7.com/20230112/11075_f5a96711/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",警察故事2013
+https://vip1.lz-cdn1.com/20220420/2679_f713e430/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",花飞满城春
+https://vip.lz-cdn3.com/20230715/20266_4e6d4caf/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",火烧岛
+https://vip1.lz-cdn1.com/20220522/6326_33ed779b/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",千机变
+https://vip.ffzy-play2.com/20221019/21_687fe198/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",奇迹1989
+https://vip1.lz-cdn1.com/20220404/947_529bcfa4/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",奇迹
+https://vip.ffzy-play6.com/20221020/375_f3ad7248/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",特警新人类
+https://vip.ffzy-play6.com/20221112/6113_c01821f3/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",特务迷城
+https://vip.ffzy-play6.com/20221019/111_6edaadc7/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",神探蒲松龄
+https://vip.ffzy-play6.com/20221111/5646_d1cd614b/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",千机变II花都大战
+https://vip.ffzy-play6.com/20221020/312_3eb493a6/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",寻找成龙
+https://vip.ffzy-play7.com/20221127/7273_4ce701a1/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",新宿事件
+https://vip.ffzy-play7.com/20230314/18148_991eeb8a/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",拳精
+https://vip.lzcdn2.com/20221112/22448_54ff8ab1/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",英伦对决
+https://vip.lz-cdn3.com/20221119/16084_02999cf1/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",醉拳2
+https://vip.ffzy-play6.com/20221129/9308_1fceb255/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙牌之谜
+https://vip.ffzy-play7.com/20221111/3068_d0d6c55d/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",玻璃樽
+https://vip.ffzy-play7.com/20221112/3750_97a1bebc/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",邻家特工
+https://vip.ffzy-play6.com/20221127/8589_74f87ca4/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",功夫之王
+https://vip.lzcdn2.com/20220328/870_2e271dfb/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",尖峰时刻
+https://vip.ffzy-play6.com/20221112/6414_a02ac2a9/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",尖峰时刻2
+https://vip.ffzy-play6.com/20221019/81_711525b6/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",霹雳火
+https://vip1.lz-cdn7.com/20230215/14264_e49dd103/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",飞渡卷云山
+https://vip1.lz-cdn7.com/20230219/14389_ca87b60c/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙兄虎弟
+https://vip.ffzy-play6.com/20221116/7264_5b0b594e/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",双龙会
+https://vip.ffzy-play6.com/20221112/6064_afbd5214/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",飞龙再生
+https://vip.ffzy-play6.com/20221019/72_1934eddc/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",尖峰时刻2
+https://vip.ffzy-play6.com/20221019/81_711525b6/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",尖峰时刻3
+https://vip1.lz-cdn1.com/20220516/5780_3d375a51/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",乐高幻影忍者大电影
+https://vip.ffzy-play6.com/20221104/4075_1df206d7/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",飞龙猛将
+https://vip.ffzy-play6.com/20221207/10806_a4b679fd/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",宝贝计划
+https://vip.ffzy-play2.com/20221021/73_d5c05ae2/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",曾经相爱的我们
+https://vip1.lz-cdn1.com/20220516/5958_f2a5e885/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",天下无敌
+https://vip.ffzy-online1.com/20240701/53398_5021e587/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",新精武门
+https://vip.ffzy-play6.com/20221206/10147_2266b628/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",功夫瑜伽
+https://vip1.lz-cdn.com/20220812/28130_38a2cfba/1000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",绝地逃亡
+https://vip.ffzy-play6.com/20221106/4545_59e4a8c2/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",天将雄师
+https://vip.ffzy-play6.com/20221031/3078_d47ea8cc/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",神奇燕尾服
+https://vip.ffzy-play6.com/20221019/127_851b9820/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",解忧杂货店
+https://vip.lzcdn2.com/20220503/5304_196cade3/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",醉拳3
+https://vip.lzcdn2.com/20220528/7719_845dbb4a/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",蛇形刁手
+https://vip.lz-cdn1.com/20220413/1883_3fd46161/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",功夫梦
+https://vip.ffzy-play2.com/20221021/183_d195105f/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",快餐车
+https://vip.ffzy-play7.com/20221115/4694_6f7f88ac/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",机器之血
+https://vip.ffzy-play6.com/20221104/4069_476e86b1/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙少爷
+https://vip.ffzy-play2.com/20240324/60020_c93c2845/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙的心
+https://vip.ffzy-play7.com/20221115/4539_8b9150f6/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",大兵小将
+https://vip.ffzy-play7.com/20230101/10714_0de1384d/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",辛亥革命
+https://vip.ffzy-play6.com/20221021/591_72533d75/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",铁道飞虎
+https://vip.ffzy-play7.com/20221124/6781_bb0a18b1/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",秦香莲
+https://vip.ffzy-play7.com/20230406/21188_34e1c588/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",威龙猛探
+https://vip1.lz-cdn7.com/20230212/14191_de7ce1b2/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",超级计划
+https://vip.ffzy-play7.com/20221112/3764_fd2b007a/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",上海正午
+https://vip.ffzy-play7.com/20230130/12799_c0437a87/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",笑拳怪招
+https://vip.ffzy-play6.com/20221128/9213_05050bb8/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",西藏小子
+https://vip.ffzy-play7.com/20221224/9675_24c6d3c7/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",风雨双流星
+https://vip.ffzy-play7.com/20221128/7518_67bd51e9/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",炮弹飞车2
+https://vip1.lz-cdn7.com/20230220/14422_5b8a1aed/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",蛇鹤八步
+https://vip.ffzy-play6.com/20221128/9119_1b13e298/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",师弟出马
+https://vip.ffzy-play7.com/20221115/4764_aba20ecc/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",少林门
+https://vip.ffzy-play6.com/20221128/9114_1d80750e/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",少林木人巷
+https://vip.ffzy-play6.com/20221128/9115_ff8a121e/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",上海正午2上海骑士
+https://vip.ffzy-play7.com/20230131/12903_9b7878c4/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",龙拳
+https://vip.ffzy-play6.com/20221128/9052_3612e0ff/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",密宗圣手
+https://vip15.play-cdn15.com/20231015/25082_6da1fa93/2000k/hls/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",杀手壕
+https://cdn5.yzzy-online.com/20220519/16935_c4300e76/1000k/hls/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",警察故事(续集)
+https://vip.ffzy-play7.com/20221115/4687_1e3f6f8c/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",环游地球八十天
+https://vip.ffzy-play7.com/20221206/8255_9aa98c99/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",新少林寺
+https://vip.ffzy-play.com/20221015/881_3dbc4077/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="地方",一个好人
+https://vip.ffzy-play7.com/20221129/7713_3a3bd3ff/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",忠烈图
+https://vip.ffzy-play7.com/20221228/10158_15a3aab7/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",剑花烟雨江南
+https://vip.ffzy-play7.com/20221128/7570_1dca45cc/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",地球神奇的一天
+https://vip.lz-cdn3.com/20221114/15887_b3b2f329/1200k/hls/mixed.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",特务迷城
+https://vip.lz-cdn1.com/20220411/1661_39b86486/1200k/hls/mixed.m3u8

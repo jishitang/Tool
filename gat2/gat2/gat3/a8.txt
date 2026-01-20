@@ -1,0 +1,8 @@
+https://php.946985.xyz/stv.m3u
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

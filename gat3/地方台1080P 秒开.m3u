@@ -1,0 +1,423 @@
+#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="宜阳综合频道" tvg-logo="https://epg.112114.xyz/logo/宜阳综合.png" group-title="测试",宜阳综合频道
+http://tvpull.dxhmt.cn:9081/tv/10327-1.m3u8?zhend
+#EXTINF:-1 tvg-id="邓州新闻" tvg-logo="https://epg.112114.xyz/logo/邓州新闻.png" group-title="测试",邓州新闻
+http://tvpull.dxhmt.cn:9081/tv/11381-1.m3u8?zhend
+#EXTINF:-1 tvg-id="新乡县电视台" tvg-logo="https://epg.112114.xyz/logo/新乡县电视台.png" group-title="测试",新乡县电视台
+http://tvpull.dxhmt.cn:9081/tv/10721-1.m3u8?zhend
+#EXTINF:-1 tvg-id="唐河一套" tvg-logo="https://epg.112114.xyz/logo/唐河一套.png" group-title="测试",唐河一套
+http://tvpull.dxhmt.cn:9081/tv/11328-1.m3u8?zhend
+#EXTINF:-1 tvg-id="滑县新闻" tvg-logo="https://epg.112114.xyz/logo/滑县新闻.png" group-title="测试",滑县新闻
+http://tvpull.dxhmt.cn:9081/tv/10526-1.m3u8?zhend
+#EXTINF:-1 tvg-id="鹿邑新闻频道" tvg-logo="https://epg.112114.xyz/logo/鹿邑新闻.png" group-title="测试",鹿邑新闻频道
+http://tvpull.dxhmt.cn:9081/tv/11628-1.m3u8?zhend
+#EXTINF:-1 tvg-id="禹州综合" tvg-logo="https://epg.112114.xyz/logo/禹州综合.png" group-title="测试",禹州综合
+http://tvpull.dxhmt.cn:9081/tv/11081-1.m3u8?zhend
+#EXTINF:-1 tvg-id="扶沟综合频道" tvg-logo="https://epg.112114.xyz/logo/扶沟综合.png" group-title="测试",扶沟综合频道
+http://tvpull.dxhmt.cn:9081/tv/11621-1.m3u8?zhend
+#EXTINF:-1 tvg-id="禹州公共" tvg-logo="https://epg.112114.xyz/logo/禹州公共.png" group-title="测试",禹州公共
+http://tvpull.dxhmt.cn/tv/11081-2.m3u8?zhend
+#EXTINF:-1 tvg-id="宝丰综合频道" tvg-logo="https://epg.112114.xyz/logo/宝丰综合.png" group-title="测试",宝丰综合频道
+http://tvpull.dxhmt.cn:9081/tv/10421-1.m3u8?zhend
+#EXTINF:-1 tvg-id="龙岩公共频道" tvg-logo="https://epg.112114.xyz/logo/龙岩公共.png" group-title="测试",龙岩公共频道
+http://live.lytv.net.cn/ggpd/sd/live.m3u8?zfud
+#EXTINF:-1 tvg-id="灵宝新闻综合" tvg-logo="https://epg.112114.xyz/logo/灵宝新闻综合.png" group-title="测试",灵宝新闻综合
+http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8?zhend
+#EXTINF:-1 tvg-id="余姚新闻综合" tvg-logo="https://epg.112114.xyz/logo/余姚新闻综合.png" group-title="测试",余姚新闻综合
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="新安新闻综合" tvg-logo="https://epg.112114.xyz/logo/新安新闻综合.png" group-title="测试",新安新闻综合
+http://tvpull.dxhmt.cn:9081/tv/10323-1.m3u8?zhend
+#EXTINF:-1 tvg-id="嵩县综合新闻" tvg-logo="https://epg.112114.xyz/logo/嵩县综合新闻.png" group-title="测试",嵩县综合新闻
+http://tvpull.dxhmt.cn:9081/tv/10325-1.m3u8?zhend
+#EXTINF:-1 tvg-id="眉山公共" tvg-logo="https://epg.112114.xyz/logo/眉山公共.png" group-title="测试",眉山公共
+http://live2.scmstv.cn/ggpd/sd/live.m3u8?zsicd
+#EXTINF:-1 tvg-id="田电视台" tvg-logo="https://epg.112114.xyz/logo/田电视台.png" group-title="测试",田电视台
+http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="郏县综合频道" tvg-logo="https://epg.112114.xyz/logo/郏县综合.png" group-title="测试",郏县综合频道
+http://tvpull.dxhmt.cn:9081/tv/10425-1.m3u8?zhend
+#EXTINF:-1 tvg-id="泗阳资讯频道" tvg-logo="https://epg.112114.xyz/logo/泗阳资讯.png" group-title="测试",泗阳资讯频道
+http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="禹州公共" tvg-logo="https://epg.112114.xyz/logo/禹州公共.png" group-title="测试",禹州公共
+http://tvpull.dxhmt.cn:9081/tv/11081-2.m3u8
+#EXTINF:-1 tvg-id="红河县综合" tvg-logo="https://epg.112114.xyz/logo/红河县综合.png" group-title="测试",红河县综合
+http://tv.drs.hhtv.cc:8100/channellive/hhxdst.flv?zyund
+#EXTINF:-1 tvg-id="卫辉综合频道" tvg-logo="https://epg.112114.xyz/logo/卫辉综合.png" group-title="测试",卫辉综合频道
+http://tvpull.dxhmt.cn:9081/tv/10781-1.m3u8?zhend
+#EXTINF:-1 tvg-id="罗城综合" tvg-logo="https://epg.112114.xyz/logo/罗城综合.png" group-title="测试",罗城综合
+http://111.12.75.177:9100/lctvlive/lch.m3u8?zguangxd
+#EXTINF:-1 tvg-id="荥阳综合" tvg-logo="https://epg.112114.xyz/logo/荥阳综合.png" group-title="测试",荥阳综合
+http://tvpull.dxhmt.cn:9081/tv/10182-1.m3u8?zhend
+#EXTINF:-1 tvg-id="眉山公共频道" tvg-logo="https://epg.112114.xyz/logo/眉山公共.png" group-title="测试",眉山公共频道
+http://live2.scmstv.cn/ggpd/sd/live.m3u8
+#EXTINF:-1 tvg-id="上虞新商都" tvg-logo="https://epg.112114.xyz/logo/上虞新商都.png" group-title="测试",上虞新商都
+http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="新蔡综合" tvg-logo="https://epg.112114.xyz/logo/新蔡综合.png" group-title="测试",新蔡综合
+http://tvpull.dxhmt.cn:9081/tv/11729-1.m3u8?zhend
+#EXTINF:-1 tvg-id="永嘉新闻综合" tvg-logo="https://epg.112114.xyz/logo/永嘉新闻综合.png" group-title="测试",永嘉新闻综合
+http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="余杭未来E频道" tvg-logo="https://epg.112114.xyz/logo/余杭未来E.png" group-title="测试",余杭未来E频道
+http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="诸暨新闻综合" tvg-logo="https://epg.112114.xyz/logo/诸暨新闻综合.png" group-title="测试",诸暨新闻综合
+http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="温县综合" tvg-logo="https://epg.112114.xyz/logo/温县综合.png" group-title="测试",温县综合
+http://tvpull.dxhmt.cn:9081/tv/10825-1.m3u8?zhend
+#EXTINF:-1 tvg-id="桐柏新闻综合" tvg-logo="https://epg.112114.xyz/logo/桐柏新闻综合.png" group-title="测试",桐柏新闻综合
+http://tvpull.dxhmt.cn:9081/tv/11330-1.m3u8?zhend
+#EXTINF:-1 tvg-id="荆门新闻综合" tvg-logo="https://epg.112114.xyz/logo/荆门新闻综合.png" group-title="测试",荆门新闻综合
+http://stream.jmtv.com.cn/xwzh/sd/live.m3u8?zhubd
+#EXTINF:-1 tvg-id="衢江新闻综合" tvg-logo="https://epg.112114.xyz/logo/衢江新闻综合.png" group-title="测试",衢江新闻综合
+http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="上虞文化影院" tvg-logo="https://epg.112114.xyz/logo/上虞文化影院.png" group-title="测试",上虞文化影院
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="安徽经济生活" tvg-logo="https://epg.112114.xyz/logo/安徽经济生活.png" group-title="测试",安徽经济生活
+http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
+#EXTINF:-1 tvg-id="苍南新闻综合" tvg-logo="https://epg.112114.xyz/logo/苍南新闻综合.png" group-title="测试",苍南新闻综合
+http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="泗阳综合频道" tvg-logo="https://epg.112114.xyz/logo/泗阳综合.png" group-title="测试",泗阳综合频道
+http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="一修铁拳+搏击燃脂真可以吗？" tvg-logo="https://epg.112114.xyz/logo/一修铁拳+搏击燃脂真可以吗？.png" group-title="测试",一修铁拳+搏击燃脂真可以吗？
+http://111.62.156.15/tx.flv.huya.com/src/1199564875935-1199564875935-5450315006157520896-2399129875326-10057-A-0-1.flv?wsSecret=0c3d3e6dacba3c52f9659eadbfbb8e81&amp;wsTime=6283adb8&amp;u=0&amp;seqid=16527104567088160&amp;ctype=tars_mp&amp;txyp=o%3Atyeic12%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="襄垣电视" tvg-logo="https://epg.112114.xyz/logo/襄垣电视.png" group-title="测试",襄垣电视
+http://video.xyxrmt.com/lsdream/2MAgsgb/1000/live.m3u8?zshanxd
+#EXTINF:-1 tvg-id="龙泉新闻综合" tvg-logo="https://epg.112114.xyz/logo/龙泉新闻综合.png" group-title="测试",龙泉新闻综合
+http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="内黄综合频道" tvg-logo="https://epg.112114.xyz/logo/内黄综合.png" group-title="测试",内黄综合频道
+http://tvpull.dxhmt.cn:9081/tv/10527-1.m3u8?zhend
+#EXTINF:-1 tvg-id="泸县新闻综合" tvg-logo="https://epg.112114.xyz/logo/泸县新闻综合.png" group-title="测试",泸县新闻综合
+http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd
+#EXTINF:-1 tvg-id="上虞新闻综合" tvg-logo="https://epg.112114.xyz/logo/上虞新闻综合.png" group-title="测试",上虞新闻综合
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="舟山新闻综合" tvg-logo="https://epg.112114.xyz/logo/舟山新闻综合.png" group-title="测试",舟山新闻综合
+http://live1.plus.wifizs.cn/xwzh/sd/live.m3u8?zzhed
+#EXTINF:-1 tvg-id="遂昌综合频道" tvg-logo="https://epg.112114.xyz/logo/遂昌综合.png" group-title="测试",遂昌综合频道
+http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="帅soserious+为了测评耳机，我去了趟沙漠...." tvg-logo="https://epg.112114.xyz/logo/帅SOSERIOUS+为了测评耳机，我去了趟沙漠.....png" group-title="测试",帅soserious+为了测评耳机，我去了趟沙漠....
+http://111.62.156.15/tx.flv.huya.com/src/1299518413687-1299518413687-10472377075179192320-2599036950830-10057-A-0-1.flv?wsSecret=720ddd62eb38f2437662ee0f3fafe668&amp;wsTime=6283b056&amp;u=0&amp;seqid=16527111260761080&amp;ctype=tars_mp&amp;txyp=o%3Anceic2%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="济源电视一套" tvg-logo="https://epg.112114.xyz/logo/济源电视一套.png" group-title="测试",济源电视一套
+http://tvpull.dxhmt.cn:9081/tv/19001-1.m3u8?zhend
+#EXTINF:-1 tvg-id="磐石王陆奇+中国全甲格斗！" tvg-logo="https://epg.112114.xyz/logo/磐石王陆奇+中国全甲格斗！.png" group-title="测试",磐石王陆奇+中国全甲格斗！
+http://111.62.156.15/tx.flv.huya.com/src/513555159-513555159-2205702612597080064-1027233774-10057-A-0-1.flv?wsSecret=2a073cfe84bf3079aab0c482550e8cda&amp;wsTime=6283b05d&amp;u=0&amp;seqid=16527111334632590&amp;ctype=tars_mp&amp;txyp=o%3Az16%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="泸县新闻综合" tvg-logo="https://epg.112114.xyz/logo/泸县新闻综合.png" group-title="测试",泸县新闻综合
+http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
+#EXTINF:-1 tvg-id="文山州新闻综合" tvg-logo="https://epg.112114.xyz/logo/文山州新闻综合.png" group-title="测试",文山州新闻综合
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8?zyund
+#EXTINF:-1 tvg-id="双流综合频道" tvg-logo="https://epg.112114.xyz/logo/双流综合.png" group-title="测试",双流综合频道
+http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8
+#EXTINF:-1 tvg-id="方城一套" tvg-logo="https://epg.112114.xyz/logo/方城一套.png" group-title="测试",方城一套
+http://tvpull.dxhmt.cn:9081/tv/11322-1.m3u8?zhend
+#EXTINF:-1 tvg-id="晋城公共" tvg-logo="https://epg.112114.xyz/logo/晋城公共.png" group-title="测试",晋城公共
+http://live.jinnews.com.cn/ggpd/sd/live.m3u8?zshanxd
+#EXTINF:-1 tvg-id="虎牙斯克副舞台+[重播]决战时刻，2021_22..." tvg-logo="https://epg.112114.xyz/logo/虎牙斯克副舞台+决战时刻，_22....png" group-title="测试",虎牙斯克副舞台+[重播]决战时刻，2021_22...
+http://111.62.156.15/tx.flv.huya.com/src/1099531739995-1099531739995-86381322854989824-2199063603446-10057-A-0-1.flv?wsSecret=808bc790a428bcc860dfcb4bd50ff8be&amp;wsTime=6283a876&amp;u=0&amp;seqid=16527091105722740&amp;ctype=tars_mp&amp;txyp=o%3Acs7%3B&amp;fs=bgct&amp;&amp;sphdcdn=al_7-tx_3-js_3-ws_7-bd_2-hw_2&amp;sphdDC=huya&amp;sphd=264_*-265_*&amp;t=102
+#EXTINF:-1 tvg-id="金湖新闻综合" tvg-logo="https://epg.112114.xyz/logo/金湖新闻综合.png" group-title="测试",金湖新闻综合
+http://jinhu-tv-hls.cm.jstv.com/jinhu-tv/jinhuzh.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="巩义新闻综合" tvg-logo="https://epg.112114.xyz/logo/巩义新闻综合.png" group-title="测试",巩义新闻综合
+http://tvpull.dxhmt.cn:9081/tv/10181-1.m3u8?zhend
+#EXTINF:-1 tvg-id="火箭赛事专场+火箭冲击世锦赛第7冠" tvg-logo="https://epg.112114.xyz/logo/火箭赛事专场+火箭冲击世锦赛第7冠.png" group-title="测试",火箭赛事专场+火箭冲击世锦赛第7冠
+http://111.62.156.15/tx.flv.huya.com/src/1099531627956-1099531627956-85900119014113280-2199063379368-10057-A-0-1.flv?wsSecret=02b63621e4dfbd0ff7edc49df2c9bcb9&amp;wsTime=6283a888&amp;u=0&amp;seqid=16527091281057550&amp;ctype=tars_mp&amp;txyp=o%3Ac7%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="虎牙斯克+[16点Qschool]2021_22..." tvg-logo="https://epg.112114.xyz/logo/虎牙斯克+_22....png" group-title="测试",虎牙斯克+[16点Qschool]2021_22...
+http://111.62.156.15/tx.flv.huya.com/src/1099531627777-1099531627777-85899350214967296-2199063379010-10057-A-0-1.flv?wsSecret=181655f2c2ace5527647e6f47e66cf3f&amp;wsTime=6283a886&amp;u=0&amp;seqid=16527091263035970&amp;ctype=tars_mp&amp;txyp=o%3Ad3%3B&amp;fs=bgct&amp;&amp;sphdcdn=al_7-tx_3-js_3-ws_7-bd_2-hw_2&amp;sphdDC=huya&amp;sphd=264_*-265_*&amp;t=102
+#EXTINF:-1 tvg-id="韩国DJ Soda Remix 2021 电音" tvg-logo="https://epg.112114.xyz/logo/韩国DJSODAREMIX电音.png" group-title="测试",韩国DJ Soda Remix 2021 电音
+https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766/mda-mev3hw0htz28h5wn.mp4
+#EXTINF:-1 tvg-id="松阳综合频道" tvg-logo="https://epg.112114.xyz/logo/松阳综合.png" group-title="测试",松阳综合频道
+http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="高邮综合频道" tvg-logo="https://epg.112114.xyz/logo/高邮综合.png" group-title="测试",高邮综合频道
+http://gaoyou-tv-hls.cm.jstv.com/gaoyou-tv/gaoyouxw.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="余杭综合频道" tvg-logo="https://epg.112114.xyz/logo/余杭综合.png" group-title="测试",余杭综合频道
+http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="贺州综合" tvg-logo="https://epg.112114.xyz/logo/贺州综合.png" group-title="测试",贺州综合
+http://zhz.gxhzxw.com:2935/live/HZXW-HD/playlist.m3u8
+#EXTINF:-1 tvg-id="安徽影院" tvg-logo="https://epg.112114.xyz/logo/安徽影院.png" group-title="测试",安徽影院
+http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
+#EXTINF:-1 tvg-id="崇明电视台" tvg-logo="https://epg.112114.xyz/logo/崇明电视台.png" group-title="测试",崇明电视台
+https://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee.m3u8?zshangd
+#EXTINF:-1 tvg-id="CHANNELNEWSASIA" tvg-logo="https://epg.112114.xyz/logo/CHANNELNEWSASIA.png" group-title="测试",Channel News Asia
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
+#EXTINF:-1 tvg-id="松潘新闻综合" tvg-logo="https://epg.112114.xyz/logo/松潘新闻综合.png" group-title="测试",松潘新闻综合
+http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
+#EXTINF:-1 tvg-id="小金综合" tvg-logo="https://epg.112114.xyz/logo/小金综合.png" group-title="测试",小金综合
+http://xjlive.xjsc.gov.cn:8091/live/xwpd.m3u8?zsicd
+#EXTINF:-1 tvg-id="黑水新闻综合" tvg-logo="https://epg.112114.xyz/logo/黑水新闻综合.png" group-title="测试",黑水新闻综合
+http://live.schstv.com:90/live/xwzh.m3u8
+#EXTINF:-1 tvg-id="WEN鞋评+WEN鞋评：阿马鲁实战" tvg-logo="https://epg.112114.xyz/logo/WEN鞋评+WEN鞋评：阿马鲁实战.png" group-title="测试",WEN鞋评+WEN鞋评：阿马鲁实战
+http://111.62.156.15/tx.flv.huya.com/src/1279521726615-1279521726615-16820980441140953088-2559043576686-10057-A-0-1.flv?wsSecret=6ee47fdea5c02ca752813f2cdb31e479&amp;wsTime=6283b062&amp;u=0&amp;seqid=16527111381855870&amp;ctype=tars_mp&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="第一赛场+2021赛季+FE电动方程式[重播]" tvg-logo="https://epg.112114.xyz/logo/第一赛场+赛季+FE电动方程式.png" group-title="测试",第一赛场+2021赛季+FE电动方程式[重播]
+http://111.62.156.15/tx.flv.huya.com/src/1099531739778-1099531739778-86380390847086592-2199063603012-10057-A-0-1.flv?wsSecret=b980283a526793621f0c474671ee5480&amp;wsTime=6283aad3&amp;u=0&amp;seqid=16527097151236690&amp;ctype=tars_mp&amp;txyp=o%3Anc2%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="晋中新闻" tvg-logo="https://epg.112114.xyz/logo/晋中新闻.png" group-title="测试",晋中新闻
+http://jzlive.jztvnews.com:83/live/mount_for_ts/jzzh.m3u8?zshanxd
+#EXTINF:-1 tvg-id="长子综合" tvg-logo="https://epg.112114.xyz/logo/长子综合.png" group-title="测试",长子综合
+http://zzlive.zzc-media.com:8092/live/xwzh.m3u8?zshanxd
+#EXTINF:-1 tvg-id="原始生活21天+挑战满是毒虫的山谷，学霸组合是真的..." tvg-logo="https://epg.112114.xyz/logo/原始生活21天+挑战满是毒虫的山谷，学霸组合是真的....png" group-title="测试",原始生活21天+挑战满是毒虫的山谷，学霸组合是真的...
+http://111.62.156.15/tx.flv.huya.com/src/1099531627794-1099531627794-85899423229411328-2199063379044-10057-A-0-1.flv?wsSecret=da432b17bb82d4ab929792847d479878&amp;wsTime=6283b139&amp;u=0&amp;seqid=16527113537697080&amp;ctype=tars_mp&amp;txyp=o%3Afz1%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="晋中公共" tvg-logo="https://epg.112114.xyz/logo/晋中公共.png" group-title="测试",晋中公共
+http://jzlive.jztvnews.com:90/live/jzgg.m3u8?zshanxd
+#EXTINF:-1 tvg-id="东森亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/东森亚洲卫视.png" group-title="测试",亚洲
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
+#EXTINF:-1 tvg-id="晋中新闻" tvg-logo="https://epg.112114.xyz/logo/晋中新闻.png" group-title="测试",晋中新闻
+http://jzlive.jztvnews.com:90/live/jzzh.m3u8?zshanxd
+#EXTINF:-1 tvg-id="科蜜JJ+科比后仰的瞬间，我看到了神迹" tvg-logo="https://epg.112114.xyz/logo/科蜜JJ+科比后仰的瞬间，我看到了神迹.png" group-title="测试",科蜜JJ+科比后仰的瞬间，我看到了神迹
+http://111.62.156.15/tx.flv.huya.com/src/1099531627790-1099531627790-85899406049542144-2199063379036-10057-A-0-1.flv?wsSecret=0799eab76bb711aefdf0af2d6a0bf9e2&amp;wsTime=6283abbc&amp;u=0&amp;seqid=16527099488806890&amp;ctype=tars_mp&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="晋城新闻" tvg-logo="https://epg.112114.xyz/logo/晋城新闻.png" group-title="测试",晋城新闻
+http://live.jinnews.com.cn/xwzh/sd/live.m3u8?zshanxd
+#EXTINF:-1 tvg-id="海安新闻综合" tvg-logo="https://epg.112114.xyz/logo/海安新闻综合.png" group-title="测试",海安新闻综合
+http://haian-tv-hls.cm.jstv.com/haian-tv/haaxwzh.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="双流综合" tvg-logo="https://epg.112114.xyz/logo/双流综合.png" group-title="测试",双流综合
+http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8?zsicd
+#EXTINF:-1 tvg-id="翼城综合" tvg-logo="https://epg.112114.xyz/logo/翼城综合.png" group-title="测试",翼城综合
+http://live.aiyicheng.com.cn/channel1/sd/live.m3u8?zshanxd
+#EXTINF:-1 tvg-id="建宁综合频道" tvg-logo="https://epg.112114.xyz/logo/建宁综合.png" group-title="测试",建宁综合频道
+https://p2.weizan.cn/2144741973/075444991326676404/live.m3u8?zfud
+#EXTINF:-1 tvg-id="清远文旅" tvg-logo="https://epg.112114.xyz/logo/清远文旅.png" group-title="测试",清远文旅
+https://zqy-live.nanyuecloud.com/qingyuandianshi/qingyuandianshistream.m3u8?auth_key=601634549257-0-0-73ab89e29b6bf8ef7b5144cf0c04935a
+#EXTINF:-1 tvg-id="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" group-title="测试",重庆卫视
+https://sjlivecdn9.cbg.cn/204912315959/app_2/_definst_/ls_2.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="小金综合频道" tvg-logo="https://epg.112114.xyz/logo/小金综合.png" group-title="测试",小金综合频道
+http://xjlive.xjsc.gov.cn:8091/live/xwpd.m3u8
+#EXTINF:-1 tvg-id="沭阳综合频道" tvg-logo="https://epg.112114.xyz/logo/沭阳综合.png" group-title="测试",沭阳综合频道
+http://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="黎城综合" tvg-logo="https://epg.112114.xyz/logo/黎城综合.png" group-title="测试",黎城综合
+http://111.53.96.67:8081/live/1/index.m3u8?zshanxd
+#EXTINF:-1 tvg-id="舔狗波比的幸福生活" tvg-logo="https://epg.112114.xyz/logo/舔狗波比的幸福生活.png" group-title="测试",舔狗波比的幸福生活
+http://epg.112114.xyz/douyu/7620081
+#EXTINF:-1 tvg-id="焦作公共频道" tvg-logo="https://epg.112114.xyz/logo/焦作公共.png" group-title="测试",焦作公共频道
+http://zhpull.dxhmt.cn/jiaozuo/29b65b69130c4ef1a3283cc7b913da05/playlist.m3u8?zhend
+#EXTINF:-1 tvg-id="滁州新闻综合" tvg-logo="https://epg.112114.xyz/logo/滁州新闻综合.png" group-title="测试",滁州新闻综合
+http://live.cztv.cc:85/live/xwpd.m3u8?zanhd
+#EXTINF:-1 tvg-id="鄂托克旗电视台" tvg-logo="https://epg.112114.xyz/logo/鄂托克旗电视台.png" group-title="测试",鄂托克旗电视台
+http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8?zneimd
+#EXTINF:-1 tvg-id="江宁新闻频道" tvg-logo="https://epg.112114.xyz/logo/江宁新闻.png" group-title="测试",江宁新闻频道
+https://jiangning-tv-hls.cm.jstv.com/jiangning-tv/jnxwzh.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="石家庄都市" tvg-logo="https://epg.112114.xyz/logo/石家庄都市.png" group-title="测试",石家庄都市
+http://pluslive1.sjzntv.cn/dushi/playlist.m3u8?zhebd
+#EXTINF:-1 tvg-id="石景山电视" tvg-logo="https://epg.112114.xyz/logo/石景山电视.png" group-title="测试",石景山电视
+https://live.sjsrm.com/bjsjs/sd/live.m3u8
+#EXTINF:-1 tvg-id="番薯台" tvg-logo="https://epg.112114.xyz/logo/番薯台.png" group-title="测试",番薯台
+http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
+#EXTINF:-1 tvg-id="【贝爷影厅】经典科幻动作灾难巨兽" tvg-logo="https://epg.112114.xyz/logo/【贝爷影厅】经典科幻动作灾难巨兽.png" group-title="测试",【贝爷影厅】经典科幻动作灾难巨兽
+http://epg.112114.xyz/douyu/252802
+#EXTINF:-1 tvg-id="乐至综合频道" tvg-logo="https://epg.112114.xyz/logo/乐至综合.png" group-title="测试",乐至综合频道
+http://175.155.106.72:89/live1/live1.m3u8
+#EXTINF:-1 tvg-id="石家庄娱乐" tvg-logo="https://epg.112114.xyz/logo/石家庄娱乐.png" group-title="测试",石家庄娱乐
+http://pluslive1.sjzntv.cn/yule/playlist.m3u8?zhebd
+#EXTINF:-1 tvg-id="佳木斯新闻综合" tvg-logo="https://epg.112114.xyz/logo/佳木斯新闻综合.png" group-title="测试",佳木斯新闻综合
+http://39.134.65.151/PLTV/88888888/224/3221225993/1.m3u8?zheild
+#EXTINF:-1 tvg-id="乐至综合" tvg-logo="https://epg.112114.xyz/logo/乐至综合.png" group-title="测试",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8?zsicd
+#EXTINF:-1 tvg-id="伊犁经济法制" tvg-logo="https://epg.112114.xyz/logo/伊犁经济法制.png" group-title="测试",伊犁经济法制
+http://110.153.180.106:55555/out_4/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="石家庄生活" tvg-logo="https://epg.112114.xyz/logo/石家庄生活.png" group-title="测试",石家庄生活
+http://pluslive1.sjzntv.cn/shenghuo/playlist.m3u8?zhebd
+#EXTINF:-1 tvg-id="番薯台" tvg-logo="https://epg.112114.xyz/logo/番薯台.png" group-title="测试",番薯台
+http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
+#EXTINF:-1 tvg-id="伊犁维吾尔" tvg-logo="https://epg.112114.xyz/logo/伊犁维吾尔.png" group-title="测试",伊犁维吾尔
+http://110.153.180.106:55555/out_2/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="伊犁汉语综合" tvg-logo="https://epg.112114.xyz/logo/伊犁汉语综合.png" group-title="测试",伊犁汉语综合
+http://110.153.180.106:55555/out_1/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="动漫推荐官方直播间" tvg-logo="https://epg.112114.xyz/logo/动漫推荐官方直播间.png" group-title="测试",动漫推荐官方直播间
+http://epg.112114.xyz/douyu/5187099
+#EXTINF:-1 tvg-id="滨海新闻" tvg-logo="https://epg.112114.xyz/logo/滨海新闻.png" group-title="测试",滨海新闻
+http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8?ztianjd
+#EXTINF:-1 tvg-id="香港佛陀" tvg-logo="https://epg.112114.xyz/logo/香港佛陀.png" group-title="测试",香港佛陀
+http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
+#EXTINF:-1 tvg-id="金川新闻综合" tvg-logo="https://epg.112114.xyz/logo/金川新闻综合.png" group-title="测试",金川新闻综合
+http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 tvg-id="宿豫综合频道" tvg-logo="https://epg.112114.xyz/logo/宿豫综合.png" group-title="测试",宿豫综合频道
+https://suyu-tv-hls.cm.jstv.com/suyu-tv/syzhpd.m3u8?zjiangsd
+#EXTINF:-1 tvg-id="KBS-2" tvg-logo="https://epg.112114.xyz/logo/KBS2.png" group-title="测试",KBS-2
+http://ye23.vip/z7z8/2021/kbs2020.php?id=2
+#EXTINF:-1 tvg-id="汶川新闻综合" tvg-logo="https://epg.112114.xyz/logo/汶川新闻综合.png" group-title="测试",汶川新闻综合
+http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 tvg-id="新加坡亚太台" tvg-logo="https://epg.112114.xyz/logo/新加坡亚太台.png" group-title="测试",新加坡亚太台
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="广安新闻综合" tvg-logo="https://epg.112114.xyz/logo/广安新闻综合.png" group-title="测试",广安新闻综合
+http://live1.gatv.com.cn:85/live/XWZH.m3u8
+#EXTINF:-1 tvg-id="霍尔果斯综合" tvg-logo="https://epg.112114.xyz/logo/霍尔果斯综合.png" group-title="测试",霍尔果斯综合
+http://117.190.118.175:9090/stream1/m2e2000.m3u8?zxinjd
+#EXTINF:-1 tvg-id="滁州科教" tvg-logo="https://epg.112114.xyz/logo/滁州科教.png" group-title="测试",滁州科教
+http://live.cztv.cc:85/live/sjpd.m3u8?zanhd
+#EXTINF:-1 tvg-id="【贝爷MAX厅】科幻动作经典喜剧" tvg-logo="https://epg.112114.xyz/logo/【贝爷MAX厅】科幻动作经典喜剧.png" group-title="测试",【贝爷MAX厅】科幻动作经典喜剧
+http://epg.112114.xyz/douyu/4332
+#EXTINF:-1 tvg-id="滁州公共" tvg-logo="https://epg.112114.xyz/logo/滁州公共.png" group-title="测试",滁州公共
+http://live.cztv.cc:85/live/ggpd.m3u8?zanhd
+#EXTINF:-1 tvg-id="【经典动漫】9455567" tvg-logo="https://epg.112114.xyz/logo/【经典动漫】.png" group-title="测试",【经典动漫】9455567
+http://epg.112114.xyz/douyu/9455567
+#EXTINF:-1 tvg-id="黑龙江文体" tvg-logo="https://epg.112114.xyz/logo/黑龙江文体.png" group-title="测试",黑龙江文体
+http://39.134.65.151/PLTV/88888888/224/3221225965/1.m3u8?zheild
+#EXTINF:-1 tvg-id="麻栗坡电视台" tvg-logo="https://epg.112114.xyz/logo/麻栗坡电视台.png" group-title="测试",麻栗坡电视台
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel18/playlist.m3u8?zyund
+#EXTINF:-1 tvg-id="叙州新闻综合" tvg-logo="https://epg.112114.xyz/logo/叙州新闻综合.png" group-title="测试",叙州新闻综合
+http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8?zsicd
+#EXTINF:-1 tvg-id="KBS-1" tvg-logo="https://epg.112114.xyz/logo/KBS1.png" group-title="测试",KBS-1
+http://ye23.vip/z7z8/2021/kbs2020.php?id=1
+#EXTINF:-1 tvg-id="文山州新闻综合" tvg-logo="https://epg.112114.xyz/logo/文山州新闻综合.png" group-title="测试",文山州新闻综合
+http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv?zyund
+#EXTINF:-1 tvg-id="滨海综艺" tvg-logo="https://epg.112114.xyz/logo/滨海综艺.png" group-title="测试",滨海综艺
+http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8?ztianjd
+#EXTINF:-1 tvg-id="松新闻" tvg-logo="https://epg.112114.xyz/logo/松新闻.png" group-title="测试",松新闻
+http://live.strmtzx.cn/stxw/sd/live.m3u8?zguizd
+#EXTINF:-1 tvg-id="KBS-WORLD" tvg-logo="https://epg.112114.xyz/logo/KBSWORLD.png" group-title="测试",KBS-WORLD
+http://ye23.vip/z7z8/2021/kbs2020.php?id=3
+#EXTINF:-1 tvg-id="✨动漫✨热血木叶忍者草帽路飞青春" tvg-logo="https://epg.112114.xyz/logo/✨动漫✨热血木叶忍者草帽路飞青春.png" group-title="测试",✨动漫✨热血木叶忍者草帽路飞青春
+http://epg.112114.xyz/douyu/206858
+#EXTINF:-1 tvg-id="生命" tvg-logo="https://epg.112114.xyz/logo/生命.png" group-title="测试",生命電視台
+http://211.73.19.201/live/AB167E56-808C-81D4-6471-76DC400D5192.m3u8?fmt=x264_1200K_ts&amp;cpid=admin&amp;size=1920X1080
+#EXTINF:-1 tvg-id="金川新闻综合" tvg-logo="https://epg.112114.xyz/logo/金川新闻综合.png" group-title="测试",金川新闻综合
+http://live.jinchuanrmt.com:90/live/zhxw.m3u8
+#EXTINF:-1 tvg-id="万源新闻综合" tvg-logo="https://epg.112114.xyz/logo/万源新闻综合.png" group-title="测试",万源新闻综合
+http://live.wanyuannews.com/wytv/hd/live.m3u8?zsicd
+#EXTINF:-1 tvg-id="番禺综合" tvg-logo="https://epg.112114.xyz/logo/番禺综合.png" group-title="测试",番禺综合
+http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
+#EXTINF:-1 tvg-id="裕民汉语" tvg-logo="https://epg.112114.xyz/logo/裕民汉语.png" group-title="测试",裕民汉语
+http://117.190.130.4:8081/out_1/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="襄汾综合" tvg-logo="https://epg.112114.xyz/logo/襄汾综合.png" group-title="测试",襄汾综合
+http://7sycrzf7.live.sxmty.com/live/hls/da9222d15ce7491d85fe3519e5201df5/af161dfd2a434b22b3b75fdd72fb9038-1.m3u8?zshanxd
+#EXTINF:-1 tvg-id="固镇新闻" tvg-logo="https://epg.112114.xyz/logo/固镇新闻.png" group-title="测试",固镇新闻
+http://www.guzhenm.com:7001/hls/hd-live.m3u8?zanhd
+#EXTINF:-1 tvg-id="焦作综合频道" tvg-logo="https://epg.112114.xyz/logo/焦作综合.png" group-title="测试",焦作综合频道
+http://zhpull.dxhmt.cn/jiaozuo/b75a92c9503e47cf9e89f7ff247b65f2/playlist.m3u8?zhend
+#EXTINF:-1 tvg-id="裕民哈语" tvg-logo="https://epg.112114.xyz/logo/裕民哈语.png" group-title="测试",裕民哈语
+http://117.190.130.4:8081/out_2/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="玛纳斯综合" tvg-logo="https://epg.112114.xyz/logo/玛纳斯综合.png" group-title="测试",玛纳斯综合
+http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="兵团八师石河子影文体" tvg-logo="https://epg.112114.xyz/logo/兵团八师石河子影文体.png" group-title="测试",兵团八师石河子影文体
+http://124.88.144.73:1935/live/jjsh/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="洪雅新闻综合" tvg-logo="https://epg.112114.xyz/logo/洪雅新闻综合.png" group-title="测试",洪雅新闻综合
+http://117.172.215.250:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.M3U8
+#EXTINF:-1 tvg-id="兵团八师石河子教育" tvg-logo="https://epg.112114.xyz/logo/兵团八师石河子教育.png" group-title="测试",兵团八师石河子教育
+http://124.88.144.73:1935/live/jiaoyu/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="宿州新闻综合" tvg-logo="https://epg.112114.xyz/logo/宿州新闻综合.png" group-title="测试",宿州新闻综合
+http://live.ahsz.tv/video/s10001-szzh/index.m3u8?zanhd
+#EXTINF:-1 tvg-id="石家庄新闻综合" tvg-logo="https://epg.112114.xyz/logo/石家庄新闻综合.png" group-title="测试",石家庄新闻综合
+http://pluslive1.sjzntv.cn/xmzh/playlist.m3u8?zhebd
+#EXTINF:-1 tvg-id="万源新闻综合" tvg-logo="https://epg.112114.xyz/logo/万源新闻综合.png" group-title="测试",万源新闻综合
+http://live.wanyuannews.com/wytv/hd/live.m3u8
+#EXTINF:-1 tvg-id="滨海影院" tvg-logo="https://epg.112114.xyz/logo/滨海影院.png" group-title="测试",滨海影院
+http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8?ztianjd
+#EXTINF:-1 tvg-id="云霄综合" tvg-logo="https://epg.112114.xyz/logo/云霄综合.png" group-title="测试",云霄综合
+http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
+#EXTINF:-1 tvg-id="邯郸公共频道" tvg-logo="https://epg.112114.xyz/logo/邯郸公共.png" group-title="测试",邯郸公共频道
+https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
+#EXTINF:-1 tvg-id="万年如一柯播南，各位给点电费吧" tvg-logo="https://epg.112114.xyz/logo/万年如一柯播南，各位给点电费吧.png" group-title="测试",万年如一柯播南，各位给点电费吧
+http://epg.112114.xyz/douyu/1783144
+#EXTINF:-1 tvg-id="兵团八师石河子经济生活" tvg-logo="https://epg.112114.xyz/logo/兵团八师石河子经济生活.png" group-title="测试",兵团八师石河子经济生活
+http://124.88.144.73:1935/live/dywt/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="麻栗坡电视台" tvg-logo="https://epg.112114.xyz/logo/麻栗坡电视台.png" group-title="测试",麻栗坡电视台
+http://tvdrs.wsrtv.com.cn:8100/channellive/mlptv.flv?zyund
+#EXTINF:-1 tvg-id="汾西综合" tvg-logo="https://epg.112114.xyz/logo/汾西综合.png" group-title="测试",汾西综合
+https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
+#EXTINF:-1 tvg-id="长宁综合" tvg-logo="https://epg.112114.xyz/logo/长宁综合.png" group-title="测试",长宁综合
+http://cnpull.sccnfb.com/live/123456.m3u8?zsicd
+#EXTINF:-1 tvg-id="达州新闻综合" tvg-logo="https://epg.112114.xyz/logo/达州新闻综合.png" group-title="测试",达州新闻综合
+http://tv.drs.dzxw.net/channellive/xwzhpd-dz1.flv
+#EXTINF:-1 tvg-id="兵团八师石河子新闻综合" tvg-logo="https://epg.112114.xyz/logo/兵团八师石河子新闻综合.png" group-title="测试",兵团八师石河子新闻综合
+http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="邯郸科技教育" tvg-logo="https://epg.112114.xyz/logo/邯郸科技教育.png" group-title="测试",邯郸科技教育
+https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-id="邯郸公共频道" tvg-logo="https://epg.112114.xyz/logo/邯郸公共.png" group-title="测试",邯郸公共频道
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-id="怀仁综合" tvg-logo="https://epg.112114.xyz/logo/怀仁综合.png" group-title="测试",怀仁综合
+http://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc.m3u8?zshanxd
+#EXTINF:-1 tvg-id="西青新闻综合" tvg-logo="https://epg.112114.xyz/logo/西青新闻综合.png" group-title="测试",西青新闻综合
+http://221.238.209.44:81/hls/live1.m3u8?ztianjd
+#EXTINF:-1 tvg-id="斗鱼4K" tvg-logo="https://epg.112114.xyz/logo/斗鱼4K.png" group-title="测试",斗鱼4K
+http://epg.112114.xyz/douyu/9249162
+#EXTINF:-1 tvg-id="阳曲综合" tvg-logo="https://epg.112114.xyz/logo/阳曲综合.png" group-title="测试",阳曲综合
+https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8?zshanxd
+#EXTINF:-1 tvg-id="【小叮当】童年经典动画片" tvg-logo="https://epg.112114.xyz/logo/【小叮当】童年经典动画片.png" group-title="测试",【小叮当】童年经典动画片
+http://epg.112114.xyz/douyu/9445279
+#EXTINF:-1 tvg-id="WWE阿楠+WWE皇家大战" tvg-logo="https://epg.112114.xyz/logo/WWE阿楠+WWE皇家大战.png" group-title="测试",WWE阿楠+WWE皇家大战
+http://111.62.156.15/tx.flv.huya.com/src/1199529639195-1199529639195-5298974360239865856-2399059401846-10057-A-0-1.flv?wsSecret=f1c86a08cf2f5bbc53064326d93280a1&amp;wsTime=6283a6c0&amp;u=0&amp;seqid=16527086725405670&amp;ctype=tars_mp&amp;txyp=o%3Ad3%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="奎屯汉语综合" tvg-logo="https://epg.112114.xyz/logo/奎屯汉语综合.png" group-title="测试",奎屯汉语综合
+http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="松潘新闻综合" tvg-logo="https://epg.112114.xyz/logo/松潘新闻综合.png" group-title="测试",松潘新闻综合
+http://live.spccmc.com:90/live/spxwzh.m3u8
+#EXTINF:-1 tvg-id="璧山综合" tvg-logo="https://epg.112114.xyz/logo/璧山综合.png" group-title="测试",璧山综合
+http://222.179.42.129:8181/hls1.m3u8?zzhongqd
+#EXTINF:-1 tvg-id="达州公共频道" tvg-logo="https://epg.112114.xyz/logo/达州公共.png" group-title="测试",达州公共频道
+http://tv.drs.dzxw.net/channellive/ggpd-dz2.flv
+#EXTINF:-1 tvg-id="潼南综合" tvg-logo="https://epg.112114.xyz/logo/潼南综合.png" group-title="测试",潼南综合
+http://183.230.184.51:65500/tntv1.m3u8?zzhongqd
+#EXTINF:-1 tvg-id="KBC 광주방송 (SBS 光州)" tvg-logo="https://epg.112114.xyz/logo/KBC광주방송(SBS光州).png" group-title="测试",KBC 광주방송 (SBS 光州)
+http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="吉县新闻综合" tvg-logo="https://epg.112114.xyz/logo/吉县新闻综合.png" group-title="测试",吉县新闻综合
+http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8?zshanxd
+#EXTINF:-1 tvg-id="汶川新闻综合" tvg-logo="https://epg.112114.xyz/logo/汶川新闻综合.png" group-title="测试",汶川新闻综合
+http://live.iwcmt.cn:90/live/zhxw.m3u8
+#EXTINF:-1 tvg-id="韩国BBS佛教广播" tvg-logo="https://epg.112114.xyz/logo/韩国BBS佛教广播.png" group-title="测试",韩国BBS佛教广播
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8?zshijd
+#EXTINF:-1 tvg-id="中国职业棒球全垒打赛+中国职业棒球全垒打赛" tvg-logo="https://epg.112114.xyz/logo/中国职业棒球全垒打赛+中国职业棒球全垒打赛.png" group-title="测试",中国职业棒球全垒打赛+中国职业棒球全垒打赛
+http://111.62.156.15/tx.flv.huya.com/src/1099531739891-1099531739891-86380876178391040-2199063603238-10057-A-0-1.flv?wsSecret=ed44f97c35d637a689293b8b352ee8a9&amp;wsTime=6283b056&amp;u=0&amp;seqid=16527111263048570&amp;ctype=tars_mp&amp;txyp=o%3Atyeic12%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="野行者+原始生存21天，生存挑战变相亲节目？" tvg-logo="https://epg.112114.xyz/logo/野行者+原始生存21天，生存挑战变相亲节目？.png" group-title="测试",野行者+原始生存21天，生存挑战变相亲节目？
+http://111.62.156.15/tx.flv.huya.com/src/1099531739795-1099531739795-86380463861530624-2199063603046-10057-A-0-1.flv?wsSecret=c4e4f376abb80ed8faea4f0ae4211819&amp;wsTime=6283b155&amp;u=0&amp;seqid=16527113815878710&amp;ctype=tars_mp&amp;txyp=o%3Atyeic12%3B&amp;fs=bgct&amp;t=102
+#EXTINF:-1 tvg-id="兵团十三师新星综合" tvg-logo="https://epg.112114.xyz/logo/兵团十三师新星综合.png" group-title="测试",兵团十三师新星综合
+http://test5.btzx.com.cn/live/13TV.stream/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="潞城新闻综合" tvg-logo="https://epg.112114.xyz/logo/潞城新闻综合.png" group-title="测试",潞城新闻综合
+http://59.48.42.6:62204/lucheng.m3u8?zshanxd
+#EXTINF:-1 tvg-id="灵石新闻综合" tvg-logo="https://epg.112114.xyz/logo/灵石新闻综合.png" group-title="测试",灵石新闻综合
+https://live-stream.lsxrmtzx.com/live/video.m3u8?zshanxd
+#EXTINF:-1 tvg-id="达州通川频道" tvg-logo="https://epg.112114.xyz/logo/达州通川.png" group-title="测试",达州通川频道
+http://tv.drs.dzxw.net/channellive/tcpd-dz3.flv
+#EXTINF:-1 tvg-id="番薯台" tvg-logo="https://epg.112114.xyz/logo/番薯台.png" group-title="测试",番薯台
+http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+#EXTINF:-1 tvg-id="马尔康综合频道" tvg-logo="https://epg.112114.xyz/logo/马尔康综合.png" group-title="测试",马尔康综合频道
+http://live.zmmek.com:90/live/zhxw.m3u8
+#EXTINF:-1 tvg-id="香港佛陀" tvg-logo="https://epg.112114.xyz/logo/香港佛陀.png" group-title="测试",香港佛陀
+https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="测试",CCTV5-高清
+http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?
+#EXTINF:-1 tvg-id="乐至综合" tvg-logo="https://epg.112114.xyz/logo/乐至综合.png" group-title="测试",乐至综合
+http://rmlive.lzxrmtzx.com/live1/live1.m3u8?zsicd
+#EXTINF:-1 tvg-id="佳木斯新闻综合" tvg-logo="https://epg.112114.xyz/logo/佳木斯新闻综合.png" group-title="测试",佳木斯新闻综合
+http://39.134.65.149/PLTV/88888888/224/3221225993/1.m3u8?zheild
+#EXTINF:-1 tvg-id="平遥新闻综合" tvg-logo="https://epg.112114.xyz/logo/平遥新闻综合.png" group-title="测试",平遥新闻综合
+https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
+#EXTINF:-1 tvg-id="什邡新闻频道" tvg-logo="https://epg.112114.xyz/logo/什邡新闻.png" group-title="测试",什邡新闻频道
+http://live.sfrmt.com:85/live/zhpd.m3u8?zsicd
+#EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="测试",CCTV5-高清
+http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?
+#EXTINF:-1 tvg-id="马尔康综合" tvg-logo="https://epg.112114.xyz/logo/马尔康综合.png" group-title="测试",马尔康综合
+http://live.zmmek.com:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 tvg-id="台视新闻台" tvg-logo="https://epg.112114.xyz/logo/台视新闻台.png" group-title="测试",台视新闻
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="TVBS新闻台" tvg-logo="https://epg.112114.xyz/logo/TVBS新闻台.png" group-title="测试",TVBS新闻
+http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+#EXTINF:-1 tvg-id="安徽综艺体育" tvg-logo="https://epg.112114.xyz/logo/安徽综艺体育.png" group-title="测试",安徽综艺体育
+http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
+#EXTINF:-1 tvg-id="日本购物1" tvg-logo="https://epg.112114.xyz/logo/日本购物1.png" group-title="测试",日本购物1
+http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
+#EXTINF:-1 tvg-id="邯郸科技教育" tvg-logo="https://epg.112114.xyz/logo/邯郸科技教育.png" group-title="测试",邯郸科技教育
+https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8?zhebd
+#EXTINF:-1 tvg-id="红河州新闻综合" tvg-logo="https://epg.112114.xyz/logo/红河州新闻综合.png" group-title="测试",红河州新闻综合
+http://tv.drs.hhtv.cc:8100/channellive/hhtv-1.flv?zyund
+#EXTINF:-1 tvg-id="红河州公共" tvg-logo="https://epg.112114.xyz/logo/红河州公共.png" group-title="测试",红河州公共
+http://tv.drs.hhtv.cc:8100/channellive/hhtv-2.flv?zyund
+#EXTINF:-1 tvg-id="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="测试",TVBS亚洲
+http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+#EXTINF:-1 tvg-id="伊犁哈萨克" tvg-logo="https://epg.112114.xyz/logo/伊犁哈萨克.png" group-title="测试",伊犁哈萨克
+http://110.153.180.106:55555/out_3/index.m3u8?zxinjd
+#EXTINF:-1 tvg-id="民视新闻台" tvg-logo="https://epg.112114.xyz/logo/民视新闻台.png" group-title="测试",民视新闻
+http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 tvg-id="壶关电视台" tvg-logo="https://epg.112114.xyz/logo/壶关电视台.png" group-title="测试",壶关电视台
+http://zmjp3jin.live.sxmty.com/live/hls/268fe96f955d496db37fb10bb887cda9/fc196029d289449ea524a94a95379a0d.m3u8?zshanxd
+#EXTINF:-1 tvg-id="兵团四师可克达拉综合" tvg-logo="https://epg.112114.xyz/logo/兵团四师可克达拉综合.png" group-title="测试",兵团四师可克达拉综合
+http://test5.btzx.com.cn/live/kkdl.stream/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-id="华艺MBC" tvg-logo="https://epg.112114.xyz/logo/华艺MBC.png" group-title="测试",MBC
+http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-id="贡山综合" tvg-logo="https://epg.112114.xyz/logo/贡山综合.png" group-title="测试",贡山综合
+http://livebroadcast.ccwb.cn/live/w1609121671179943.m3u8?zyund
+#EXTINF:-1 tvg-id="文山州公共" tvg-logo="https://epg.112114.xyz/logo/文山州公共.png" group-title="测试",文山州公共
+http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8?zyund
+#EXTINF:-1 tvg-id="天津卫视" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png" group-title="测试",天津卫视
+http://115.149.139.141:10001/tsfile/live/1036_1.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="垫江综合" tvg-logo="https://epg.112114.xyz/logo/垫江综合.png" group-title="测试",垫江综合
+http://125.62.24.185:80/1.m3u8?zzhongqd
+#EXTINF:-1 tvg-id="中二日记搞笑日常更新" tvg-logo="https://epg.112114.xyz/logo/中二日记搞笑日常更新.png" group-title="测试",中二日记搞笑日常更新
+http://epg.112114.xyz/douyu/9505575
+#EXTINF:-1 tvg-id="河北卫视" tvg-logo="https://epg.112114.xyz/logo/河北卫视.png" group-title="测试",河北卫视
+http://115.149.139.141:10001/tsfile/live/1033_1.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-logo="https://epg.112114.xyz/logo/辽宁卫视.png" group-title="测试",辽宁卫视
+http://115.149.139.141:10001/tsfile/live/1028_1.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="СТСHD" tvg-logo="https://epg.112114.xyz/logo/СТС.png" group-title="测试",СТСHD
+http://myott.tv/stream/S8JK2Q2BVB/138.m3u8
+#EXTINF:-1 tvg-id="СТСLove" tvg-logo="https://epg.112114.xyz/logo/СТСLOVE.png" group-title="测试",СТСLove
+http://myott.tv/stream/S8JK2Q2BVB/183.m3u8

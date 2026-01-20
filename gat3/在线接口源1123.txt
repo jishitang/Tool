@@ -1,0 +1,3 @@
+测试配置链接
+
+https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json

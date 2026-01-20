@@ -1,0 +1,16 @@
+CCTV1综合,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=1
+CCTV3综艺,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=2
+CCTV5体育,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=3
+CCTV6电影,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=4
+CCTV7国防军事,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=5
+CCTV9纪录,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=6
+CCTV10教科,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=7
+CCTV11戏曲,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=8
+CCTV12社会与法,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=9
+CCTV13新闻,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=10
+北京卫视,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=11
+浙江卫视,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=12
+都市,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=13
+河南卫视,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=14
+民生,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=15
+戏曲,video://https://www.hndyjyfw.gov.cn/livePlay.html?u=16

@@ -1,0 +1,14 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+大爱,#genre#
+不定时更新,https://vd3.bdstatic.com/mda-mbiqgzsnfeyv74y6/v1-cae/1080p/mda-mbiqgzsnfeyv74y6.mp4
+极限,http://pull.infojin.cyou:80/live/aeb653020962159a3acf002be20994c8.m3u8
+happy,http://pull.infojin.cyou:80/live/a75011b94433148e77dda799ea065431.m3u8
+香蕉,http://pull.infojin.cyou:80/live/b6b88e223ae557d645ec8e2dd4b1d904.m3u8
+惊艳http://pullsstx.peiyou.eaydu.com:80/live/b3883fbb1bb1e5885510d0e21307b5eb.m3u8
+潘朵拉,http://pull.infojin.cyou:80/live/9de7f6188287252d4413cc7431b09420.m3u8
+彩虹电影http://pullsstx.peiyou.eaydu.com:80/live/33309fd002dbfeeabd88ab98914fa454.m3u8
+K频道,http://pull.infojin.cyou:80/live/6ee8efb9eadb190203607fa69bfa598d.m3u8
+E频道,http://pull.infojin.cyou:80/live/4ea1bd1ad00aa47d0bb90d343927865f.m3u8
+松视3,http://pull.infojin.cyou:80/live/d56609868c453e831756f01f5e6cbe5b.m3u8
+松视1,http://pull.infojin.cyou:80/live/e6852c6c2865392c482f998afa4c26e0.m3u8
+pigo,http://aliliveplay.wacai.com:80/live/61974d6414a9a396b99a75519db3cdcb.m3u8

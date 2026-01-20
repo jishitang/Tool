@@ -1,0 +1,22 @@
+{
+  "spider": "http://111.67.193.2:89/fty.jar;md5;e85e180ec8caae0d38c78a021a2494e0",
+  "wallpaper": "https://bing.img.run/rand.php",
+  "sites": [
+  
+    {
+      "key": "DG戏曲",
+      "name": "DG戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/dg戏曲.json"
+    }
+  ]
+
+}

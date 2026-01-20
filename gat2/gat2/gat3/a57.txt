@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        p { font-size: 13px; color: #666; }
+        h2 { color: #cc5595; }
+        body {font-family:"Microsoft YaHei"; font-weight: 300; margin: 2px;background-color: #eaeffe; }
+        button { font-size: 16px; padding: 0px 1px;background-color: #000; color: #fff;border: none; border-radius: 3px;}
+        textarea {opacity: 0.8; font-size:11px; white-space:pre; overflow:hidden;}
+        textarea:hover { overflow: auto;}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>在线😶‍🌫️隐身接口🫥生成工具</title>
+</head>
+<body><br>
+    <h2> 🪡｜接口隐身｜</u></h2>
+    <p>🐻‍❄️<u>直播</u> 源和 <u>点播</u> 源都可以一键<b>隐身</b>！</p>
+
+    <form method="post" action="/index.php" enctype="multipart/form-data">
+        <div style="margin-bottom: 10px;">  
+            <label>
+                <input type="radio" name="formMode" value="txt" checked onclick="toggleMode('txt')"> 文本模式
+            </label>
+            <label>
+                <input type="radio" name="formMode" value="upload" onclick="toggleMode('upload')"> 上传文件
+            </label>
+        </div>
+
+        <div id="uploadSection" style="display: none;">
+            <br><br>上传文件：<br><br>
+            <input type="file" name="file" id="file" style="font-size:16px;"><br>
+            <div id="fileInfo"></div><br><br>
+        </div>
+
+        <div id="txtSection">
+            <textarea name="content" rows="12" cols="44" required style="width:96%;"></textarea>
+        </div>
+        <br>密 码：
+        <input type="text" name="password" value="" required style="width:150px;"> 请牢记！！
+        <br>文件名：
+        <input type="text" name="filename" id="filename" value="" required style="width:150px;">
+        <button type="button" onclick="readFile()">读取</button>
+        <button type="submit" style="font-size:18px;padding:0px;" onclick="this.form.submit()"> 转为链接</button>
+    </form>
+
+    <p>可在线编辑文件，原链接不变，需输入原密码。</p>
+
+    <div id="linkDisplay" style="margin:1px 0; padding:1px; background:#fff;width:98%;">
+        链接： 
+        <span id="loadingMsg" style="display: none; color: red;">正在读取中...</span>    
+        <a id="linkAnchor" href="" target="_blank"></a>
+    </div>
+    
+    <br><br>
+    「<a href="https://link3.cc/zoto">接口工具</a>」
+    「<a href="http://dodo.3d.tc/zb.php">直播成图</a>」
+    「<a href="http://mm.gt.tc/">转换M3U</a>」
+    <a href="https://link3.cc/zoto">🐷</a>
+
+    <script>
+        document.getElementById('file').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if(file) {
+                document.getElementById('fileInfo').innerHTML = 
+                    `文件：${file.name} (${(file.size/1024).toFixed(1)}KB)`;
+            }
+        });
+        
+        function toggleMode(mode) {
+            document.getElementById('uploadSection').style.display = mode === 'upload' ? 'block' : 'none';
+            document.getElementById('txtSection').style.display = mode === 'txt' ? 'block' : 'none';
+        }
+
+        function readFile() {
+            const filename = document.getElementById('filename').value;
+            const password = document.getElementsByName('password')[0].value;
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'read.php?filename=' + encodeURIComponent(filename) + '&password=' + encodeURIComponent(password), true);
+            
+            document.getElementById('loadingMsg').style.display = 'inline';
+            document.getElementById('linkAnchor').style.display = 'none';
+
+            xhr.onload = function() {
+                document.getElementById('loadingMsg').style.display = 'none';
+                if (xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    if (response.error) {
+                        alert(response.error);
+                    } else {
+                        document.getElementsByName('content')[0].value = response.content;
+                        document.getElementById('linkAnchor').href = response.fileLink;
+                        document.getElementById('linkAnchor').textContent = response.fileLink;
+                    }
+                } else {
+                    alert('读取失败: ' + xhr.statusText);
+                }
+                document.getElementById('linkAnchor').style.display = 'inline';
+            };
+
+            xhr.onerror = function() {
+                document.getElementById('loadingMsg').style.display = 'none';
+                alert('网络请求失败');
+            };
+
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

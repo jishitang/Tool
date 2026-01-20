@@ -1,0 +1,50 @@
+curl -L http://tv.l5.ca//i/?T=Ô´À´ÃëÉ±4K8000 > 0054K8000.txt
+curl -L http://tv.l5.ca//i/?T=ÃëÉ± > ÃëÉ±2.txt
+curl -L http://zz.zoho.to/i/?T=ÃëÉ± > ÃëÉ±3.txt
+curl -L http://ys.my.to/i/?T=ÃëÉ± > ÃëÉ±4.txt
+curl -L http://aktv.space/live.m3u > space1.txt
+curl -L http://zoto.work.gd//i/?T=¼«ËÙÆµµÀ > ¼«ËÙÆµµÀ.txt
+curl -L http://php.jdshipin.com:8880/smt.php?id=jade_twn > jade.txt
+curl -L http://hui.guo.my/cs.php?key=eINJWLW0XDKt >eINJWLW0XDKt.txt
+curl -L http://hui.guo.my/cs.php?key=eINJWLW0XDKteINJWLW0XDKt > WOXDKt.txt
+curl -L http://xn--elt51t.azip.dpdns.org:50081/?type=m3u > 50081.txt
+dir
+curl -L http://php.jdshipin.com:8880/smt.php?id=jade_twn > jade2.txt
+dir
+curl -L https://4708.kstore.space/vip/svip.json > tvbox.txt
+curl -L https://4708.kstore.space/vip/svip.json > svip.json
+curl -L http://go.bkpcp.top/mg/gddwq > gddwq.txt
+dir
+curl -L https://niurl.cc/sRTVrw > sRTVrw2.txt
+curl -L https://l.gmbbk.com/upload/0287287.txt > 287287.txt
+curl -L http://go8.myartsonline.com/zx/0/¼«ËÙ¡¤¸Û°Ä.txt > myartsonline.txt
+curl -L https://ghcy.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt > interface.txt
+curl -L https://tvv.tw/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/fyzb/FJYD.txt > FJYD.txt
+curl -L https://tvv.tw/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/fyzb/Mursor.m3u > Mursor.m3u
+cd gat2
+dir
+df -h
+curl -L https://aktv.space/live.m3u > aktv.txt
+curl -L http://139.185.42.4:14888/TV/ck/»¢ÑÀÍøÒ³.txt > 14888.txt
+curl -L https://tvv.tw/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/fyzb/FJYD.txt > FJYD.txt
+dir
+curl -L http://zoto.3d.tc/i/i/%E5%9C%A8%E5%AE%B6.txt > B6.txt
+curl -L https://live.hkdvb.com/hls/playlist.m3u?token=570919668968942 > 570919668968942.txt
+curl -L https://live.hkdvb.com/hls/playlist.m3u > 570919668968942.txt
+curl -L https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/smart.m3u > smart2.txt
+curl -L https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt > jsdelivr.txt
+curl -L http://ox.my.to/8/2866485.txt > 2866485.txt
+curl -L https://fjcm.iptv.darwinchow.com/sub/02RzWQriTE3jE01zZXNlrNeHDTH1cT/txt > ZXNlrNeHDTH1cT.txt
+curl -L https://fjcm.iptv.darwinchow.com/sub/02RzWQriTE3jE01zZXNlrNeHDTH1cT > ZXNlrNeHDTH1cT2.txt
+dir
+curl -L http://hui.guo.my/cs.php?key=hugt4 > hugt4.txt
+curl -L http://hui.guo.my/cs.php?type=m3u&key=hugt4 > hugt5.txt
+curl -L "http://hui.guo.my/cs.php?type=m3u&key=hugt4" > hugt5.txt
+curl -L "http://txt.kesug.com/users/Ïž¹PÐ¡ÐÂ.txt" > Ð¡ÐÂ.txt
+curl -L http://tv.l5.ca//i/?T=¼«¿ÍÐÇÃË > ¼«¿ÍÐÇÃË.txt
+curl -L http://tv.l5.ca//i/?T=SMT > SMT_new.txt
+curl -L http://zz.zoho.to/i/?T=SMT > SMT_new2.txt
+curl -L https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u > fanmingming.txt
+curl -L http://ox.my.to/8/3744649.txt > 3744649.txt
+curl -L http://go8.myartsonline.com/zx/0/ÂÖ²¥.txt > ÂÖ²¥2.txt
+doskey /history > history.txt

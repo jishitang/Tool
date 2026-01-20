@@ -1,0 +1,878 @@
+提示,#genre#
+免费分享,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tv7cDS&tk=cl177bPI6scY
+不要赞助,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rtB2th&tk=cl177bPI6scY
+香港,#genre#
+TVB生活台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=eKt7EY&tk=cl177bPI6scY
+TVB星河(国),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=p3zCG4&tk=cl177bPI6scY
+TVB功夫(国),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OpQXZp&tk=cl177bPI6scY
+Now爆谷台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hPyWl5&tk=cl177bPI6scY
+Now星影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mTCSXb&tk=cl177bPI6scY
+Now华剧台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=C3hQ3Z&tk=cl177bPI6scY
+Now剧集台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lH1KzX&tk=cl177bPI6scY
+Now紫金国际,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ym6qbh&tk=cl177bPI6scY
+HUB娱家台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=k2chq6&tk=cl177bPI6scY
+HUB都会台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ku5mDj&tk=cl177bPI6scY
+CHC家庭影院,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4gVPA4&tk=cl177bPI6scY
+CHC动作电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Q9UN5C&tk=cl177bPI6scY
+CHC影迷电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=TzvBWk&tk=cl177bPI6scY
+极限电影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=D9EjMb&tk=cl177bPI6scY
+凤凰卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zov2z6&tk=cl177bPI6scY
+凤凰资讯,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Xk4CaU&tk=cl177bPI6scY
+凤凰香港,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=25NqvK&tk=cl177bPI6scY
+翡翠台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=53p6ZA&tk=cl177bPI6scY
+翡翠台 backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ktkWWA&tk=cl177bPI6scY
+无线新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=f7Hefc&tk=cl177bPI6scY
+TVB J 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LIzzZq&tk=cl177bPI6scY
+明珠台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tiCydk&tk=cl177bPI6scY
+HOY资讯台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wRQR2b&tk=cl177bPI6scY
+RHK 31,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GKrMqs&tk=cl177bPI6scY
+VIUTV1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ee7mmC&tk=cl177bPI6scY
+RHK 32,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=d1caf5&tk=cl177bPI6scY
+Viu6,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ozqjh6&tk=cl177bPI6scY
+大陆,#genre#
+中国|CCTV-1 综合 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=eI5CPK&tk=cl177bPI6scY
+中国|CCTV-2 财经,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lMS4K8&tk=cl177bPI6scY
+中国|CCTV-3 综艺 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g4h5kj&tk=cl177bPI6scY
+中国|CCTV-4 中文国际,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=W3nBsB&tk=cl177bPI6scY
+中国|CCTV4 新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nX3P43&tk=cl177bPI6scY
+中国|CCTV-7 军事农业,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=saKyWe&tk=cl177bPI6scY
+中国|CCTV-8 电视剧 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=aKEQdC&tk=cl177bPI6scY
+中国|CCTV-9 记录 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=svQQNF&tk=cl177bPI6scY
+中国|CCTV-10 科教 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fpfack&tk=cl177bPI6scY
+中国|CCTV-11 戏曲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=F57G62&tk=cl177bPI6scY
+中国|CCTV-12 社会与法,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OsLuEV&tk=cl177bPI6scY
+中国|CCTV-13 新闻频道,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2yxEcO&tk=cl177bPI6scY
+中国|CCTV-14 少儿,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=b04Z9A&tk=cl177bPI6scY
+中国|CCTV-6,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=V1kUEw&tk=cl177bPI6scY
+中国|CCTV-15 音乐,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UZ3gox&tk=cl177bPI6scY
+中国|湖南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=z7wYli&tk=cl177bPI6scY
+中国|浙江卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yHSNLH&tk=cl177bPI6scY
+中国|江苏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UtTNe0&tk=cl177bPI6scY
+中国|深圳卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nCf3ww&tk=cl177bPI6scY
+中国|福建东南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CALxcR&tk=cl177bPI6scY
+中国|广东南方卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IF203j&tk=cl177bPI6scY
+中国|广东卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rQexqL&tk=cl177bPI6scY
+中国|北京卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zKDpaC&tk=cl177bPI6scY
+中国|珠江台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CYr5Qg&tk=cl177bPI6scY
+中国|广西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LqVf4t&tk=cl177bPI6scY
+中国|湖北卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QVTx3D&tk=cl177bPI6scY
+中国|四川卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xAxKpV&tk=cl177bPI6scY
+中国|东方卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yTviQN&tk=cl177bPI6scY
+中国|CGTN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vUtdRF&tk=cl177bPI6scY
+中国|凤凰卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cwbyJj&tk=cl177bPI6scY
+中国|凤凰资讯,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GyiICM&tk=cl177bPI6scY
+中国|CCTV-5 体育频道,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IxlMC4&tk=cl177bPI6scY
+中国|CCTV-5+ 体育赛事 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lfMk6U&tk=cl177bPI6scY
+体育,#genre#
+体育频道|Astro Premier League 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SCNZqG&tk=cl177bPI6scY
+体育频道|Astro EPL 1 backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zZ0uS2&tk=cl177bPI6scY
+体育频道|Astro Premier League 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QDURVe&tk=cl177bPI6scY
+体育频道|Astro Grandstand,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=i5rWcp&tk=cl177bPI6scY
+体育频道|Astro Football,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1WCpAT&tk=cl177bPI6scY
+体育频道|Astro Sports Plus,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XISbka&tk=cl177bPI6scY
+体育频道|Astro Badminton 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7JcEd0&tk=cl177bPI6scY
+体育频道|Astro Badminton 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5QypmI&tk=cl177bPI6scY
+体育频道|Astro W-Sports,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GzDWrI&tk=cl177bPI6scY
+体育频道|Supersports 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HhXYoy&tk=cl177bPI6scY
+体育频道|Supersports 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0UQsWq&tk=cl177bPI6scY
+体育频道|Supersports 3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XpXc0V&tk=cl177bPI6scY
+体育频道|Supersports 4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SCSgfk&tk=cl177bPI6scY
+体育频道|WWE,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1O5vfP&tk=cl177bPI6scY
+体育频道|Fight Sports,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pgZgdT&tk=cl177bPI6scY
+体育频道|NBA TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Xq47W3&tk=cl177bPI6scY
+体育频道|Astro Cricket,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EnxFQu&tk=cl177bPI6scY
+体育频道|Astro Golf,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mL4sCh&tk=cl177bPI6scY
+体育频道|Tnt Sports 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=26JXW5&tk=cl177bPI6scY
+体育频道|TNT Sports 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7HErYe&tk=cl177bPI6scY
+体育频道|TNT Sports 3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=76ah4y&tk=cl177bPI6scY
+体育频道|TNT Sports 4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RRbDs8&tk=cl177bPI6scY
+体育频道|Sony Ten 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4SG8vB&tk=cl177bPI6scY
+体育频道|Sony Ten 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zkVlhy&tk=cl177bPI6scY
+体育频道|Sony Ten 3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lNGc21&tk=cl177bPI6scY
+体育频道|SPOTV 1 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BJ2sjb&tk=cl177bPI6scY
+体育频道|SPO TV 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iW0M2C&tk=cl177bPI6scY
+体育频道|Skysports F1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=enWVWn&tk=cl177bPI6scY
+体育频道|Skysports Cricket,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ceQTTX&tk=cl177bPI6scY
+体育频道|Skysports EPL,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4vStnh&tk=cl177bPI6scY
+体育频道|Skysports Main Event,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=eUouzW&tk=cl177bPI6scY
+体育频道|Skysports News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rEBsfP&tk=cl177bPI6scY
+体育频道|Skysports Mix,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gHQurn&tk=cl177bPI6scY
+体育频道|CCTV-5 体育频道,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7SU7e0&tk=cl177bPI6scY
+体育频道|CCTV-5+ 体育赛事 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=muFd1D&tk=cl177bPI6scY
+体育频道|爱尔达体育2台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=szs79n&tk=cl177bPI6scY
+体育频道|爱尔达体育3台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MnJdJh&tk=cl177bPI6scY
+体育频道|Rugby Pass TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=akNiU6&tk=cl177bPI6scY
+体育频道|RTM Sports HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=odNqDW&tk=cl177bPI6scY
+体育频道|Arena,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XWgOaU&tk=cl177bPI6scY
+体育频道|Arena 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iCkeTc&tk=cl177bPI6scY
+体育频道|BolaArena 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8GYZIE&tk=cl177bPI6scY
+体育频道|BolaArena 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8dwk7j&tk=cl177bPI6scY
+体育频道|Astro Beinsports 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VqvL2i&tk=cl177bPI6scY
+体育频道|Astro Beinsports 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4KPhN9&tk=cl177bPI6scY
+体育频道|Astro Beinsports 3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RhMjzX&tk=cl177bPI6scY
+台湾,#genre#
+台湾|TVBS News 新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qQvZ19&tk=cl177bPI6scY
+台湾|TVBS 欢乐台 （备份）,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bdhr3S&tk=cl177bPI6scY
+台湾|TVBS HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hJhMTc&tk=cl177bPI6scY
+台湾|中天新闻 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Z0aBmM&tk=cl177bPI6scY
+台湾|中天娱乐 CTI Entertaiment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FrebCO&tk=cl177bPI6scY
+台湾|中天综合 CTI Metro,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1xCXVq&tk=cl177bPI6scY
+台湾|中天亚洲台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IQFcQ2&tk=cl177bPI6scY
+台湾|台视 TTV HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QVM9CR&tk=cl177bPI6scY
+台湾|台视新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UwAr7G&tk=cl177bPI6scY
+台湾|台视综合台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dAQzIm&tk=cl177bPI6scY
+台湾|中视 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3YXzdO&tk=cl177bPI6scY
+台湾|中视新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NG6Tvx&tk=cl177bPI6scY
+台湾|民视 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=I0RUq7&tk=cl177bPI6scY
+台湾|民视新闻台 FTV News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CsuS5w&tk=cl177bPI6scY
+台湾|民视台湾台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HLVR1v&tk=cl177bPI6scY
+台湾|华视 CTS HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NcbgIo&tk=cl177bPI6scY
+台湾|公视 CTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YhMMQo&tk=cl177bPI6scY
+台湾|八大第一 GTV First,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CqoXMH&tk=cl177bPI6scY
+台湾|八大综合 GTV Metro,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7zo9Ss&tk=cl177bPI6scY
+台湾|八大戏剧 GTV Drama,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qghMUr&tk=cl177bPI6scY
+台湾|八大娱乐 GTV Entertainment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PFpvcL&tk=cl177bPI6scY
+台湾|HBO_HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iuvgMa&tk=cl177bPI6scY
+台湾|HBO_HITS,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nkrusP&tk=cl177bPI6scY
+台湾|Hollywood Movies,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XeN20o&tk=cl177bPI6scY
+台湾|三立台湾 Sanli Taiwan,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3I8fUt&tk=cl177bPI6scY
+台湾|三立戏剧台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=F3lhJb&tk=cl177bPI6scY
+台湾|三立综合 Sanli Metro,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=b7bHjn&tk=cl177bPI6scY
+台湾|三立都会台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Qmj2JU&tk=cl177bPI6scY
+台湾|东森新闻 ETTV News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HN6Ocj&tk=cl177bPI6scY
+台湾|CINEMAX,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WzRCrF&tk=cl177bPI6scY
+台湾|东森综合 ETTV Metro,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jSDt2i&tk=cl177bPI6scY
+台湾|东森戏剧 ETTV Drama,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tqyxQY&tk=cl177bPI6scY
+台湾|东森超视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5pJwI5&tk=cl177bPI6scY
+台湾|东森财经新闻 ETTV Business,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g6o0jz&tk=cl177bPI6scY
+台湾|寰宇财经,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1p5bDP&tk=cl177bPI6scY
+台湾|寰宇新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nMJ4E1&tk=cl177bPI6scY
+台湾|公视2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GwmrJb&tk=cl177bPI6scY
+台湾|大爱1台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xwR6Yp&tk=cl177bPI6scY
+台湾|非凡新闻台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=x5PrpJ&tk=cl177bPI6scY
+台湾|龙华戏剧 Lunghua Drama,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=puaehw&tk=cl177bPI6scY
+台湾|龙华经典台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OyOuVY&tk=cl177bPI6scY
+台湾|龙华偶像,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lflgrx&tk=cl177bPI6scY
+台湾|AXN Taiwan,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EIt5zy&tk=cl177bPI6scY
+台湾|靖天国际台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OPloYc&tk=cl177bPI6scY
+台湾|年代新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=G2e2aB&tk=cl177bPI6scY
+台湾|纬来日本台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dJ4zaT&tk=cl177bPI6scY
+台湾|纬来电影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CAwwPe&tk=cl177bPI6scY
+台湾|纬来体育台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=71tgEz&tk=cl177bPI6scY
+台湾|纬来综合台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8qil0J&tk=cl177bPI6scY
+台湾|纬来育乐,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wZOp3e&tk=cl177bPI6scY
+台湾|纬来精彩,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=e3vYGM&tk=cl177bPI6scY
+台湾|好消息 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hsmNgz&tk=cl177bPI6scY
+台湾|大爱2台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=eOj00V&tk=cl177bPI6scY
+台湾|亚洲美食,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DOIGP0&tk=cl177bPI6scY
+台湾|美食星球,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FLldhI&tk=cl177bPI6scY
+台湾|亚洲旅游 TLC Asia,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vc8PDE&tk=cl177bPI6scY
+台湾|东森电影 ETTV Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KpPzbt&tk=cl177bPI6scY
+台湾|阿里郎 Arirang,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9TqZpb&tk=cl177bPI6scY
+台湾|博斯运动 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=unYAyQ&tk=cl177bPI6scY
+台湾|博斯运动 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BReVbI&tk=cl177bPI6scY
+台湾|博斯高球2 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sESZYO&tk=cl177bPI6scY
+台湾|博斯网球 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=b4bRnA&tk=cl177bPI6scY
+台湾|东森洋片 ETTV Western,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JFj8cF&tk=cl177bPI6scY
+台湾|龙华洋片 Lunghua Western,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=x2yEwa&tk=cl177bPI6scY
+台湾|博斯无限,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=n3jsND&tk=cl177bPI6scY
+台湾|MTV Live,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4RUyxW&tk=cl177bPI6scY
+台湾|龙详时代,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1pwJwm&tk=cl177bPI6scY
+台湾|EYETV 旅游,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CMd8rB&tk=cl177bPI6scY
+台湾|靖天卡通台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ntUoGN&tk=cl177bPI6scY
+台湾|EYETV 戏剧,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jCFt1C&tk=cl177bPI6scY
+台湾|卫视中文台 Star Movies Chinese,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zmNSoN&tk=cl177bPI6scY
+台湾|东森幼幼 Yoyo TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=69Y0FW&tk=cl177bPI6scY
+台湾|卫视电影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MA5bRZ&tk=cl177bPI6scY
+台湾|美亚电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mwXvaU&tk=cl177bPI6scY
+台湾|爱尔达影剧台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=25flQl&tk=cl177bPI6scY
+台湾|爱尔达综合台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FQcffY&tk=cl177bPI6scY
+台湾|星卫电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g7GlPd&tk=cl177bPI6scY
+台湾|爱尔达影剧,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0s2CNW&tk=cl177bPI6scY
+台湾|AFC 亚洲旅游台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1B6iRf&tk=cl177bPI6scY
+台湾|爱尔达体育2台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KNMfk8&tk=cl177bPI6scY
+台湾|爱尔达体育3台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3mZ3Dr&tk=cl177bPI6scY
+电影,#genre#
+电影频道|HBO_HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PNyA25&tk=cl177bPI6scY
+电影频道|HBO_HITS,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZoClUX&tk=cl177bPI6scY
+电影频道|Hollywood Movies,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Vp1HKo&tk=cl177bPI6scY
+电影频道|CCTV-6,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Xqsmiq&tk=cl177bPI6scY
+电影频道|CINEMAX,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LlOhlm&tk=cl177bPI6scY
+电影频道|Cinemax,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KcxWMd&tk=cl177bPI6scY
+电影频道|AXN Taiwan,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SirDPA&tk=cl177bPI6scY
+电影频道|大爱2台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wfmFIH&tk=cl177bPI6scY
+电影频道|东森电影 ETTV Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ryGhuI&tk=cl177bPI6scY
+电影频道|东森洋片 ETTV Western,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cT4g17&tk=cl177bPI6scY
+电影频道|龙华洋片 Lunghua Western,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IM9rbl&tk=cl177bPI6scY
+电影频道|Animax,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9UvmJk&tk=cl177bPI6scY
+电影频道|龙详时代,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uExlEU&tk=cl177bPI6scY
+电影频道|Movies Now HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=t9VvWy&tk=cl177bPI6scY
+电影频道|Star Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yUG1Ls&tk=cl177bPI6scY
+电影频道|卫视中文台 Star Movies Chinese,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KllPpC&tk=cl177bPI6scY
+电影频道|HBO Family,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3n6HqN&tk=cl177bPI6scY
+电影频道|Hits,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5R31ka&tk=cl177bPI6scY
+电影频道|Warner TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZtcaFP&tk=cl177bPI6scY
+电影频道|卫视电影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8QsjCS&tk=cl177bPI6scY
+电影频道|HBO HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CgrNSF&tk=cl177bPI6scY
+电影频道|美亚电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9iz3G1&tk=cl177bPI6scY
+电影频道|HBO Signature,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DtCfeu&tk=cl177bPI6scY
+电影频道|HBO Hits,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uVRfWH&tk=cl177bPI6scY
+电影频道|星卫电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jMLWNv&tk=cl177bPI6scY
+电影频道|SCM,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2yrYjg&tk=cl177bPI6scY
+电影频道|Dreamworks,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=P4r1HX&tk=cl177bPI6scY
+电影频道|Thrill,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IQ5VqJ&tk=cl177bPI6scY
+电影频道|Hits Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=kI17wp&tk=cl177bPI6scY
+电影频道|One,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zHmcyG&tk=cl177bPI6scY
+电影频道|tvN Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VJnFWw&tk=cl177bPI6scY
+电影频道|Celestial Classic,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JoWHWR&tk=cl177bPI6scY
+电影频道|Celestial Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2yDCxk&tk=cl177bPI6scY
+电影频道|Axn HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NWKWD8&tk=cl177bPI6scY
+电影频道|Paramount Network,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Hq8y8r&tk=cl177bPI6scY
+电影频道|Astrol Kplus,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=weGy0x&tk=cl177bPI6scY
+电影频道|Rock Actions,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=h8KGP5&tk=cl177bPI6scY
+电影频道|Rock Entertainment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SLA3pr&tk=cl177bPI6scY
+纪录,#genre#
+纪录频道|Natgeo_HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=A4GnbZ&tk=cl177bPI6scY
+纪录频道|NatGeo_Wild HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hTPh9q&tk=cl177bPI6scY
+纪录频道|Animal_Planet,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LJ0G8M&tk=cl177bPI6scY
+纪录频道|Discovery Asia,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VhCAPd&tk=cl177bPI6scY
+纪录频道|CI,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZhI54i&tk=cl177bPI6scY
+纪录频道|Asia Travel,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6X4Hpz&tk=cl177bPI6scY
+纪录频道|Discovery HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Adnchr&tk=cl177bPI6scY
+纪录频道|亚洲美食,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Vz3CCM&tk=cl177bPI6scY
+纪录频道|美食星球,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fpXNel&tk=cl177bPI6scY
+纪录频道|亚洲旅游 TLC Asia,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RQ1QsR&tk=cl177bPI6scY
+纪录频道|NatGeo HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uIUyyK&tk=cl177bPI6scY
+纪录频道|Fashion TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ws5Ray&tk=cl177bPI6scY
+纪录频道|History,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lsfg5e&tk=cl177bPI6scY
+纪录频道|BBC Earth HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5KnCTz&tk=cl177bPI6scY
+纪录频道|BBC Earth Lifestyle,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JOiCI0&tk=cl177bPI6scY
+纪录频道|MTV Live,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Zh833N&tk=cl177bPI6scY
+纪录频道|NatGeo Wild HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bljZ9t&tk=cl177bPI6scY
+纪录频道|Animal Planet (Eng),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fwtwxU&tk=cl177bPI6scY
+纪录频道|TLC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ifvyt9&tk=cl177bPI6scY
+纪录频道|Foodnetwork Hd,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0CvIHT&tk=cl177bPI6scY
+纪录频道|HGTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Uis9YL&tk=cl177bPI6scY
+纪录频道|AFC 亚洲旅游台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9ubAXo&tk=cl177bPI6scY
+新闻,#genre#
+新闻频道|Skynews,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UiXr6A&tk=cl177bPI6scY
+新闻频道|ABC News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lAxF6F&tk=cl177bPI6scY
+新闻频道|东森财经新闻 ETTV Business,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=m4DphP&tk=cl177bPI6scY
+新闻频道|CBS HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Zod4jj&tk=cl177bPI6scY
+新闻频道|CBSN HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3jwN95&tk=cl177bPI6scY
+新闻频道|France 24,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IsZjpn&tk=cl177bPI6scY
+新闻频道|DW (Deutsch),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RDf7Zx&tk=cl177bPI6scY
+新闻频道|NHK World,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vZgR7O&tk=cl177bPI6scY
+新闻频道|Fox News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HRi4Wx&tk=cl177bPI6scY
+新闻频道|CGTN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=TG68fU&tk=cl177bPI6scY
+新闻频道|CNN International,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6CXzgz&tk=cl177bPI6scY
+新闻频道|CNN backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fZ1ZqQ&tk=cl177bPI6scY
+新闻频道|CNBC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lERiUW&tk=cl177bPI6scY
+新闻频道|CNA,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yA8qCS&tk=cl177bPI6scY
+新闻频道|BBC World News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=B37GfB&tk=cl177bPI6scY
+新闻频道|BBC World News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=n7OTET&tk=cl177bPI6scY
+新闻频道|Bloomberg News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=i8hkos&tk=cl177bPI6scY
+新闻频道|Al-Jazeera,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0SYdox&tk=cl177bPI6scY
+儿童,#genre#
+儿童频道|Baby TV Eng,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uLXrPz&tk=cl177bPI6scY
+儿童频道|CBeebies,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OcFV0x&tk=cl177bPI6scY
+儿童频道|Kids TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IFtAwG&tk=cl177bPI6scY
+儿童频道|Momo TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WQUJD3&tk=cl177bPI6scY
+儿童频道|Animax,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2fgh3I&tk=cl177bPI6scY
+儿童频道|Baby TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=I8WIQZ&tk=cl177bPI6scY
+儿童频道|MiaoMi,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HTrSNt&tk=cl177bPI6scY
+儿童频道|靖天卡通台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Oi9TlO&tk=cl177bPI6scY
+儿童频道|东森幼幼 Yoyo TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rDOFmX&tk=cl177bPI6scY
+儿童频道|Cartoon Network,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fqGOXN&tk=cl177bPI6scY
+儿童频道|Nickelodeon,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MGiXn4&tk=cl177bPI6scY
+儿童频道|Nick Jr,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LxYMQ7&tk=cl177bPI6scY
+新加,#genre#
+新加坡|Channel 5,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3Mc6H1&tk=cl177bPI6scY
+新加坡|Channel 8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sYwjZw&tk=cl177bPI6scY
+新加坡|Suria,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IUDgWP&tk=cl177bPI6scY
+新加坡|Channel U,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Xbn1Cq&tk=cl177bPI6scY
+新加坡|Vasantham,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BF9Eua&tk=cl177bPI6scY
+新加坡|CNA,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=w7bJjs&tk=cl177bPI6scY
+新加坡|CNA backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=TiSGah&tk=cl177bPI6scY
+新加坡|MeWatch Ch 5,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OdrvgB&tk=cl177bPI6scY
+新加坡|MeWatch Ch 8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iOxVJI&tk=cl177bPI6scY
+新加坡|MeWatch Ch U,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BO7YpR&tk=cl177bPI6scY
+新加坡|MeWatch Suria,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jcBKd6&tk=cl177bPI6scY
+新加坡|MeWatch Vasantham,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QxqoOk&tk=cl177bPI6scY
+新加坡|MeWatch CNA,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KZBczB&tk=cl177bPI6scY
+马来,#genre#
+马来西亚|TV1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0dU9uR&tk=cl177bPI6scY
+马来西亚|TV1 backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YituYa&tk=cl177bPI6scY
+马来西亚|TV2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0t3zw7&tk=cl177bPI6scY
+马来西亚|TV3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=oubw5T&tk=cl177bPI6scY
+马来西亚|TV3 SD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YvtBEZ&tk=cl177bPI6scY
+马来西亚|NTV7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5r3cZa&tk=cl177bPI6scY
+马来西亚|TV8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=urSbfQ&tk=cl177bPI6scY
+马来西亚|TV9,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hj1GrA&tk=cl177bPI6scY
+马来西亚|Ria,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ri5PlI&tk=cl177bPI6scY
+马来西亚|Ria-3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GJOUUF&tk=cl177bPI6scY
+马来西亚|Al-Hijrah,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ot3Az0&tk=cl177bPI6scY
+马来西亚|Al-Hijrah backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VmoOAc&tk=cl177bPI6scY
+马来西亚|Awani,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=u4isVz&tk=cl177bPI6scY
+马来西亚|Bernama,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DhXeq3&tk=cl177bPI6scY
+马来西亚|Prima,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=AsR0a0&tk=cl177bPI6scY
+马来西亚|Prima backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5rbQBl&tk=cl177bPI6scY
+马来西亚|Prima backup 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LEPuOa&tk=cl177bPI6scY
+马来西亚|Ceria,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GKYJxY&tk=cl177bPI6scY
+马来西亚|Astro MTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qAfagh&tk=cl177bPI6scY
+马来西亚|Mecca Live HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QOolPY&tk=cl177bPI6scY
+马来西亚|Madinah HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SsXsra&tk=cl177bPI6scY
+马来西亚|Oasis,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GvxNcr&tk=cl177bPI6scY
+马来西亚|HBO HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RSvz8H&tk=cl177bPI6scY
+马来西亚|HBO Signature,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qrcWwe&tk=cl177bPI6scY
+马来西亚|HBO Hits,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KWTKeH&tk=cl177bPI6scY
+马来西亚|NatGeo Wild HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Vxy33N&tk=cl177bPI6scY
+马来西亚|Cartoon Network,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rd8AvL&tk=cl177bPI6scY
+马来西亚|Nickelodeon,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rB2aCq&tk=cl177bPI6scY
+马来西亚|Nick Jr,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tAioUn&tk=cl177bPI6scY
+马来西亚|Dreamworks,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=r6CACp&tk=cl177bPI6scY
+马来西亚|Siar,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=oA7y7b&tk=cl177bPI6scY
+马来西亚|Citra,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VhvZnM&tk=cl177bPI6scY
+马来西亚|Citra backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pUV7I8&tk=cl177bPI6scY
+马来西亚|Sensasi,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dmWbs7&tk=cl177bPI6scY
+马来西亚|Aura,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4OnoXa&tk=cl177bPI6scY
+马来西亚|Rania,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IdqNwG&tk=cl177bPI6scY
+马来西亚|KBS World,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wG777d&tk=cl177bPI6scY
+马来西亚|Boo,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ct3eAr&tk=cl177bPI6scY
+马来西亚|Awesome TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2IYr59&tk=cl177bPI6scY
+马来西亚|Astro Sonypix,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=esI97t&tk=cl177bPI6scY
+马来西亚|Sony HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DvUWYr&tk=cl177bPI6scY
+马来西亚|TvN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SMVMMJ&tk=cl177bPI6scY
+马来西亚|AEC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uMXmJc&tk=cl177bPI6scY
+马来西亚|华丽台 HD （Wah Lai Toi）,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=AM66LK&tk=cl177bPI6scY
+马来西亚|欢喜台 HD （Hua Hee Tai）,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=C8zJud&tk=cl177bPI6scY
+马来西亚|Astro QJ,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zMMqNW&tk=cl177bPI6scY
+马来西亚|TVB Jade,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sP1KL4&tk=cl177bPI6scY
+马来西亚|TVB Asia,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=v36mGS&tk=cl177bPI6scY
+马来西亚|TVB Entertainment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NUf2cW&tk=cl177bPI6scY
+马来西亚|TVB Classic,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ugJDuR&tk=cl177bPI6scY
+马来西亚|AOD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=di7YWd&tk=cl177bPI6scY
+马来西亚|One,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6itnmd&tk=cl177bPI6scY
+马来西亚|TVB 星河台 Xing He,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JGcpi7&tk=cl177bPI6scY
+马来西亚|爱奇艺 iQiyi,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cgAw1X&tk=cl177bPI6scY
+马来西亚|Animal Planet (Eng),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7UxaNV&tk=cl177bPI6scY
+马来西亚|tvN Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=D5LeIC&tk=cl177bPI6scY
+马来西亚|CNN backup,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hRGkcP&tk=cl177bPI6scY
+马来西亚|Celestial Classic,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=oBC7YU&tk=cl177bPI6scY
+马来西亚|CNBC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3HxPvD&tk=cl177bPI6scY
+马来西亚|TLC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=L95rbA&tk=cl177bPI6scY
+马来西亚|CNA,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8yFUiS&tk=cl177bPI6scY
+马来西亚|BBC World News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wm1du8&tk=cl177bPI6scY
+马来西亚|Foodnetwork Hd,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LBm8HH&tk=cl177bPI6scY
+马来西亚|HGTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tPOne6&tk=cl177bPI6scY
+马来西亚|Goshop,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VN1Wno&tk=cl177bPI6scY
+马来西亚|Celestial Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0uFgwK&tk=cl177bPI6scY
+马来西亚|Axn HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qW9UQb&tk=cl177bPI6scY
+马来西亚|Paramount Network,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zh70AE&tk=cl177bPI6scY
+马来西亚|Astrol Kplus,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=M2ZYIe&tk=cl177bPI6scY
+马来西亚|AFC 亚洲旅游台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7pPnPz&tk=cl177bPI6scY
+马来西亚|Rock Actions,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zrfESR&tk=cl177bPI6scY
+马来西亚|Bloomberg News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qEyKtI&tk=cl177bPI6scY
+马来西亚|Al-Jazeera,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zwIPf0&tk=cl177bPI6scY
+马来西亚|Rock Entertainment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FdDfrK&tk=cl177bPI6scY
+马来西亚|RTM Sports HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=n8ePrC&tk=cl177bPI6scY
+马来西亚|Arena,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=reNn2H&tk=cl177bPI6scY
+马来西亚|Arena 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nEwbpL&tk=cl177bPI6scY
+马来西亚|BolaArena 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0sewpd&tk=cl177bPI6scY
+马来西亚|BolaArena 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=B1eK3a&tk=cl177bPI6scY
+马来西亚|Astro LOL,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VWNpXZ&tk=cl177bPI6scY
+马来西亚|Astro Rusi,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ooKIGM&tk=cl177bPI6scY
+马来西亚|WION,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=s1qWoP&tk=cl177bPI6scY
+马来西亚|RTM Asean,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pzTHJO&tk=cl177bPI6scY
+印度,#genre#
+印度尼西亚|TVRI National,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bsWucB&tk=cl177bPI6scY
+印度尼西亚|RCTI,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JFZ4eA&tk=cl177bPI6scY
+印度尼西亚|Kompass TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XCkOLO&tk=cl177bPI6scY
+印度尼西亚|Berita Satu,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fKXvwb&tk=cl177bPI6scY
+印度尼西亚|Indosiar HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4JrtuY&tk=cl177bPI6scY
+印度尼西亚|AnTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=M48ZMT&tk=cl177bPI6scY
+印度尼西亚|MNC TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nBozd9&tk=cl177bPI6scY
+印度尼西亚|Trans 7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=68Icez&tk=cl177bPI6scY
+印度尼西亚|Transtv,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7YASI0&tk=cl177bPI6scY
+印度尼西亚|JTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fGj3lb&tk=cl177bPI6scY
+印度尼西亚|Metro TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gFhyaR&tk=cl177bPI6scY
+印度尼西亚|Cinemax,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SqRoZw&tk=cl177bPI6scY
+印度尼西亚|SCTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WDuCl9&tk=cl177bPI6scY
+印度尼西亚|Tvone,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VXT4Lb&tk=cl177bPI6scY
+印度尼西亚|TVMU,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=28TFxC&tk=cl177bPI6scY
+印度尼西亚|GTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fiha36&tk=cl177bPI6scY
+印度尼西亚|RTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X76OiO&tk=cl177bPI6scY
+印度尼西亚|Jak TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GWiT1k&tk=cl177bPI6scY
+印度尼西亚|iNews TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DLVcsB&tk=cl177bPI6scY
+印度尼西亚|Daai TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yWzLdp&tk=cl177bPI6scY
+印度尼西亚|Net TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=L3fTh4&tk=cl177bPI6scY
+印度尼西亚|Animax,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lDSgq3&tk=cl177bPI6scY
+印度尼西亚|EWTN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8L49Sv&tk=cl177bPI6scY
+印度尼西亚|AlQuran AlKareem,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=oMXvgU&tk=cl177bPI6scY
+印度尼西亚|Tawaf TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7fvrJl&tk=cl177bPI6scY
+印度尼西亚|Vision Prime,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4Nv6xO&tk=cl177bPI6scY
+印度尼西亚|Muslim TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Tk12P6&tk=cl177bPI6scY
+印度尼西亚|Music TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yhz5ka&tk=cl177bPI6scY
+印度尼西亚|Lifestyle&amp;Fashion,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zF9VBU&tk=cl177bPI6scY
+印度尼西亚|Entertain,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Qbksbx&tk=cl177bPI6scY
+印度尼西亚|Hits,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gPEFBO&tk=cl177bPI6scY
+印度尼西亚|Warner TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=l7FdkT&tk=cl177bPI6scY
+印度尼西亚|SCM,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zmMwFR&tk=cl177bPI6scY
+印度尼西亚|Thrill,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VBfwIA&tk=cl177bPI6scY
+印度尼西亚|Fight Sports,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sjwGmJ&tk=cl177bPI6scY
+印度尼西亚|Hits Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bTPG6w&tk=cl177bPI6scY
+印度尼西亚|One,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ShCgUB&tk=cl177bPI6scY
+印度尼西亚|tvN Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=C7VHCF&tk=cl177bPI6scY
+印度尼西亚|Celestial Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Dj0yuW&tk=cl177bPI6scY
+印度尼西亚|Rock Actions,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=t8jphh&tk=cl177bPI6scY
+印度尼西亚|Rock Entertainment,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UcuJ5o&tk=cl177bPI6scY
+印度|Sun TV HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=It5xkp&tk=cl177bPI6scY
+印度|Star Vijay,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WECSz7&tk=cl177bPI6scY
+印度|Colors Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UVRBSd&tk=cl177bPI6scY
+印度|Sun Music,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mtupM9&tk=cl177bPI6scY
+印度|Astro Sunlife,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LyWqtk&tk=cl177bPI6scY
+印度|Astro Vaanavil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MthYTF&tk=cl177bPI6scY
+印度|Zee Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xMa26E&tk=cl177bPI6scY
+印度|Zee Business,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UnvB6g&tk=cl177bPI6scY
+印度|News 18 Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X9b5NE&tk=cl177bPI6scY
+印度|Adithya,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LqXQWd&tk=cl177bPI6scY
+印度|Makkal TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4wXa2K&tk=cl177bPI6scY
+印度|Zee Action,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=14rfGk&tk=cl177bPI6scY
+印度|Astro KTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DmWIJ0&tk=cl177bPI6scY
+印度|Zee TV HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jWqgl3&tk=cl177bPI6scY
+印度|Zee Cinema HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0iZjC6&tk=cl177bPI6scY
+印度|Color HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=azLfPB&tk=cl177bPI6scY
+印度|Starplus HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yeH7Ns&tk=cl177bPI6scY
+印度|Picture HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EBL5J7&tk=cl177bPI6scY
+印度|Zee News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=J1uTeV&tk=cl177bPI6scY
+印度|Asianet,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hjqdPP&tk=cl177bPI6scY
+印度|Asianet News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=E36av1&tk=cl177bPI6scY
+印度|Discovery World Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qaVXla&tk=cl177bPI6scY
+印度|History Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6nYHXD&tk=cl177bPI6scY
+印度|NatGeo Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yuTBtB&tk=cl177bPI6scY
+印度|Natgeo Wild Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pZxw7b&tk=cl177bPI6scY
+印度|Astro Sonypix,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=coz2u7&tk=cl177bPI6scY
+印度|Discovery Kids Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9Uahgf&tk=cl177bPI6scY
+印度|Discovery Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cuaNxX&tk=cl177bPI6scY
+印度|Sony Yay Tamil,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=x3zOqo&tk=cl177bPI6scY
+印度|Sun TV India,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8j741U&tk=cl177bPI6scY
+印度|Starmaa HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CaP1az&tk=cl177bPI6scY
+印度|Starmaa Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ztT9EH&tk=cl177bPI6scY
+印度|Bollyone,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=reocQR&tk=cl177bPI6scY
+印度|Astro Sunmusic,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=avOIWp&tk=cl177bPI6scY
+印度|Vijay Super,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=V3ZRJS&tk=cl177bPI6scY
+印度|Vellithirai,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Nquker&tk=cl177bPI6scY
+泰国,#genre#
+泰国|Channel 3 Thailand,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3Yv2BJ&tk=cl177bPI6scY
+泰国|Channel 5 Thailand,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EQpP5V&tk=cl177bPI6scY
+泰国|Channel 7 Thailand,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tZixH5&tk=cl177bPI6scY
+泰国|MCOT HD Thailand-1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=knXhKZ&tk=cl177bPI6scY
+泰国|PPTV Thailand1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=P9iNGN&tk=cl177bPI6scY
+泰国|Thai Thai,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OfBW4o&tk=cl177bPI6scY
+泰国|Amarin,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fXbztd&tk=cl177bPI6scY
+泰国|Ch 8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Du6pka&tk=cl177bPI6scY
+泰国|GmmOne,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=m2dY24&tk=cl177bPI6scY
+泰国|Mono,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VexCni&tk=cl177bPI6scY
+泰国|Thairath,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cdp7iu&tk=cl177bPI6scY
+泰国|tpbs,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XzxsrL&tk=cl177bPI6scY
+泰国|Workpoint,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DR1BIb&tk=cl177bPI6scY
+泰国|Gmm Channel,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MBLDZJ&tk=cl177bPI6scY
+泰国|Nation,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X5n5X7&tk=cl177bPI6scY
+泰国|Tnn24,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hf1a2v&tk=cl177bPI6scY
+泰国|Nbt,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=d8LKxt&tk=cl177bPI6scY
+泰国|New,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mtzZOP&tk=cl177bPI6scY
+泰国|TPTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DQMstH&tk=cl177bPI6scY
+英国,#genre#
+英国|BBC 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nsF3Ak&tk=cl177bPI6scY
+英国|BBC 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BzDxnE&tk=cl177bPI6scY
+英国|CBBC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cnVfgY&tk=cl177bPI6scY
+英国|More4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=O00KxC&tk=cl177bPI6scY
+英国|Freesports,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EqJ0dV&tk=cl177bPI6scY
+英国|Skynews,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FoB7gn&tk=cl177bPI6scY
+英国|Pick TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6rCy0S&tk=cl177bPI6scY
+英国|itv 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pVyDxB&tk=cl177bPI6scY
+英国|itv 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qa8rKb&tk=cl177bPI6scY
+英国|Euronews,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3dpy5M&tk=cl177bPI6scY
+英国|Channel 4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IBbanP&tk=cl177bPI6scY
+英国|NatGeo HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4JSl7J&tk=cl177bPI6scY
+英国|CBeebies,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=u2w49H&tk=cl177bPI6scY
+英国|History,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=0EXv06&tk=cl177bPI6scY
+英国|Kids TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=eeBoFM&tk=cl177bPI6scY
+英国|France 24,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=95pMCc&tk=cl177bPI6scY
+英国|DW (Deutsch),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g3zHYn&tk=cl177bPI6scY
+英国|BBC Earth HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CYghZ9&tk=cl177bPI6scY
+英国|BBC Earth Lifestyle,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PV4yCs&tk=cl177bPI6scY
+英国|MTV Live,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=z1gvWd&tk=cl177bPI6scY
+英国|Star Movies HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZuN9hV&tk=cl177bPI6scY
+英国|NHK World,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NWPwpc&tk=cl177bPI6scY
+英国|Warner TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1SQ1yP&tk=cl177bPI6scY
+英国|HBO HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=auqxZ0&tk=cl177bPI6scY
+英国|NatGeo Wild HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Wmi6i4&tk=cl177bPI6scY
+英国|Nickelodeon,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=S7oovn&tk=cl177bPI6scY
+英国|Nick Jr,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8lBj83&tk=cl177bPI6scY
+英国|Thrill,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5bBwFy&tk=cl177bPI6scY
+英国|CGTN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=puLoWo&tk=cl177bPI6scY
+英国|Hits Movie,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9aTCJz&tk=cl177bPI6scY
+英国|Animal Planet (Eng),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2saSm2&tk=cl177bPI6scY
+英国|CNBC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vzAIqx&tk=cl177bPI6scY
+英国|TLC,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=50mRsV&tk=cl177bPI6scY
+英国|BBC World News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JoHpJu&tk=cl177bPI6scY
+英国|HGTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=10n0Ef&tk=cl177bPI6scY
+英国|Axn HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MTFFX5&tk=cl177bPI6scY
+英国|Skysports F1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xixOuo&tk=cl177bPI6scY
+英国|Skysports Cricket,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8fYSaH&tk=cl177bPI6scY
+英国|Bloomberg News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=00cP9P&tk=cl177bPI6scY
+英国|Skysports EPL,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=G7dyca&tk=cl177bPI6scY
+英国|Skysports Main Event,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1EPRMq&tk=cl177bPI6scY
+英国|Skysports News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yg1Cku&tk=cl177bPI6scY
+英国|Al-Jazeera,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VTYcAy&tk=cl177bPI6scY
+越南,#genre#
+越南|ANTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pFIN1i&tk=cl177bPI6scY
+越南|VTV 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BpptGT&tk=cl177bPI6scY
+越南|VTV 7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X59MLM&tk=cl177bPI6scY
+越南|HTV 7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3HAcfg&tk=cl177bPI6scY
+越南|HTV 9,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Q2QWIU&tk=cl177bPI6scY
+越南|BPTV 2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EOzwHs&tk=cl177bPI6scY
+越南|BRT HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8e63qZ&tk=cl177bPI6scY
+越南|Ca Mau TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=v0NaSF&tk=cl177bPI6scY
+越南|Danang TV1 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ING6Sa&tk=cl177bPI6scY
+越南|Danang TV2 HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zgXmVa&tk=cl177bPI6scY
+越南|HBTV HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zCMKST&tk=cl177bPI6scY
+越南|PTTH 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WXZ0se&tk=cl177bPI6scY
+韩国,#genre#
+韩国|Arirang HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pA5d9q&tk=cl177bPI6scY
+韩国|Yonhap News,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GFDOvL&tk=cl177bPI6scY
+韩国|CBS,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nv4D6n&tk=cl177bPI6scY
+韩国|EBS 1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yBvA1N&tk=cl177bPI6scY
+韩国|EBS2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3tZ7VO&tk=cl177bPI6scY
+韩国|EBS Plus2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ll1Pf0&tk=cl177bPI6scY
+韩国|SBS Plus,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LMulnC&tk=cl177bPI6scY
+韩国|YTN,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=W1n6WP&tk=cl177bPI6scY
+韩国|KBS World 24,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gdHgaG&tk=cl177bPI6scY
+韩国|YTN Science,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=soDuKu&tk=cl177bPI6scY
+韩国|YTN Korean,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g6vXQX&tk=cl177bPI6scY
+韩国|YTN DMB,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6f8fKy&tk=cl177bPI6scY
+韩国|Apps TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pF1ntz&tk=cl177bPI6scY
+韩国|All the Kpop,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hXuG58&tk=cl177bPI6scY
+韩国|J the Kpop,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PKlG3X&tk=cl177bPI6scY
+韩国|EBS Kids,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Bhv5fn&tk=cl177bPI6scY
+韩国|CGNTV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9iRML6&tk=cl177bPI6scY
+日本,#genre#
+日本|NHK-総合-2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lUY7JN&tk=cl177bPI6scY
+日本|NHK-E,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=aRDh8k&tk=cl177bPI6scY
+日本|テレビ朝日 Asahi TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iBAw9C&tk=cl177bPI6scY
+日本|JET 綜合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sisXOg&tk=cl177bPI6scY
+日本|テレビ東京 Tokyo TV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=aUhwiR&tk=cl177bPI6scY
+日本|TOKYOMX,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=K9LLGu&tk=cl177bPI6scY
+日本|NHKBS1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=c48ADl&tk=cl177bPI6scY
+日本|NHKBSプレミア Premium,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=68xF4L&tk=cl177bPI6scY
+日本|BSジャパン 181,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vZKTYO&tk=cl177bPI6scY
+日本|BSフジ BS Fuji,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lc7qal&tk=cl177bPI6scY
+日本|CNA Japan,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bBIdUj&tk=cl177bPI6scY
+日本|BS-TBS,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fNro5f&tk=cl177bPI6scY
+日本|NHK Oaska,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=M1GW9k&tk=cl177bPI6scY
+日本|NHK World,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8MIWi2&tk=cl177bPI6scY
+央视,#genre#
+CCTV1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8tAJ8F&tk=cl177bPI6scY
+CCTV2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UGnYA8&tk=cl177bPI6scY
+CCTV3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=L6O6oc&tk=cl177bPI6scY
+CCTV4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Sr4v6g&tk=cl177bPI6scY
+CCTV5,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Xj5btJ&tk=cl177bPI6scY
+CCTV6,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MrtT3m&tk=cl177bPI6scY
+CCTV7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7L1bVC&tk=cl177bPI6scY
+CCTV8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CLp1KP&tk=cl177bPI6scY
+CCTV9,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Px5VaP&tk=cl177bPI6scY
+CCTV10,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VEa6I8&tk=cl177bPI6scY
+CCTV11,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qfwAMK&tk=cl177bPI6scY
+CCTV12,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=iSXtjF&tk=cl177bPI6scY
+CCTV13,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tEFxWt&tk=cl177bPI6scY
+CCTV14,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ewc61l&tk=cl177bPI6scY
+CCTV15,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5oGeX3&tk=cl177bPI6scY
+CCTV16,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=v8mcX2&tk=cl177bPI6scY
+卫视,#genre#
+广东卫视4K,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xz9Xtp&tk=cl177bPI6scY
+深圳卫视4K,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mRiVcS&tk=cl177bPI6scY
+广西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5sZMWK&tk=cl177bPI6scY
+海南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=y9dJDx&tk=cl177bPI6scY
+河南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=udI8iL&tk=cl177bPI6scY
+湖北卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ds1Ohf&tk=cl177bPI6scY
+湖南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nMrPnH&tk=cl177bPI6scY
+怀旧剧场,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9UWL9L&tk=cl177bPI6scY
+江苏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uWFL4l&tk=cl177bPI6scY
+数字电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GdBThZ&tk=cl177bPI6scY
+深圳卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Oura8R&tk=cl177bPI6scY
+四川卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nHhY1O&tk=cl177bPI6scY
+重庆卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yQAixj&tk=cl177bPI6scY
+浙江卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zHIQtU&tk=cl177bPI6scY
+浙江卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=A54Heh&tk=cl177bPI6scY
+东方卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=B5WtLz&tk=cl177bPI6scY
+北京卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nMtnXm&tk=cl177bPI6scY
+江西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hHkKA1&tk=cl177bPI6scY
+山东卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=SBgenr&tk=cl177bPI6scY
+安徽卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=syTmFM&tk=cl177bPI6scY
+天津卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4fwPT7&tk=cl177bPI6scY
+贵州卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DE07I5&tk=cl177bPI6scY
+河北卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=kqJMZ4&tk=cl177bPI6scY
+山西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FfeIxV&tk=cl177bPI6scY
+陕西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IkZsp9&tk=cl177bPI6scY
+内蒙古卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=k5Smg4&tk=cl177bPI6scY
+吉林卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=noAhpC&tk=cl177bPI6scY
+西藏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1uHqZi&tk=cl177bPI6scY
+新疆卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FFD9af&tk=cl177bPI6scY
+云南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=AREWdM&tk=cl177bPI6scY
+宁夏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6ReHLo&tk=cl177bPI6scY
+甘肃卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=O5Y7TQ&tk=cl177bPI6scY
+东南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nodqCV&tk=cl177bPI6scY
+兵团卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Btgk01&tk=cl177bPI6scY
+广东,#genre#
+广东4K超高清,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UdPstm&tk=cl177bPI6scY
+广东大湾区,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mKS3kV&tk=cl177bPI6scY
+广东民生,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=TLUN7J&tk=cl177bPI6scY
+广东少儿,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yNr9gW&tk=cl177bPI6scY
+广东体育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4VvCfM&tk=cl177bPI6scY
+广东卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4NMUfr&tk=cl177bPI6scY
+广东新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=kDKfC0&tk=cl177bPI6scY
+广东影视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QTxE91&tk=cl177bPI6scY
+广东珠江,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BmLoI0&tk=cl177bPI6scY
+广东经济,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dZXnZG&tk=cl177bPI6scY
+广东戏曲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WzYpFU&tk=cl177bPI6scY
+深圳都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=E1A7Ur&tk=cl177bPI6scY
+广州综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xmFqNI&tk=cl177bPI6scY
+广州新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xg7CuW&tk=cl177bPI6scY
+广州影视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ILBQ0S&tk=cl177bPI6scY
+广州法治,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=R4zJ0A&tk=cl177bPI6scY
+广州南国都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8x808A&tk=cl177bPI6scY
+广西,#genre#
+南宁新闻HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7RhoD6&tk=cl177bPI6scY
+南宁文旅HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4ZRNgz&tk=cl177bPI6scY
+南宁影视HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7G3BWE&tk=cl177bPI6scY
+南宁公共HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=8pzPYp&tk=cl177bPI6scY
+桂林综合HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sgs068&tk=cl177bPI6scY
+桂林科教HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JBWl4L&tk=cl177bPI6scY
+桂林公共HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=D0O39e&tk=cl177bPI6scY
+梧州新闻综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=H3zug6&tk=cl177bPI6scY
+梧州公共频道,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1OpAld&tk=cl177bPI6scY
+梧州教育生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=e6Chdd&tk=cl177bPI6scY
+贺州综合HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=L7D7pV&tk=cl177bPI6scY
+贺州综合HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dXlp3n&tk=cl177bPI6scY
+玉林综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZZZZS9&tk=cl177bPI6scY
+玉林公共,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rJk6Ze&tk=cl177bPI6scY
+百色综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5V4Dr3&tk=cl177bPI6scY
+岑溪电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YNOZob&tk=cl177bPI6scY
+天等电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MAwGwI&tk=cl177bPI6scY
+宾阳电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=h8qiBg&tk=cl177bPI6scY
+昭平电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cw4Ygy&tk=cl177bPI6scY
+融水电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XFMVJG&tk=cl177bPI6scY
+田东电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xViAJA&tk=cl177bPI6scY
+凌云电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=veOBai&tk=cl177bPI6scY
+西林电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=p9mOON&tk=cl177bPI6scY
+靖西电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UPRC5r&tk=cl177bPI6scY
+巴马电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=jfUsiW&tk=cl177bPI6scY
+都安电视台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bmUVNa&tk=cl177bPI6scY
+江苏,#genre#
+江苏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=62Lgie&tk=cl177bPI6scY
+江苏新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=i7Brc8&tk=cl177bPI6scY
+江苏国际,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5HJnCO&tk=cl177bPI6scY
+江苏城市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rAfQmC&tk=cl177bPI6scY
+江苏综艺,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=l6m0j7&tk=cl177bPI6scY
+江苏影视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=sshmLi&tk=cl177bPI6scY
+江苏教育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CTpnaY&tk=cl177bPI6scY
+江苏体育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BbQ56x&tk=cl177bPI6scY
+江苏卡通,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Kwt07Z&tk=cl177bPI6scY
+江苏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MrgdHW&tk=cl177bPI6scY
+江苏新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xamxKF&tk=cl177bPI6scY
+江苏国际,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=RMpfTh&tk=cl177bPI6scY
+江苏城市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rYZkXS&tk=cl177bPI6scY
+江苏综艺,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zKwiBg&tk=cl177bPI6scY
+江苏影视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=p19TMd&tk=cl177bPI6scY
+江苏教育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JcU9ze&tk=cl177bPI6scY
+江苏体育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yCYYpV&tk=cl177bPI6scY
+江苏卡通,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=t8Ujj8&tk=cl177bPI6scY
+苏州综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ojiBMC&tk=cl177bPI6scY
+苏州经济,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HKUO0M&tk=cl177bPI6scY
+苏州生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=M284u3&tk=cl177bPI6scY
+苏州娱乐,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7NSBft&tk=cl177bPI6scY
+苏州资讯,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BwC1lW&tk=cl177bPI6scY
+苏州4K台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=G0PBLj&tk=cl177bPI6scY
+南京综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=enAug1&tk=cl177bPI6scY
+南京教科,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mSupBD&tk=cl177bPI6scY
+南京少儿,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PKB4an&tk=cl177bPI6scY
+南京文旅,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=yDzpLL&tk=cl177bPI6scY
+南京生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=faSyaG&tk=cl177bPI6scY
+镇江综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1woixk&tk=cl177bPI6scY
+镇江民生,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=El7e01&tk=cl177bPI6scY
+武进综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Cb6kky&tk=cl177bPI6scY
+武进生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=vQBrDU&tk=cl177bPI6scY
+无锡综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CQlkJ2&tk=cl177bPI6scY
+无锡娱乐,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ks7nzL&tk=cl177bPI6scY
+无锡都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X6X1Zi&tk=cl177bPI6scY
+无锡生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QRYs5C&tk=cl177bPI6scY
+无锡经济,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lBK7ON&tk=cl177bPI6scY
+宜兴综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Vxpx1a&tk=cl177bPI6scY
+宜兴紫砂,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=AGJ0ux&tk=cl177bPI6scY
+南通综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EmZGD6&tk=cl177bPI6scY
+南通生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=cRwR6o&tk=cl177bPI6scY
+南通公共,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=05JdXK&tk=cl177bPI6scY
+泗阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XzY8Yr&tk=cl177bPI6scY
+泗阳资讯,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fMT3yM&tk=cl177bPI6scY
+句容综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=liVlUi&tk=cl177bPI6scY
+句容生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UKRbVU&tk=cl177bPI6scY
+句容党建,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=j4byqc&tk=cl177bPI6scY
+1905电影网,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7cJmR1&tk=cl177bPI6scY
+河南,#genre#
+河南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KawdeA&tk=cl177bPI6scY
+河南新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gFb2em&tk=cl177bPI6scY
+河南都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5GkZta&tk=cl177bPI6scY
+河南民生,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dqsbPl&tk=cl177bPI6scY
+河南公共,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hsqXQV&tk=cl177bPI6scY
+河南乡村,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=P5nvZL&tk=cl177bPI6scY
+河南梨园,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=REGyoV&tk=cl177bPI6scY
+河南法治,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pOjJPI&tk=cl177bPI6scY
+河南电视剧,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rUGvI9&tk=cl177bPI6scY
+武术世界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6CoJkJ&tk=cl177bPI6scY
+文物宝库,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VZijV8&tk=cl177bPI6scY
+睛彩中原,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Ea2OR6&tk=cl177bPI6scY
+移动戏曲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CmCuVZ&tk=cl177bPI6scY
+大象视界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WvcOI0&tk=cl177bPI6scY
+欢腾购物,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zthiUY&tk=cl177bPI6scY
+河南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VwzOSK&tk=cl177bPI6scY
+河南新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=4vSCQT&tk=cl177bPI6scY
+河南都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=BV9zUm&tk=cl177bPI6scY
+河南民生,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=K0qchg&tk=cl177bPI6scY
+河南公共,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KxvbNF&tk=cl177bPI6scY
+河南乡村,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=fl6mfb&tk=cl177bPI6scY
+河南梨园,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mBrWgy&tk=cl177bPI6scY
+河南法治,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NSRi91&tk=cl177bPI6scY
+河南电视剧,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Bpshx8&tk=cl177bPI6scY
+武术世界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Y1kwnD&tk=cl177bPI6scY
+文物宝库,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=151ADA&tk=cl177bPI6scY
+睛彩中原,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=uIpWna&tk=cl177bPI6scY
+移动戏曲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=COXdj6&tk=cl177bPI6scY
+大象视界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xiPwts&tk=cl177bPI6scY
+欢腾购物,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=LNiZe3&tk=cl177bPI6scY
+河南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=W1fIro&tk=cl177bPI6scY
+河南新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=pdB74v&tk=cl177bPI6scY
+河南都市,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rrRDEd&tk=cl177bPI6scY
+河南民生,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DzyYTL&tk=cl177bPI6scY
+河南公共,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=TPYZhO&tk=cl177bPI6scY
+河南乡村,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hI2A56&tk=cl177bPI6scY
+河南梨园,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=DL2I00&tk=cl177bPI6scY
+河南法治,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QpEmpy&tk=cl177bPI6scY
+河南电视剧,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3Qi1Ly&tk=cl177bPI6scY
+武术世界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IY2brX&tk=cl177bPI6scY
+文物宝库,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Y7GhXm&tk=cl177bPI6scY
+睛彩中原,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gG77v7&tk=cl177bPI6scY
+移动戏曲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mInDjs&tk=cl177bPI6scY
+大象视界,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PNwQHW&tk=cl177bPI6scY
+欢腾购物,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=I9TG2R&tk=cl177bPI6scY
+郑州综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GpOhTF&tk=cl177bPI6scY
+开封综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YOZCz0&tk=cl177bPI6scY
+开封文旅,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=QIqiA3&tk=cl177bPI6scY
+兰考综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ITXeRJ&tk=cl177bPI6scY
+洛阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XS3dkS&tk=cl177bPI6scY
+安阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=lf7xNK&tk=cl177bPI6scY
+鹤壁综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GKWuH3&tk=cl177bPI6scY
+新乡综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZXKo8Y&tk=cl177bPI6scY
+焦作综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=JENGoW&tk=cl177bPI6scY
+濮阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=2Prw6K&tk=cl177bPI6scY
+许昌综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=suDN0l&tk=cl177bPI6scY
+漯河综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Lqd5ZT&tk=cl177bPI6scY
+南阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=WcQgHv&tk=cl177bPI6scY
+商丘综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7vemDp&tk=cl177bPI6scY
+信阳综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=e0DxCQ&tk=cl177bPI6scY
+周口综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=zOfnuA&tk=cl177bPI6scY
+济源综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=S9Xv0w&tk=cl177bPI6scY
+平顶山综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=aDrXnZ&tk=cl177bPI6scY
+三门峡综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=9Xbe0u&tk=cl177bPI6scY
+驻马店综合,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=M4aDjw&tk=cl177bPI6scY
+北京,#genre#
+北京卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=psm5RL&tk=cl177bPI6scY
+北京文艺,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=XKN2oT&tk=cl177bPI6scY
+北京纪实科教,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6Yf543&tk=cl177bPI6scY
+北京影视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KIlpYv&tk=cl177bPI6scY
+北京财经,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wjhEYk&tk=cl177bPI6scY
+北京体育休闲,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=G7ayCs&tk=cl177bPI6scY
+北京生活,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=URCp4Z&tk=cl177bPI6scY
+北京新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qDudop&tk=cl177bPI6scY
+卡酷少儿,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZfLrRA&tk=cl177bPI6scY
+极央,#genre#
+CCTV1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=W1lDx8&tk=cl177bPI6scY
+CCTV2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=arD0OW&tk=cl177bPI6scY
+CCTV3,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=da1uIm&tk=cl177bPI6scY
+CCTV4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=oG6ALK&tk=cl177bPI6scY
+CCTV5,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=X8OmwI&tk=cl177bPI6scY
+CCTV5+,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KwUJQu&tk=cl177bPI6scY
+CCTV6,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=itqMcv&tk=cl177bPI6scY
+CCTV7,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=GmI8DM&tk=cl177bPI6scY
+CCTV8,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hxFmfp&tk=cl177bPI6scY
+CCTV9,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3NNMNN&tk=cl177bPI6scY
+CCTV10,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=6xkbjU&tk=cl177bPI6scY
+CCTV11,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=HjuGqv&tk=cl177bPI6scY
+CCTV12,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1pJtuy&tk=cl177bPI6scY
+CCTV13,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=wMoxoj&tk=cl177bPI6scY
+CCTV14,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=CHPQoY&tk=cl177bPI6scY
+CCTV15,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3VyUJ5&tk=cl177bPI6scY
+CCTV16,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YJ8CRq&tk=cl177bPI6scY
+CCTV17,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=OmidIl&tk=cl177bPI6scY
+极卫,#genre#
+北京卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZI8FkT&tk=cl177bPI6scY
+东方卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ftpP9P&tk=cl177bPI6scY
+湖南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=b4J3an&tk=cl177bPI6scY
+浙江卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=PMRfH0&tk=cl177bPI6scY
+江苏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=EvFuci&tk=cl177bPI6scY
+广东卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tu3Tgm&tk=cl177bPI6scY
+山东卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=VDVbmh&tk=cl177bPI6scY
+东南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5Dly5f&tk=cl177bPI6scY
+深圳卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hysP93&tk=cl177bPI6scY
+安徽卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=gpBNAW&tk=cl177bPI6scY
+湖北卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZEtgAo&tk=cl177bPI6scY
+河北卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=h1k2IO&tk=cl177bPI6scY
+河南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=znPxkV&tk=cl177bPI6scY
+四川卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=afqrBW&tk=cl177bPI6scY
+天津卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rBSfl1&tk=cl177bPI6scY
+重庆卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=AI5V1V&tk=cl177bPI6scY
+海南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=tCGEjk&tk=cl177bPI6scY
+辽宁卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=B4zOyD&tk=cl177bPI6scY
+黑龙江卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=c8TDgm&tk=cl177bPI6scY
+吉林卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=d7Oi9o&tk=cl177bPI6scY
+山西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ICLAFD&tk=cl177bPI6scY
+陕西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=KRZFwW&tk=cl177bPI6scY
+广西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=qXGC3g&tk=cl177bPI6scY
+江西卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=g8tBJC&tk=cl177bPI6scY
+贵州卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=rW0djh&tk=cl177bPI6scY
+云南卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=efYyEn&tk=cl177bPI6scY
+甘肃卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ywxm69&tk=cl177bPI6scY
+宁夏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=aNPUX3&tk=cl177bPI6scY
+青海卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=FesrAM&tk=cl177bPI6scY
+内蒙古卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=NwHoJD&tk=cl177bPI6scY
+新疆卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=MLUVHQ&tk=cl177bPI6scY
+西藏卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=IdK8rh&tk=cl177bPI6scY
+中国教育1,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=s6K44j&tk=cl177bPI6scY
+中国教育2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZtRDPm&tk=cl177bPI6scY
+中国教育4,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5Spl3E&tk=cl177bPI6scY
+山东教育,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=kgxnHP&tk=cl177bPI6scY
+嘉佳卡通,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3TaaMi&tk=cl177bPI6scY
+哈哈炫动,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=UanwsC&tk=cl177bPI6scY
+卡酷少儿,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=REp6M6&tk=cl177bPI6scY
+优漫卡通,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=V9A4xx&tk=cl177bPI6scY
+金鹰卡通,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ZL90lu&tk=cl177bPI6scY
+暂停更新,#genre#
+TVB生活台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hQv60n&tk=cl177bPI6scY
+TVB星河(国),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=1q2067&tk=cl177bPI6scY
+TVB功夫(国),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=nKnRBw&tk=cl177bPI6scY
+PopC电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=id7szY&tk=cl177bPI6scY
+Now爆谷台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=h1UXUS&tk=cl177bPI6scY
+Now星影台,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=u6eU0V&tk=cl177bPI6scY
+龙华电影(粤),http://kkk.888.3116598.xyz/api.php?n=HKTV&id=j0TZiN&tk=cl177bPI6scY
+龙祥时代,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=5afXvd&tk=cl177bPI6scY
+好莱坞电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=7jKaka&tk=cl177bPI6scY
+美亚电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=axgops&tk=cl177bPI6scY
+东森电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=bOu6iX&tk=cl177bPI6scY
+东森新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=Pt93Gs&tk=cl177bPI6scY
+中天新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=ljZi1j&tk=cl177bPI6scY
+中天新闻2,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=mZIPgR&tk=cl177bPI6scY
+TVBS HD,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=hOsmqa&tk=cl177bPI6scY
+寰宇新闻,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=3mpAAS&tk=cl177bPI6scY
+凤凰电影,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=YEOm7E&tk=cl177bPI6scY
+星空卫视,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=xp0giM&tk=cl177bPI6scY
+星空channelV,http://kkk.888.3116598.xyz/api.php?n=HKTV&id=dbwv4T&tk=cl177bPI6scY

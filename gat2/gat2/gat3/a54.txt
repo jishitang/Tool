@@ -1,0 +1,318 @@
+https://jxfd.lanzoub.com/b01391rgkj
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>影视TV</title>
+<link rel="shortcut icon" href="https://assets.woozooo.com/assets/favicon.ico">
+<script type="text/javascript" src="https://assets.woozooo.com/assets/includes/js/jquery.js"></script>
+<script type="text/javascript" src="https://assets.woozooo.com/assets/img/qrcode.min.js"></script></head>
+<body>
+<div id="sms"><span id="smsspan"></span></div>
+<link href="https://assets.woozooo.com/assets/share/folder2.css" rel="stylesheet" type="text/css">
+<link href="https://assets.woozooo.com/assets/share/folder4.css" rel="stylesheet" type="text/css">
+<style>
+@media (max-width: 768px){
+	.passwddiv-user{
+		    font-size: 16px;
+	}
+	.passwddiv-input{
+			padding: 8px;
+			width: 210px;
+	}
+	.passwdinput{
+			line-height: 34px;
+			height: 34px;
+	}
+	.passwddiv-btn{
+			width: 34px;
+			height: 34px;
+	}
+	.passwddiv-btn-1{
+		    margin-top: 16px;
+			margin-left: 8px;
+	}
+	.passwddiv-btn-2{
+			margin-left: 10px;
+	}
+	.folderdown{
+		    position: absolute;
+			right: 20px;
+	}
+}
+
+</style>
+<div class="user-top">
+<div class="user-ico">
+<div class="user-ico-img" style="background:url();background-size:100%;background-repeat:no-repeat;background-position:50%;"></div>
+<div class="user-ico-div"><div class="user-ico-div-1"></div><div class="user-ico-div-2"></div></div>
+</div>
+<div class="user-name">江南<span class="user-name-txt">的分享文件</span></div>
+<div class="s_pc_input"><div class="s_pcsubmit" onclick="s_post();"><div class="s_pcsubmit_1"></div><div class="s_pcsubmit_2"></div></div><input type="text" name="spcinput" class="spcinput" id="spcinput" value="" placeholder="文件" /><div class="s_load" id="s_load"><div class="s_loader"></div></div></div><a href="/q/jb/?f=12355769&report=2" class="n_login"><font id="rpt"></font></a></div>
+<div class="user-right">
+<div class="user-code"><div id="code"></div><div class="user-code-r">手机下载请扫二维码</div></div>
+</div>
+<div id="s_search">
+<div class="s_box"><div id="s_file"></div></div>
+</div>
+<div id="fileview">
+<div class="user-title">影视TV</div>
+<div class="user-radio"><div class="user-radio-0"></div>所有文件密码一致，获取密码需要点击软件链接获取密码！<br />
+进q群软件密码一致<br />
+QQ群315674141</div>
+<div class="load2" id="load2"><div class="loader"></div><div class="loader2">努力加载中...</div></div>
+<div class="file" id="info">
+<div class="file-box">
+<div id="infos"></div>
+</div>
+<!--filemore-->
+<div id="infomores"><span id="filemore" onclick="more();">更多</span></div>
+
+
+<!--save-->
+<div id="save"><a href="https://api.ilanzou.com/unproved/pd/url?id=12355769&time=1757904756&token=889d00362f3fa5f9d6ee2a976ed88ed2&type=2" target="_blank"><span>一键转存到我的网盘</span></a></div>
+
+
+</div>
+</div>
+<div class="n_foot"><div class="n_copy">版权声明：不得利用云存储发布，存储，淫秽，诈骗等违法信息。<br>或者投诉邮箱：ta@lanzou.com</div>&copy; 2025 Lanzou</div>
+<script type="text/javascript">
+	var search_lock = 2;//search lock
+	var pwd;
+	var pgs;
+	var ibhebj = '1757905356';
+	var _hfqdc = '38cb4d6091a8c1a34f0933aee3cde57f';
+	pgs =1;
+		document.getElementById("load2").style.display="block";
+	file();
+		document.getElementById('rpt').innerHTML='举报';
+function sms(stx){
+	document.getElementById("sms").style.display="none";
+	$("#smsspan").text(stx);
+	document.getElementById("sms").style.display="block";
+	setTimeout('document.getElementById("sms").style.display="none";',5000);
+}
+function file(){
+		$.ajax({
+			type : 'post',
+			url : '/filemoreajax.php?file=12355769',
+			data : { 
+			'lx':2,
+			'fid':12355769,
+			'uid':'465969',
+			'pg':pgs,
+			'rep':'0',
+			't':ibhebj,
+			'k':_hfqdc,
+			'up':1,
+			'vip':'0',
+			'webfoldersign':'',
+						},
+			dataType : 'json',
+			success:function(msg){
+				//隐藏
+				document.getElementById("load2").style.display="none";
+				if(msg.zt == '1'){
+										var data = msg.text;
+					$.each(data, function(i, n){
+						search_lock = 2;//解除回车锁
+						var str;
+						var file_ico;
+						var alink = '/' + n.id;
+						var file_time ='';
+												file_time = '<div class="file_time">'+ n.time +'</div>';
+												if(n.t ==1){ //style 1
+							alink = n.id;
+							n.name_all = n.name_all + '<span class="s_ad">推广</span>';
+						}
+												file_ico = '<div class=fileimg><img src=https://assets.woozooo.com/assets/images/type/'+ n.icon +'.gif align=absmiddle border=0></div>';
+						if(n.p_ico ==1){
+							file_ico = '<div class=fileimg style=background:url(https://image.woozooo.com/image/ico/'+ n.ico +'?x-oss-process=image/auto-orient,1/resize,m_fill,w_100,h_100/format,png);background-size:100%;background-repeat:no-repeat;background-position:50%;></div>';
+						}
+						str ='<div id=ready><div class=mbx><a href=' + alink + ' target=_blank class="mlink minPx-top">'+ file_ico +'<div class=filename>' + n.name_all + '<div class=filesize>'+ file_time + '<div>' + n.size +'</div></div></div><div class=filedown><div class=filedown-1></div><div class=filedown-2></div></div></a></div></div>';
+												if(n.id != '-1'){
+							$(str).appendTo("#infos");
+						}
+					});
+					pgs++;
+					//少于50条，隐"more"
+					if(data.length<50){
+						document.getElementById("filemore").style.display="none";
+					}
+					//alert(data.length);
+
+				}else if(msg.zt == '2'){
+					//sms(msg.info);
+					document.getElementById("filemore").style.display="none";
+									}else if(msg.zt == '3'){
+									}else if(msg.zt == '6'){
+					document.getElementById("filemore").style.display="none";
+					sms(msg.info);
+									}else{
+					sms(msg.info);
+				}
+			},
+			error:function(){
+				//隐藏
+				document.getElementById("load2").style.display="none";
+				$("#infos").text("获取失败，请重试");
+			}
+	
+	});
+}
+function more(){
+				$("#filemore").text("文件获取中...");
+		$.ajax({
+			type : 'post',
+			url : '/filemoreajax.php?file=12355769',
+			data : { 
+			'lx':2,
+			'fid':12355769,
+			'uid':'465969',
+			'pg':pgs,
+			'rep':'0',
+			't':ibhebj,
+			'k':_hfqdc,
+			'up':1,
+			'vip':'0',
+			'webfoldersign':'',
+						},
+			dataType : 'json',
+			success:function(msg){
+				if(msg.zt == '1'){
+					var data = msg.text;
+					$.each(data, function(i, n){
+						var str;
+						var file_ico;
+						var alink = '/' + n.id;
+						var file_time ='';
+												file_time = '<div class="file_time">'+ n.time +'</div>';
+												if(n.t ==1){ //style 1
+							alink = n.id;
+							n.name_all = n.name_all + '<span class="s_ad">推广</span>';
+						}
+												file_ico = '<div class=fileimg><img src=https://assets.woozooo.com/assets/images/type/'+ n.icon +'.gif align=absmiddle border=0></div>';
+						if(n.p_ico ==1){
+							file_ico = '<div class=fileimg style=background:url(https://image.woozooo.com/image/ico/'+ n.ico +'?x-oss-process=image/auto-orient,1/resize,m_fill,w_100,h_100/format,png);background-size:100%;background-repeat:no-repeat;background-position:50%;></div>';
+						}
+						str ='<div id=ready><div class=mbx><a href=' + alink + ' target=_blank class="mlink minPx-top">'+ file_ico +'<div class=filename>' + n.name_all + '<div class=filesize>'+ file_time + '<div>' + n.size +'</div></div></div><div class=filedown><div class=filedown-1></div><div class=filedown-2></div></div></a></div></div>';
+												if(n.id != '-1'){
+							$(str).appendTo("#infos");
+						}
+					});
+					if(data.length<50){
+						document.getElementById("filemore").style.display="none";
+					}else{
+						$("#filemore").text("更多");
+					}
+					pgs++;
+
+				}else{
+					sms(msg.info);
+					document.getElementById("filemore").style.display="none";
+				}
+			},
+			error:function(){
+				$("filemore").text("获取失败，请重试");
+			}
+	
+		});
+	}
+var urls =window.location.href + '?cp=s1kyyng.0.0';
+var qrcode = new QRCode('code', {
+					text: urls,
+					width: 138,
+					height: 138,
+					colorDark : '#3f3f3f',
+					colorLight : '#ffffff',
+					correctLevel : QRCode.CorrectLevel.H
+				});
+function s_cl(){
+	$(".search").show();
+	$("#s_search").hide();
+	$("#fileview").show();
+	$("#s_file").html("");
+}
+//search post ajax
+function s_post(){
+		var wd = document.getElementById('spcinput').value;
+	$("#s_load").show();//load style
+			$.ajax({
+			type : 'post',
+			url : '/search/s.php?file=12355769',
+			data : { 
+			'wd':wd,
+			'sign':'V2NTMl01B2pWNgJtBn1VZVA4UGZVPwQzVmZSYlw5VHpVegBnDX9QNQVkC2gEZwY+WjACM1U9BTIDMgcuXDA=',
+			//'pg':pgs,
+						},
+			dataType : 'json',
+			success:function(msg){
+				if(msg.zt == '1'){
+					$("#s_file").html("");
+					$("#s_search").show();
+					var data = msg.item;
+					$.each(data, function(i, n){
+						var str;
+						var file_ico;
+						var alink = '/' + n.id;
+						var downstyle = '<div class=filedown><div class=filedown-1></div><div class=filedown-2></div></div>';
+						if(n.t ==1){
+							alink = n.id;
+							n.name_all = n.name_all + '<span class="s_ad">推广</span>';
+							downstyle = '';
+						}
+						file_ico = '<div class=fileimg><img src=https://assets.woozooo.com/assets/images/type/'+ n.icon +'.gif align=absmiddle border=0></div>';
+						if(n.p_ico ==1){
+							file_ico = '<div class=fileimg style=background:url(https://image.woozooo.com/image/ico/'+ n.ico +'?x-oss-process=image/auto-orient,1/resize,m_fill,w_100,h_100/format,png);background-size:100%;background-repeat:no-repeat;background-position:50%;></div>';
+						}
+						str ='<div id=ready><div class=mbx><a href=' + alink + ' target=_blank class="mlink minPx-top">'+ file_ico +'<div class=filename>' + n.name_all + '<div class=filesize>'+ n.size +'</div></div>'+ downstyle +'</a></div></div>';
+						$(str).appendTo("#s_file");
+					});
+										$("#fileview").hide();
+									}else{
+					sms(msg.msg);
+				}
+				//load style
+								setTimeout('document.getElementById("s_load").style.display="none";',1500);
+							},
+			error:function(){
+				sms("获取失败，请重试");
+			}
+	
+		});
+}
+//huiche
+$(document).keyup(function (e) {
+	if (e.keyCode == 13) {
+		if(search_lock == 2){
+			s_post();
+		}
+	}
+});
+
+<!--save-->
+document.getElementById("save").addEventListener("click", function(){
+	$.ajax({
+			type : 'post',
+			url : '/savep.php',
+			data : { 'action':'save','uid':'465969','sid':'1' },
+			dataType : 'json',
+			success:function(msg){
+				var date = msg;
+				if(date.zt == '1'){
+				}else{
+				};
+			},
+			error:function(){
+				
+			}
+	
+		});
+});
+</script>
+
+
+<div style="display:none"><script src="https://statics.woozooo.com/img/bd.js"></script></div>
+</body>
+</html>

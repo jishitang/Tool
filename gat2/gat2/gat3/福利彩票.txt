@@ -1,0 +1,12 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+极限,http://live.urren.net:80/live/72cbcc7af4f74a5b6294b1bda68832ac.flv
+happy,http://live.urren.net:80/live/1fd41fa8c4121cc8555b6335ccfe866b.flv
+香蕉,http://live.urren.net:80/live/7fbb7cd4642edc78bbe649be34638757.flv
+惊艳,http://live.urren.net:80/live/90373577c5f44a6a2a7c21ca203788dd.flv
+潘朵拉,http://live.urren.net:80/live/18947725bb22faa29aa75ca6e4f5f523.flv
+彩虹电影,http://live.urren.net:80/live/3514af788333ae76cfbe5b57ea3601e0.flv
+K频道,http://live.urren.net:80/live/487a3c72e5201f1c2e0dcf33044b3feb.flv
+E频道,http://live.urren.net:80/live/f3cdb295b5c74c9a41e356feab8293b1.flv
+松视3,http://live.urren.net:80/live/690c0f5bbe40cf264d8b9ddb5efa801b.flv
+松视1,http://live.urren.net:80/live/687d93bf33709e9c13c40e78134f01c4.flv
+pigo,http://live.jnjyapp.cn:80/live/61cfba4bfdeac9aab1e75b2839392861.flv

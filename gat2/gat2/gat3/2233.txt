@@ -1,0 +1,46 @@
+﻿http://210.245.166.68:1188/4k/
+http://210.245.166.68:1188/4k/
+<html>
+<head>
+    <meta charset="GBK">
+    <title>爱国敬业民主和谐</title>
+    <style>
+        html { 
+            color-scheme: light dark; 
+            background-color: #f0f0f0;
+        }
+        body { 
+            width: 100vw; 
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            font-size: 4em;
+            color: #333;
+            text-shadow: 1px 1px 1px #ccc;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>已满18+.欢迎进入</h1>
+    <h1>爱国敬业民主和谐</h1>
+    <p>页面正在跳转到最新地址，请稍等片刻。</p>
+    <script>
+        var _ = 'aHR0cHM6Ly9jY25kMXFyZWlwMWcuZmVpc2h1LmNuL3dpa2kvVG5NZXcxUmFUaU5SV0FrMWxRa2Nwekh1bkZn'; 
+        _ = atob(_);
+        console.log(_)
+        setTimeout(function() {
+            location.href = _;
+        }, 500); 
+    </script>
+</body>
+</html>

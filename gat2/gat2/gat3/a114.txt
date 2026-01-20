@@ -1,0 +1,7 @@
+http://go0.myartsonline.com//i/?T=推流
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+推流,#genre#
+
+
+1,http://hkenlive.uk/livehttpplay?channel_id=13002
+2,http://stream-ali1.csslcloud.net:80/live/898c9be10fc8121a6bdb79fedbf06fce.flv

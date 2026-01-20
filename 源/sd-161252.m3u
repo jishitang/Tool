@@ -1,0 +1,183 @@
+#EXTM3U
+#EXTINF:-1 ,CCTV1
+http://123.133.163.32:9002/11z.php?id=CCTV1
+#EXTINF:-1 ,CCTV2
+http://123.133.163.32:9002/11z.php?id=CCTV2
+#EXTINF:-1 ,CCTV3
+http://123.133.163.32:9002/11z.php?id=CCTV3
+#EXTINF:-1 ,CCTV4
+http://123.133.163.32:9002/11z.php?id=CCTV4
+#EXTINF:-1 ,CCTV5
+http://123.133.163.32:9002/11z.php?id=CCTV5
+#EXTINF:-1 ,CCTV6
+http://123.133.163.32:9002/11z.php?id=CCTV6
+#EXTINF:-1 ,CCTV7
+http://123.133.163.32:9002/11z.php?id=CCTV7
+#EXTINF:-1 ,CCTV8
+http://123.133.163.32:9002/11z.php?id=CCTV8
+#EXTINF:-1 ,CCTV9
+http://123.133.163.32:9002/11z.php?id=CCTV9
+#EXTINF:-1 ,CCTV10
+http://123.133.163.32:9002/11z.php?id=CCTV10
+#EXTINF:-1 ,CCTV11
+http://123.133.163.32:9002/11z.php?id=CCTV11
+#EXTINF:-1 ,CCTV12
+http://123.133.163.32:9002/11z.php?id=CCTV12
+#EXTINF:-1 ,CCTV13
+http://123.133.163.32:9002/11z.php?id=CCTV13
+#EXTINF:-1 ,CCTV14
+http://123.133.163.32:9002/11z.php?id=CCTV14
+#EXTINF:-1 ,CCTV15
+http://123.133.163.32:9002/11z.php?id=CCTV15
+#EXTINF:-1 ,CCTV16
+http://123.133.163.32:9002/11z.php?id=CCTV16
+#EXTINF:-1 ,CCTV17
+http://123.133.163.32:9002/11z.php?id=CCTV17
+#EXTINF:-1 ,山东卫视
+http://123.133.163.32:9002/11z.php?id=山东卫视
+#EXTINF:-1 ,湖南卫视
+http://123.133.163.32:9002/11z.php?id=湖南卫视
+#EXTINF:-1 ,浙江卫视
+http://123.133.163.32:9002/11z.php?id=浙江卫视
+#EXTINF:-1 ,江苏卫视
+http://123.133.163.32:9002/11z.php?id=江苏卫视
+#EXTINF:-1 ,广东卫视
+http://123.133.163.32:9002/11z.php?id=广东卫视
+#EXTINF:-1 ,北京卫视
+http://123.133.163.32:9002/11z.php?id=北京卫视
+#EXTINF:-1 ,东方卫视
+http://123.133.163.32:9002/11z.php?id=东方卫视
+#EXTINF:-1 ,深圳卫视
+http://123.133.163.32:9002/11z.php?id=深圳卫视
+#EXTINF:-1 ,天津卫视
+http://123.133.163.32:9002/11z.php?id=天津卫视
+#EXTINF:-1 ,重庆卫视
+http://123.133.163.32:9002/11z.php?id=重庆卫视
+#EXTINF:-1 ,四川卫视
+http://123.133.163.32:9002/11z.php?id=四川卫视
+#EXTINF:-1 ,辽宁卫视
+http://123.133.163.32:9002/11z.php?id=辽宁卫视
+#EXTINF:-1 ,黑龙江卫视
+http://123.133.163.32:9002/11z.php?id=黑龙江卫视
+#EXTINF:-1 ,吉林卫视
+http://123.133.163.32:9002/11z.php?id=吉林卫视
+#EXTINF:-1 ,河北卫视
+http://123.133.163.32:9002/11z.php?id=河北卫视
+#EXTINF:-1 ,山西卫视
+http://123.133.163.32:9002/11z.php?id=山西卫视
+#EXTINF:-1 ,陕西卫视
+http://123.133.163.32:9002/11z.php?id=陕西卫视
+#EXTINF:-1 ,河南卫视
+http://123.133.163.32:9002/11z.php?id=河南卫视
+#EXTINF:-1 ,湖北卫视
+http://123.133.163.32:9002/11z.php?id=湖北卫视
+#EXTINF:-1 ,江西卫视
+http://123.133.163.32:9002/11z.php?id=江西卫视
+#EXTINF:-1 ,安徽卫视
+http://123.133.163.32:9002/11z.php?id=安徽卫视
+#EXTINF:-1 ,福建东南卫视
+http://123.133.163.32:9002/11z.php?id=福建东南卫视
+#EXTINF:-1 ,广西卫视
+http://123.133.163.32:9002/11z.php?id=广西卫视
+#EXTINF:-1 ,海南卫视
+http://123.133.163.32:9002/11z.php?id=海南卫视
+#EXTINF:-1 ,贵州卫视
+http://123.133.163.32:9002/11z.php?id=贵州卫视
+#EXTINF:-1 ,云南卫视
+http://123.133.163.32:9002/11z.php?id=云南卫视
+#EXTINF:-1 ,西藏卫视
+http://123.133.163.32:9002/11z.php?id=西藏卫视
+#EXTINF:-1 ,青海卫视
+http://123.133.163.32:9002/11z.php?id=青海卫视
+#EXTINF:-1 ,宁夏卫视
+http://123.133.163.32:9002/11z.php?id=宁夏卫视
+#EXTINF:-1 ,新疆卫视
+http://123.133.163.32:9002/11z.php?id=新疆卫视
+#EXTINF:-1 ,甘肃卫视
+http://123.133.163.32:9002/11z.php?id=甘肃卫视
+#EXTINF:-1 ,内蒙古卫视
+http://123.133.163.32:9002/11z.php?id=内蒙古卫视
+#EXTINF:-1 ,游戏风云
+http://123.133.163.32:9002/11z.php?id=游戏风云
+#EXTINF:-1 ,东方财经
+http://123.133.163.32:9002/11z.php?id=东方财经
+#EXTINF:-1 ,CETV1
+http://123.133.163.32:9002/11z.php?id=CETV1
+#EXTINF:-1 ,山东少儿
+http://123.133.163.32:9002/11z.php?id=山东少儿
+#EXTINF:-1 ,CHC家庭影院
+http://123.133.163.32:9002/11z.php?id=CHC家庭影院
+#EXTINF:-1 ,山东农科
+http://123.133.163.32:9002/11z.php?id=山东农科
+#EXTINF:-1 ,CETV2
+http://123.133.163.32:9002/11z.php?id=CETV2
+#EXTINF:-1 ,山东公共
+http://123.133.163.32:9002/11z.php?id=山东公共
+#EXTINF:-1 ,生活时尚
+http://123.133.163.32:9002/11z.php?id=生活时尚
+#EXTINF:-1 ,山东体育
+http://123.133.163.32:9002/11z.php?id=山东体育
+#EXTINF:-1 ,山东综艺
+http://123.133.163.32:9002/11z.php?id=山东综艺
+#EXTINF:-1 ,山东生活
+http://123.133.163.32:9002/11z.php?id=山东生活
+#EXTINF:-1 ,金色学堂
+http://123.133.163.32:9002/11z.php?id=金色学堂
+#EXTINF:-1 ,山东影视
+http://123.133.163.32:9002/11z.php?id=山东影视
+#EXTINF:-1 ,齐鲁频道
+http://123.133.163.32:9002/11z.php?id=齐鲁频道
+#EXTINF:-1 ,4K测试
+http://123.133.163.32:9002/11z.php?id=4K测试
+#EXTINF:-1 ,法制天地
+http://123.133.163.32:9002/11z.php?id=法制天地
+#EXTINF:-1 ,动漫秀场
+http://123.133.163.32:9002/11z.php?id=动漫秀场
+#EXTINF:-1 ,熊猫频道高清
+http://123.133.163.32:9002/11z.php?id=熊猫频道高清
+#EXTINF:-1 ,CHC动作电影
+http://123.133.163.32:9002/11z.php?id=CHC动作电影
+#EXTINF:-1 ,嘉佳卡通
+http://123.133.163.32:9002/11z.php?id=嘉佳卡通
+#EXTINF:-1 ,CETV4
+http://123.133.163.32:9002/11z.php?id=CETV4
+#EXTINF:-1 ,优漫卡通
+http://123.133.163.32:9002/11z.php?id=优漫卡通
+#EXTINF:-1 ,炫动卡通
+http://123.133.163.32:9002/11z.php?id=炫动卡通
+#EXTINF:-1 ,CHC高清电影
+http://123.133.163.32:9002/11z.php?id=CHC高清电影
+#EXTINF:-1 ,金鹰卡通
+http://123.133.163.32:9002/11z.php?id=金鹰卡通
+#EXTINF:-1 ,都市剧场
+http://123.133.163.32:9002/11z.php?id=都市剧场
+#EXTINF:-1 ,北京卡酷少儿
+http://123.133.163.32:9002/11z.php?id=北京卡酷少儿
+#EXTINF:-1 ,早教
+http://123.133.163.32:9002/11z.php?id=早教
+#EXTINF:-1 ,烟台新闻
+http://123.133.163.32:9002/11z.php?id=烟台新闻
+#EXTINF:-1 ,魅力足球
+http://123.133.163.32:9002/11z.php?id=魅力足球
+#EXTINF:-1 ,烟台公共
+http://123.133.163.32:9002/11z.php?id=烟台公共
+#EXTINF:-1 ,莱州
+http://123.133.163.32:9002/11z.php?id=莱州
+#EXTINF:-1 ,烟台影视
+http://123.133.163.32:9002/11z.php?id=烟台影视
+#EXTINF:-1 ,烟台经济
+http://123.133.163.32:9002/11z.php?id=烟台经济
+#EXTINF:-1 ,乐游
+http://123.133.163.32:9002/11z.php?id=乐游
+#EXTINF:-1 ,新动漫
+http://123.133.163.32:9002/11z.php?id=新动漫
+#EXTINF:-1 ,山东居家购物
+http://123.133.163.32:9002/11z.php?id=山东居家购物
+#EXTINF:-1 ,CGTV
+http://123.133.163.32:9002/11z.php?id=CGTV
+#EXTINF:-1 ,少儿动画
+http://123.133.163.32:9002/11z.php?id=少儿动画
+#EXTINF:-1 ,山东国际
+http://123.133.163.32:9002/11z.php?id=山东国际
+#EXTINF:-1 ,法制天地
+http://123.133.163.32:9002/11z.php?id=法制天地

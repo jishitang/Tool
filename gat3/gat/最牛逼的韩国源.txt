@@ -1,0 +1,215 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="e69a97aaf5ec7e87b329a902188d7bdb" tvg-chno="1.1",채널B tv
+http://124.80.55.164:9981/stream/channelid/714578662?profile=pass
+#EXTINF:-1 tvg-id="4efe3a25115f163c3d48957525aef85b" tvg-chno="1.2",KBSJOY
+http://124.80.55.164:9981/stream/channelid/624623182?profile=pass
+#EXTINF:-1 tvg-id="ccd4f45a7ade44d23bc5c3ade99f89a1" tvg-chno="2.1",OBS
+http://124.80.55.164:9981/stream/channelid/1525994700?profile=pass
+#EXTINF:-1 tvg-id="74da9ad0e2dfbcfbb77e22c119492863" tvg-chno="2.2",ENA1
+http://124.80.55.164:9981/stream/channelid/1352325748?profile=pass
+#EXTINF:-1 tvg-id="b6605eb64b6e4cd956e2c9560a4058b2" tvg-chno="3.1",EBS1
+http://124.80.55.164:9981/stream/channelid/912154806?profile=pass
+#EXTINF:-1 tvg-id="ed4cffe0075d52ff182faeaf1f18261c" tvg-chno="3.2",tvN 스토리
+http://124.80.55.164:9981/stream/channelid/1627344109?profile=pass
+#EXTINF:-1 tvg-id="f823e7b143c5cf48c1a9ba015b301529" tvg-chno="4.1",W 쇼핑
+http://124.80.55.164:9981/stream/channelid/837231608?profile=pass
+#EXTINF:-1 tvg-id="06714efe777ed27d84cb66f482c71a3d" tvg-chno="4.2",채널 S
+http://124.80.55.164:9981/stream/channelid/2119069958?profile=pass
+#EXTINF:-1 tvg-id="3cc3ee6783438eb3e30d6ba6da2990d1" tvg-chno="5.1",SBS
+http://124.80.55.164:9981/stream/channelid/1743700796?profile=pass
+#EXTINF:-1 tvg-id="0342409dc9ba9619282025d0a861f384" tvg-chno="6.1",현대홈쇼핑M
+http://124.80.55.164:9981/stream/channelid/490750467?profile=pass
+#EXTINF:-1 tvg-id="f103639113d4f7da8c6ad4e7820b822c" tvg-chno="7.1",KBS2
+http://124.80.55.164:9981/stream/channelid/291701745?profile=pass
+#EXTINF:-1 tvg-id="5d115099009a6f8230ae4c4b82523060" tvg-chno="8.1",CJ온스타일1
+http://124.80.55.164:9981/stream/channelid/424677725?profile=pass
+#EXTINF:-1 tvg-id="8db1a3ee57cf84e77a51f504da5040e7" tvg-chno="9.1",KBS1
+http://124.80.55.164:9981/stream/channelid/1856221581?profile=pass
+#EXTINF:-1 tvg-id="d845a757055e387383da0e4b18dea2c9" tvg-chno="10.1",GSSHOP
+http://124.80.55.164:9981/stream/channelid/1470580184?profile=pass
+#EXTINF:-1 tvg-id="b1732667c0d9037e59a9d8c1817784ee" tvg-chno="11.1",MBC
+http://124.80.55.164:9981/stream/channelid/1730573233?profile=pass
+#EXTINF:-1 tvg-id="abe3cb524f7799603900a3517707f8cd" tvg-chno="12.1",롯데 홈쇼핑
+http://124.80.55.164:9981/stream/channelid/1389093803?profile=pass
+#EXTINF:-1 tvg-id="00becec01d31ee5753a79a30bf9eac4c" tvg-chno="13.1",E 채널
+http://124.80.55.164:9981/stream/channelid/1087290880?profile=pass
+#EXTINF:-1 tvg-id="a34e9b770b465eaeb8afb9c5a1c48f76" tvg-chno="13.1",E채널
+http://124.80.55.164:9981/stream/channelid/2006666915?profile=pass
+#EXTINF:-1 tvg-id="b84def4013db1fccae65eceeeb0e3e40" tvg-chno="13.2",TVN
+http://124.80.55.164:9981/stream/channelid/1089424824?profile=pass
+#EXTINF:-1 tvg-id="86c803b10321f615ff499c5eb2bf0cc5" tvg-chno="14.1",NS 홈쇼핑
+http://124.80.55.164:9981/stream/channelid/822331526?profile=pass
+#EXTINF:-1 tvg-id="6bdf4b7218b76eedb54d209922f6a724" tvg-chno="15.1",홈앤 쇼핑
+http://124.80.55.164:9981/stream/channelid/1917575019?profile=pass
+#EXTINF:-1 tvg-id="8b1c1701fb6a8cc60cb6c2394e4896e7" tvg-chno="17.1",JTBC1
+http://124.80.55.164:9981/stream/channelid/18291851?profile=pass
+#EXTINF:-1 tvg-id="852f891913e9c7ac31f6705fb841a360" tvg-chno="17.2",SK 스토아
+http://124.80.55.164:9981/stream/channelid/428420997?profile=pass
+#EXTINF:-1 tvg-id="de493ac5b6404fa3caf910a4e0ce835a" tvg-chno="18.1",MBN1
+http://124.80.55.164:9981/stream/channelid/1161447902?profile=pass
+#EXTINF:-1 tvg-id="93a795689e408db795e4bccd67ec5d59" tvg-chno="18.2",신세계 쇼핑
+http://124.80.55.164:9981/stream/channelid/1754638227?profile=pass
+#EXTINF:-1 tvg-id="7e02c183d41fb398b7a56c5c0ebe625a" tvg-chno="19.1",TV조선1
+http://124.80.55.164:9981/stream/channelid/62980734?profile=pass
+#EXTINF:-1 tvg-id="438d3aad6917c0bc83572ac72999826f" tvg-chno="20.1",채널 A
+http://124.80.55.164:9981/stream/channelid/758811971?profile=pass
+#EXTINF:-1 tvg-id="e7d252cda721563a0bd2f5b77b5cddd0" tvg-chno="21.1",공영 쇼핑
+http://124.80.55.164:9981/stream/channelid/1297273575?profile=pass
+#EXTINF:-1 tvg-id="8f209b41d8716b69202cb983ca7929e6" tvg-chno="22.1",드라마 큐브
+http://124.80.55.164:9981/stream/channelid/1100685455?profile=pass
+#EXTINF:-1 tvg-id="ee1d3a7e72baa6f25b13d998b0d55132" tvg-chno="22.2",MBC 에브리원
+http://124.80.55.164:9981/stream/channelid/2117737966?profile=pass
+#EXTINF:-1 tvg-id="e8aad5393af7596e710addba2f97957c" tvg-chno="23.1",연합뉴스 TV
+http://124.80.55.164:9981/stream/channelid/970304232?profile=pass
+#EXTINF:-1 tvg-id="393b234946a2afcbf6221b9debdb3232" tvg-chno="24.1",YTN HD
+http://124.80.55.164:9981/stream/channelid/1227045689?profile=pass
+#EXTINF:-1 tvg-id="3284d1eb118f19ec0186c8e7bc64202f" tvg-chno="24.2",쇼핑 엔티
+http://124.80.55.164:9981/stream/channelid/1808892978?profile=pass
+#EXTINF:-1 tvg-id="7f0007e333e71bb0cc7706386a614aa6" tvg-chno="25.1",채널 뷰
+http://124.80.55.164:9981/stream/channelid/1661403263?profile=pass
+#EXTINF:-1 tvg-id="9d835b4d3bf4c76bf2a019544ebfdde9" tvg-chno="26.1",코미디 TV
+http://124.80.55.164:9981/stream/channelid/1297843101?profile=pass
+#EXTINF:-1 tvg-id="357a486f60a384817e603ca9f3e7f1f6" tvg-chno="26.2",GS마이샵
+http://124.80.55.164:9981/stream/channelid/1867020853?profile=pass
+#EXTINF:-1 tvg-id="ef5cc946251c8ace2f01e18c60e4c713" tvg-chno="27.1",EBSi
+http://124.80.55.164:9981/stream/channelid/1187601647?profile=pass
+#EXTINF:-1 tvg-id="174db987d38043e7cac63d680213eb81" tvg-chno="28.1",OCN1
+http://124.80.55.164:9981/stream/channelid/129584407?profile=pass
+#EXTINF:-1 tvg-id="e3d031112bd3b2773ce9cb4d8fae56f1" tvg-chno="28.2",kt알파 쇼핑
+http://124.80.55.164:9981/stream/channelid/288477411?profile=pass
+#EXTINF:-1 tvg-id="f3443b7d96efb9765d059e5defd626a0" tvg-chno="29.1",스크린1
+http://124.80.55.164:9981/stream/channelid/2101036275?profile=pass
+#EXTINF:-1 tvg-id="8e9ef6517ec17be81482809fe56b9afa" tvg-chno="29.2",CJ온스타일 +
+http://124.80.55.164:9981/stream/channelid/1375116942?profile=pass
+#EXTINF:-1 tvg-id="79f3eadfa691ee762489aca949139090" tvg-chno="30.1",OCN무비
+http://124.80.55.164:9981/stream/channelid/1609233273?profile=pass
+#EXTINF:-1 tvg-id="b213fb6208220da9b7c5a025d77ff2ff" tvg-chno="31.1",씨네프1
+http://124.80.55.164:9981/stream/channelid/1660621746?profile=pass
+#EXTINF:-1 tvg-id="a9becb43f922595467c050f8ead3a50f" tvg-chno="31.2",롯데 ONETV
+http://124.80.55.164:9981/stream/channelid/1137426089?profile=pass
+#EXTINF:-1 tvg-id="6de55e5ec18c46f7fb80d0e26032c349" tvg-chno="32.1",이 라이크
+http://124.80.55.164:9981/stream/channelid/1583277421?profile=pass
+#EXTINF:-1 tvg-id="ba6aa5b0f52cb72edd717d7546e28eb1" tvg-chno="33.1",OCN무비2
+http://124.80.55.164:9981/stream/channelid/816147130?profile=pass
+#EXTINF:-1 tvg-id="907f509eabcd03afe705a9917898b7e4" tvg-chno="34.1",ENA 드라마
+http://124.80.55.164:9981/stream/channelid/508592016?profile=pass
+#EXTINF:-1 tvg-id="1fbca1abd03c5c628bb78c7348275db7" tvg-chno="34.2",채널S 플러스
+http://124.80.55.164:9981/stream/channelid/732019743?profile=pass
+#EXTINF:-1 tvg-id="4bb5291f2d3f515759a458ffab9a6f2c" tvg-chno="35.1",Dramax1
+http://124.80.55.164:9981/stream/channelid/522827083?profile=pass
+#EXTINF:-1 tvg-id="1ac3d1e3defa158b31cdad5399a5fbf2" tvg-chno="35.2",NS Shop+
+http://124.80.55.164:9981/stream/channelid/1674691354?profile=pass
+#EXTINF:-1 tvg-id="a27e88881f370f2428dd2cead4253a7e" tvg-chno="36.1",애니 맥스
+http://124.80.55.164:9981/stream/channelid/143163042?profile=pass
+#EXTINF:-1 tvg-id="939127ae5e66da3a36abfe1e437ab893" tvg-chno="37.2",현대홈쇼핑
+http://124.80.55.164:9981/stream/channelid/774345107?profile=pass
+#EXTINF:-1 tvg-id="5c3fbc44ff64af1f406acaf437291c7e" tvg-chno="38.1",M net
+http://124.80.55.164:9981/stream/channelid/1153187676?profile=pass
+#EXTINF:-1 tvg-id="cf89bf138f50c68e82b1080757955d0b" tvg-chno="38.2",ENA 플레이
+http://124.80.55.164:9981/stream/channelid/331319759?profile=pass
+#EXTINF:-1 tvg-id="d5659aa205b91c182a3afed4864ef919" tvg-chno="39.1",ENA 스토리
+http://124.80.55.164:9981/stream/channelid/580543957?profile=pass
+#EXTINF:-1 tvg-id="485c9badbbc49b0860ef516cea31348b" tvg-chno="39.2",JTBC 4
+http://124.80.55.164:9981/stream/channelid/765156424?profile=pass
+#EXTINF:-1 tvg-id="045fff93f86d7db7002da2758ac0ade6" tvg-chno="40.3",채널EM
+http://124.80.55.164:9981/stream/channelid/335503108?profile=pass
+#EXTINF:-1 tvg-id="26da2017f5d33b70b73ded1675b71bdd" tvg-chno="41.1",K star1
+http://124.80.55.164:9981/stream/channelid/388028966?profile=pass
+#EXTINF:-1 tvg-id="831a69d41c357d0999d91fd5695dc2ce" tvg-chno="41.2",채널 차이나
+http://124.80.55.164:9981/stream/channelid/1416174211?profile=pass
+#EXTINF:-1 tvg-id="a0e6e1a58455e882927072eacff621e2" tvg-chno="42.1",TVN드라마
+http://124.80.55.164:9981/stream/channelid/635561632?profile=pass
+#EXTINF:-1 tvg-id="b5c3859112f9890906a385bcfdcd13c5" tvg-chno="42.2",TV조선 2
+http://124.80.55.164:9981/stream/channelid/293979061?profile=pass
+#EXTINF:-1 tvg-id="e5c516dec1e7cc26cb090682989c4d5b" tvg-chno="43.1",스카이 스포츠
+http://124.80.55.164:9981/stream/channelid/1578550757?profile=pass
+#EXTINF:-1 tvg-id="bce45ce17345c4ab00072fdef0800d87" tvg-chno="45.1",TVA+
+http://124.80.55.164:9981/stream/channelid/1633477820?profile=pass
+#EXTINF:-1 tvg-id="2d798c13165390d0815c5dbf2cfed4d5" tvg-chno="46.1",KBS 스포츠1
+http://124.80.55.164:9981/stream/channelid/327973165?profile=pass
+#EXTINF:-1 tvg-id="f89da4a749f93f9c98b47406860db277" tvg-chno="46.2",엣지TV1
+http://124.80.55.164:9981/stream/channelid/665099768?profile=pass
+#EXTINF:-1 tvg-id="0b731b2cb5ce75ba3358b795d51583ca" tvg-chno="46.3",tvN
+http://124.80.55.164:9981/stream/channelid/739996427?profile=pass
+#EXTINF:-1 tvg-id="bffca12c79feda8e2d2aca8b96b28380" tvg-chno="47.1",이벤트TV
+http://124.80.55.164:9981/stream/channelid/748813503?profile=pass
+#EXTINF:-1 tvg-id="0a9eb253c5ff10cad808fd08f5b83209" tvg-chno="48.1",ChNOW
+http://124.80.55.164:9981/stream/channelid/1404214794?profile=pass
+#EXTINF:-1 tvg-id="ea20ae5253b2fc84367b60e39fc54ab8" tvg-chno="49.1",애니원1
+http://124.80.55.164:9981/stream/channelid/1387143402?profile=pass
+#EXTINF:-1 tvg-id="af46bc683c03a90b541814b1f1cf1c0a" tvg-chno="50.1",EBS+2
+http://124.80.55.164:9981/stream/channelid/1757169327?profile=pass
+#EXTINF:-1 tvg-id="42638a86d1c562fe02cc716277638a78" tvg-chno="50.2",XONE
+http://124.80.55.164:9981/stream/channelid/109732674?profile=pass
+#EXTINF:-1 tvg-id="8a0d8eb2c8780ba7c555b36548d5c5b7" tvg-chno="51.1",MBC드라마
+http://124.80.55.164:9981/stream/channelid/848170378?profile=pass
+#EXTINF:-1 tvg-id="edddcd4877e7ecda00a1aae989cc1efc" tvg-chno="52.1",3CTS
+http://124.80.55.164:9981/stream/channelid/1221451245?profile=pass
+#EXTINF:-1 tvg-id="76b28f2c9fc70e80ac9610bab53ad497" tvg-chno="53.1",KBSDRM
+http://124.80.55.164:9981/stream/channelid/747614838?profile=pass
+#EXTINF:-1 tvg-id="b837a2634799af205d077f5bfe5a0430" tvg-chno="53.2",MBN플러스
+http://124.80.55.164:9981/stream/channelid/1671575480?profile=pass
+#EXTINF:-1 tvg-id="9266d8f5f3d6afa8a732061d3f73bea4" tvg-chno="54.1",CPBC1
+http://124.80.55.164:9981/stream/channelid/1977116306?profile=pass
+#EXTINF:-1 tvg-id="7547c9e95f78b79b15f1dbb433dbc67b" tvg-chno="54.2",CN TV
+http://124.80.55.164:9981/stream/channelid/1774798709?profile=pass
+#EXTINF:-1 tvg-id="f2d2761292a1e90f4ef04d502edb5326" tvg-chno="55.1",복지 TV
+http://124.80.55.164:9981/stream/channelid/309777138?profile=pass
+#EXTINF:-1 tvg-id="d127d0320b0a2543b79864a189431f0e" tvg-chno="55.2",STB상생방송
+http://124.80.55.164:9981/stream/channelid/852502481?profile=pass
+#EXTINF:-1 tvg-id="bcb2b67f44b26e181535227b0803e892" tvg-chno="57.1",SBS PULS
+http://124.80.55.164:9981/stream/channelid/2142679740?profile=pass
+#EXTINF:-1 tvg-id="0be2972b3f4397759bb255a16ed4dab0" tvg-chno="58.1",한국 경제TV
+http://124.80.55.164:9981/stream/channelid/731374091?profile=pass
+#EXTINF:-1 tvg-id="4cf25c71da16488878fabde336e80a3c" tvg-chno="58.2",MBCON
+http://124.80.55.164:9981/stream/channelid/1901916748?profile=pass
+#EXTINF:-1 tvg-id="6dda8efd0e4ca487ebf356f7d0ae4ba7" tvg-chno="59.1",i-net
+http://124.80.55.164:9981/stream/channelid/2106514029?profile=pass
+#EXTINF:-1 tvg-id="6a3eb1b2cd646279edd112563a493472" tvg-chno="60.1",MBC스포츠+
+http://124.80.55.164:9981/stream/channelid/850476650?profile=pass
+#EXTINF:-1 tvg-id="107f15eae08ed8b7c88d7b83a15c960b" tvg-chno="61.1",SBS스포츠
+http://124.80.55.164:9981/stream/channelid/1779793680?profile=pass
+#EXTINF:-1 tvg-id="fb1e9863fdef608d0bf1792329911bec" tvg-chno="62.1",SBSBiz
+http://124.80.55.164:9981/stream/channelid/1670913787?profile=pass
+#EXTINF:-1 tvg-id="b07dd38ce6fa8d777732d9656229f5f1" tvg-chno="62.2",FunTV
+http://124.80.55.164:9981/stream/channelid/215186864?profile=pass
+#EXTINF:-1 tvg-id="6cc2bc1a0ad885502d2ebab39aa24dc8" tvg-chno="63.1",MBCM
+http://124.80.55.164:9981/stream/channelid/448578156?profile=pass
+#EXTINF:-1 tvg-id="33b4efae8047f6be3e4ed8acce74f9e9" tvg-chno="64.1",JTBC 2
+http://124.80.55.164:9981/stream/channelid/787461171?profile=pass
+#EXTINF:-1 tvg-id="bedbbdb5ea43d6ba7d6a1f128140e66d" tvg-chno="64.2",SPO TV
+http://124.80.55.164:9981/stream/channelid/901635006?profile=pass
+#EXTINF:-1 tvg-id="622afbc92bf3fb96f6d60b9ae85315af" tvg-chno="65.1",SBS골프
+http://124.80.55.164:9981/stream/channelid/1241197154?profile=pass
+#EXTINF:-1 tvg-id="38fac911b3a6d3ac94590a97f3b19a32" tvg-chno="66.2",M Plex
+http://124.80.55.164:9981/stream/channelid/298449464?profile=pass
+#EXTINF:-1 tvg-id="f57b0ff593c92cf639d1cc5edcea5b91" tvg-chno="67.1",아리랑 TV
+http://124.80.55.164:9981/stream/channelid/1963949045?profile=pass
+#EXTINF:-1 tvg-id="122b86c58961709b97e6407166e30d3c" tvg-chno="68.1",소상공인시장1
+http://124.80.55.164:9981/stream/channelid/1166420754?profile=pass
+#EXTINF:-1 tvg-id="08f9e1bde12c75110ad06c7564bc277b" tvg-chno="68.2",위티 브이
+http://124.80.55.164:9981/stream/channelid/1038219528?profile=pass
+#EXTINF:-1 tvg-id="9821a563c1320ccffcce2eb23f0d9754" tvg-chno="69.1",KBS드라마
+http://124.80.55.164:9981/stream/channelid/1671766424?profile=pass
+#EXTINF:-1 tvg-id="ba215b9c8d24060c8c847012f4c9821e" tvg-chno="70.1",머니투데이 방송
+http://124.80.55.164:9981/stream/channelid/475734458?profile=pass
+#EXTINF:-1 tvg-id="3c03561b38000f0c796520864581c95d" tvg-chno="71.1",JTBC골프1
+http://124.80.55.164:9981/stream/channelid/458621756?profile=pass
+#EXTINF:-1 tvg-id="1ec9c52f6d9f4f88cc1bd59d20927fa0" tvg-chno="72.1",Ch ever
+http://124.80.55.164:9981/stream/channelid/801491230?profile=pass
+#EXTINF:-1 tvg-id="a4bb22099f754f874a2ce46f2085f5fa" tvg-chno="73.1",TVN스포츠
+http://124.80.55.164:9981/stream/channelid/153271204?profile=pass
+#EXTINF:-1 tvg-id="26843b405507a76263dbe0d80ec7a06c" tvg-chno="74.1",스마일TV
+http://124.80.55.164:9981/stream/channelid/1077642278?profile=pass
+#EXTINF:-1 tvg-id="06bfb0dff243d5e597797c78f055cb77" tvg-chno="75.1",TVN쇼
+http://124.80.55.164:9981/stream/channelid/1605418758?profile=pass
+#EXTINF:-1 tvg-id="df80e1e3ef9853d7568d8a1443422844" tvg-chno="76.1",국회 TV
+http://124.80.55.164:9981/stream/channelid/1675722975?profile=pass
+#EXTINF:-1 tvg-id="1e0c09c108ebb4e5d0b2bd8916098f71" tvg-chno="77.1",K TV
+http://124.80.55.164:9981/stream/channelid/1091111966?profile=pass
+#EXTINF:-1 tvg-id="44dd9bc1870fc986e6b18840be5ca15d" tvg-chno="78.1",방송대학교
+http://124.80.55.164:9981/stream/channelid/1100733764?profile=pass
+#EXTINF:-1 tvg-id="6601871f3201b7b20957400a0d4747bd" tvg-chno="96.1",EBSe
+http://124.80.55.164:9981/stream/channelid/528941414?profile=pass
+#EXTINF:-1 tvg-id="a81d86d74d41fbb3545ff52425bb361d" tvg-chno="99.2",EBS2
+http://124.80.55.164:9981/stream/channelid/1468407208?profile=pass

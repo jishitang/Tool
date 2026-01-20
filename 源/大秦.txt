@@ -1,0 +1,10 @@
+崛起,#genre#
+1,https://vip.ffzy-play2.com/20230913/55545_4baebc00/index.m3u8
+2,https://vip.ffzy-play2.com/20230913/55546_f03a6338/index.m3u8
+3,https://vip.ffzy-play2.com/20230913/55547_3f118e62/index.m3u8
+4,https://vip.ffzy-play2.com/20230913/55548_2f72e9a2/index.m3u8
+纵横,#genre#
+1,https://s6.bfengbf.com/video/daqindiguozhijueqi/第01集/index.m3u8
+2,https://s6.bfengbf.com/video/daqindiguozhijueqi/第02集/index.m3u8
+3,https://s6.bfengbf.com/video/daqindiguozhijueqi/第03集/index.m3u8
+4,https://s6.bfengbf.com/video/daqindiguozhijueqi/第04集/index.m3u8

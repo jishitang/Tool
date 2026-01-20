@@ -1,0 +1,73 @@
+#EXTM3U x-tvg-url="https://mytvsuperepg.860775.xyz/epg.xml"
+#EXTINF:-1 tvg-name="#请关闭VPN代理使用" tvg-logo="http://bxtv.3a.ink/logo/#请关闭VPN代理使用.png",#请关闭VPN代理使用
+undefined
+#EXTINF:-1 tvg-name="myTV SUPER 18台" tvg-logo="http://bxtv.3a.ink/logo/MYTVSUPER18.png",myTV SUPER 18台
+http://bxtv.3a.ink/api.php?id=18
+#EXTINF:-1 tvg-name="TVB Plus" tvg-logo="http://bxtv.3a.ink/logo/TVBPLUS.png",TVB Plus
+http://bxtv.3a.ink/api.php?id=tvbp
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="http://bxtv.3a.ink/logo/明珠.png",明珠台
+http://bxtv.3a.ink/api.php?id=mz
+#EXTINF:-1 tvg-name="無線新聞台" tvg-logo="http://bxtv.3a.ink/logo/无线新闻.png",無線新聞台
+http://bxtv.3a.ink/api.php?id=wxxw
+#EXTINF:-1 tvg-name="美亞電影台" tvg-logo="http://bxtv.3a.ink/logo/美亚电影.png",美亞電影台
+http://bxtv.3a.ink/api.php?id=meiya
+#EXTINF:-1 tvg-name="PopC" tvg-logo="http://bxtv.3a.ink/logo/POPC.png",PopC
+http://bxtv.3a.ink/api.php?id=popc
+#EXTINF:-1 tvg-name="VIUTV" tvg-logo="http://bxtv.3a.ink/logo/VIUTV.png",VIUTV
+http://bxtv.3a.ink/api.php?id=viutv
+#EXTINF:-1 tvg-name="千禧經典台" tvg-logo="http://bxtv.3a.ink/logo/千禧经典.png",千禧經典台
+http://bxtv.3a.ink/api.php?id=qxjd
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="http://bxtv.3a.ink/logo/翡翠.png",翡翠台
+http://bxtv.3a.ink/api.php?id=fct
+#EXTINF:-1 tvg-name="鳳凰衛視中文" tvg-logo="http://bxtv.3a.ink/logo/凤凰中文.png",鳳凰衛視中文台
+http://bxtv.3a.ink/api.php?id=fhzw
+#EXTINF:-1 tvg-name="鳳凰衛視資訊" tvg-logo="http://bxtv.3a.ink/logo/凤凰资讯.png",鳳凰衛視資訊台
+http://bxtv.3a.ink/api.php?id=fhzx
+#EXTINF:-1 tvg-name="鳳凰衛視香港" tvg-logo="http://bxtv.3a.ink/logo/凤凰香港.png",鳳凰衛視香港台
+http://bxtv.3a.ink/api.php?id=fhhk
+#EXTINF:-1 tvg-name="NOW新闻" tvg-logo="http://bxtv.3a.ink/logo/NOW新闻.png",NOW新闻
+http://bxtv.3a.ink/api.php?id=now
+#EXTINF:-1 tvg-name="緯來體育" tvg-logo="http://bxtv.3a.ink/logo/纬来体育.png",緯來體育
+http://bxtv.3a.ink/api.php?id=wlty
+#EXTINF:-1 tvg-name="中天新聞台" tvg-logo="http://bxtv.3a.ink/logo/中天新闻.png",中天新聞台
+http://bxtv.3a.ink/api.php?id=ztxw
+#EXTINF:-1,tvg-id="中天亚洲台" tvg-name="中天亚洲台" tvg-logo="http://bxtv.3a.ink/logo/中天亚洲.png",中天亞洲台
+http://bxtv.3a.ink/api.php?id=ztyz
+#EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="http://bxtv.3a.ink/logo/台视.png",台視
+http://bxtv.3a.ink/api.php?id=taishi
+#EXTINF:-1,tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="http://bxtv.3a.ink/logo/台视新闻.png",台視新聞台
+http://bxtv.3a.ink/api.php?id=tsxw
+#EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="http://bxtv.3a.ink/logo/中视.png",中視
+http://bxtv.3a.ink/api.php?id=zhongshi
+#EXTINF:-1,tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="http://bxtv.3a.ink/logo/中视新闻.png",中視新聞台
+http://bxtv.3a.ink/api.php?id=zsxw
+#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="http://bxtv.3a.ink/logo/民视.png",民視
+http://bxtv.3a.ink/api.php?id=minshi
+#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="http://bxtv.3a.ink/logo/民视新闻.png",民視新聞台
+http://bxtv.3a.ink/api.php?id=msxw
+#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="http://bxtv.3a.ink/logo/民视台湾.png",民視台灣台
+http://bxtv.3a.ink/api.php?id=mstw
+#EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="http://bxtv.3a.ink/logo/华视.png",華視
+http://bxtv.3a.ink/api.php?id=huashi
+#EXTINF:-1,tvg-id="八大第一" tvg-name="八大第一" tvg-logo="http://bxtv.3a.ink/logo/八大第一.png",八大第一
+http://bxtv.3a.ink/api.php?id=bddy
+#EXTINF:-1,tvg-id="八大综合" tvg-name="八大综合" tvg-logo="http://bxtv.3a.ink/logo/八大综合.png",八大綜合
+http://bxtv.3a.ink/api.php?id=bdzh
+#EXTINF:-1,tvg-id="hbo" tvg-name="hbo" tvg-logo="http://bxtv.3a.ink/logo/HBO.png",HBO
+http://bxtv.3a.ink/api.php?id=hbo
+#EXTINF:-1,tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="http://bxtv.3a.ink/logo/寰宇新闻.png",寰宇新聞台
+http://bxtv.3a.ink/api.php?id=hyxw
+#EXTINF:-1,tvg-id="纬来电影" tvg-name="纬来电影" tvg-logo="http://bxtv.3a.ink/logo/纬来电影.png",緯來電影
+http://bxtv.3a.ink/api.php?id=wldy
+#EXTINF:-1,tvg-id="东森电影" tvg-name="东森电影" tvg-logo="http://bxtv.3a.ink/logo/东森电影.png",東森電影
+http://bxtv.3a.ink/api.php?id=dsdy
+#EXTINF:-1,tvg-id="东森幼幼" tvg-name="东森幼幼" tvg-logo="http://bxtv.3a.ink/logo/东森幼幼.png",東森幼幼
+http://bxtv.3a.ink/api.php?id=dsyy
+#EXTINF:-1,tvg-id="台湾美亞電影" tvg-name="台灣美亞電影" tvg-logo="http://bxtv.3a.ink/logo/美亚电影.png",台灣美亞電影
+http://bxtv.3a.ink/api.php?id=twmeiya
+#EXTINF:-1 tvg-name="广东体育" tvg-logo="http://bxtv.3a.ink/logo/广东体育.png",广东体育
+http://bxtv.3a.ink/api.php?id=gdty
+#EXTINF:-1 tvg-name="广东珠江" tvg-logo="http://bxtv.3a.ink/logo/广东珠江.png",广东珠江
+http://bxtv.3a.ink/api.php?id=gdzj
+
+

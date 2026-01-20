@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>橘汁4K影视【一款手影视追剧App，视界，致体验！ 提供海量4K影视资源，电影、电视剧、综艺、动漫，给你带来影院级的观影体验。 界面简洁，作便捷，是你的掌上影院！（解锁去广告）】.apk - 蓝奏云</title>
+<meta name="description" content="文件大小：83.8 M" />
+<script type="text/javascript" src="https://assets.woozooo.com/assets/img/qrcode.min.js"></script>
+<link rel="shortcut icon" href="https://assets.woozooo.com/assets/favicon.ico">
+</head>
+<body>
+<link href="https://assets.woozooo.com/assets/share/pc1.css" rel="stylesheet" type="text/css">
+<div id="file" class="filter">
+<div class="n_hd"><div class="user-ico"><div class="user-ico-img" style="background:url(https://image.woozooo.com/image/userimg/202311/14/326027-83.jpg?x-oss-process=image/auto-orient,1/resize,m_fill,w_100,h_100/format,png);background-size:100%;background-repeat:no-repeat;background-position:50%;"></div><div class="user-ico-div"><div class="user-ico-div-1"></div><div class="user-ico-div-2"></div></div> <span class="user-name">分享（不定时上新）</span><span class="user-name-txt">的分享文件</span></div><a href="/q/jb/?f=250463670&report=1" class="n_login"><font id="rpt"> </font></a></div>
+<div class="n_box">
+<div class="jingshi" id="jingshi"></div><div class="n_box_ico"><span class="filename"><img src="https://image.woozooo.com/image/ico/2025/08/21/250463670-13.png?x-oss-process=image/auto-orient,1/resize,m_fill,w_150,h_150/format,png"></span></div>
+<!--<div class="n_box_2fn"></div> -->
+<div class="n_box_3fn" id="filenajax">橘汁4K影视【一款手影视追剧App，视界，致体验！ 提供海量4K影视资源，电影、电视剧、综艺、动漫，给你带来影院级的观影体验。 界面简洁，作便捷，是你的掌上影院！（解锁去广告）】.apk</div>
+<!--<div class="n_file_info"></div> -->
+<div class="n_file_info"><span class="n_file_infos">昨天19:19</span> <span class="n_file_infos">Android/HyperOS</span></div>
+<div class="n_file"><div class="n_filesize">大小：83.8 M</div><iframe class="n_downlink" name="1755864891" src="/fn?B2FWPAxjUjNUMgVnBmQHNQRoU2FQP1N3A3BVblI_aVWNVYFU3D2pXNVQ2AmxXOgIyVSkAcwBiCjlWdwd2ATgDYAd0VmgMNlJoVGkFNgYrBzsEbFM5UGxTHAMiVSRSb1UyVQpVcg8xV2xUbAJpVzMCJVVmAHYAAAp_aVjAHZwE5A20HalZgDDhSaFQ_aBTsGJgdyBC5TJVA1U34DK1UkUm9VMlV7VXUPPVdsVHgCO1dsAmxVIQBmADAKZVZ_b" frameborder="0" scrolling="no"></iframe></div>
+<div class="n_box_des"></div>
+</div>
+<div class="n_bot">
+<div id="pcode"></div>
+<div id="code"></div>
+</div>
+<div class="n_foot" id="n_foot"></div></div>
+
+<script type="text/javascript" src="https://assets.woozooo.com/assets/share/pc2.js"></script>
+<div style="display:none"><script src="https://statics.woozooo.com/img/bd.js"></script><script src="https://statics.woozooo.com/img/hm.js"></script></div>
+</body>
+</html>

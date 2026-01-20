@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script1.js"></script>
+    <script src="/script2.js"></script>
+    <style>
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden;
+            height: 100%;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            display: block; 
+        }
+        
+        #loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        
+        #reportBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 10000;
+            backdrop-filter: blur(3px);
+            transition: all 0.3s;
+            font-size: 11px;
+            color: #333; 
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">内容加载中，请稍候...</div>
+    <iframe id="cloud-content" style="display:none"></iframe>
+    <button id="reportBtn" title="举报内容">举报</button>
+    <script>
+        const encrypted = {
+            data: "OgDuUPbG+F6VP5Fe1R1BFGvReRZc7Fd1ZXuSkwjswIty0zm4CDvwDUls0bHIy6h3oTaMUJSfAoUO9w2bt3rR0ogsSN4hC8m599hm3CN7xLDNECCmWg8FBQJfAgGY14np",
+            iv: "hkjG/tUlUe+lDpwpAA952g==",
+            key: "l+Ibn8tSk8Aeo5pqmw+x4ykox+AAwBLJlXwR13fk9b8="
+        };
+        const currentUrl = window.location.href;
+        document.addEventListener('DOMContentLoaded', () => {
+            initDecryption(encrypted, currentUrl);
+        });
+        function resizeIframe() {
+            try {
+                const iframe = document.getElementById('cloud-content');
+                const doc = iframe.contentDocument.documentElement;
+                const height = Math.max(
+                    doc.scrollHeight, 
+                    doc.offsetHeight,
+                    doc.clientHeight
+                );
+                iframe.style.height = `px`;
+            } catch (e) { 
+                console.error("iframe高度调整错误", e); 
+            }
+        }
+        window.resizeIframe = resizeIframe;
+    </script>
+</body>
+</html>

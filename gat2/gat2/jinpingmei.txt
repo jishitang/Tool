@@ -1,0 +1,402 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+爱情宝典,#genre#
+1,https://wjm.ydayc.com/0f73c664565aecc439f28e09b2012121/20250815050706/decry/vd/20250512/NTg4NjIwYzBkMT/183602/1920_1080/aac/h264/hls/decrypt/index.m3u8
+2,https://wjm.ydayc.com/51d1e9a20f82cabc0d50c91dfbc96e17/20250815050740/decry/vd/20250512/OTNjMDYzNzZiO/183100/1920_1080/aac/h264/hls/decrypt/index.m3u8
+3,https://wjm.ydayc.com/58a279ad733d3cb65ea5f9732a624df5/20250815050816/decry/vd/20250512/MzdmYWE4MmFjO/183901/1920_1080/aac/h264/hls/decrypt/index.m3u8
+4,https://wjm.ydayc.com/498f207ccc56a8e9c1326b0089dd0f65/20250815050852/decry/vd/20250512/ZjYyNDM3NTVkZ/183809/1920_1080/aac/h264/hls/decrypt/index.m3u8
+5,https://wjm.ydayc.com/d42583401c55d0e26e3e86e71c0f6c0d/20250815050930/decry/vd/20250512/MTE3MGNhMWY5/182954/1920_1080/aac/h264/hls/decrypt/index.m3u8
+6,https://wjm.ydayc.com/be73b60b41733a8e9fdedd9e88b6d1da/20250815050953/decry/vd/20250512/OWNhY2E1NjMwZW/182828/1920_1080/aac/h264/hls/decrypt/index.m3u8
+7,https://wjm.ydayc.com/18830bc1d3f534dcf8804a1bafdeb59f/20250815051016/decry/vd/20250512/Y2Y3NmQ5Mzgz/183242/1920_1080/aac/h264/hls/decrypt/index.m3u8
+8,https://wjm.ydayc.com/79817937d14f92b2753d72e62e35c205/20250815051043/decry/vd/20250512/YTY1MjY4NGE5ZGM/183404/1920_1080/aac/h264/hls/decrypt/index.m3u8
+9,https://wjm.ydayc.com/e65cd1c651b584f08a7e0e4cfe66ba80/20250815051122/decry/vd/20250512/ZDcxY2EwMTJl/183029/1920_1080/aac/h264/hls/decrypt/index.m3u8
+10,https://wjm.ydayc.com/6158a0370ab251475b1bc3d4073605cd/20250815051152/decry/vd/20250512/Y2JhMGY0N2Qx/182825/1920_1080/aac/h264/hls/decrypt/index.m3u8
+11,https://wjm.ydayc.com/e1d820322a6d3cbdfcb2b1b82241b3bf/20250815051230/decry/vd/20250512/NGM1MWU3NjU3M/183504/1920_1080/aac/h264/hls/decrypt/index.m3u8
+12,https://wjm.ydayc.com/764bc06be29354bbf622d577a2b3e634/20250815051252/decry/vd/20250512/NzU0NjRiNjIwNzU/182825/1920_1080/aac/h264/hls/decrypt/index.m3u8
+13,https://wjm.ydayc.com/efcb20f9e4aa0dfb50d613eb30ccbd54/20250815051408/decry/vd/20250512/M2IxNmY3MmVhODQ/183715/1920_1080/aac/h264/hls/decrypt/index.m3u8
+14,https://wjm.ydayc.com/cea7a1e0669d73cda8ab4f4d33ebc80e/20250815051432/decry/vd/20250512/ZDZlYWZjZTUyO/183654/1920_1080/aac/h264/hls/decrypt/index.m3u8
+15,https://wjm.ydayc.com/6f4318ee81df081edd261a9b072987c3/20250815051459/decry/vd/20250512/YjQyMGJhZTAw/183025/1920_1080/aac/h264/hls/decrypt/index.m3u8
+16,https://wjm.ydayc.com/6a3b0cf04e8f925bae3c77b858143809/20250815051525/decry/vd/20250512/M2QxMzI5MWY5Y/183654/1920_1080/aac/h264/hls/decrypt/index.m3u8
+17,https://wjm.ydayc.com/0a81c5dc123fb2817e9e95e8ac539bb2/20250815051618/decry/vd/20250512/YjNmNWIxZDNiM/183636/1920_1080/aac/h264/hls/decrypt/index.m3u8
+18,https://wjm.ydayc.com/c2c4f60acfc7a55577f948049908aead/20250815051650/decry/vd/20250512/ZDc5NTdlOTYzZ/183236/1920_1080/aac/h264/hls/decrypt/index.m3u8
+19,https://wjm.ydayc.com/a62eb16103300a9fe1c7e4757d3ca420/20250815051716/decry/vd/20250512/NjliN2Q2M2FiY/183446/1920_1080/aac/h264/hls/decrypt/index.m3u8
+20,https://wjm.ydayc.com/1d2f68820fe0ddce0d53d252aa1cec1b/20250815051743/decry/vd/20250512/NmZiNzlmY2QwM/183202/1920_1080/aac/h264/hls/decrypt/index.m3u8
+21,https://wjm.ydayc.com/07544769219535cbce2ba5a341807d48/20250815051808/decry/vd/20250512/YmZiZjEyZDcwOD/183429/1920_1080/aac/h264/hls/decrypt/index.m3u8
+22,https://wjm.ydayc.com/90ad69657e46bfa054c2db575cad094b/20250815051824/decry/vd/20250512/MmQ3YzkxYTcy/183217/1920_1080/aac/h264/hls/decrypt/index.m3u8
+23,https://wjm.ydayc.com/8ad7b992e8c14df84743a99e248bca4b/20250815051842/decry/vd/20250512/ODBiNTM0YjFi/183257/1920_1080/aac/h264/hls/decrypt/index.m3u8
+24,https://wjm.ydayc.com/64a9c6fe7f288ccc5b4b251f65473b10/20250815051909/decry/vd/20250512/MTgyNGVlMjRiY/182825/1920_1080/aac/h264/hls/decrypt/index.m3u8
+25,https://wjm.ydayc.com/cebb7fbc61061cc153d6d266a19e23eb/20250815051927/decry/vd/20250512/ODVhMDQ1OTMxYjU/183436/1920_1080/aac/h264/hls/decrypt/index.m3u8
+26,https://wjm.ydayc.com/57614757842c737d3f09848321b64e72/20250815051953/decry/vd/20250512/Yzk5ZDU2NjE1OTI/183020/1920_1080/aac/h264/hls/decrypt/index.m3u8
+1,https://wjm.ydayc.com/449022952e6b80059748f008d3b1b14c/20250815052049/decry/vd/20250512/NTg4NjIwYzBkMT/183602/1280_720/aac/h264/hls/decrypt/index.m3u8
+2,https://wjm.ydayc.com/a8be4ee875ee1d3a560f14fcc383026c/20250815052141/decry/vd/20250512/OTNjMDYzNzZiO/183100/1280_720/aac/h264/hls/decrypt/index.m3u8
+3,https://wjm.ydayc.com/4d0a0187642a05e803e17f0cc566f224/20250815052213/decry/vd/20250512/MzdmYWE4MmFjO/183901/1280_720/aac/h264/hls/decrypt/index.m3u8
+4,https://wjm.ydayc.com/c408d3a8285d0588eb693e99a1367e55/20250815052231/decry/vd/20250512/ZjYyNDM3NTVkZ/183809/1280_720/aac/h264/hls/decrypt/index.m3u8
+5,https://wjm.ydayc.com/85887a0e0432be344e81f9c513b3de8b/20250815052258/decry/vd/20250512/MTE3MGNhMWY5/182954/1280_720/aac/h264/hls/decrypt/index.m3u8
+6,https://wjm.ydayc.com/d9fd66869f4b56b0e4465252d0eea12e/20250815052318/decry/vd/20250512/OWNhY2E1NjMwZW/182828/1280_720/aac/h264/hls/decrypt/index.m3u8
+7,https://wjm.ydayc.com/a27208153bca540e0fb4821ea30c089f/20250815052347/decry/vd/20250512/Y2Y3NmQ5Mzgz/183242/1280_720/aac/h264/hls/decrypt/index.m3u8
+8,https://wjm.ydayc.com/582caf744aa9215fbbcd8cf1daa0efe2/20250815052403/decry/vd/20250512/YTY1MjY4NGE5ZGM/183404/1280_720/aac/h264/hls/decrypt/index.m3u8
+9,https://wjm.ydayc.com/1fad9bbe2c43b12b4baf759d5ae38b0c/20250815052423/decry/vd/20250512/ZDcxY2EwMTJl/183029/1280_720/aac/h264/hls/decrypt/index.m3u8
+10,https://wjm.ydayc.com/3de366161387fc3f936ea9bd7ff64717/20250815052444/decry/vd/20250512/Y2JhMGY0N2Qx/182825/1280_720/aac/h264/hls/decrypt/index.m3u8
+11,https://wjm.ydayc.com/6c10cb6f220b979785f8866661d2c131/20250815052502/decry/vd/20250512/NGM1MWU3NjU3M/183504/1280_720/aac/h264/hls/decrypt/index.m3u8
+12,https://wjm.ydayc.com/097c1745b708b138efffcb59e3b37c93/20250815052518/decry/vd/20250512/NzU0NjRiNjIwNzU/182825/1280_720/aac/h264/hls/decrypt/index.m3u8
+13,https://wjm.ydayc.com/2b4ba415173717ac5294ceafc01f5df0/20250815052533/decry/vd/20250512/M2IxNmY3MmVhODQ/183715/1280_720/aac/h264/hls/decrypt/index.m3u8
+14,https://wjm.ydayc.com/b2fa6e87fd09afbe84cc144b47493528/20250815052552/decry/vd/20250512/ZDZlYWZjZTUyO/183654/1280_720/aac/h264/hls/decrypt/index.m3u8
+15,https://wjm.ydayc.com/bfee854edb993f5ffa96fcb428532afb/20250815052625/decry/vd/20250512/YjQyMGJhZTAw/183025/1280_720/aac/h264/hls/decrypt/index.m3u8
+16,https://wjm.ydayc.com/ffee5f23c655b9cafd364b45b2e97fc0/20250815052643/decry/vd/20250512/M2QxMzI5MWY5Y/183654/1280_720/aac/h264/hls/decrypt/index.m3u8
+17,https://wjm.ydayc.com/881eafaa01cd262082cec1f989b91d89/20250815052702/decry/vd/20250512/YjNmNWIxZDNiM/183636/1280_720/aac/h264/hls/decrypt/index.m3u8
+18,https://wjm.ydayc.com/e1ae9372ee93679b590689c8f18692a3/20250815052721/decry/vd/20250512/ZDc5NTdlOTYzZ/183236/1280_720/aac/h264/hls/decrypt/index.m3u8
+19,https://wjm.ydayc.com/2579c1e47a2183b26770052491855fd0/20250815052755/decry/vd/20250512/NjliN2Q2M2FiY/183446/1280_720/aac/h264/hls/decrypt/index.m3u8
+20,https://wjm.ydayc.com/7be8187aeb353b56bbe3a83f47caab0d/20250815052821/decry/vd/20250512/NmZiNzlmY2QwM/183202/1280_720/aac/h264/hls/decrypt/index.m3u8
+21,https://wjm.ydayc.com/9a82ae65c55eb330f5724939f1fd06de/20250815052837/decry/vd/20250512/YmZiZjEyZDcwOD/183429/1280_720/aac/h264/hls/decrypt/index.m3u8
+22,https://wjm.ydayc.com/c7b532a2ae9d6e39d3697b98bfec3922/20250815052851/decry/vd/20250512/MmQ3YzkxYTcy/183217/1280_720/aac/h264/hls/decrypt/index.m3u8
+23,https://wjm.ydayc.com/cf9c9972d30646d0ab17a8c96e207edf/20250815052917/decry/vd/20250512/ODBiNTM0YjFi/183257/1280_720/aac/h264/hls/decrypt/index.m3u8
+24,https://wjm.ydayc.com/b87fd2411ecda665e7c29f930afdc8f9/20250815052936/decry/vd/20250512/MTgyNGVlMjRiY/182825/1280_720/aac/h264/hls/decrypt/index.m3u8
+25,https://wjm.ydayc.com/2ac252b5bdca9f3f497e4edf5f03d355/20250815052952/decry/vd/20250512/ODVhMDQ1OTMxYjU/183436/1280_720/aac/h264/hls/decrypt/index.m3u8
+26,https://wjm.ydayc.com/20d7f5a0dba4b1bffb8f9a63f6e15bc5/20250815053015/decry/vd/20250512/Yzk5ZDU2NjE1OTI/183020/1280_720/aac/h264/hls/decrypt/index.m3u8
+🇨🇳金瓶梅,#genre#
+
+第01回,https://cdn7.vipyz-cdn3.com/20220629/1290_1b966e11/index.m3u8
+第02回,https://cdn7.vipbf-video.com/20220629/1291_728b1d46/index.m3u8
+第03回,https://cdn7.vipbf-video.com/20220629/1292_3a072399/index.m3u8
+第04回,https://cdn7.vipbf-video.com/20220629/1293_a82f88e2/index.m3u8
+第05回,https://cdn7.vipbf-video.com/20220629/1294_8f00052a/index.m3u8
+金瓶梅(楊思敏版),https://hn.bfvvs.com/play/Pdy3kPaQ/index.m3u8?_=1746015159770
+金瓶艳史,https://yzzy.play-cdn14.com/20230710/28931_81e09162/index.m3u8
+金瓶梅,https://vip1.lz-cdn1.com/20220516/5775_36eacadc/index.m3u8
+金瓶梅,https://vip1.lz-cdn1.com/20220516/5775_36eacadc/index.m3u8?sign=88630e6791b3c62d892475a95a7cb629
+金瓶梅2,https://vip1.lz-cdn1.com/20220516/5774_3b77c66d/index.m3u8?sign=b1f69dc8f7205ef0fe44be41c709984e
+金瓶梅2,https://vip1.lz-cdn1.com/20220516/5774_3b77c66d/index.m3u8
+金瓶双艳,https://vip.lz15uu.com/20220912/64_50795820/index.m3u8?sign=46a627adaaf58baefa76bee5f8a0b270
+金瓶双艳,https://vip.lz15uu.com/20220912/64_50795820/index.m3u8
+金瓶风月,https://vip1.lz-cdn1.com/20220327/591_0b4f9e3e/index.m3u8?sign=389beb9adf2450db4ecb2f232bffbe69
+金瓶风月,https://vip1.lz-cdn1.com/20220327/591_0b4f9e3e/index.m3u8
+玉蒲团之玉女心经,https://vip.lzcdn2.com/20220525/7634_7f4228f1/index.m3u8?sign=070f9c1ef4041722773a7d4c7788ecf3
+玉蒲团之玉女心经,https://vip.lzcdn2.com/20220525/7634_7f4228f1/index.m3u8
+玉蒲团之偷情宝鉴,https://vip.lzcdn2.com/20220525/7633_107309e9/index.m3u8?sign=59d842a742871bf3e060a1687bb9a28f
+玉蒲团之偷情宝鉴,https://vip.lzcdn2.com/20220525/7633_107309e9/index.m3u8
+满清十大酷刑1,https://vip.lz-cdn17.com/20230506/11025_6b1960c5/index.m3u8?sign=0a3fbf816df4d9dd84deaece353ea618
+满清十大酷刑1,https://vip.lz-cdn17.com/20230506/11025_6b1960c5/index.m3u8
+满清十大酷刑2,https://vip.lz-cdn17.com/20230506/11023_9939e6d0/index.m3u8?sign=af6eb0e3dd2bb94cd3d49b489019ca63
+满清十大酷刑2,https://vip.lz-cdn17.com/20230506/11023_9939e6d0/index.m3u8
+不扣纽的女孩,https://wjm.ydayc.com/17e7ef59e9b0f215857cf8a9ab7dcb3a/20250814223831/decry/vd/20250531/NTc2MGJmYmNkN/075159/1868_1080/aac/h264/hls/decrypt/index.m3u8
+不扣纽的女孩,https://wjm.ydayc.com/138f04badc749e040aa5e46cad477aa4/20250814224202/20191205/lQPhGG07/index.m3u8
+ 不扣纽的女孩,https://wjm.ydayc.com/1a9edde33f2b0c441405d3c8a1d9be0d/20250814224028/decry/vd/20250531/NTc2MGJmYmNkN/075159/1246_720/aac/h264/hls/decrypt/index.m3u8
+ 红楼十八春,https://wjm.ydayc.com/43f8f7442827e088287999ab11a88f86/20250815034824/decry/vd/20250526/NDcyYzFjMWIzO/085234/1440_1080/aac/h264/hls/decrypt/index.m3u8
+ 红楼十八春,https://wjm.ydayc.com/471ef48539252e705c95dd506cd7d6a1/20250815035057/decry/vd/20250526/NDcyYzFjMWIzO/085234/960_720/aac/h264/hls/decrypt/index.m3u8
+ 红楼十八春,https://wjm.ydayc.com/5ed62ec6eda83e66a0f4f65ff861d39c/20250815035121/20191206/WBJR0n4X/index.m3u8
+一代女皇艳史,https://www.myd02.com/vodplay/103610-3-1.html
+一代女皇艳史,https://m.siren93.com/vodplay/226614-2-1.html
+一代女皇艳史,https://yzzy.play-cdn14.com/20230701/27939_9d97b25e/index.m3u8
+七仙女思春,https://ckzy1com.com/20230623/EExWo3QZ/index.m3u8
+七仙女思春,https://v.ykv3.com/20240518/gLEl0BkS/index.m3u8
+七仙女思春,https://v.ykv3.com/20240518/gLEl0BkS/index.m3u8
+新婚快乐夜,https://play.hhuus.com/play/YerBXv2e/index.m3u8
+上海异人娼馆,https://vv.jisuzyv.com/play/neg8Z1Da/index.m3u8
+  大陆性初航,https://vip15.play-cdn15.com/20230917/24727_dcd5632f/index.m3u8
+  独闯无底洞,https://vip15.play-cdn15.com/20230917/24726_012dcd45/index.m3u8
+  部落冲突,https://vip15.play-cdn15.com/20230917/24725_de62a690/index.m3u8
+  淫边春色,https://vip15.play-cdn15.com/20230916/24703_6767707d/index.m3u8
+  原居民的灵异艳闻,https://vip15.play-cdn15.com/20230916/24704_d829d176/index.m3u8
+  智恋,https://vip15.play-cdn15.com/20230916/24700_b8fa8968/index.m3u8
+  为她情狂,https://vip15.play-cdn15.com/20230916/24702_972962ab/index.m3u8
+  红唇动,https://vip15.play-cdn15.com/20230916/24701_e1115629/index.m3u8
+何日在上床,https://yzzy1.play-cdn16.com/20240222/28017_17ee9af9/index.m3u8
+  舞会,https://vip15.play-cdn15.com/20230822/24185_20d32416/index.m3u8
+  倩女性花开,https://vip15.play-cdn15.com/20230821/24158_5556246f/index.m3u8
+  茶山春色,https://vip15.play-cdn15.com/20230821/24154_5df6d1aa/index.m3u8
+  警花玫瑰[玫瑰],https://vip15.play-cdn15.com/20230820/24124_71e1650c/index.m3u8
+  红尘有爱,https://vip15.play-cdn15.com/20230817/24043_a43e2876/index.m3u8
+  女狱秘闻,https://yzzy.play-cdn14.com/20230810/31211_06aa93e1/index.m3u8
+  辣手俏玫瑰[玫瑰],https://yzzy.play-cdn14.com/20230807/31094_e519c3a2/index.m3u8
+  贪色夫人,https://yzzy.play-cdn14.com/20230805/30958_a68ffc04/index.m3u8
+  荡女奇招,https://yzzy.play-cdn14.com/20230728/30712_b72e1d86/index.m3u8
+  狗公腰,https://yzzy.play-cdn14.com/20230726/30565_70855280/index.m3u8
+  爱恨情仇,https://yzzy.play-cdn14.com/20230723/30295_b8f5c2b5/index.m3u8
+  美女献身,https://vip15.play-cdn15.com/20240130/26979_412f77c9/index.m3u8
+  粉红大白菜,https://yzzy.play-cdn14.com/20230814/31445_508f8c68/index.m3u8
+  丛林快乐女,https://yzzy.play-cdn14.com/20230719/29965_798c5794/index.m3u8
+  淫乱人间,https://yzzy.play-cdn14.com/20230715/29635_6f025e2a/index.m3u8
+  夜半磨豆浆,https://yzzy.play-cdn14.com/20230714/29475_7a160946/index.m3u8
+欲火烈情,https://hn.bfvvs.com/play/lejq5Rzd/index.m3u8
+辣手俏玫瑰,https://v.gsuus.com/play/mbk5gxNe/index.m3u8
+荡女奇招,https://cdn14.yzzy-dy-cdn.com/20230728/30712_b72e1d86/index.m3u8
+色欲喜临门,https://cdn14.yzzy-dy-cdn.com/20230810/31213_e6ab0e84/index.m3u8
+咸湿大被同床,https://cdn14.yzzy-dy-cdn.com/20230808/31143_0c41707b/index.m3u8
+茶山春色,https://ukzyll.ukubf6.com/20220616/iedEQM3G/index.m3u8
+夜销魂,https://yzzy.play-cdn14.com/20230621/26931_f06631ae/index.m3u8
+艳鬼冤魂,https://vip15.play-cdn15.com/20240106/26731_e3d0b14f/index.m3u8
+换妻一族,https://nbfjhertyrxiang.com/20250102/Zh0vdmBc/index.m3u8
+曼谷名妓,
+🔞电影chARM,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/18053/index.m3u8
+🔞电影chARM,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/18053/index.m3u8
+🔞电影chARM,http://rhsbjv7k.tvclub.xyz/iptv/84WHFA22FS28HY/18053/index.m3u8
+🔞电影chARM,http://rhsbjv7k.tvclub.xyz/iptv/84WHFA22FS28HY/18053/index.m3u8
+🔞电影chARM,http://rhsbjv7k.tvclub.xyz/iptv/84WHFA22FS28HY/18053/index.m3u8
+🔞电影Yosso TV Sexy,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/14176/index.m3u8
+🔞电影Yosso TV Sexy,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/14176/index.m3u8
+🔞电影Yosso TV Sexy,http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/14176/index.m3u8
+🔞电影VF Граиндхаус,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/14158/index.m3u8
+🔞KinoXXX,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/11052/index.m3u8
+🔞Kinoshka Adult HD,http://nx2g47mi.tvclub.xyz/iptv/MUTDWWN8EDA5M5/18060/index.m3u8
+🔞电影Кино 18+,http://u2tp5zor.megatv.fun/iptv/GND3B9YB2KUEYX/18075/index.m3u8
+🔞电影VERAPORN GROUP SEX,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/12141/index.m3u8
+🔞电影VERAPORN GROUP SEX 2,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/12142/index.m3u8
+🔞电影JAPANHD,http://88b9da48.kazmazpaz.ru/iptv/2EA55L4SUE4RH4/6225/manifest.m3u8
+🔞电影JAPANHD,http://79060965569m.megogo.xyz/iptv/SQNLRPBE7FFE8V/6225/index.m3u8
+🔞电影JAPANHD,http://88b9da48.kazmazpaz.ru/iptv/2EA55L4SUE4RH4/6225/manifest.m3u8
+🔞电影JAPANHD,http://demoniaus.cbilant.com/iptv/GCETXETVEM37A6/6225/index.m3u8
+🔞电影JAPANHD,http://rhsbjv7k.tvclub.xyz/iptv/RFPEEUQNURN7MN/6225/index.m3u8
+🔞电影JAPANHD,http://4os6vafy.ottclub.xyz/iptv/GW6RW5TY9TAR8L/6225/index.m3u8
+🔞电影JAPANHD,http://rhsbjv7k.tvclub.xyz/iptv/56E8HVDHBARKLQ/6225/index.m3u8
+🔞电影JAPANHD,http://rhsbjv7k.tvclub.xyz/iptv/74SQ72P5LQUZV5/6225/index.m3u8
+🔞电影JAPANHD,http://aa7bc0b4.akadatel.com/iptv/ED8DTMPASXMV7Q/6225/index.m3u8
+🔞电影Japanese,http://cdntv.online/high/ynemik5cl9/1694.mpeg
+🔞电影French Lover,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/12124/index.m3u8
+🔞电影Детское Кино,https://v2.catcast.tv/content/38720/index.m3u8
+🔞PORNBOX:DREAMROOM,http://1tv41.icu:8080/LaLa34@yahoo.com/LaLa7678/159976
+🔞PORNBOX:MODELMEDIAASIA,http://1tv41.icu:8080/LaLa34@yahoo.com/LaLa7678/160011
+🔞PORNBOX:NURUMASSAGE,http://1tv41.icu:8080/LaLa34@yahoo.com/LaLa7678/160026
+🔞PORNBOX:TRUEAMATUERS,http://1tv41.icu:8080/LaLa34@yahoo.com/LaLa7678/160047
+🔞XYMIXHD,http://line.premiumpowers.net:80/play/live.php?mac=00:1A:79:BF:E8:80&stream=773975&extension=ts&play_token=VFnUEDgvPl
+🔞xxL,http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/26472
+🔞EXXXOTlCA,http://mydsat85.cbilant.com/iptv/E2DFKS2LWK569Q/2397/index.m3u8?
+🔞EXXXOTlCA,http://31.148.48.15/O-la-la/index.m3u8
+🔞XYPlusHD,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6288/index.m3u8
+🔞XMaxHD,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6286/index.m3u8
+🔞XMixHD,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6287/index.m3u8
+🔞XYPlusHD,http://kstv.us:8080/live/haw5UJfF68/1729172230/47218.ts
+🔞XMaxHD,http://kstv.us:8080/live/haw5UJfF68/1729172230/47219.ts
+🔞XMixHD,http://kstv.us:8080/live/haw5UJfF68/1729172230/47220.ts
+🔞carC1,https://edge14.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
+🔞carC1,http://edge13.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
+🔞Шокирующее,http://rr2.1ott.net/~109e1a3c05fcad5b22d13b9453dc0db5122/1666/hlsx/pl.m3u8
+🔞卡通台1,http://cdn.adultiptv.net/bigtits.m3u8
+🔞卡通台2,http://cdn.adultiptv.net/blowjob.m3u8
+🔞卡通台3,http://cdn.adultiptv.net/japanese.m3u8
+🔞电影18+,https://v2.catcast.tv/content/40381/index.m3u8
+🔞电影18+,https://autopilot.catcast.tv/content/40381/index.m3u8
+🔞Brazzers,http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+🔞Erox,http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+🔞Erox,http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
+🔞Eroxx,http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/NVXWNPAY4LHG8S/6242/index.m3u8
+🔞花花兔子🐰,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6242/index.m3u8
+🔞花花兔子🐰🌸,http://rhsbjv7k.tvclub.xyz/iptv/NVXWNPAY4LHG8S/527/index.m3u8
+🔞花花兔子🐰🌸,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/527/index.m3u8
+🔞花花公子R1,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6280/index.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/NVXWNPAY4LHG8S/6242/index.m3u8
+🔞花花兔子🐰,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6242/index.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/TVGXTE68LZGQWS/6242/index.m3u8
+🔞花花兔子🐰,http://v5yxxgnc.ottclub.xyz/iptv/SKRMAACV4QDM4F/6242/index.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/56E8HVDHBARKLQ/6242/index.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/56E8HVDHBARKLQ/6242/index.m3u8
+🔞花花兔子🐰,http://rhsbjv7k.tvclub.xyz/iptv/56E8HVDHBARKLQ/6242/index.m3u8
+🔞花花兔子🐰🌸,http://rhsbjv7k.tvclub.xyz/iptv/NVXWNPAY4LHG8S/527/index.m3u8
+🔞花花兔子🐰🌸,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/527/index.m3u8
+🔞花花兔子🐰🌸,http://rhsbjv7k.tvclub.xyz/iptv/TVGXTE68LZGQWS/527/index.m3u8
+🔞花花兔子-16,http://kstv.us:8080/haw5UJfF68/1729172230/47170
+🔞花花公子R2,https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10265.m3u8
+🔞花花公子R3,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/12135/index.m3u8
+🔞花花公子R3,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+🔞FemJoy,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/6212/index.m3u8
+🔞FemJoy,http://u2tp5zor.megatv.fun/iptv/GND3B9YB2KUEYX/6212/index.m3u8
+🔞MetArt FHD,http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/12160/index.m3u8
+🔞Ню Арт HD (18+),http://c4dd5336.edemist.com/iptv/V4ZUD45ZF6ATGU8AKVBGHN9Z/31716/index.m3u8
+🔞SEXY HOT,https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10268.m3u8
+🔞 2 Brazzers,https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10263.m3u8
+🔞 3 Venus,https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10264.m3u8
+🔞PLAYBOY,https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10265.m3u8
+🔞花花公子R1,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+🔞花花公子R3,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+🔞花花公子R3,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+🔞Eroxx,http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/54982
+🔞Eroxx,http://rhsbjv7k.tvclub.xyz/iptv/QUSEF3A55UE6BF/5015/index.m3u8
+🔞Eroxx,http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/54982
+🔞pnTV,http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/47354
+🔞BLUE,http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/38940
+
+
+东北往事之黑道风云二十年11,https://vip.ffzy-online4.com/20230404/18386_b159ee99/2000k/hls/mixed.m3u8
+东北往事之黑道风云二十年17,https://vip.lz-cdn16.com/20230731/33145_85f5b5e4/2000k/hls/mixed.m3u8
+销魂玉,https://hd.ijycnd.com/play/QdJqQ0ob/index.m3u8
+淫乱人间,https://yzzy.play-cdn14.com/20230715/29635_6f025e2a/index.m3u8
+春宫豪放女,https://cdn14.yzzy-dy-cdn.com/20230812/31319_c22431b9/index.m3u8
+春宫妖姬,https://yzzy.play-cdn14.com/20230621/26931_f06631ae/index.m3u8
+红楼18春,https://hd.ijycnd.com/play/QbYGwpez/index.m3u8#https://jpzy01.com/20230105/NDbZf3ps/index.m3u8
+镜花风月之螺女挑情,https://hd.ijycnd.com/play/PdRgXDVe/index.m3u8
+处女思春,https://cdn.wlcdn99.com:777/20220526/wUBhhJGI/2000kb/hls/index.m3u8
+轻轻的第一次,https://jpzy01.com/20230503/1cCkbjcE/1000kb/hls/index.m3u8
+都是匋宏惹的祸,https://bfikuncdn.com/20240425/t9snRY2q/2000kb/hls/index.m3u8
+星路梦回,https://bfikuncdn.com/20240423/sE9FUTu9/2000kb/hls/index.m3u8
+欲火雄风龙凤配,https://bfikuncdn.com/20240423/wn6CjpAM/2000kb/hls/index.m3u8
+天边一朵云,https://ukzyll.ukubf6.com/20220706/IDF6m8YC/2000kb/hls/index.m3u8
+北投狼人,https://ukzyll.ukubf6.com/20220706/IDF6m8YC/2000kb/hls/index.m3u8
+化骨棉掌,https://vv.jisuzyv.com/play/zbq6VBpd/index.m3u8
+色欲档案之麻雀台上淫,https://vod11.wgslsw.com/20240413/mPdnvTK2/index.m3u8
+星路梦回,https://bfikuncdn.com/20240423/sE9FUTu9/2000kb/hls/index.m3u8
+激情边缘,https://cdn.wlcdn99.com:777/20220526/vRuxFiP3/2000kb/hls/index.m3u8
+叛客与雷鬼,https://vod11.wgslsw.com/20240413/uKXqj2F5/index.m3u8
+情定北海岸,https://v.ykv3.com/20230519/svHVTvdc/1000kb/hls/index.m3u8
+恶夜,https://player.cl9987.com:188/20230409/kTeoSh9w/2000kb/hls/index.m3u8
+隔世吸引力,https://cdn.wlcdn99.com:777/20220526/Dmt5TkE8/index.m3u8
+美丽的杀手,https://vod11.wgslsw.com/20240413/Y64XRP7r/index.m3u8
+欲火狂情,https://jpzy01.com/20240617/0hX4bLa4/3869kb/hls/index.m3u8
+唇香.体香.女人香,https://ukzyll.ukubf6.com/20220615/7QyPrrZ4/2000kb/hls/index.m3u8
+枪下新娘,https://vod11.wgslsw.com/20240413/SMo8cYau/index.m3u8
+困着她的心灵,https://vod11.wgslsw.com/20240413/VQsRVkll/index.m3u8
+占有欲强的女人,https://vod11.wgslsw.com/20240413/h8sbinOI/index.m3u8
+追你一世,https://vod11.wgslsw.com/20240413/vbIonnAi/index.m3u8
+午夜叫声,https://vod11.wgslsw.com/20240413/IqaxkjFG/index.m3u8
+脱轨边缘人,https://ukzyll.ukubf6.com/20220528/woEv6Q0L/2000kb/hls/index.m3u8
+山庄情挑,https://vod11.wgslsw.com/20240413/cdGDaZ0F/index.m3u8
+造爱人间,https://vod11.wgslsw.com/20240413/cdGDaZ0F/index.m3u8
+变身,https://vod11.wgslsw.com/20240413/7zBawDWh/index.m3u8
+危情杀机,https://ukzyll.ukubf6.com/20220528/0I2i37Pd/2000kb/hls/index.m3u8
+欲海双艳,https://bfikuncdn.com/20240423/KYN3UNMr/2000kb/hls/index.m3u8
+纵欲聊斋,https://ukzyll.ukubf6.com/20220717/a7JPTuHX/2000kb/hls/index.m3u8
+灵山奇谭,https://ukzyll.ukubf6.com/20220717/a7JPTuHX/2000kb/hls/index.m3u8
+空虚少妇性告白,https://vod11.wgslsw.com/20240413/UncMrKj6/index.m3u8
+桃色交易,https://v.ykv3.com/20240521/xLEy2WWS/1000kb/hls/index.m3u8
+野店,https://bfikuncdn.com/20240423/QKJ45DP5/2000kb/hls/index.m3u8
+镜花风月之春降,https://bfikuncdn.com/20240423/QKJ45DP5/2000kb/hls/index.m3u8
+花女破处实录,https://ukzyll.ukubf6.com/20220615/PtWcgHlT/2000kb/hls/index.m3u8
+百合情韵,https://ukzyll.ukubf6.com/20220525/lvkbIXnN/2000kb/hls/index.m3u8
+寡妇的男人,https://vod11.wgslsw.com/20240413/zTORtTQC/index.m3u8
+性妲己,https://play.hhuus.com/play/1aMXmyPe/index.m3u8
+火爆倩女,https://vod11.wgslsw.com/20240413/GEd0CwIy/index.m3u8
+武林皇后,https://jpzy01.com/20230213/u8NEqYNY/1000kb/hls/index.m3u8
+血泪江湖,https://vod11.wgslsw.com/20240413/qZrPV9gu/index.m3u8
+灵与肉,https://vod11.wgslsw.com/20240413/qZrPV9gu/index.m3u8
+杏林春暖,https://play.gayzyv.com/play/nelYXxVa/index.m3u8
+淫荡书生众美女,https://play.gayzyv.com/play/nelYXxVa/index.m3u8
+绝世妖女,https://m3u.nikanba.live/share/43b58cc467de5cff40c1ae5fce26ef1a.m3u8
+影子缠身,https://ll.bdzybf11.com/20220404/TT2gcT75/2000kb/hls/index.m3u8
+不再情牵,https://v.ykv3.com/20230406/YqXDtu8z/1000kb/hls/index.m3u8
+侦探艳史,https://ukzyll.ukubf6.com/20220615/DapSX6Ko/2000kb/hls/index.m3u8
+处女奇兵,https://jpzy01.com/20230419/4VRzn3X3/1000kb/hls/index.m3u8
+洪晓芸写真,https://jpzy01.com/20230425/N6PaeUMX/1000kb/hls/index.m3u8
+大盜情人,https://jpzy01.com/20221218/SLC0mG0K/1000kb/hls/index.m3u8
+鼠年12性肖淫程,https://jpzy01.com/20230219/Yq5GEHnY/1000kb/hls/index.m3u8
+淫欲女秘书,https://v.ykv3.com/20240521/lFfRxy2B/1000kb/hls/index.m3u8
+风情小姨子,https://bfikuncdn.com/20240422/HaCx3UB7/2000kb/hls/index.m3u8
+浪漫女家教,https://jpzy01.com/20221230/k0F7eNsD/1000kb/hls/index.m3u8
+催眠指令,https://jpzy01.com/20240809/PhsKKUvl/2887kb/hls/index.m3u8
+黄色追杀令,https://jpzy01.com/20230106/T4zi4Bj7/1000kb/hls/index.m3u8
+杀手情人,https://ll.bdzybf11.com/20220408/RqU24snI/2000kb/hls/index.m3u8
+台北强奸春潮,https://play.gayzyv.com/play/BeXDqLoe/index.m3u8
+女狱秘闻,https://vod11.wgslsw.com/20240413/kLCCiN0g/index.m3u8
+荡女诉心声,https://jpzy01.com/20220529/26Mf7kvk/1000kb/hls/index.m3u8
+女鬼丽影,https://jpzy01.com/20230503/fF15eaAN/1000kb/hls/index.m3u8
+打山鸡,https://jpzy01.com/20230622/7ALCcm82/1000kb/hls/index.m3u8
+色欲野鸳鸯,https://jpzy01.com/20230612/pkOheIEk/1000kb/hls/index.m3u8?
+山中艳潭,https://vip.ffzy-play8.com/20230914/1929_4a35a2ea/2000k/hls/mixed.m3u8
+亡命霸王花,https://jpzy01.com/20230618/6bTrfQW6/1000kb/hls/index.m3u8
+怀香少女,https://vip.ffzy-play8.com/20240620/2805_28c0ebb3/2000k/hls/mixed.m3u8
+恶煞生死线,https://jpzy01.com/20230220/iNP8YaB2/1000kb/hls/index.m3u8?
+警花玫瑰,https://vip15.play-cdn15.com/20230820/24124_71e1650c/2000k/hls/index.m3u8
+葵花宝典,https://jpzy01.com/20230213/Yty5YnPl/1000kb/hls/index.m3u8
+欲望街车,https://ukzyll.ukubf6.com/20220530/OfkXaU3C/2000kb/hls/index.m3u8
+红粉幽魂,https://jpzy01.com/20240518/UbYpvMNI/1100kb/hls/index.m3u8
+灵幻新娘,https://jpzy01.com/20211227/buk5gjdf/800kb/hls/index.m3u8?
+渔夫荒淫艳史,https://yzzy.play-cdn14.com/20230702/28058_6bdbe816/2000k/hls/index.m3u8
+台湾AN4U美女刘雪嬅写真,https://jpzy01.com/20220124/SlxXmej5/900kb/hls/index.m3u8
+色狼传说,https://jpzy01.com/20230505/xZNHaCG4/1000kb/hls/index.m3u8
+满床春水,https://jpzy01.com/20230213/VkFliFY2/1000kb/hls/index.m3u8
+台湾內衣女孩写真,https://jpzy01.com/20240421/ciky3Gar/1100kb/hls/index.m3u8?
+蓬莱仙山写真-夏日玫瑰,https://jpzy01.com/20230626/vILqH6XK/1000kb/hls/index.m3u8
+蓬莱仙山写真-夏日玫瑰2,https://jpzy01.com/20230626/4hYahMIm/1000kb/hls/index.m3u8
+蓬莱仙山写真-夏日玫瑰3,https://jpzy01.com/20230626/OItHgyRe/1000kb/hls/index.m3u8
+蓬莱仙山写真-夏日玫瑰4,https://jpzy01.com/20230626/MAFTOVhW/1000kb/hls/index.m3u8
+终极风云,https://v.ykv3.com/20240521/mrbzo6ES/1000kb/hls/index.m3u8
+勾魂恶梦,https://f005.paopao.video:443/B20EBA2BFEC71DA3123E87903B3B36B02ECE4E03
+野浪花,https://jpzy01.com/20211222/RzkHVbuD/index.m3u8
+三奸https://cf005.paopao.video:443/B5AE58AE870ACB3F876096DD76D5285611177118
+名妓游江南https://cf005.paopao.video:443/54B8A9B09EFE3102CA59787382F6518EA8A95343
+倩女销魂,https://z20241124.com/videos/202411/21/673e65c13276de039d31a55e/233d55/index.m3u8
+野火,https://t.sziase.com/movie/20240530c51e91771a2b4926/94182529640.m3u8
+浪女迷魂记,https://v2.jegms.com/20221127/meWanQrB/index.m3u8
+乾隆与三姑娘,https://wjm.ydayc.com/13acc2a913214fb03ad48eea179d1f73/20250815041129/20210803/q5fBbXcc/index.m3u8
+妓房少爷,https://wjm.ydayc.com/52c0eb2f37e94ef842c7463e31112c1a/20250815041414/20190725/3rFIqBDt/index.m3u8
+
+色欲狂徙,https://v3.nfm3u8.com/20230529/mpoJFtuk/1100kb/hls/index.m3u8
+色欲野鸳鸯,https://v3.nfm3u8.com/20230529/g02Dx5q8/index.m3u8
+赶尸艳谈,https://hot.1080pzy.co/20230918/MvKEk33R/1000kb/hls/index.m3u8#https://t.sziase.com/movie/20240530346260ea0b394646/07506273640.m3u8
+飞凤春宵,https://t.sziase.com/movie/20240530ae7bc7f1e7e240e4/57152062.m3u8
+舞会,https://t.sziase.com/movie/20240530ef5c3294e27b489a/38965938.m3u8
+男偷情女出墙,https://t.sziase.com/movie/202405307130777782dd4a29/74212985.m3u8
+撞够本,https://ts.onlineesense.com/movie/2024053086cc4ff681554ea6/36072283720.m3u8
+冤女复仇,https://t.sziase.com/movie/202405302866559936114dee/61569130.m3u8
+倩女性花开,https://t.sziase.com/movie/2024053006372988b9da4abf/93708663.m3u8
+七仙女思春,https://t.sziase.com/movie/20240530e4624c5e1da347b7/80503818.m3u8
+血恋,https://t.sziase.com/movie/202405303e388260e06d47f9/93370852.m3u8
+山中艳谭,https://v8.tlkqc.com/wjv8/202310/10/hLztMZdFui1/video/index.m3u8#https://vod11.wgslsw.com/20240413/64Du35S7/index.m3u8
+醉后的玫瑰,https://v8.fentvoss.com/sdv8/202310/06/iA8QfVnE8U1/video/index.m3u8
+红楼春梦,https://jpzy01.com/20230217/bxiNUdqO/index.m3u8
+茜长的女儿,https://jpzy01.com/20240613/bqp9M9T6/index.m3u8
+赶尸艳谭,https://jpzy01.com/20211219/dSwaLrCK/index.m3u8
+淫童前世情迷,https://jpzy01.com/20230101/PUXaWyBh/index.m3u8
+留住真情,https://jpzy01.com/20230106/JDeeat2r/index.m3u8#https://ckzy1com.com/20230106/JDeeat2r/1000kb/hls/index.m3u8
+淫贱女帝武则天,https://t.sziase.com/movie/20240530e76f52c302c24423/25464884.m3u8
+茶山春色,https://ckzy1com.com/20221217/XitsTZMj/index.m3u8
+聊斋艳谭系列,#genre#
+聊斋艳谭,http://c.xpgtv.net/m3u8/TGpSdENSd24yendKeUJIVkovd2VFQT09.m3u8
+ 幽媾, https://vip.lz-cdn16.com/20230227/11181_10b1d81e/index.m3u8?sign=754e937bb6b9adbb76c2f9585e928780
+ 灯草和尚,https://vip.lz-cdn3.com/20220919/13807_8e853889/index.m3u8?sign=eb8cd10841458c8cc5481c6b4722fad3
+ 五通神,http://c.xpgtv.net/m3u8/L1IxZlhhRXhSaGM4ZkduVHhiblBkZz09.m3u8
+ 月宫宝盒,https://vip1.lz-cdn1.com/20220602/7244_b84ad9e5/index.m3u8?sign=1c8b5b1938c4f49cc3ed1469f530da32
+ 玉女聊斋,https://vip1.lz-cdn1.com/20220602/7242_1473001e/index.m3u8?sign=c33cb7555deab25a3205690b7dc88b99
+ 聊斋婴宁,https://vip1.lz-cdn1.com/20220602/7243_6ac4f584/index.m3u8?sign=82359c4cec7dd565e61dfc11869321d0
+ 荷花三娘子,https://vip1.lz-cdn1.com/20220602/7247_71485294/index.m3u8?sign=016cf869a195fed7869bb1b18ca6f93b
+ 画皮,https://vip1.lz-cdn1.com/20220602/7246_8dec3f14/index.m3u8?sign=7d90fe651212dd3003d2ceea0147d00f
+ 恨锁金瓶,#genre#
+ 1,https://vip1.lz-cdn6.com/20221205/34570_254c51b8/index.m3u8
+ 2,https://vip1.lz-cdn6.com/20221205/34571_02a38215/index.m3u8
+ 3,https://vip1.lz-cdn6.com/20221205/34572_02378326/index.m3u8
+ 4,https://vip1.lz-cdn6.com/20221205/34573_52a412f0/index.m3u8
+ 5,https://vip1.lz-cdn6.com/20221205/34574_3291be94/index.m3u8
+ 6,https://vip1.lz-cdn6.com/20221205/34575_c2521def/index.m3u8
+ 7,https://vip1.lz-cdn6.com/20221205/34577_bfad032e/index.m3u8
+ 8,https://vip1.lz-cdn6.com/20221205/34576_62fa5786/index.m3u8
+ 9,https://vip1.lz-cdn6.com/20221205/34578_26510061/index.m3u8
+ 10,https://vip1.lz-cdn6.com/20221205/34580_36293a9d/index.m3u8
+ 11,https://vip1.lz-cdn6.com/20221205/34579_b8c51c80/index.m3u8
+ 12,https://vip1.lz-cdn6.com/20221205/34581_0d544755/index.m3u8
+ 13,https://vip1.lz-cdn6.com/20221205/34582_faa7e737/index.m3u8?sign=55f56b41c1658d6364531c5402e2e936
+ 14,https://vip1.lz-cdn6.com/20221205/34583_090fc080/index.m3u8?sign=71e9846b1ab6a4f6b5c7fcf55b9fbd4c
+ 15,https://vip1.lz-cdn6.com/20221205/34585_738df008/index.m3u8?sign=35bf3e3a7487d73c18118964023be955
+ 16,https://vip1.lz-cdn6.com/20221205/34584_261b6746/index.m3u8?sign=8230c625e83a236833a4eecee9e81ce2
+ 17,https://vip1.lz-cdn6.com/20221205/34586_f8d3821f/index.m3u8?sign=ab9b50cae7a262a7f99e54d8023484af
+ 18,https://vip1.lz-cdn6.com/20221205/34587_6077bf4a/index.m3u8?sign=fe2ff9d829c79c66642de8035b9c25df
+ 19,https://vip1.lz-cdn6.com/20221205/34588_86e4f09d/index.m3u8?sign=2228fbaf14bd8c9f50b826dd19b98c0d
+ 20,https://vip1.lz-cdn6.com/20221205/34589_74184ebb/index.m3u8?sign=61d7bf1e38c17ab1ef9142fb55852075
+ 曼谷名妓,#genre#
+ 1,https://wjm.ydayc.com/e411793e56acae249e2d05e49ed4369f/20250815035249/decry/vd/20240605/YTFkM2MxODVhN/105603/1920_1080/libx/hls/decrypt/index.m3u8
+ 1,https://wjm.ydayc.com/2122d1af7ccc3844cbf73abfac9a15be/20250815035903/decry/vd/20240605/YTFkM2MxODVhN/105603/1280_720/libx/hls/decrypt/index.m3u8
+ 2,https://wjm.ydayc.com/3152d6667210504b0220f83ebba03dee/20250815035513/decry/vd/20240605/ZTE1ZGNlOTk0YjQ/105603/1920_1080/libx/hls/decrypt/index.m3u8
+ 2,https://wjm.ydayc.com/5bf9e33504fc67f363323307fce81f8a/20250815035940/decry/vd/20240605/ZTE1ZGNlOTk0YjQ/105603/1280_720/libx/hls/decrypt/index.m3u8
+ 3,https://wjm.ydayc.com/0035a0e436196cc620ddbd0cd847f3d0/20250815035559/decry/vd/20240605/MjExMjc0Y2M4/105603/1920_1080/libx/hls/decrypt/index.m3u8
+ 3,https://wjm.ydayc.com/d8ed6ac0bee398d04de8855ee56da25a/20250815035954/decry/vd/20240605/MjExMjc0Y2M4/105603/1280_720/libx/hls/decrypt/index.m3u8
+ 4,https://wjm.ydayc.com/d660ddc8894a76fd50db4aec81f05b15/20250815035632/decry/vd/20240605/MDc5OTU4MDg5ODA/105603/1920_1080/libx/hls/decrypt/index.m3u8
+ 4,https://wjm.ydayc.com/581e68d2a62929d6b5f9353ae8365f08/20250815040012/decry/vd/20240605/MDc5OTU4MDg5ODA/105603/1280_720/libx/hls/decrypt/index.m3u8
+ 5,https://wjm.ydayc.com/c90f2a0bb80bfb561e9b0b985c9b32c8/20250815035701/decry/vd/20240703/MmU2OWEyMmU4NWI/211604/1920_1080/libx/hls/decrypt/index.m3u8
+ 5,https://wjm.ydayc.com/2294944a237d07a88ea472fadced2617/20250815040032/decry/vd/20240703/MmU2OWEyMmU4NWI/211604/1280_720/libx/hls/decrypt/index.m3u8
+ 6,https://wjm.ydayc.com/2161f4078d3ee48424e3c55ad6c31974/20250815035726/decry/vd/20240703/ZGZlMmQ0NjZlMmZ/211604/1920_1080/libx/hls/decrypt/index.m3u8
+ 6,https://wjm.ydayc.com/6b6ad83ea8ba9c210c0c44819d807021/20250815040048/decry/vd/20240703/ZGZlMmQ0NjZlMmZ/211604/1280_720/libx/hls/decrypt/index.m3u8
+ 7,https://wjm.ydayc.com/de7a3e2b3f2ca462d8823e87325e5fe7/20250815035755/decry/vd/20240703/ZDZkZTkzODk2/212104/1920_1080/libx/hls/decrypt/index.m3u8
+ 7,https://wjm.ydayc.com/f2e15861dad6686a17328d7030f04c56/20250815040103/decry/vd/20240703/ZDZkZTkzODk2/212104/1280_720/libx/hls/decrypt/index.m3u8
+ 8,https://wjm.ydayc.com/22c5c91c64bf8687f75bb284ff1d1c9a/20250815035823/decry/vd/20240703/NmUxNmZkM2VmZ/212104/1920_1080/libx/hls/decrypt/index.m3u8
+ 8,https://wjm.ydayc.com/8ad502f537d3fee39d1a9870f78a0b2d/20250815040118/decry/vd/20240703/NmUxNmZkM2VmZ/212104/1280_720/libx/hls/decrypt/index.m3u8
+ 电影-频道,#genre#
+ 血妓院,https://wjm.ydayc.com/ad64d7a2f4d3035ae602b7a532d20fa1/20250815040216/20180912/9XQw6F5y/index.m3u8
+ 包公出游之梦回青楼,#genre#
+ 1,https://wjm.ydayc.com/fed2762e18703a30f42e5fab12e7c724/20250815040632/20190310/FZFlOZ7b/index.m3u8
+ 2,https://wjm.ydayc.com/1ce884b093288a76a96c6972762a62b5/20250815040755/20190310/bwVCgFuq/index.m3u8
+ 3,https://wjm.ydayc.com/02175945568c4109ab27fa699b7e198c/20250815040816/20190310/b3jJbK01/index.m3u8
+ 4,https://wjm.ydayc.com/a034fbcc612091f2dc48c05195a58a72/20250815040906/20190310/Q1IUGTZO/index.m3u8
+ 5,https://wjm.ydayc.com/c670954be0f225c34c77298a5f00a428/20250815040923/20190310/QdVwi6Xk/index.m3u8
+ 6,https://wjm.ydayc.com/9102b6d94c3e60d27e98d2e4fc9bcc7a/20250815040940/20190310/Rh6QMIkW/index.m3u8
+ 7,https://wjm.ydayc.com/f5ad3b36da08fd0881aa2525f4efec5c/20250815041000/20190310/LQmdUh2F/index.m3u8
+ 8,https://wjm.ydayc.com/efc8205b5d281a45e90cc9d59405bae9/20250815041022/20190310/ZLRi6kLe/index.m3u8
+ 9,https://wjm.ydayc.com/d1203989fc555f7bc510e966a242b6bc/20250815041045/20190310/LYO5d3XE/index.m3u8
+ 10,https://wjm.ydayc.com/34e67f832a0c01916a82f59206578d49/20250815041102/20190310/RmSCdieB/index.m3u8
+ 
+ 

@@ -1,0 +1,117 @@
+直播接口地址：
+https://gongdian.top/tv/bingcha
+https://gongdian.top/tv/Mursor（UA需要设置成okHttp/Mod-1.2.0.1）  
+  
+直播-酷九使用：
+https://gongdian.top/tv/ku9/webview.txt#JS=https://gongdian.top/tv/ku9/js/webview.js
+https://gongdian.top/tv/ku9/quan.txt#JS=https://gongdian.top/tv/ku9/js/web.js
+  
+---------------------------------------------------------
+点播接口地址（推荐OK影视）：
+宫殿拼接：https://gongdian.top/tvbox/gongdian
+小米：https://gongdian.top/tvbox/xiaomi/api.json
+潇洒接口：https://gongdian.top/tvbox/xiaosa/api.json
+
+大佬接口：
+饭太硬：http://www.饭太硬.net/tv
+王二小：http://tvbox.xn--4kq62z5rby2qupq9ub.top/
+OK佬：http://ok321.top/tv
+欧歌：http://tv.nxog.top/m/
+
+----------------------------------------------------------  
+
+uz影视使用：https://gh-proxy.com/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/uzAio.json
+uz影视使用：https://gongdian.top/tvbox/uz/uz.json（宫殿对官方源简单增删改）
+tbox使用：https://gongdian.top/tvbox/tbox/config.json
+
+猫爪使用（任选一个）：
+http://wexfnw:wexfnw@cat.xn--4kq62z5rby2qupq9ub.top/index.js.md5
+http://wexfnw:wexfnw@cat.999888987.xyz/index.js.md5
+http://wexfnw:wexfnw@cat.999888123.xyz/index.js.md5
+
+
+LibreTV的源（需手动添加）：
+"dyttzy": {
+  "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+  "name": "电影天堂资源",
+  "detail": "http://caiji.dyttzyapi.com"
+},
+"heimuer": {
+  "api": "https://json.heimuer.xyz/api.php/provide/vod",
+  "name": "黑木耳",
+  "detail": "https://heimuer.tv"
+},
+"ruyi": {
+  "api": "http://cj.rycjapi.com/api.php/provide/vod",
+  "name": "如意资源"
+},
+"bfzy": {
+  "api": "https://bfzyapi.com/api.php/provide/vod",
+  "name": "暴风资源"
+},
+"tyyszy": {
+  "api": "https://tyyszy.com/api.php/provide/vod",
+  "name": "天涯资源"
+},
+"ffzy": {
+  "api": "http://ffzy5.tv/api.php/provide/vod",
+  "name": "非凡影视",
+  "detail": "http://ffzy5.tv"
+},
+"zy360": {
+  "api": "https://360zy.com/api.php/provide/vod",
+  "name": "360资源"
+},
+"maotaizy": {
+  "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+  "name": "茅台资源"
+},
+"wolong": {
+  "api": "https://wolongzyw.com/api.php/provide/vod",
+  "name": "卧龙资源"
+},
+"jisu": {
+  "api": "https://jszyapi.com/api.php/provide/vod",
+  "name": "极速资源",
+  "detail": "https://jszyapi.com"
+},
+"dbzy": {
+  "api": "https://dbzy.tv/api.php/provide/vod",
+  "name": "豆瓣资源"
+},
+"mozhua": {
+  "api": "https://mozhuazy.com/api.php/provide/vod",
+  "name": "魔爪资源"
+},
+"mdzy": {
+  "api": "https://www.mdzyapi.com/api.php/provide/vod",
+  "name": "魔都资源"
+},
+"zuid": {
+  "api": "https://api.zuidapi.com/api.php/provide/vod",
+  "name": "最大资源"
+},
+"yinghua": {
+  "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+  "name": "樱花资源"
+},
+"wujin": {
+  "api": "https://api.wujinapi.me/api.php/provide/vod",
+  "name": "无尽资源"
+},
+"wwzy": {
+  "api": "https://wwzy.tv/api.php/provide/vod",
+  "name": "旺旺短剧"
+},
+"ikun": {
+  "api": "https://ikunzyapi.com/api.php/provide/vod",
+  "name": "iKun资源"
+},
+"lzi": {
+  "api": "https://cj.lziapi.com/api.php/provide/vod",
+  "name": "量子资源站"
+},
+"xiaomaomi": {
+  "api": "https://zy.xmm.hk/api.php/provide/vod",
+  "name": "小猫咪资源"
+}

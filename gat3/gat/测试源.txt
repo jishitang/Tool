@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "暴风影院",
+    "baseUrl": "http://by.bfzyapi.com/api.php/provide/vod"
+  },
+  {
+    "id": "2",
+    "name": "极速影院",
+    "baseUrl": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"
+  },
+  {
+    "id": "3",
+    "name": "奶香影院",
+    "baseUrl": "https://naixxzy.com/api.php/provide/vod"
+  },
+  {
+    "id": "4",
+    "name": "幸资源影院",
+    "baseUrl": "https://xzybb1.com/api.php/provide/vod"
+  }
+]

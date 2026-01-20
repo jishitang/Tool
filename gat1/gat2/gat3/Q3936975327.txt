@@ -1,0 +1,2 @@
+curl -L http://txt.kesug.com/users/Q3936975327.txt > Q3936975327.txt
+curl -L http://ox.my.to/i/4553970.txt > 4553970.txt

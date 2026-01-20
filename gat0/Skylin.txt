@@ -1,0 +1,21 @@
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+提示,#genre# 
+江湖再见,https://vd3.bdstatic.com/mda-mbiqgzsnfeyv74y6/v1-cae/1080p/mda-mbiqgzsnfeyv74y6.mp4
+ ,#genre# 
+1,http://pullsstx.peiyou.eaydu.com:80/live/b4190980034026f1830edcc1f899e4b0.flv
+2,http://pullsstx.peiyou.eaydu.com:80/live/a0df96e3b3172ccce232a355265941e0.flv
+3,http://push-rtmp-hs-spe-f5.douyincdn.com:80/live/7ac4f857ab64413226601c594283362b.flv
+4,http://pullsstx.peiyou.eaydu.com:80/live/77d1d09816f917b5548c8aed537e2569.flv
+5,http://pullsstx.peiyou.eaydu.com:80/live/f6b5bf51242b14976502ab9482a82b3b.flv
+6,http://pullsstx.peiyou.eaydu.com:80/live/b4df5bf468b0051fcfbe87271f1fad5d.flv
+7,http://pullsstx.peiyou.eaydu.com:80/live/5ae1528054d6632aa3168c1b5b2666cf.flv
+8,http://push-rtmp-hs-spe-f5.douyincdn.com:80/live/664dc36541c9476dffad5e1d8d2d1c84.flv
+9,http://pullsstx.peiyou.eaydu.com:80/live/eacf0681ba32535d1ae42b7c38dff11a.flv
+10,http://pullsstx.peiyou.eaydu.com:80/live/f6b5bf51242b14976502ab9482a82b3b.flv
+11,http://pullsstx.peiyou.eaydu.com:80/live/a0df96e3b3172ccce232a355265941e0.flv
+12,http://pullsstx.peiyou.eaydu.com:80/live/b4190980034026f1830edcc1f899e4b0.flv
+13,http://push-rtmp-hs-spe-f5.douyincdn.com:80/live/7ac4f857ab64413226601c594283362b.flv
+14,http://pullsstx.peiyou.eaydu.com:80/live/77d1d09816f917b5548c8aed537e2569.flv
+15,http://pullsstx.peiyou.eaydu.com:80/live/77d1d09816f917b5548c8aed537e2569.flv
+pigo,http://push-rtmp-hs-spe-f5.douyincdn.com:80/live/a83b4f0db5935cef305dca5a3c071140.flv
+极限,http://push-rtmp-hs-spe-f5.douyincdn.com:80/live/0bf50d0d7a2ab23a1eb90ddcdf78b045.flv

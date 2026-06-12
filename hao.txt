@@ -1,0 +1,189 @@
+sys.argv = ['find_file.py', '-i', '走向共和', '.']
+正在搜索目录: .
+关键字: '走向共和' (不区分大小写)
+======================================================================
+
+📄 [内容匹配] hao.txt
+      1: 搜索: 走向共和
+      6: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4468112791/930125689/2345.ts
+      9: 走向共和,#genre#
+     12: 走向共和,#genre#
+     15: 走向共和,#genre#
+     18: 走向共和,#genre#
+     21: 走向共和,#genre#
+     24: 走向共和,#genre#
+     27: 走向共和,#genre#
+     30: 走向共和,#genre#
+     33: 走向共和,#genre#
+     36: 走向共和,#genre#
+     39: 走向共和,#genre#
+     42: 走向共和,#genre#
+     45: 走向共和,#genre#
+     48: 走向共和,#genre#
+     51: 走向共和,#genre#
+     54: 走向共和,#genre#
+     57: 走向共和,#genre#
+     60: 走向共和,#genre#
+     63: 走向共和,#genre#
+     66: 走向共和,#genre#
+     69: 走向共和,#genre#
+     72: 走向共和,#genre#
+     75: 走向共和,#genre#
+     78: 走向共和,#genre#
+     81: 走向共和,http://iptvpro.pw:35451/live/加QQ群468112791/40680268/2345.ts
+     84: 走向共和,#genre#
+     87: 走向共和,#genre#
+     90: 走向共和,#genre#
+     93: 走向共和,#genre#
+     96: 走向共和,#genre#
+     99: 走向共和,#genre#
+    102: 走向共和,#genre#
+    105: 走向共和,#genre#
+    108: 走向共和,#genre#
+    111: 走向共和,#genre#
+    114: 走向共和,#genre#
+    117: 走向共和,#genre#
+    120: 走向共和,#genre#
+    123: 走向共和,#genre#
+    126: 走向共和,#genre#
+    129: 走向共和,#genre#
+    132: 走向共和,http://start.siphot.com/123.php?t=%F0%9F%90%AC%E8%BD%AE%E6%92%ADLB&id=%E8%B5%B0%E5%90%91%E5%85%B1%E5%92%8C&l=1
+    135: 走向共和,http://start.siphot.com/123.php?t=%F0%9F%90%AC%E8%BD%AE%E6%92%ADLB&id=%E8%B5%B0%E5%90%91%E5%85%B1%E5%92%8C&l=1
+    142: 走向共和,http://start.siphot.com/123.php?t=%F0%9F%90%AC%E8%BD%AE%E6%92%ADLB&id=%E8%B5%B0%E5%90%91%E5%85%B1%E5%92%8C&l=1
+    145: 走向共和,#genre#
+    148: 走向共和,#genre#
+    151: 走向共和,#genre#
+    154: 走向共和,#genre#
+    157: 走向共和,#genre#
+    160: 走向共和,#genre#
+    163: 走向共和,#genre#
+    166: 走向共和,#genre#
+    169: 走向共和,#genre#
+    172: 走向共和,#genre#
+    175: 走向共和,#genre#
+    178: 走向共和,#genre#
+    181: 走向共和,#genre#
+    184: 走向共和,#genre#
+    187: 走向共和,#genre#
+    190: 走向共和,#genre#
+    193: 走向共和,#genre#
+    196: 走向共和,#genre#
+    199: 走向共和,#genre#
+    202: 走向共和,#genre#
+    205: 走向共和,#genre#
+    208: 走向共和,#genre#
+    211: 走向共和,#genre#
+    214: 走向共和,#genre#
+    217: 走向共和,#genre#
+    220: 走向共和,#genre#
+    223: 走向共和,#genre#
+    226: 走向共和,#genre#
+    227: 走向共和,#genre#
+    230: 走向共和,#genre#
+    233: 走向共和,#genre#
+    236: 走向共和,#genre#
+    239: 走向共和,#genre#
+    242: 走向共和,#genre#
+    245: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/33765438/2345.ts
+    248: 走向共和,#genre#
+    251: 走向共和,#genre#
+    254: 走向共和,#genre#
+    257: 走向共和,#genre#
+    260: 走向共和,#genre#
+    263: 走向共和,#genre#
+    266: 走向共和,#genre#
+    269: 走向共和,#genre#
+    272: 走向共和,#genre#
+    275: 走向共和,#genre#
+    278: 走向共和,#genre#
+    281: 走向共和,#genre#
+    284: 走向共和,#genre#
+    287: 走向共和,#genre#
+    290: 走向共和,#genre#
+    293: 走向共和,#genre#
+    296: 走向共和,#genre#
+    299: 走向共和,#genre#
+    302: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/13567902/2345.ts
+    305: 走向共和,http://iptvpro.pw:35451//live/1884378782/4697313656/2345.ts
+    308: 走向共和,http://iptvpro.pw:35451/live/加QQ群995225115福利/12359876/2345.ts
+    311: 走向共和,http://iptvpro.pw:35451//live/1884378782/4697313656/2345.ts
+    314: #EXTINF:-1 tvg-id="" tvg-name="走向共和" tvg-logo="" group-title="轮播LB",走向共和
+    317: 走向共和,http://iptvpro.pw:35451/live/9169458555/2882972111/2345.ts
+    320: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/98767803/2345.ts
+    323: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/98767803/2345.ts
+    326: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/98767803/2345.ts
+    329: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/67899888/2345.ts
+    332: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/678999999/2345.ts
+    335: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/678888888/2345.ts
+    338: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/678999999/2345.ts
+    341: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A4995225115%E7%A6%8F%E5%88%A9/678999999/2345.ts
+    344: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/344dtg465/2345.ts
+    347: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/255kdt477/2345.ts
+    350: 走向共和,http://iptvpro.pw:35451/live/加QQ群995225115福利/131467891/2345.ts
+    353: 走向共和,http://iptvpro.pw:35451/live/加QQ群1067462089/619hdTN935/2345.ts
+    356: 走向共和,#genre#
+    359: 走向共和,http://iptvpro.pw:35451//live/加QQ群1067462089/3665kj669/2345.ts
+    362: 走向共和,#genre#
+    365: 走向共和,http://iptvpro.pw:35451//live/加QQ群1067462089/635yg587/2345.ts
+    370: #EXTINF:-1 tvg-id="" tvg-name="走向共和" tvg-logo="" group-title="轮播LB",走向共和
+    373: #EXTINF:-1 tvg-id="" tvg-name="走向共和" tvg-logo="" group-title="轮播LB",走向共和
+    376: #EXTINF:-1 tvg-name="走向共和" tvg-logo="https://live.fanmingming.cn/tv/走向共和.png" group-title="🐬轮播LB",走向共和
+    380: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/344dtg465/2345.ts
+    383: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/344dtg465/2345.ts
+    386: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/344dtg465/2345.ts
+    391: 走向共和,http://iptvpro.pw:35451/live/%E5%8A%A0QQ%E7%BE%A41067462089/344dtg465/2345.ts
+    396: 汤氏走向共和,#genre#
+
+📄 [内容匹配] gat3/电视剧(3).txt
+     48: 走向共和,#genre#
+
+📄 [内容匹配] gat3/lz/wj/音乐/歌曲之四.txt
+   8253: 徐沛东-走向共和,http://em.21dtv.com/songs/60072828.mkv
+
+📄 [内容匹配] gat3/gat/api.json
+   4063: 走向共和,#genre#
+
+📄 [内容匹配] gat3/gat/80后经典影视剧.txt
+   9646: 走向共和,#genre#
+
+📄 [内容匹配] gat0/feiyang.txt
+   3849: 走向共和,#genre#
+
+📄 [内容匹配] gat0/zhengfu.txt
+   6455: 走向共和,#genre#
+
+📄 [内容匹配] gat1/feiyang.txt
+   3849: 走向共和,#genre#
+
+📄 [内容匹配] gat1/zhengfu.txt
+   6455: 走向共和,#genre#
+
+📄 [内容匹配] gat1/gat2/dy2.txt
+   17394: 🇨🇳走向共和,#genre#
+
+📄 [内容匹配] gat1/gat2/dy.txt
+   17394: 🇨🇳走向共和,#genre#
+
+📄 [内容匹配] gat1/gat2/3df.txt
+     48: 走向共和,#genre#
+
+📄 [内容匹配] gat1/gat2/3146494.txt
+   8626: 走向共和,#genre#
+
+📄 [内容匹配] gat2/juji.txt
+     49: 走向共和,#genre#
+
+📄 [内容匹配] gat2/gat2/gat3/a80.txt
+   9647: 走向共和,#genre#
+
+📄 [内容匹配] gat2/gat2/gat3/a125.txt
+   26673: 走向共和,#genre#
+
+======================================================================
+搜索完成!
+检索文件数: 1026
+内容匹配文件数: 16
+内容匹配行数: 144
+文件名匹配数: 0
+文件夹名匹配数: 0
+跳过文件数: 25

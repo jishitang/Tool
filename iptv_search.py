@@ -13,8 +13,15 @@ try:
 except ImportError:
     _ssl_ctx = None
 
+def encode_url(url):
+    """对 URL 中的中文和空格做编码"""
+    parsed = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(parsed.path, safe='/')
+    return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, path, parsed.query, parsed.fragment))
+
 def download(url, max_retries=3):
     """下载 URL 内容，失败自动重试"""
+    url = encode_url(url)
     for attempt in range(1, max_retries + 1):
         try:
             req = urllib.request.Request(url)
@@ -37,7 +44,7 @@ def search_files(keyword):
         'search_scope': 'content',
         'sort': 'time',
         'keyword': keyword,
-        'verify_input': '666'
+        'verify_input': 'kong'
     }).encode()
     req = urllib.request.Request('http://ox.my.to/_kk.php', data=data)
     resp = urllib.request.urlopen(req, timeout=30)
@@ -54,7 +61,7 @@ def extract_matches(url, keyword):
     """下载文件并提取包含关键词的条目"""
     content = download(url)
     if content is None:
-        return []
+        return None
 
     lines = content.split('\n')
     results = []
@@ -98,11 +105,14 @@ def main():
     print(f"找到 {total} 个文件，开始提取匹配内容...\n")
 
     all_results = []
+    failed = []
     for idx, link in enumerate(links, 1):
         fname = link.split('/')[-1]
         fname = urllib.parse.unquote(fname)
         matches = extract_matches(link, keyword)
-        if matches:
+        if matches is None:
+            failed.append(fname)
+        elif matches:
             print(f"--- [{idx}] {fname} ({len(matches)} 条) ---")
             for m in matches:
                 print(m)
@@ -111,6 +121,10 @@ def main():
 
     print(f"{'=' * 60}")
     print(f"共找到 {len(all_results)} 条匹配结果")
+    if failed:
+        print(f"\n以下 {len(failed)} 个文件下载失败：")
+        for f in failed:
+            print(f"  - {f}")
 
 if __name__ == '__main__':
     main()

@@ -304,9 +304,23 @@
     else { b.style.background = "#e50914"; b.textContent = "▶ App播放"; }
   }
 
-  // ---------- 轮询：复位 + 兜底扫描 + 按钮 ----------
+  // 自动关掉"仅供APP端观看/下载官方App"拦截弹窗(DOM 前缀 op__), 避免它盖住界面、卡住换线路
+  function killBlockPopup() {
+    try {
+      var els = document.querySelectorAll('[id^="op__"],[class^="op__"],[class*=" op__"]');
+      var hit = false;
+      for (var i = 0; i < els.length; i++) {
+        var e = els[i];
+        if (e && e.style && e.style.display !== "none") { e.style.display = "none"; hit = true; }
+      }
+      if (hit) { try { document.documentElement.style.overflow = ""; document.body.style.overflow = ""; } catch (e) {} }
+    } catch (e) {}
+  }
+
+  // ---------- 轮询：复位 + 兜底扫描 + 按钮 + 关拦截弹窗 ----------
   setInterval(function () {
     if (!isDusheHost()) return;
+    killBlockPopup();
     resetIfPageChanged();
     if (isPlayPage()) { watchVideoSrc(); ensureButton(); }
     else { ensureButton(); }

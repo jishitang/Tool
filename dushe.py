@@ -9,8 +9,8 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v4"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 点"详情"可见, 用来确认 App 加载了新文件
-          # (不再放标题, 因为标题带 ·vN 会破坏 TMDB 海报匹配)
+VER="v5"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+          # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
     def getName(self): return "毒舌电影"
@@ -119,7 +119,12 @@ class Spider(Spider):
         # 年份(TMDB 匹配更准): detail-tags 里的 4 位年份, 或 /show/ 链接里的年份
         ym=re.search(r'detail-tags-item"[^>]*>\s*((?:19|20)\d{2})\s*<',h) or re.search(r'/show/[^"]*?-((?:19|20)\d{2})--',h) or re.search(r'>((?:19|20)\d{2})<',h)
         year=ym.group(1) if ym else ""
-        desc=re.search(r'(?:class="[^"]*(?:content|desc|jianjie|summary)[^"]*"[^>]*>)\s*([^<]{4,})',h)
+        # 剧情简介: detail-desc 块(内有 <p> 标签, 要剥), 退回 meta description
+        dm=re.search(r'class="detail-desc"[^>]*>(.*?)</div>',h,re.S) or re.search(r'name="description"\s+content="([^"]+)"',h)
+        desc=""
+        if dm:
+            desc=re.sub(r'<[^>]+>',' ',dm.group(1))
+            desc=re.sub(r'\s+',' ',desc).strip()
         # 按 sid 分线路, 收集 (eid, 集名)
         routes={}
         for m in re.finditer(r'href="(/play/'+re.escape(vid)+r'-(\d+)-(\d+)\.html)"([^>]*)>(.*?)</a>',h,re.S):
@@ -133,18 +138,21 @@ class Spider(Spider):
             mnum=re.search(r'(\d{1,4})',label or "")
             label="%02d"%(int(mnum.group(1)) if mnum else (len(routes[sid])+1))
             routes[sid].append((href,label))
-        # 线路真实名(超清1/4K/FF线路/蓝光...): source-item-label 顺序与选集组一致
+        # 线路真实名(超清1/4K/FF线路/蓝光...)+ 副标签(高清/720P/秒播/香港加速...): 顺序与选集组一致
         labels=re.findall(r'class="source-item-label">\s*([^<]+?)\s*</span>',h)
+        subs=re.findall(r'class="source-item-sublabel">\s*([^<]+?)\s*</span>',h)
         pf,pu=[],[]; used=set()
         for n,(sid,eps) in enumerate(routes.items()):
             nm=labels[n].strip() if n<len(labels) and labels[n].strip() else "线路%d"%(n+1)
+            sub=subs[n].strip() if n<len(subs) and subs[n].strip() else ""
+            if sub: nm="%s(%s)"%(nm,sub)   # 例: 蓝光(高清)、FF线路(播放快/高清)、WJ线路(720P)
             nm=re.sub(r'[\$#]',' ',nm).strip()
             base=nm; k=2
             while nm in used: nm=base+str(k); k+=1   # 防重名被 App 合并
             used.add(nm); pf.append(nm)
             pu.append("#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps))
         # 封面留空 -> App 才会去取 TMDB 剧照填卡片(带 logo 封面会压制 TMDB, 全是 logo)
-        cont="[%s] %s"%(VER,(desc.group(1).strip() if desc else ""))  # 简介开头放版本标记, 点"详情"可见
+        cont=("[%s] %s"%(VER,desc)).strip()  # 简介开头放版本标记 + 真实剧情
         return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":"","vod_year":year,
                          "vod_content":cont,
                          "vod_play_from":"$$$".join(pf) if pf else "毒舌",

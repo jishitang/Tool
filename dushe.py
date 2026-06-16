@@ -9,6 +9,8 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
+VER="v3"  # 改版标记: 每次改完 +1, 详情标题会显示 ·vN, 用来确认 App 真的加载了新文件
+
 class Spider(Spider):
     def getName(self): return "毒舌电影"
     def init(self, extend=""):
@@ -111,7 +113,7 @@ class Spider(Spider):
         for pat in (r'<h1[^>]*>\s*([^<]{1,40})', r'class="[^"]*(?:vod[-_ ]?name|video-title|detail[-_ ]?title)[^"]*"[^>]*>\s*([^<]{1,40})', r'<title>\s*([^<\-_]{1,40})'):
             mt=re.search(pat,h)
             if mt and mt.group(1).strip(): name=mt.group(1).strip(); break
-        name=name or vid
+        name=(name or vid)+" ·"+VER   # 版本标记: 详情标题出现 ·v3 = 新文件已生效
         pic=self._pic(h)
         desc=re.search(r'(?:class="[^"]*(?:content|desc|jianjie|summary)[^"]*"[^>]*>)\s*([^<]{4,})',h)
         # 按 sid 分线路, 收集 (eid, 集名)
@@ -137,7 +139,10 @@ class Spider(Spider):
             while nm in used: nm=base+str(k); k+=1   # 防重名被 App 合并
             used.add(nm); pf.append(nm)
             pu.append("#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps))
-        return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":pic,
+        # TIDY_EPISODES: 详情封面置空 -> App 选集没缩略图可铺, 有机会塌成紧凑数字按钮(不再大卡片)
+        # 想恢复封面就把下一行改成 detail_pic=pic
+        detail_pic=""
+        return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":detail_pic,
                          "vod_content":(desc.group(1).strip() if desc else ""),
                          "vod_play_from":"$$$".join(pf) if pf else "毒舌",
                          "vod_play_url":"$$$".join(pu)}]}

@@ -1,0 +1,151 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# 毒舌电影 (dushe05.com) CSP 爬虫
+# - init: 解 cdndefend JS-PoW 验证拿 cookie, 抓搜索 token
+# - 搜索: /search?k=词&t=token   详情: /detail/{id}.html   播放页: /play/{id}-{sid}-{eid}.html (内含 m3u8)
+import re, json, base64, hashlib, requests
+from urllib.parse import quote, unquote, urljoin
+from base.spider import Spider
+
+requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
+
+class Spider(Spider):
+    def getName(self): return "毒舌电影"
+    def init(self, extend=""):
+        self.host="https://www.dushe05.com"
+        self.ua="Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
+        self.token=""
+        self.session=requests.Session()
+        self.session.verify=False
+        self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
+        self._warm()
+    def destroy(self):
+        try: self.session.close()
+        except Exception: return None
+
+    # ---- cdndefend JS-PoW: SHA1(c+i) 字节 [n1]==0xb0 且 [n1+1]==0x0b ----
+    def _solve(self,html):
+        m=re.search(r"'([0-9A-Fa-f]{40})'",html)
+        if not m: return None
+        c=m.group(1); n1=int(c[0],16); i=0
+        while i<5000000:
+            d=hashlib.sha1((c+str(i)).encode()).digest()
+            if d[n1]==0xb0 and d[n1+1]==0x0b:
+                return "cdndefend_js_cookie="+c+str(i)
+            i+=1
+        return None
+    def _warm(self):
+        try:
+            h=self._get("/")
+            t=re.search(r"[?&](?:amp;)?t=([^\"'&<> ]+)",h)
+            if t: self.token=unquote(t.group(1))
+        except Exception: pass
+    def _get(self,path,ref=""):
+        url=self.host+path if path.startswith("/") else path
+        try:
+            r=self.session.get(url,headers={"Referer":ref or self.host+"/"},timeout=20)
+            r.encoding="utf-8"
+            txt=r.text
+            if "verifying your browser" in txt[:400] or "cdndefend" in txt[:200]:
+                ck=self._solve(txt)
+                if ck:
+                    k,v=ck.split("=",1)
+                    self.session.cookies.set(k,v,domain="www.dushe05.com",path="/")
+                    r=self.session.get(url,headers={"Referer":ref or self.host+"/"},timeout=20)
+                    r.encoding="utf-8"; txt=r.text
+            return txt
+        except Exception:
+            return ""
+
+    def _pic(self,h):
+        m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
+        return m.group(1) if m else ""
+    def _cards(self,html):
+        """从搜索/列表页提取 vod 卡片"""
+        out=[]; seen=set()
+        # 每个详情链接块: <a href="/detail/ID.html" ... title 或 内含文字>
+        for m in re.finditer(r'href="/detail/(\d+)\.html"([^>]*)>(.*?)</a>',html,re.S):
+            vid=m.group(1)
+            if vid in seen: continue
+            attr=m.group(2); inner=m.group(3)
+            tm=re.search(r'title="([^"]+)"',attr) or re.search(r'alt="([^"]+)"',inner)
+            name=tm.group(1).strip() if tm else re.sub(r'<[^>]+>',' ',inner)
+            name=re.sub(r'\s+',' ',name).strip()
+            if not name or len(name)>60: continue
+            seen.add(vid)
+            pic=""
+            pm=re.search(r'(?:data-original|data-src|src)="(https?://[^"]+?\.(?:jpg|jpeg|png|webp))"',inner)
+            if pm: pic=pm.group(1)
+            rm=re.search(r'(?:class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>)([^<]{1,20})',inner)
+            out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":(rm.group(1).strip() if rm else "")})
+        return out
+
+    def homeContent(self,filter):
+        h=self._get("/")
+        # 分类导航
+        cls=[]; seen=set()
+        for m in re.finditer(r'href="/(?:type|vodtype|list|show)/(\d+)[^"]*\.html"[^>]*>([^<]{1,8})</a>',h):
+            cid,cname=m.group(1),m.group(2).strip()
+            if cid in seen or not cname: continue
+            seen.add(cid); cls.append({"type_id":cid,"type_name":cname})
+        return {"class":cls[:12],"list":self._cards(h)[:40]}
+    def homeVideoContent(self):
+        return {"list":self._cards(self._get("/"))[:40]}
+    def categoryContent(self,tid,pg,filter,extend):
+        page=int(pg) if str(pg).isdigit() else 1
+        for fmt in (f"/type/{tid}-{page}.html",f"/list/{tid}-{page}.html",f"/show/{tid}--------{page}---.html"):
+            h=self._get(fmt)
+            cards=self._cards(h)
+            if cards:
+                return {"list":cards,"page":page,"pagecount":page+1 if len(cards)>=20 else page,"limit":len(cards),"total":9999}
+        return {"list":[],"page":page,"pagecount":1,"limit":0,"total":0}
+    def searchContent(self,key,quick,pg="1"):
+        if not self.token: self._warm()
+        h=self._get(f"/search?k={quote(key)}&t={quote(self.token,safe='')}")
+        return {"list":self._cards(h),"page":1,"pagecount":1,"limit":30,"total":0}
+
+    def detailContent(self,ids):
+        vid=ids[0]
+        h=self._get(f"/detail/{vid}.html",self.host+"/")
+        name=""
+        for pat in (r'<h1[^>]*>\s*([^<]{1,40})', r'class="[^"]*(?:vod[-_ ]?name|video-title|detail[-_ ]?title)[^"]*"[^>]*>\s*([^<]{1,40})', r'<title>\s*([^<\-_]{1,40})'):
+            mt=re.search(pat,h)
+            if mt and mt.group(1).strip(): name=mt.group(1).strip(); break
+        name=name or vid
+        pic=self._pic(h)
+        desc=re.search(r'(?:class="[^"]*(?:content|desc|jianjie|summary)[^"]*"[^>]*>)\s*([^<]{4,})',h)
+        # 按 sid 分线路, 收集 (eid, 集名)
+        routes={}
+        for m in re.finditer(r'href="(/play/'+re.escape(vid)+r'-(\d+)-(\d+)\.html)"([^>]*)>(.*?)</a>',h,re.S):
+            href,sid,eid,attr,inner=m.group(1),m.group(2),m.group(3),m.group(4),m.group(5)
+            label=re.sub(r'<[^>]+>',' ',inner); label=re.sub(r'\s+',' ',label).strip()
+            tm=re.search(r'title="([^"]+)"',attr)
+            if tm and (not label or len(label)>12): label=tm.group(1).strip()
+            routes.setdefault(sid,[])
+            if any(e[0]==href for e in routes[sid]): continue
+            if not label or "立即播放" in label or "点击" in label or "选集" in label:
+                label="第%d集"%(len(routes[sid])+1)
+            routes[sid].append((href,label))
+        pf,pu=[],[]
+        for n,(sid,eps) in enumerate(routes.items(),1):
+            pf.append(f"线路{n}")
+            pu.append("#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps))
+        return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":pic,
+                         "vod_content":(desc.group(1).strip() if desc else ""),
+                         "vod_play_from":"$$$".join(pf) if pf else "毒舌",
+                         "vod_play_url":"$$$".join(pu)}]}
+
+    def playerContent(self,flag,id,vipFlags):
+        # id 是 /play/...html 路径
+        h=self._get(id,self.host+"/")
+        url=""
+        pm=re.search(r'player_aaaa\s*=\s*(\{.*?\})\s*</script>',h,re.S) or re.search(r'player_aaaa\s*=\s*(\{.*?\});',h,re.S)
+        if pm:
+            try: url=json.loads(pm.group(1)).get("url","")
+            except Exception: url=""
+        if not url:
+            um=re.search(r'"url"\s*:\s*"([^"]+?\.(?:m3u8|mp4)[^"]*)"',h) or re.search(r'(https?:[^"\'\\]+?\.(?:m3u8|mp4)[^"\'\\]*)',h)
+            if um: url=um.group(1)
+        url=url.replace("\\/","/")
+        if not url: return {"parse":1,"jx":0,"url":""}
+        return {"parse":0,"jx":0,"url":url,"header":{"User-Agent":self.ua,"Referer":self.host+"/"}}

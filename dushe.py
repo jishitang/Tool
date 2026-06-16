@@ -123,12 +123,19 @@ class Spider(Spider):
             if tm and (not label or len(label)>12): label=tm.group(1).strip()
             routes.setdefault(sid,[])
             if any(e[0]==href for e in routes[sid]): continue
-            if not label or "立即播放" in label or "点击" in label or "选集" in label:
-                label="第%d集"%(len(routes[sid])+1)
+            # 统一成 01/02 纯数字(跟电影驿站一致, 选集网格才紧凑); 优先用集名里的数字, 没有就用序号
+            mnum=re.search(r'(\d{1,4})',label or "")
+            label="%02d"%(int(mnum.group(1)) if mnum else (len(routes[sid])+1))
             routes[sid].append((href,label))
-        pf,pu=[],[]
-        for n,(sid,eps) in enumerate(routes.items(),1):
-            pf.append(f"线路{n}")
+        # 线路真实名(超清1/4K/FF线路/蓝光...): source-item-label 顺序与选集组一致
+        labels=re.findall(r'class="source-item-label">\s*([^<]+?)\s*</span>',h)
+        pf,pu=[],[]; used=set()
+        for n,(sid,eps) in enumerate(routes.items()):
+            nm=labels[n].strip() if n<len(labels) and labels[n].strip() else "线路%d"%(n+1)
+            nm=re.sub(r'[\$#]',' ',nm).strip()
+            base=nm; k=2
+            while nm in used: nm=base+str(k); k+=1   # 防重名被 App 合并
+            used.add(nm); pf.append(nm)
             pu.append("#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps))
         return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":pic,
                          "vod_content":(desc.group(1).strip() if desc else ""),

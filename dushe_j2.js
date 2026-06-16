@@ -37,20 +37,6 @@
   function toast(msg) {
     try { if (window.fm && fm.ext && fm.ext.toast) return fm.ext.toast(msg); } catch (e) {}
   }
-  // 常驻诊断小字(返回网页后可见, 不会被 toast 覆盖)
-  function diag(msg) {
-    try {
-      var d = document.getElementById("fm-dushe-diag");
-      if (!d) {
-        d = document.createElement("div");
-        d.id = "fm-dushe-diag";
-        d.style.cssText = "position:fixed;left:6px;top:6px;z-index:2147483647;background:rgba(0,0,0,.85);color:#0f0;font-size:12px;line-height:1.4;padding:5px 9px;border-radius:6px;max-width:94vw;white-space:pre-wrap;";
-        d.addEventListener("click", function () { d.remove(); });
-        (document.body || document.documentElement).appendChild(d);
-      }
-      d.textContent = "[诊断·点我关] " + msg;
-    } catch (e) {}
-  }
   function absUrl(u) {
     try { return new URL(u, location.href).href; } catch (e) { return u; }
   }
@@ -188,19 +174,15 @@
     pausePageVideos();
     whenFm().then(function (fm) {
       var pic = pagePoster();
-      var info = buildEpisodes(); // 总是构建(便于诊断)
-      var fnKeys = [], objKeys = [];
-      try { for (var k in fm) { var t = typeof fm[k]; if (t === "function") fnKeys.push(k); else if (t === "object" && fm[k]) objKeys.push(k); } } catch (e) {}
-      var extKeys = [];
-      try { for (var k2 in fm.ext) { if (typeof fm.ext[k2] === "function") extKeys.push(k2); } } catch (e) {}
-      diag("fm方法: " + fnKeys.join(",") + "\nfm对象: " + objKeys.join(",") + "\nfm.ext: " + extKeys.join(",") + "\n选集=" + (info ? info.episodes.length : 0)); // 列出SDK实际方法
-      if (info && hasVi) {
+      // 优先选集(仅当 App 支持 fm.vodInline; 旧版无此方法 → 自动走下面单集)
+      var info = (typeof fm.vodInline === "function") ? buildEpisodes() : null;
+      if (info) {
         try {
           fm.vodInline({ vod_name: pageTitle(), vod_pic: pic, wallPic: pic, vod_play_from: "毒舌", mark: info.mark, episodes: info.episodes });
           toast(auto ? "已用App播放(选集)" : "正在播放(选集)");
           log("vodInline", info.episodes.length, "集 | mark", info.mark);
           return;
-        } catch (e) { log("vodInline failed", e && e.message); toast("vodInline报错:" + (e && e.message)); }
+        } catch (e) { log("vodInline failed", e && e.message); }
       }
       // 回退: 单集裸播(不传 headers, 绕网关; CDN 开放无需请求头)
       try {

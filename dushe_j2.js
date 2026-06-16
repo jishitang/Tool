@@ -37,6 +37,20 @@
   function toast(msg) {
     try { if (window.fm && fm.ext && fm.ext.toast) return fm.ext.toast(msg); } catch (e) {}
   }
+  // 常驻诊断小字(返回网页后可见, 不会被 toast 覆盖)
+  function diag(msg) {
+    try {
+      var d = document.getElementById("fm-dushe-diag");
+      if (!d) {
+        d = document.createElement("div");
+        d.id = "fm-dushe-diag";
+        d.style.cssText = "position:fixed;left:6px;top:6px;z-index:2147483647;background:rgba(0,0,0,.85);color:#0f0;font-size:12px;line-height:1.4;padding:5px 9px;border-radius:6px;max-width:94vw;white-space:pre-wrap;";
+        d.addEventListener("click", function () { d.remove(); });
+        (document.body || document.documentElement).appendChild(d);
+      }
+      d.textContent = "[诊断·点我关] " + msg;
+    } catch (e) {}
+  }
   function absUrl(u) {
     try { return new URL(u, location.href).href; } catch (e) { return u; }
   }
@@ -174,15 +188,18 @@
     pausePageVideos();
     whenFm().then(function (fm) {
       var pic = pagePoster();
-      // 优先: 带整部剧选集
-      var info = fm.vodInline ? buildEpisodes() : null;
-      if (info) {
+      var info = buildEpisodes(); // 总是构建(便于诊断)
+      var hasVi = typeof fm.vodInline === "function";
+      var pm = location.pathname.match(/\/play\/(\d+)-(\d+)-(\d+)\.html/);
+      var anc = pm ? document.querySelectorAll('a[href*="/play/' + pm[1] + '-' + pm[2] + '-"]').length : -1;
+      diag("vodInline=" + hasVi + "\n选集数=" + (info ? info.episodes.length : 0) + "\n当前线路a标签=" + anc + "\npath=" + location.pathname); // 常驻诊断
+      if (info && hasVi) {
         try {
           fm.vodInline({ vod_name: pageTitle(), vod_pic: pic, wallPic: pic, vod_play_from: "毒舌", mark: info.mark, episodes: info.episodes });
           toast(auto ? "已用App播放(选集)" : "正在播放(选集)");
           log("vodInline", info.episodes.length, "集 | mark", info.mark);
           return;
-        } catch (e) { log("vodInline failed, fallback single", e && e.message); }
+        } catch (e) { log("vodInline failed", e && e.message); toast("vodInline报错:" + (e && e.message)); }
       }
       // 回退: 单集裸播(不传 headers, 绕网关; CDN 开放无需请求头)
       try {

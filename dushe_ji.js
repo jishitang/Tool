@@ -122,15 +122,18 @@
       var m = location.pathname.match(/\/play\/(\d+)-(\d+)-(\d+)\.html/);
       if (!m) return null;
       var id = m[1], sid = m[2], curNid = m[3];
-      var html = document.documentElement.innerHTML;
-      var re = new RegExp('href="(/play/' + id + '-' + sid + '-(\\d+)\\.html)"([^>]*)>([\\s\\S]*?)<\\/a>', 'g');
-      var eps = [], seen = {}, mm, curName = "";
-      while ((mm = re.exec(html))) {
-        var href = mm[1], nid = mm[2], attr = mm[3], inner = mm[4];
+      var pre = "/play/" + id + "-" + sid + "-"; // 只取当前线路的集
+      // 渲染后的选集项: <a href="/play/{id}-{sid}-{nid}.html" class="episode-item"><span>名称</span></a>
+      var anchors = document.querySelectorAll('a[href*="' + pre + '"]');
+      var eps = [], seen = {}, curName = "", i, nm;
+      for (i = 0; i < anchors.length; i++) {
+        var href = anchors[i].getAttribute("href") || "";
+        var idx = href.indexOf(pre); if (idx < 0) continue;
+        nm = href.slice(idx + pre.length).match(/^(\d+)\.html/); if (!nm) continue;
+        var nid = nm[1];
         if (seen[nid]) continue; seen[nid] = 1;
-        var tm = inner.match(/title="([^"]+)"/) || attr.match(/title="([^"]+)"/);
-        var name = (tm ? tm[1] : inner.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim() || nid;
-        if (/立即播放|点击选择/.test(name)) continue;
+        var name = (anchors[i].textContent || "").replace(/\s+/g, " ").trim();
+        if (!name || /立即播放|点击选择|选集播放|切换线路/.test(name)) name = "第" + (eps.length + 1) + "集";
         var ep = { name: name };
         if (nid === curNid && captured) { ep.url = captured; curName = name; }
         else { ep.pageUrl = absUrl(href); ep.resolve = true; }

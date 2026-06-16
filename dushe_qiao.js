@@ -25,6 +25,43 @@
   var smartProbed = false;   // 每个播放页只探测一次
   var friendlyState = null;  // 探测结果: true=原生友好 / false=不友好 / null=未知
 
+  // ---------- 反 disable-devtool 护盾: 压制"devtool opened type=X"弹窗 + 阻止踹去百度 ----------
+  // 尽量早执行(赶在站点脚本前)。非 100%(库是持续轮询、注入时机不定), 但能明显减少误弹/跳转。
+  (function installAntiDebug() {
+    function badUrl(u) { return typeof u === "string" && /baidu\.com|\/baidu/i.test(u); }
+    // 1) 把 DisableDevtool 桩成空函数(若赶在网站调用它之前, 检测根本不启动)
+    try {
+      var stub = function () { return stub; };
+      stub.isRunning = false; stub.isSuspend = true; stub.md5 = function () {}; stub.version = "0";
+      stub.DetectorType = {}; stub.clearInterval = function () {}; stub.resume = function () {}; stub.suspend = function () {};
+      try { Object.defineProperty(window, "DisableDevtool", { value: stub, writable: false, configurable: false }); }
+      catch (e) { window.DisableDevtool = stub; }
+    } catch (e) {}
+    // 2) 吞掉 "devtool opened / debug" 的 alert/confirm
+    try {
+      var _alert = window.alert;
+      window.alert = function (m) { if (typeof m === "string" && /devtool|opened|debug/i.test(m)) { log("blocked alert", m); return; } return _alert.apply(window, arguments); };
+    } catch (e) {}
+    try {
+      var _confirm = window.confirm;
+      window.confirm = function (m) { if (typeof m === "string" && /devtool|opened|debug/i.test(m)) { log("blocked confirm", m); return false; } return _confirm.apply(window, arguments); };
+    } catch (e) {}
+    // 3) 拦 location.assign / replace 跳百度
+    var slice = Array.prototype.slice;
+    ["assign", "replace"].forEach(function (mname) {
+      try {
+        var orig = window.location[mname] && window.location[mname].bind(window.location);
+        if (!orig) return;
+        window.location[mname] = function (u) { if (badUrl(u)) { log("blocked " + mname, u); return; } return orig.apply(null, slice.call(arguments)); };
+      } catch (e) {}
+    });
+    // 4) 拦 window.open 跳百度
+    try {
+      var _open = window.open;
+      window.open = function (u) { if (badUrl(u)) { log("blocked open", u); return null; } return _open.apply(window, arguments); };
+    } catch (e) {}
+  })();
+
   function isDusheHost() {
     var h = location.hostname || "";
     for (var i = 0; i < DUSHE_HOSTS.length; i++) { if (h.indexOf(DUSHE_HOSTS[i]) >= 0) return true; }
@@ -69,7 +106,7 @@
       if (typeof fm.vod !== "function") { toast("当前App版本不支持 fm.vod, 请更新"); return; }
       try {
         fm.vod(DUSHE_CSP_KEY, id, pageTitle(), pagePoster() || "");
-        toast("正在打开原生多集...");
+        toast("打开CSP源[" + DUSHE_CSP_KEY + "] id=" + id);  // 若随后跳到夸克/虎虎等别的源, 说明此key没匹配上,去对齐CSP的Key字段
         log("fm.vod ->", DUSHE_CSP_KEY, id);
       } catch (e) { toast("打开失败: " + (e && e.message)); log("fm.vod failed", e && e.message); }
     });

@@ -12,6 +12,9 @@
   //   "always" = 截到就推(不探测; 不友好的会转圈)
   //   "off"    = 不自动推, 全留网页播, 想用原生点右下"▶ App播放"按钮(按钮始终强推, 不受探测限制)
   var PUSH_MODE = "off";
+  // 选集(fm.vodInline): 毒舌加密线路其它集解不出 + 播放器渲染成大卡片 → 默认关, 走干净单集。
+  // 想试多集(仅明文线路可能可切, 布局仍是卡片)可改 true。
+  var EPISODE_LIST = false;
   var lastPushed = "";
   var lastPageKey = "";
   var captured = "";
@@ -54,6 +57,15 @@
     if (!t) t = (document.title || "").trim();
     t = t.replace(/[-_].*?(毒舌|在线观看|高清|免费|播放).*$/, "").trim();
     return t || (document.title || "毒舌电影").trim();
+  }
+  // 当前正在播的集名(选集里高亮的那个 / 兜底用 URL 的 nid), 用于单集标题显示"第几集"
+  function currentEpisodeName() {
+    try {
+      var a = document.querySelector("a.episode-item-active, a.episode-item.active, .episode-item.active, .episode-item-active");
+      if (a) { var t = (a.textContent || "").replace(/\s+/g, " ").trim(); if (t && t.length < 16) return t; }
+      var m = location.pathname.match(/\/play\/\d+-\d+-(\d+)\.html/);
+      return m ? m[1] : "";
+    } catch (e) { return ""; }
   }
   function pagePoster() {
     try {
@@ -151,7 +163,9 @@
   }
   function fmReqText(fm, url) {
     try {
-      return Promise.resolve(fm.req(url, { responseType: "text" }))
+      // 带上 cdndefend cookie + Referer/UA, 否则原生请求拿到的是验证页, 取不到 m3u8
+      return Promise.resolve(fm.req(url, { responseType: "text", credentials: "include",
+        headers: { "Cookie": document.cookie || "", "User-Agent": navigator.userAgent, "Referer": location.origin + "/" } }))
         .then(function (r) { return (r && (r.body != null ? r.body : r.text)) || ""; })
         .catch(function () { return ""; });
     } catch (e) { return Promise.resolve(""); }
@@ -175,7 +189,7 @@
     whenFm().then(function (fm) {
       var pic = pagePoster();
       // 优先选集(仅当 App 支持 fm.vodInline; 旧版无此方法 → 自动走下面单集)
-      var info = (typeof fm.vodInline === "function") ? buildEpisodes() : null;
+      var info = (EPISODE_LIST && typeof fm.vodInline === "function") ? buildEpisodes() : null;
       if (info) {
         try {
           fm.vodInline({ vod_name: pageTitle(), vod_pic: pic, wallPic: pic, vod_play_from: "毒舌", mark: info.mark, episodes: info.episodes });
@@ -188,9 +202,12 @@
       try {
         var opts = {};
         if (pic) { opts.pic = pic; opts.wallPic = pic; }
-        fm.play(url, pageTitle(), opts);
+        var title = pageTitle();
+        var ep = currentEpisodeName();
+        if (ep) title += " " + ep; // 标题带上当前集, 方便看在播第几集
+        fm.play(url, title, opts);
         toast(auto ? "已用App播放" : "正在播放");
-        log("play(raw single) ->", pageTitle(), "|", url);
+        log("play(raw single) ->", title, "|", url);
       } catch (e) { log("play failed", e && e.message); }
     });
   }

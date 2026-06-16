@@ -189,10 +189,11 @@
     whenFm().then(function (fm) {
       var pic = pagePoster();
       var info = buildEpisodes(); // 总是构建(便于诊断)
-      var hasVi = typeof fm.vodInline === "function";
-      var pm = location.pathname.match(/\/play\/(\d+)-(\d+)-(\d+)\.html/);
-      var anc = pm ? document.querySelectorAll('a[href*="/play/' + pm[1] + '-' + pm[2] + '-"]').length : -1;
-      diag("vodInline=" + hasVi + "\n选集数=" + (info ? info.episodes.length : 0) + "\n当前线路a标签=" + anc + "\npath=" + location.pathname); // 常驻诊断
+      var fnKeys = [], objKeys = [];
+      try { for (var k in fm) { var t = typeof fm[k]; if (t === "function") fnKeys.push(k); else if (t === "object" && fm[k]) objKeys.push(k); } } catch (e) {}
+      var extKeys = [];
+      try { for (var k2 in fm.ext) { if (typeof fm.ext[k2] === "function") extKeys.push(k2); } } catch (e) {}
+      diag("fm方法: " + fnKeys.join(",") + "\nfm对象: " + objKeys.join(",") + "\nfm.ext: " + extKeys.join(",") + "\n选集=" + (info ? info.episodes.length : 0)); // 列出SDK实际方法
       if (info && hasVi) {
         try {
           fm.vodInline({ vod_name: pageTitle(), vod_pic: pic, wallPic: pic, vod_play_from: "毒舌", mark: info.mark, episodes: info.episodes });

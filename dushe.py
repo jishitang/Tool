@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v20"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v22"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
@@ -194,6 +194,18 @@ class Spider(Spider):
         lst=self._cards(h); self._fill_tmdb(lst)
         return {"list":lst,"page":1,"pagecount":1,"limit":30,"total":0}
 
+    def _line_rank(self,nm):
+        """静态线路排序分(越小越前)。实测3部大秦帝国定的: 超清/4K加密不能播沉底;
+        线路名/副标签自带速度等级 -> 国内加速>播放快>香港加速>高清蓝光>720P>标清。想调顺序改这里即可。"""
+        if re.search(r'超清|4K',nm): return 90       # 加密取不到地址, 不能播 -> 最后
+        if '中国大陆' in nm: return 10                # 国内加速 -> 最前(对国内最快)
+        if '播放快' in nm: return 20                  # 站点标"播放快"(FF/XL/SB线路)
+        if '香港' in nm: return 30                    # 香港加速(蓝光1/蓝光9)
+        if '标清' in nm: return 65                    # 标清画质低 -> 靠后
+        if re.search(r'720',nm): return 55
+        if '高清' in nm or '蓝光' in nm: return 40    # 高清蓝光
+        return 50                                     # 其它明文
+
     def detailContent(self,ids):
         vid=ids[0]
         h=self._get(f"/detail/{vid}.html",self.host+"/")
@@ -247,22 +259,10 @@ class Spider(Spider):
             while nm in used: nm=base+str(k); k+=1   # 防重名被 App 合并
             used.add(nm)
             epstr="#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps)
-            demote=1 if re.search(r'超清|4K',raw) else 0   # 启发式兜底分(测速掉队时用)
-            first_href=eps[0][0] if eps else ""
-            lines.append((demote,nm,epstr,first_href))
-        # 真实测速: 探所有线路(加密的只抓一次/play页就返回"死"9e6, 不下载流, 不拖慢); 收够3条快的就停; 同 vodId 缓存
-        scores=self.linecache.get(vid)
-        if scores is None:
-            scores=self._probe_lines([(l[1],l[3]) for l in lines if l[3]])
-            self.linecache[vid]=scores
-        def sortkey(item):
-            i,l=item
-            s=scores.get(l[1])
-            if s is not None and s<=4e6: return (0,s,i)             # 真实快 -> 最前(按速度)
-            if (s is not None and s>=9e6) or l[0]: return (2,0,i)   # 探到确认加密, 或名字是超清/4K -> 最后
-            return (1,0,i)                                          # 其余(能播/没测到/被挑战) -> 中间(原序)
-        lines=[l for _,l in sorted(enumerate(lines),key=sortkey)]
-        pf=[x[1] for x in lines]; pu=[x[2] for x in lines]
+            lines.append((self._line_rank(nm),nm,epstr))   # 静态排序分(基于线路名/副标签的质量等级)
+        # 静态排序(0延迟, 无探测): 国内加速/播放快/香港加速 在前, 标清/720P 靠后, 超清4K(加密)沉底
+        lines.sort(key=lambda l:l[0])   # 稳定排序, 同档保持原序
+        pf=[l[1] for l in lines]; pu=[l[2] for l in lines]
         # 封面留空 -> App 才会去取 TMDB 剧照填卡片(带 logo 封面会压制 TMDB, 全是 logo)
         cont=("[%s] %s"%(VER,desc)).strip()  # 简介开头放版本标记 + 真实剧情
         return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":"","vod_year":year,

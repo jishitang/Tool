@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v22"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v26"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
@@ -160,7 +160,8 @@ class Spider(Spider):
             out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
         return out   # 不在这查TMDB; 由各入口对"当前这一小批"查, 避免整页等很久
 
-    PAGE=12   # 每App页条数(站点页~48条拆成多个App页, 越小卡片出现越快, 滚到下页再查下批海报)
+    PAGE=24   # 分类每App页条数(站点页~48条拆成2个App页; 越小出得快但要多拉几次, 越大拉得少但等久点)
+    HOME=36   # 首页"推荐"显示条数(不分页, 一次性, 给多点)
     def homeContent(self,filter):
         h=self._get("/")
         # 频道分类: /channel/{id}.html + menu-item-label(电影/连续剧/动漫/综艺纪录/短剧)
@@ -172,10 +173,10 @@ class Spider(Spider):
         if not cls:  # 兜底: 站点改版时用已知频道
             cls=[{"type_id":"1","type_name":"电影"},{"type_id":"2","type_name":"连续剧"},
                  {"type_id":"3","type_name":"动漫"},{"type_id":"4","type_name":"综艺纪录"},{"type_id":"6","type_name":"短剧"}]
-        lst=self._cards(h)[:self.PAGE]; self._fill_tmdb(lst)   # 只查首页这一小批
+        lst=self._cards(h)[:self.HOME]; self._fill_tmdb(lst)   # 推荐给 HOME 条
         return {"class":cls[:12],"list":lst}
     def homeVideoContent(self):
-        lst=self._cards(self._get("/"))[:self.PAGE]; self._fill_tmdb(lst)
+        lst=self._cards(self._get("/"))[:self.HOME]; self._fill_tmdb(lst)
         return {"list":lst}
     def categoryContent(self,tid,pg,filter,extend):
         page=int(pg) if str(pg).isdigit() else 1
@@ -197,14 +198,17 @@ class Spider(Spider):
     def _line_rank(self,nm):
         """静态线路排序分(越小越前)。实测3部大秦帝国定的: 超清/4K加密不能播沉底;
         线路名/副标签自带速度等级 -> 国内加速>播放快>香港加速>高清蓝光>720P>标清。想调顺序改这里即可。"""
-        if re.search(r'超清|4K',nm): return 90       # 加密取不到地址, 不能播 -> 最后
-        if '中国大陆' in nm: return 10                # 国内加速 -> 最前(对国内最快)
-        if '播放快' in nm: return 20                  # 站点标"播放快"(FF/XL/SB线路)
-        if '香港' in nm: return 30                    # 香港加速(蓝光1/蓝光9)
-        if '标清' in nm: return 65                    # 标清画质低 -> 靠后
-        if re.search(r'720',nm): return 55
-        if '高清' in nm or '蓝光' in nm: return 40    # 高清蓝光
-        return 50                                     # 其它明文
+        # 116服务器实测6部剧(大秦帝国×3 + 王保长×3)定的, 替代站点标签(站点"中国大陆加速"实测反而最慢)
+        if re.search(r'超清|4K',nm): return 95               # 加密取不到地址, 不能播 -> 最后
+        if '中国大陆' in nm: return 85                        # ❗两组都1KB/s 最慢(HN), 站点"加速"标签骗人 -> 沉底
+        if re.search(r'720',nm) or re.match(r'WJ线路',nm): return 70   # 实测慢(6~51)
+        if re.match(r'蓝光3(?!\d)',nm): return 5             # ★实测最快最稳(204/288) + 你确认 -> 置顶
+        if re.match(r'IK线路|蓝光9',nm): return 15            # 实测快(215/216)
+        if re.match(r'LZ线路',nm): return 20                 # 实测很快(117/474), 但标清画质
+        if re.match(r'蓝光1(?!\d)',nm): return 28            # 实测中(104~187)
+        if re.match(r'FF线路',nm): return 45                 # 实测忽快忽慢(69~566), 你说不快 -> 中
+        if '蓝光' in nm or '高清' in nm: return 30            # 其它蓝光/高清(实测中)
+        return 50                                            # 未测到(SB/XL/GS/JY/蓝光7等) -> 中
 
     def detailContent(self,ids):
         vid=ids[0]

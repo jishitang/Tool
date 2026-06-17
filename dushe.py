@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v5"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v6"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -64,44 +64,60 @@ class Spider(Spider):
         m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
         return m.group(1) if m else ""
     def _cards(self,html):
-        """从搜索/列表页提取 vod 卡片"""
+        """从搜索/首页/频道页提取 vod 卡片。标题用障眼法(v-item-title: 水印 strong 隐藏, 真名居中), 过滤水印。"""
         out=[]; seen=set()
-        # 每个详情链接块: <a href="/detail/ID.html" ... title 或 内含文字>
+        def clean(t):
+            t=re.sub(r'<[^>]+>',' ',t or ""); t=re.sub(r'\s+',' ',t).strip()
+            t=t.replace("可可影视","").replace("kekys.com","").replace("kekys","")
+            return t.strip(" -_.·|")
         for m in re.finditer(r'href="/detail/(\d+)\.html"([^>]*)>(.*?)</a>',html,re.S):
             vid=m.group(1)
             if vid in seen: continue
             attr=m.group(2); inner=m.group(3)
-            tm=re.search(r'title="([^"]+)"',attr) or re.search(r'alt="([^"]+)"',inner)
-            name=tm.group(1).strip() if tm else re.sub(r'<[^>]+>',' ',inner)
-            name=re.sub(r'\s+',' ',name).strip()
+            name=""
+            # 1) v-item-title 真名: 挑不含水印的那条(隐藏的水印条含"可可影视/kekys")
+            for t in re.findall(r'class="[^"]*v-item-title[^"]*"[^>]*>\s*([^<]+?)\s*</div>',inner):
+                if "可可影视" not in t and "kekys" not in t and t.strip(): name=t.strip(); break
+            # 2) 退回 title/alt 属性
+            if not name:
+                tm=re.search(r'title="([^"]+)"',attr) or re.search(r'alt="([^"]+)"',inner)
+                if tm and "可可影视" not in tm.group(1) and "kekys" not in tm.group(1): name=tm.group(1).strip()
+            # 3) 退回剥标签
+            if not name: name=clean(inner)
+            name=clean(name)
             if not name or len(name)>60: continue
             seen.add(vid)
+            # 真海报: 跳过 placeholder/logo 占位图, 取真 cover(可能相对路径)
             pic=""
-            pm=re.search(r'(?:data-original|data-src|src)="(https?://[^"]+?\.(?:jpg|jpeg|png|webp))"',inner)
-            if pm: pic=pm.group(1)
-            rm=re.search(r'(?:class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>)([^<]{1,20})',inner)
-            out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":(rm.group(1).strip() if rm else "")})
+            for pm in re.finditer(r'(?:data-original|data-src|src)="([^"]+?\.(?:jpg|jpeg|png|webp))"',inner):
+                u=pm.group(1)
+                if "placeholder" not in u and "logo" not in u:
+                    pic=u if u.startswith("http") else urljoin(self.host,u); break
+            # 状态: v-item-bottom span 或 note/remarks
+            rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
+               or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)
+            out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
         return out
 
     def homeContent(self,filter):
         h=self._get("/")
-        # 分类导航
+        # 频道分类: /channel/{id}.html + menu-item-label(电影/连续剧/动漫/综艺纪录/短剧)
         cls=[]; seen=set()
-        for m in re.finditer(r'href="/(?:type|vodtype|list|show)/(\d+)[^"]*\.html"[^>]*>([^<]{1,8})</a>',h):
+        for m in re.finditer(r'href="/channel/(\d+)\.html"[^>]*>.*?menu-item-label">\s*([^<]+?)\s*</div>',h,re.S):
             cid,cname=m.group(1),m.group(2).strip()
             if cid in seen or not cname: continue
             seen.add(cid); cls.append({"type_id":cid,"type_name":cname})
-        return {"class":cls[:12],"list":self._cards(h)[:40]}
+        if not cls:  # 兜底: 站点改版时用已知频道
+            cls=[{"type_id":"1","type_name":"电影"},{"type_id":"2","type_name":"连续剧"},
+                 {"type_id":"3","type_name":"动漫"},{"type_id":"4","type_name":"综艺纪录"},{"type_id":"6","type_name":"短剧"}]
+        return {"class":cls[:12],"list":self._cards(h)[:48]}
     def homeVideoContent(self):
-        return {"list":self._cards(self._get("/"))[:40]}
+        return {"list":self._cards(self._get("/"))[:48]}
     def categoryContent(self,tid,pg,filter,extend):
         page=int(pg) if str(pg).isdigit() else 1
-        for fmt in (f"/type/{tid}-{page}.html",f"/list/{tid}-{page}.html",f"/show/{tid}--------{page}---.html"):
-            h=self._get(fmt)
-            cards=self._cards(h)
-            if cards:
-                return {"list":cards,"page":page,"pagecount":page+1 if len(cards)>=20 else page,"limit":len(cards),"total":9999}
-        return {"list":[],"page":page,"pagecount":1,"limit":0,"total":0}
+        path="/channel/%s.html"%tid if page<=1 else "/channel/%s.html?page=%d"%(tid,page)
+        cards=self._cards(self._get(path))
+        return {"list":cards,"page":page,"pagecount":(page+1 if len(cards)>=20 else page),"limit":len(cards),"total":999999}
     def searchContent(self,key,quick,pg="1"):
         if not self.token: self._warm()
         h=self._get(f"/search?k={quote(key)}&t={quote(self.token,safe='')}")

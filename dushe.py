@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v13"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v17"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -29,6 +29,7 @@ class Spider(Spider):
             if len(ps)>2 and ps[2].strip(): self.tmdb_img=ps[2].strip().rstrip("/")
         self.tmdb_dead=False                            # 查不通(被墙)就置真, 本会话不再查
         self.picache={}                                 # 片名->海报 缓存
+        self.linecache={}                               # vodId->线路测速分 缓存(同剧再开不重测)
         self.session=requests.Session()
         self.session.verify=False
         self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
@@ -221,16 +222,32 @@ class Spider(Spider):
         # 线路真实名(超清1/4K/FF线路/蓝光...)+ 副标签(高清/720P/秒播/香港加速...): 顺序与选集组一致
         labels=re.findall(r'class="source-item-label">\s*([^<]+?)\s*</span>',h)
         subs=re.findall(r'class="source-item-sublabel">\s*([^<]+?)\s*</span>',h)
-        pf,pu=[],[]; used=set()
+        lines=[]; used=set()
         for n,(sid,eps) in enumerate(routes.items()):
-            nm=labels[n].strip() if n<len(labels) and labels[n].strip() else "线路%d"%(n+1)
+            raw=labels[n].strip() if n<len(labels) and labels[n].strip() else "线路%d"%(n+1)
             sub=subs[n].strip() if n<len(subs) and subs[n].strip() else ""
-            if sub: nm="%s(%s)"%(nm,sub)   # 例: 蓝光(高清)、FF线路(播放快/高清)、WJ线路(720P)
+            nm=("%s(%s)"%(raw,sub)) if sub else raw   # 例: 蓝光(高清)、FF线路(播放快/高清)、WJ线路(720P)
             nm=re.sub(r'[\$#]',' ',nm).strip()
             base=nm; k=2
             while nm in used: nm=base+str(k); k+=1   # 防重名被 App 合并
-            used.add(nm); pf.append(nm)
-            pu.append("#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps))
+            used.add(nm)
+            epstr="#".join(lab.replace("#","＃").replace("$","￥")+"$"+href for href,lab in eps)
+            demote=1 if re.search(r'超清|4K',raw) else 0   # 启发式兜底分(测速掉队时用)
+            first_href=eps[0][0] if eps else ""
+            lines.append((demote,nm,epstr,first_href))
+        # 真实测速: 探所有线路(加密的只抓一次/play页就返回"死"9e6, 不下载流, 不拖慢); 收够3条快的就停; 同 vodId 缓存
+        scores=self.linecache.get(vid)
+        if scores is None:
+            scores=self._probe_lines([(l[1],l[3]) for l in lines if l[3]])
+            self.linecache[vid]=scores
+        def sortkey(item):
+            i,l=item
+            s=scores.get(l[1])
+            if s is not None and s<=4e6: return (0,s,i)             # 真实快 -> 最前(按速度)
+            if (s is not None and s>=9e6) or l[0]: return (2,0,i)   # 探到确认加密, 或名字是超清/4K -> 最后
+            return (1,0,i)                                          # 其余(能播/没测到/被挑战) -> 中间(原序)
+        lines=[l for _,l in sorted(enumerate(lines),key=sortkey)]
+        pf=[x[1] for x in lines]; pu=[x[2] for x in lines]
         # 封面留空 -> App 才会去取 TMDB 剧照填卡片(带 logo 封面会压制 TMDB, 全是 logo)
         cont=("[%s] %s"%(VER,desc)).strip()  # 简介开头放版本标记 + 真实剧情
         return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":"","vod_year":year,
@@ -239,9 +256,8 @@ class Spider(Spider):
                          "vod_play_from":"$$$".join(pf) if pf else "毒舌",
                          "vod_play_url":"$$$".join(pu)}]}
 
-    def playerContent(self,flag,id,vipFlags):
-        # id 是 /play/...html 路径
-        h=self._get(id,self.host+"/")
+    def _extract_url(self,h):
+        """从 /play/ 页 HTML 取 player_aaaa.url (m3u8/mp4 明文地址), 取不到返回 ''。"""
         url=""
         pm=re.search(r'player_aaaa\s*=\s*(\{.*?\})\s*</script>',h,re.S) or re.search(r'player_aaaa\s*=\s*(\{.*?\});',h,re.S)
         if pm:
@@ -250,6 +266,68 @@ class Spider(Spider):
         if not url:
             um=re.search(r'"url"\s*:\s*"([^"]+?\.(?:m3u8|mp4)[^"]*)"',h) or re.search(r'(https?:[^"\'\\]+?\.(?:m3u8|mp4)[^"\'\\]*)',h)
             if um: url=um.group(1)
-        url=url.replace("\\/","/")
+        return (url or "").replace("\\/","/")
+    # ---- 线路真实测速(参考 iptv_check): 抓首集 m3u8 -> 测首切片速度, 快的排前 ----
+    def _tget(self,path,timeout=4):
+        """线程安全抓取(用 requests.get + 显式 cdndefend cookie, 不动 self.session)。"""
+        url=self.host+path if path.startswith("/") else path
+        hdr={"User-Agent":self.ua,"Referer":self.host+"/","Accept-Language":"zh-CN,zh;q=0.9"}
+        if self.cdcookie: hdr["Cookie"]=self.cdcookie
+        try:
+            r=requests.get(url,headers=hdr,timeout=timeout,verify=False); r.encoding="utf-8"; return r.text
+        except Exception: return ""
+    def _first_seg(self,text,base):
+        for ln in (text or "").splitlines():
+            ln=ln.strip()
+            if ln and not ln.startswith("#"): return urljoin(base,ln)
+        return ""
+    def _line_score(self,first_href):
+        """探一条线路第一集。分层: 真测速(≤4e6,越快越小) < 能取址但抓不到流/被挑战(5e6) < 确认加密(9e6)。"""
+        import time as _t
+        h=self._tget(first_href,3)
+        if not h: return 5e6                           # 抓取失败 -> 中间(不误判死)
+        if "verifying your browser" in h[:400] or "cdndefend" in h[:200]: return 5e6  # 被cdndefend挑战 -> 中间
+        url=self._extract_url(h)
+        if not url: return 9e6                         # 真有内容但取不到地址 -> 确认加密, 排最后
+        hdr={"User-Agent":self.ua,"Referer":self.host+"/"}
+        try:
+            low=url.split("?")[0].lower()
+            if low.endswith(".mp4"):
+                seg=url
+            else:
+                r=requests.get(url,headers=hdr,timeout=3,verify=False)
+                if r.status_code>=400: return 5e6      # 抓不到流(可能探测受限) -> 中间, 不误判死
+                seg=self._first_seg(r.text,url)
+                if not seg: return 5e6
+                if seg.split("?")[0].lower().endswith(".m3u8"): return 5e6   # 主playlist不下钻 -> 中间
+            ts=_t.time()
+            rr=requests.get(seg,headers=dict(hdr,Range="bytes=0-65535"),timeout=3,verify=False,stream=True)
+            data=rr.raw.read(65536); dt=_t.time()-ts
+            if rr.status_code>=400 or len(data)<4096: return 5e6
+            kbps=(len(data)/1024.0)/max(dt,0.01)
+            return min(100000.0/max(kbps,0.1), 4e6)    # 真实速度分(越快越小), 封顶 4e6 < 中间层
+        except Exception:
+            return 5e6
+    def _probe_lines(self,items,need=3,deadline=5):
+        """全并发测速; 收到 need 条"真实快线路"或到 deadline 就停(不等慢的)。返回 {name: score}。"""
+        import time as _t
+        scores={}
+        def work(name,href):
+            try: scores[name]=self._line_score(href)
+            except Exception: scores[name]=5e6
+        try:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            ex=ThreadPoolExecutor(max_workers=min(6,max(1,len(items))))   # 并发别太高, 否则 cdndefend 挑战增多
+            futs=[ex.submit(work,n,h) for n,h in items]
+            end=_t.time()+deadline
+            for _f in as_completed(futs,timeout=deadline+1):
+                if sum(1 for v in scores.values() if v<=4e6)>=need: break  # 够几条快的就停
+                if _t.time()>end: break
+            ex.shutdown(wait=False)
+        except Exception: pass
+        return scores
+
+    def playerContent(self,flag,id,vipFlags):
+        url=self._extract_url(self._get(id,self.host+"/"))
         if not url: return {"parse":1,"jx":0,"url":""}
         return {"parse":0,"jx":0,"url":url,"header":{"User-Agent":self.ua,"Referer":self.host+"/"}}

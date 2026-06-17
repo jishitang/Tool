@@ -9,7 +9,10 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v17"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v18"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+# 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
+# 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
+DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -19,8 +22,8 @@ class Spider(Spider):
         self.ua="Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
         self.token=""
         self.cdcookie=""                                # cdndefend cookie 解出后存这(备用)
-        # TMDB 真海报: 「扩展参数」里填 v4 Token(eyJ开头) 或 v3 Key, 空则用文字占位图
-        self.tmdb=(extend or "").strip()
+        # TMDB 真海报: 「扩展参数」填 v4 Token/v3 Key 则优先用它; 留空则用内置 DEFAULT_TMDB
+        self.tmdb=(extend or "").strip() or DEFAULT_TMDB
         self.tmdb_api="https://api.themoviedb.org/3"    # 被墙就在扩展参数改: token|api域名|图片域名
         self.tmdb_img="https://image.tmdb.org/t/p/w342"
         if "|" in self.tmdb:                            # 可选: token|apiBase|imgBase
@@ -112,6 +115,9 @@ class Spider(Spider):
         """给一批卡片并发填 TMDB 海报(查到的替换文字占位图)。"""
         if not self.tmdb or self.tmdb_dead or not cards: return
         self._tmdb_poster(cards[0]["vod_name"])   # 先探一张; 网络不通会置 tmdb_dead
+        if self.tmdb_dead:                         # 首次失败可能只是抖动 -> 复位重试一次再判
+            self.tmdb_dead=False; self.picache.pop(cards[0]["vod_name"],None)
+            self._tmdb_poster(cards[0]["vod_name"])
         if self.tmdb_dead: return
         def work(c):
             p=self._tmdb_poster(c["vod_name"])

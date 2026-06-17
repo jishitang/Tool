@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v8"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v9"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -101,11 +101,8 @@ class Spider(Spider):
             if not name or len(name)>60: continue
             seen.add(vid)
             # 真海报: 跳过 placeholder/logo 占位图, 取真 cover(可能相对路径)
+            # 封面留空: dushe 真封面被 cdndefend 锁死 App 加载不到; 留空让配好的 TMDB 去取 image.tmdb.org 海报(不被拦)
             pic=""
-            for pm in re.finditer(r'(?:data-original|data-src|src)="([^"]+?\.(?:jpg|jpeg|png|webp))"',inner):
-                u=pm.group(1)
-                if "placeholder" not in u and "logo" not in u:
-                    pic=self._img(u); break   # 走本地网关带 cdndefend cookie, 否则 App 加载不到
             # 状态: v-item-bottom span 或 note/remarks
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)

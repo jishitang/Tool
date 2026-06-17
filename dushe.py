@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v11"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v12"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -68,6 +68,13 @@ class Spider(Spider):
     def _pic(self,h):
         m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
         return m.group(1) if m else ""
+    def _titimg(self,name):
+        """dushe 真封面被 cdndefend 锁、加载不到 -> 用占位图服务把片名渲染成图(中文OK),
+        每片按名字哈希取不同深色底+白字, 比 App 的大首字占位美观。"""
+        t=(name or "无名").strip(); disp=t[:13]
+        b=hashlib.md5(t.encode("utf-8")).digest()
+        bg="%02x%02x%02x"%(b[0]%110,b[1]%110,b[2]%110)  # 深色, 白字才清楚
+        return "https://placehold.jp/24/%s/ffffff/300x420.png?text=%s"%(bg,quote(disp,safe=''))
     def _cards(self,html):
         """从搜索/首页/频道页提取 vod 卡片。标题用障眼法(v-item-title: 水印 strong 隐藏, 真名居中), 过滤水印。"""
         out=[]; seen=set()
@@ -93,8 +100,8 @@ class Spider(Spider):
             if not name or len(name)>60: continue
             seen.add(vid)
             # 真海报: 跳过 placeholder/logo 占位图, 取真 cover(可能相对路径)
-            # 封面: dushe 真图被 cdndefend 锁、App 列表又不走 TMDB -> 救不了, 留空(显示首字占位; 名字/详情都全)
-            pic=""
+            # 封面: dushe 真图被 cdndefend 锁加载不到 -> 用片名占位图(中文清晰, 比 App 大首字好看)
+            pic=self._titimg(name)
             # 状态: v-item-bottom span 或 note/remarks
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)

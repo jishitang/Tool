@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v18"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v19"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
@@ -33,6 +33,7 @@ class Spider(Spider):
         self.tmdb_dead=False                            # 查不通(被墙)就置真, 本会话不再查
         self.picache={}                                 # 片名->海报 缓存
         self.linecache={}                               # vodId->线路测速分 缓存(同剧再开不重测)
+        self._catcache={}                               # (频道,站点页)->卡片 缓存(分批出海报不重复抓)
         self.session=requests.Session()
         self.session.verify=False
         self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
@@ -90,10 +91,9 @@ class Spider(Spider):
         bg="%02x%02x%02x"%(b[0]%110,b[1]%110,b[2]%110)  # 深色, 白字才清楚
         return "https://placehold.jp/24/%s/ffffff/300x420.png?text=%s"%(bg,quote(disp,safe=''))
     def _tmdb_poster(self,name):
-        """查 TMDB 海报 -> image.tmdb.org 地址(不被反爬拦); 查不到/没配 token 返回 ''。"""
+        """查 TMDB 海报 -> image.tmdb.org 地址。命中=url, 确定无匹配='', 网络抖动=None(不缓存/不全局禁用), 401=永久停。"""
         if not self.tmdb or self.tmdb_dead or not name: return ""
-        if name in self.picache: return self.picache[name]
-        pic=""
+        if name in self.picache: return self.picache[name]   # 只缓存确定结果(url 或 ''), 不缓存网络失败
         try:
             params={"query":name,"language":"zh-CN","include_adult":"false"}
             hdr={"accept":"application/json"}
@@ -102,26 +102,25 @@ class Spider(Spider):
             else:                                                  # v3 Key -> query
                 params["api_key"]=self.tmdb
             r=requests.get(self.tmdb_api+"/search/multi",params=params,headers=hdr,timeout=5,verify=False)
-            if r.status_code in (401,403):          # token 无效 -> 别再查了
-                self.tmdb_dead=True; self.picache[name]=""; return ""
+            if r.status_code in (401,403):          # token 无效 -> 唯一永久停的情况
+                self.tmdb_dead=True; return ""
+            pic=""
             for it in (r.json().get("results") or []):
                 pp=it.get("poster_path")
                 if pp: pic=self.tmdb_img+pp; break
+            self.picache[name]=pic                  # 成功(命中或确定无匹配)才缓存
+            return pic
         except Exception:
-            self.tmdb_dead=True   # 网络打不通/被墙 -> 本会话不再查, 避免大量超时
-        self.picache[name]=pic
-        return pic
+            return None                              # 网络抖动: 不缓存、不置 tmdb_dead -> 下次/别栏可重试
     def _fill_tmdb(self,cards):
-        """给一批卡片并发填 TMDB 海报(查到的替换文字占位图)。"""
+        """给一批卡片并发填 TMDB 海报(查到的替换文字占位图)。网络抖动只跳过本批, 不影响别栏/已缓存。"""
         if not self.tmdb or self.tmdb_dead or not cards: return
-        self._tmdb_poster(cards[0]["vod_name"])   # 先探一张; 网络不通会置 tmdb_dead
-        if self.tmdb_dead:                         # 首次失败可能只是抖动 -> 复位重试一次再判
-            self.tmdb_dead=False; self.picache.pop(cards[0]["vod_name"],None)
-            self._tmdb_poster(cards[0]["vod_name"])
-        if self.tmdb_dead: return
+        probe=self._tmdb_poster(cards[0]["vod_name"])
+        if probe is None: probe=self._tmdb_poster(cards[0]["vod_name"])  # 抖动重试一次
+        if probe is None or self.tmdb_dead: return   # 网络不通(只跳过本批) 或 token无效(永久停)
         def work(c):
             p=self._tmdb_poster(c["vod_name"])
-            if p: c["vod_pic"]=p
+            if p: c["vod_pic"]=p                      # None(抖动)/''(无匹配) -> 保留文字图
         try:
             from concurrent.futures import ThreadPoolExecutor
             with ThreadPoolExecutor(max_workers=16) as ex: list(ex.map(work,cards))
@@ -158,9 +157,9 @@ class Spider(Spider):
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)
             out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
-        self._fill_tmdb(out)   # 配了 TMDB token 就并发查真海报替换文字图; 没配/查不到保留文字图
-        return out
+        return out   # 不在这查TMDB; 由各入口对"当前这一小批"查, 避免整页等很久
 
+    PAGE=24   # 每App页条数(站点页~48条拆成2个App页, 滚到下页再查下批海报)
     def homeContent(self,filter):
         h=self._get("/")
         # 频道分类: /channel/{id}.html + menu-item-label(电影/连续剧/动漫/综艺纪录/短剧)
@@ -172,18 +171,27 @@ class Spider(Spider):
         if not cls:  # 兜底: 站点改版时用已知频道
             cls=[{"type_id":"1","type_name":"电影"},{"type_id":"2","type_name":"连续剧"},
                  {"type_id":"3","type_name":"动漫"},{"type_id":"4","type_name":"综艺纪录"},{"type_id":"6","type_name":"短剧"}]
-        return {"class":cls[:12],"list":self._cards(h)[:48]}
+        lst=self._cards(h)[:self.PAGE]; self._fill_tmdb(lst)   # 只查首页这一小批
+        return {"class":cls[:12],"list":lst}
     def homeVideoContent(self):
-        return {"list":self._cards(self._get("/"))[:48]}
+        lst=self._cards(self._get("/"))[:self.PAGE]; self._fill_tmdb(lst)
+        return {"list":lst}
     def categoryContent(self,tid,pg,filter,extend):
         page=int(pg) if str(pg).isdigit() else 1
-        path="/channel/%s.html"%tid if page<=1 else "/channel/%s.html?page=%d"%(tid,page)
-        cards=self._cards(self._get(path))
-        return {"list":cards,"page":page,"pagecount":(page+1 if len(cards)>=20 else page),"limit":len(cards),"total":999999}
+        # 站点页~48条 拆成每App页 PAGE 条: 边滚边出海报, 每页只查少量TMDB(站点页结果缓存, 不重复抓)
+        per=2; site_pg=(page-1)//per+1; off=((page-1)%per)*self.PAGE
+        ck=(tid,site_pg); cards=self._catcache.get(ck)
+        if cards is None:
+            path="/channel/%s.html"%tid if site_pg<=1 else "/channel/%s.html?page=%d"%(tid,site_pg)
+            cards=self._cards(self._get(path)); self._catcache[ck]=cards
+        sub=cards[off:off+self.PAGE]; self._fill_tmdb(sub)
+        more=(off+self.PAGE<len(cards)) or len(cards)>=40   # 本站点页还有 或 满页(估计有下一站点页)
+        return {"list":sub,"page":page,"pagecount":(page+1 if more else page),"limit":len(sub),"total":999999}
     def searchContent(self,key,quick,pg="1"):
         if not self.token: self._warm()
         h=self._get(f"/search?k={quote(key)}&t={quote(self.token,safe='')}")
-        return {"list":self._cards(h),"page":1,"pagecount":1,"limit":30,"total":0}
+        lst=self._cards(h); self._fill_tmdb(lst)
+        return {"list":lst,"page":1,"pagecount":1,"limit":30,"total":0}
 
     def detailContent(self,ids):
         vid=ids[0]

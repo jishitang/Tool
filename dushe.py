@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v19"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v20"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
@@ -24,8 +24,9 @@ class Spider(Spider):
         self.cdcookie=""                                # cdndefend cookie 解出后存这(备用)
         # TMDB 真海报: 「扩展参数」填 v4 Token/v3 Key 则优先用它; 留空则用内置 DEFAULT_TMDB
         self.tmdb=(extend or "").strip() or DEFAULT_TMDB
-        self.tmdb_api="https://api.themoviedb.org/3"    # 被墙就在扩展参数改: token|api域名|图片域名
-        self.tmdb_img="https://image.tmdb.org/t/p/w342"
+        # nostr 实测: api.tmdb.org / images.tmdb.org 国内不用代理可访问(官方 api.themoviedb.org / image.tmdb.org 被墙)
+        self.tmdb_api="https://api.tmdb.org/3"          # 想换镜像在扩展参数: token|api域名|图片域名
+        self.tmdb_img="https://images.tmdb.org/t/p/w342"
         if "|" in self.tmdb:                            # 可选: token|apiBase|imgBase
             ps=self.tmdb.split("|"); self.tmdb=ps[0].strip()
             if len(ps)>1 and ps[1].strip(): self.tmdb_api=ps[1].strip().rstrip("/")
@@ -159,7 +160,7 @@ class Spider(Spider):
             out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
         return out   # 不在这查TMDB; 由各入口对"当前这一小批"查, 避免整页等很久
 
-    PAGE=24   # 每App页条数(站点页~48条拆成2个App页, 滚到下页再查下批海报)
+    PAGE=12   # 每App页条数(站点页~48条拆成多个App页, 越小卡片出现越快, 滚到下页再查下批海报)
     def homeContent(self,filter):
         h=self._get("/")
         # 频道分类: /channel/{id}.html + menu-item-label(电影/连续剧/动漫/综艺纪录/短剧)
@@ -179,7 +180,7 @@ class Spider(Spider):
     def categoryContent(self,tid,pg,filter,extend):
         page=int(pg) if str(pg).isdigit() else 1
         # 站点页~48条 拆成每App页 PAGE 条: 边滚边出海报, 每页只查少量TMDB(站点页结果缓存, 不重复抓)
-        per=2; site_pg=(page-1)//per+1; off=((page-1)%per)*self.PAGE
+        per=max(1,48//self.PAGE); site_pg=(page-1)//per+1; off=((page-1)%per)*self.PAGE
         ck=(tid,site_pg); cards=self._catcache.get(ck)
         if cards is None:
             path="/channel/%s.html"%tid if site_pg<=1 else "/channel/%s.html?page=%d"%(tid,site_pg)

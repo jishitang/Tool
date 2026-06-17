@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v9"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v10"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -19,7 +19,7 @@ class Spider(Spider):
         self.ua="Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
         self.token=""
         self.cdcookie=""                                # cdndefend cookie 解出后存这, 给封面代理带上
-        self.gate="http://127.0.0.1:9978/webResource"   # App 本地资源网关(默认端口9978, 给图片带cookie绕cdndefend)
+        self.gate=self._find_gate()                     # App 本地资源网关(自动探测端口 9978~9990, 给图片带cookie绕cdndefend)
         self.session=requests.Session()
         self.session.verify=False
         self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
@@ -69,6 +69,17 @@ class Spider(Spider):
     def _pic(self,h):
         m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
         return m.group(1) if m else ""
+    def _find_gate(self):
+        """探测 App 本地服务端口(从 9978 起第一个开着的), 拼出 webResource 网关地址。"""
+        try:
+            import socket
+            for p in range(9978,9991):
+                try:
+                    c=socket.create_connection(("127.0.0.1",p),timeout=0.25); c.close()
+                    return "http://127.0.0.1:%d/webResource"%p
+                except Exception: continue
+        except Exception: pass
+        return "http://127.0.0.1:9978/webResource"
     def _img(self,u):
         """封面被 cdndefend 保护, App 直接加载会拿到验证页 -> 走本地网关带 cookie 取图。"""
         if not u: return ""
@@ -101,8 +112,12 @@ class Spider(Spider):
             if not name or len(name)>60: continue
             seen.add(vid)
             # 真海报: 跳过 placeholder/logo 占位图, 取真 cover(可能相对路径)
-            # 封面留空: dushe 真封面被 cdndefend 锁死 App 加载不到; 留空让配好的 TMDB 去取 image.tmdb.org 海报(不被拦)
+            # 封面走本地网关带 cdndefend cookie(端口自动探测); App 列表不走 TMDB, 只能这样救真封面
             pic=""
+            for pm in re.finditer(r'(?:data-original|data-src|src)="([^"]+?\.(?:jpg|jpeg|png|webp))"',inner):
+                u=pm.group(1)
+                if "placeholder" not in u and "logo" not in u:
+                    pic=self._img(u); break
             # 状态: v-item-bottom span 或 note/remarks
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)

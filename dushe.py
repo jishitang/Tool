@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v6"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v8"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -18,10 +18,15 @@ class Spider(Spider):
         self.host="https://www.dushe05.com"
         self.ua="Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
         self.token=""
+        self.cdcookie=""                                # cdndefend cookie 解出后存这, 给封面代理带上
+        self.gate="http://127.0.0.1:9978/webResource"   # App 本地资源网关(默认端口9978, 给图片带cookie绕cdndefend)
         self.session=requests.Session()
         self.session.verify=False
         self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
         self._warm()
+        if not self.cdcookie:                           # 兜底: 从 session 里读已有的 cookie
+            cv=self.session.cookies.get("cdndefend_js_cookie")
+            if cv: self.cdcookie="cdndefend_js_cookie="+cv
     def destroy(self):
         try: self.session.close()
         except Exception: return None
@@ -54,6 +59,7 @@ class Spider(Spider):
                 if ck:
                     k,v=ck.split("=",1)
                     self.session.cookies.set(k,v,domain="www.dushe05.com",path="/")
+                    self.cdcookie=ck                    # 存完整 cookie 串, 给封面代理用
                     r=self.session.get(url,headers={"Referer":ref or self.host+"/"},timeout=20)
                     r.encoding="utf-8"; txt=r.text
             return txt
@@ -63,6 +69,13 @@ class Spider(Spider):
     def _pic(self,h):
         m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
         return m.group(1) if m else ""
+    def _img(self,u):
+        """封面被 cdndefend 保护, App 直接加载会拿到验证页 -> 走本地网关带 cookie 取图。"""
+        if not u: return ""
+        if not u.startswith("http"): u=urljoin(self.host,u)
+        if not self.cdcookie: return u   # 没解到 cookie 就给原图(顶多不显示, 不报错)
+        hdr=json.dumps({"Cookie":self.cdcookie,"Referer":self.host+"/","User-Agent":self.ua})
+        return self.gate+"?url="+quote(u,safe='')+"&headers="+quote(hdr,safe='')
     def _cards(self,html):
         """从搜索/首页/频道页提取 vod 卡片。标题用障眼法(v-item-title: 水印 strong 隐藏, 真名居中), 过滤水印。"""
         out=[]; seen=set()
@@ -92,7 +105,7 @@ class Spider(Spider):
             for pm in re.finditer(r'(?:data-original|data-src|src)="([^"]+?\.(?:jpg|jpeg|png|webp))"',inner):
                 u=pm.group(1)
                 if "placeholder" not in u and "logo" not in u:
-                    pic=u if u.startswith("http") else urljoin(self.host,u); break
+                    pic=self._img(u); break   # 走本地网关带 cdndefend cookie, 否则 App 加载不到
             # 状态: v-item-bottom span 或 note/remarks
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)
@@ -141,6 +154,15 @@ class Spider(Spider):
         if dm:
             desc=re.sub(r'<[^>]+>',' ',dm.group(1))
             desc=re.sub(r'\s+',' ',desc).strip()
+        # 导演/演员/备注: detail-info-row(side=标签, main=值)
+        info={}
+        for mm in re.finditer(r'detail-info-row-side">\s*([^<:：]+)[:：]?\s*</div>\s*<div class="detail-info-row-main">(.*?)</div>',h,re.S):
+            side=mm.group(1).strip()
+            val=re.sub(r'<[^>]+>',' ',mm.group(2)); val=re.sub(r'\s+',' ',val).strip()
+            if val and side not in info: info[side]=val
+        director=info.get("导演","")
+        actor=info.get("演员",info.get("主演",""))
+        remarks=info.get("备注","")
         # 按 sid 分线路, 收集 (eid, 集名)
         routes={}
         for m in re.finditer(r'href="(/play/'+re.escape(vid)+r'-(\d+)-(\d+)\.html)"([^>]*)>(.*?)</a>',h,re.S):
@@ -170,6 +192,7 @@ class Spider(Spider):
         # 封面留空 -> App 才会去取 TMDB 剧照填卡片(带 logo 封面会压制 TMDB, 全是 logo)
         cont=("[%s] %s"%(VER,desc)).strip()  # 简介开头放版本标记 + 真实剧情
         return {"list":[{"vod_id":vid,"vod_name":name,"vod_pic":"","vod_year":year,
+                         "vod_director":director,"vod_actor":actor,"vod_remarks":remarks,
                          "vod_content":cont,
                          "vod_play_from":"$$$".join(pf) if pf else "毒舌",
                          "vod_play_url":"$$$".join(pu)}]}

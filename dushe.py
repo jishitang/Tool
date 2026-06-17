@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v12"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v13"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
           # (不放标题, 因为标题带标记会破坏 TMDB 海报匹配)
 
 class Spider(Spider):
@@ -19,6 +19,16 @@ class Spider(Spider):
         self.ua="Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
         self.token=""
         self.cdcookie=""                                # cdndefend cookie 解出后存这(备用)
+        # TMDB 真海报: 「扩展参数」里填 v4 Token(eyJ开头) 或 v3 Key, 空则用文字占位图
+        self.tmdb=(extend or "").strip()
+        self.tmdb_api="https://api.themoviedb.org/3"    # 被墙就在扩展参数改: token|api域名|图片域名
+        self.tmdb_img="https://image.tmdb.org/t/p/w342"
+        if "|" in self.tmdb:                            # 可选: token|apiBase|imgBase
+            ps=self.tmdb.split("|"); self.tmdb=ps[0].strip()
+            if len(ps)>1 and ps[1].strip(): self.tmdb_api=ps[1].strip().rstrip("/")
+            if len(ps)>2 and ps[2].strip(): self.tmdb_img=ps[2].strip().rstrip("/")
+        self.tmdb_dead=False                            # 查不通(被墙)就置真, 本会话不再查
+        self.picache={}                                 # 片名->海报 缓存
         self.session=requests.Session()
         self.session.verify=False
         self.session.headers.update({"User-Agent":self.ua,"Referer":self.host+"/","Accept":"text/html,*/*","Accept-Language":"zh-CN,zh;q=0.9"})
@@ -75,6 +85,41 @@ class Spider(Spider):
         b=hashlib.md5(t.encode("utf-8")).digest()
         bg="%02x%02x%02x"%(b[0]%110,b[1]%110,b[2]%110)  # 深色, 白字才清楚
         return "https://placehold.jp/24/%s/ffffff/300x420.png?text=%s"%(bg,quote(disp,safe=''))
+    def _tmdb_poster(self,name):
+        """查 TMDB 海报 -> image.tmdb.org 地址(不被反爬拦); 查不到/没配 token 返回 ''。"""
+        if not self.tmdb or self.tmdb_dead or not name: return ""
+        if name in self.picache: return self.picache[name]
+        pic=""
+        try:
+            params={"query":name,"language":"zh-CN","include_adult":"false"}
+            hdr={"accept":"application/json"}
+            if self.tmdb.startswith("eyJ") or len(self.tmdb)>50:   # v4 Token -> Bearer
+                hdr["Authorization"]="Bearer "+self.tmdb
+            else:                                                  # v3 Key -> query
+                params["api_key"]=self.tmdb
+            r=requests.get(self.tmdb_api+"/search/multi",params=params,headers=hdr,timeout=5,verify=False)
+            if r.status_code in (401,403):          # token 无效 -> 别再查了
+                self.tmdb_dead=True; self.picache[name]=""; return ""
+            for it in (r.json().get("results") or []):
+                pp=it.get("poster_path")
+                if pp: pic=self.tmdb_img+pp; break
+        except Exception:
+            self.tmdb_dead=True   # 网络打不通/被墙 -> 本会话不再查, 避免大量超时
+        self.picache[name]=pic
+        return pic
+    def _fill_tmdb(self,cards):
+        """给一批卡片并发填 TMDB 海报(查到的替换文字占位图)。"""
+        if not self.tmdb or self.tmdb_dead or not cards: return
+        self._tmdb_poster(cards[0]["vod_name"])   # 先探一张; 网络不通会置 tmdb_dead
+        if self.tmdb_dead: return
+        def work(c):
+            p=self._tmdb_poster(c["vod_name"])
+            if p: c["vod_pic"]=p
+        try:
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=16) as ex: list(ex.map(work,cards))
+        except Exception:
+            for c in cards: work(c)   # 并发不可用就顺序查
     def _cards(self,html):
         """从搜索/首页/频道页提取 vod 卡片。标题用障眼法(v-item-title: 水印 strong 隐藏, 真名居中), 过滤水印。"""
         out=[]; seen=set()
@@ -106,6 +151,7 @@ class Spider(Spider):
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)
             out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
+        self._fill_tmdb(out)   # 配了 TMDB token 就并发查真海报替换文字图; 没配/查不到保留文字图
         return out
 
     def homeContent(self,filter):

@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v28"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v28"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件，v28比26多豆瓣图片
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"

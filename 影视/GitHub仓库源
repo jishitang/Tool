@@ -11,6 +11,14 @@ https://github.com/silent1566/webhtv
 https://github.com/FGBLH/GHK
 https://github.com/807080747
 
+  🥈 不用 fork、直接订阅的(自动刷新 m3u,当补充)
+
+  这些 fork 了反而会"冻结"在某一刻,除非你也配同步;直接填订阅地址更实用:
+  - hujingguang/ChinaIPTV(2k⭐) —— 机器人每 15 分钟自动刷,最新鲜,图鉴里的首选订阅
+  - CCSH/IPTV —— 每日刷,虎牙/斗鱼/B站轮播(公网 CDN,哪都能播)
+  - yuanzl77/IPTV、dongyubin/IPTV、YanG-1989/m3u —— 每日更新的现成 m3u 仓
+
+
 电子书
 https://github.com/jbiaojerry/ebook-treasure-chest
 https://github.com/iptv-org/iptv

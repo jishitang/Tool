@@ -116,7 +116,8 @@ MOMO親子台,http://202.170.89.197:8070/playlist?channel=MOMO%E8%A6%AA%E5%AD%90
 TVBS新聞,http://202.170.89.197:8070/playlist?channel=TVBS%E6%96%B0%E8%81%9E&token=123
 東森財經新聞台,http://202.170.89.197:8070/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B2%A1%E7%B6%93%E6%96%B0%E8%81%9E%E5%8F%B0&token=123
 中視新聞,http://202.170.89.197:8070/playlist?channel=%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9E&token=123
-中天新聞台,http://116.63.182.147:5006/catvod?ch=%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E
+中天新聞台,http://202.170.89.197:8070/playlist?channel=%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E%E5%8F%B0&token=123
+中天2,http://116.63.182.147:5006/catvod?ch=%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E
 Bloomberg TV,http://202.170.89.197:8070/playlist?channel=Bloomberg%20TV&token=123
 寰宇新聞台,http://202.170.89.197:8070/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0&token=123
 寰宇新聞台灣台,http://202.170.89.197:8070/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0%E7%81%A3%E5%8F%B0&token=123

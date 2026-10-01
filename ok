@@ -370,10 +370,10 @@ DAZN 2,https://live.catvod.com/?id=L2xyL2RMUTJkRW0yaldTeXhSaDdaTlNOVnJmT1ZDc0lWQ
 Catchplay电影台,https://live.catvod.com/?id=L2xyL2RMUTJkRW0yaldueTZDbkdwQzJ5eHFmQjZXaHVwQzJ5eFUyZ3BOXzRWUG5hQW18Y2Q9OTNjNWZmYjYmY249MWUwZDU4NGMmY3A9M2U2NTg0YTcmY3U9OTcwZjA2OWYmcnA9ZFBfQmpMZEJqTDFsbmloMm5FRg&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 动物星球,https://live.catvod.com/?id=L2xyL2RMUTJkRW0yaldzNHZVYXlWNXQ4UVVJZTZzZkI2V2h1cEMyeXhVMmdwTl80VlBuYUFtfGNkPTkzYzVmZmI2JmNuPTFlMGQ1ODRjJmNwPWQzMDBlYjRlJmN1PTk3MGYwNjlmJnJwPWRQX0JqTGRCakwxbG5paDJuRUY&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 咪咕Ubuntu线,#genre#
-凤凰香港,http://zizi.dpdns.org/api.php?id=V50f4d90WXoSiMipB8lK#http://zizi.dpdns.org/api.php?id=XVVlNQ8I052wbC3ijh0O#http://zizi.dpdns.org/api.php?id=VLliHbTiE7ThnrXmGESD#http://zizi.dpdns.org/api.php?id=584Bi9QYrrIBiA4blWIm#http://zizi.dpdns.org/api.php?id=uRmCDqzhszhJ6jycPImq#http://zizi.dpdns.org/api.php?id=H6QNcWQv2ywEh4flZgS7#http://zizi.dpdns.org/api.php?id=zH4Ye8Gf8EiUSwS44Z4o#http://zizi.dpdns.org/api.php?id=cR3Vk1X6d86f0Z3aZXVY
-凤凰中文,http://zizi.dpdns.org/api.php?id=xrPpHsKrYhTRUDUE6pUy#http://zizi.dpdns.org/api.php?id=NMMT208QBjCIFX6MiTjf#http://zizi.dpdns.org/api.php?id=mQN3nkwurpEa4IF56GpP#http://zizi.dpdns.org/api.php?id=VEfgrEUuwI8Mc1WnKNyH#http://zizi.dpdns.org/api.php?id=5FMkFZFniUnUY0DVNAcm#http://zizi.dpdns.org/api.php?id=jTXIGcuTac24xfWZxrwQ
-凤凰资讯,http://zizi.dpdns.org/api.php?id=2FUUl1dQnRm6qEBEPWT3#http://zizi.dpdns.org/api.php?id=Pq2JLnztJwpP11lLFglh#http://zizi.dpdns.org/api.php?id=qeXbdnFMCAONUQ67i64S#http://zizi.dpdns.org/api.php?id=Fs8w2MKyIYnYZsJJlrsx#http://zizi.dpdns.org/api.php?id=Bimg84C2nRd2menpTO2C#http://zizi.dpdns.org/api.php?id=ip60KOXAMXpsdCeTRkPw#http://zizi.dpdns.org/api.php?id=i8b0vgVLxtxbaMdTHNwk#http://zizi.dpdns.org/api.php?id=Qfr1IDY5u4R697RFzG8g
-凤凰电影台,http://zizi.dpdns.org/api.php?id=kofZOoxE54rOyNIAyEgX#http://zizi.dpdns.org/api.php?id=Nr5vClZYdxCw0NI4U6yY
+凤凰香港,http://zizi.dpdns.org/api.php?id=mvktJ9EdMZSOudtV21KH#http://zizi.dpdns.org/api.php?id=lenOAKGojOGpxxuF5s9S#http://zizi.dpdns.org/api.php?id=gKgRFxyMUFs89rlM3dYW#http://zizi.dpdns.org/api.php?id=4FD3QJXSP9QUBjhSTUG2#http://zizi.dpdns.org/api.php?id=ybNbqgGA1htoNUrDHOcU#http://zizi.dpdns.org/api.php?id=nSizAscw6foIZ4USfJPt#http://zizi.dpdns.org/api.php?id=ihzkPalD04rLkUYktqfA#http://zizi.dpdns.org/api.php?id=miTS3wXZx6BvyPVsBFrd
+凤凰中文,http://zizi.dpdns.org/api.php?id=EmM5PMrrNxgUI2WMLM8E#http://zizi.dpdns.org/api.php?id=TQsVleEXHfijXu598P7Z#http://zizi.dpdns.org/api.php?id=XxPD2yqX63GMjt2k6dRv#http://zizi.dpdns.org/api.php?id=blNsFFFQKz8InQrA82dV#http://zizi.dpdns.org/api.php?id=wUAAbvcVtSX7QM0mkDcX#http://zizi.dpdns.org/api.php?id=SkGx7w6m5x5O1ynoKRH8
+凤凰资讯,http://zizi.dpdns.org/api.php?id=JIr9jEsSsBCp1Hg157cD#http://zizi.dpdns.org/api.php?id=4iADXFz0sGwYy0h1uhTJ#http://zizi.dpdns.org/api.php?id=hd2Tkr8IJCoouABgiRY4#http://zizi.dpdns.org/api.php?id=63YNxhUo1rtqT4bO8plo#http://zizi.dpdns.org/api.php?id=1dPXW7EqH22A6VqLbF3n#http://zizi.dpdns.org/api.php?id=ZX94r93S4VwubAhefLB8#http://zizi.dpdns.org/api.php?id=xA2Y8PygEfC4dmPh4Bxn#http://zizi.dpdns.org/api.php?id=lolWtlXKJwAcXvc181U3
+凤凰电影台,http://zizi.dpdns.org/api.php?id=rvPb0wkQnwMCvv8lGLkH#http://zizi.dpdns.org/api.php?id=ICAKpETsKmalHVReNrFt
 CCTV1综合,http://1.95.166.182:5008/abc123/608807420
 CCTV2财经,http://1.95.166.182:5008/abc123/631780532
 CCTV3综艺,http://1.95.166.182:5008/abc123/624878271
@@ -507,7 +507,6 @@ UFC白大拿挑战者系列赛 第八周4场比赛4人圆梦UFC获合同 全场�
 斯诺克 凯伦·威尔逊、马奎尔晋级 墨菲5-1瓦菲 【回放】肖恩·墨菲5-1侯赛因·瓦菲（赛场原声） 09:30,http://1.95.166.182:5008/abc123/968051772
 斯诺克 凯伦·威尔逊、马奎尔晋级 墨菲5-1瓦菲 【回放】斯蒂芬·马奎尔5-1大卫·格雷斯（赛场原声） 09:30,http://1.95.166.182:5008/abc123/968051947
 斯诺克 凯伦·威尔逊、马奎尔晋级 墨菲5-1瓦菲 【回放】大卫·吉尔伯特2-5凯伦·威尔逊（赛场原声） 09:30,http://1.95.166.182:5008/abc123/968052421
-中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 2026中国网球公开赛女单第1轮回放：邦达尔0-2扎拉祖阿（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968067985
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【男单第1轮】J·塞伦多洛1-2布云朝克特（赛场原声）（4K） 13:00,http://1.95.166.182:5008/abc123/968059806
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【男单第1轮】博尔热斯0-2德约科维奇（赛场原声）（4K） 13:00,http://1.95.166.182:5008/abc123/968062361
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【男单第1轮】张之臻0-2热亚（赛场原声）（4K） 13:00,http://1.95.166.182:5008/abc123/968061457
@@ -524,6 +523,7 @@ UFC白大拿挑战者系列赛 第八周4场比赛4人圆梦UFC获合同 全场�
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【男单第1轮】卡恰诺夫2-0阿利亚西姆（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968052411
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】奥利尼科娃0-2袁悦（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968059386
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】曾丽美2-1卡利尼娜（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968055332
+中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】邦达尔0-2扎拉祖阿（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968067985
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】马烨欣1-2波琳娜·库德梅托娃（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968057269
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】白卓璇0-2琳达·弗鲁维尔托娃（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968058794
 中国网球公开赛 德约中网30连胜 阿利亚西姆遭爆冷止步 【女单第1轮】乔恩特1-2克劳斯（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968055319
@@ -539,11 +539,11 @@ UFC白大拿挑战者系列赛 第八周4场比赛4人圆梦UFC获合同 全场�
 中国网球公开赛 马烨欣VS库德梅托娃 【女单第1轮】马烨欣1-2波琳娜·库德梅托娃（赛场原声） 13:00,http://1.95.166.182:5008/abc123/968057269
 国际盛装舞步公益赛 国际盛装舞步公益赛 【全场回放】2026国际盛装舞步公益赛（赛场原声）（一） 09:30,http://1.95.166.182:5008/abc123/968051914
 国际盛装舞步公益赛 国际盛装舞步公益赛 2026国际盛装舞步公益赛全场回放（赛场原声）（二） 09:30,http://1.95.166.182:5008/abc123/968057593
-斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 26/27赛季斯诺克深圳公开赛资格赛第3轮回放：斯图尔特·宾汉姆0-5克里斯·韦克林（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968057265
-斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 26/27赛季斯诺克深圳公开赛资格赛第3轮回放：塔猜亚·乌努0-5迈克尔·霍尔特（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968057779
-斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 26/27赛季斯诺克深圳公开赛资格赛第3轮回放：斯佳辉5-3加里·威尔逊（卢正浩） 14:00,http://1.95.166.182:5008/abc123/968058317
-斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 26/27赛季斯诺克深圳公开赛资格赛第3轮回放：杰克逊·佩奇1-5马克·塞尔比（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968058567
-斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 26/27赛季斯诺克深圳公开赛资格赛第3轮回放：斯佳辉5-3加里·威尔逊（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968059166
+斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 【回放】斯佳辉5-3加里·威尔逊（卢正浩） 14:00,http://1.95.166.182:5008/abc123/968058317
+斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 【回放】斯图尔特·宾汉姆0-5克里斯·韦克林（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968057265
+斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 【回放】塔猜亚·乌努0-5迈克尔·霍尔特（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968057779
+斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 【回放】杰克逊·佩奇1-5马克·塞尔比（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968058567
+斯诺克 斯佳辉5-3加里·威尔逊 塞尔比晋级 【回放】斯佳辉5-3加里·威尔逊（赛场原声） 14:00,http://1.95.166.182:5008/abc123/968059166
 贵州村超全国赛 国际足球赛day1 2026贵州村超国际足球赛第1轮全场回放：新疆巴楚县胡杨足球队6:0中兴印尼金光努比亚队（赛场原声） 14:30,http://1.95.166.182:5008/abc123/968058449
 贵州村超全国赛 国际足球赛day1 2026贵州村超国际足球赛第1轮全场回放：黔南民族师范学院留学生队0:19巴西银河联队（赛场原声） 14:30,http://1.95.166.182:5008/abc123/968060239
 贵州村超全国赛 国际足球赛day1 2026贵州村超国际足球赛第1轮全场回放：南昌满天星足球队3:2贵阳红润·林城足球队（赛场原声） 14:30,http://1.95.166.182:5008/abc123/968062645
@@ -640,6 +640,7 @@ WTT 徐瑛彬迎战林兆恒 纵歌曼亮相 4号桌 18:00,http://1.95.166.182:5
 中国网球公开赛 利斯VS孙心然 训练场1 08:00,http://1.95.166.182:5008/abc123/967936118
 中国网球公开赛 利斯VS孙心然 训练场2 08:00,http://1.95.166.182:5008/abc123/967936153
 WTT 侯英超、程靖淇、周冠达前瞻国乒 侯英超 程靖淇 周冠达 19:00,http://1.95.166.182:5008/abc123/968024415
+绿茵狂想：联赛季 蓄势冲锋！探讨国足当下与未来 詹俊 刘越 孙继海 杨茗茗 19:00,http://1.95.166.182:5008/abc123/967502892
 斯诺克 吴宜泽PK里奇·沃顿 斯佳辉、袁思俊出战 1号桌 19:30,http://1.95.166.182:5008/abc123/967835384
 斯诺克 吴宜泽PK里奇·沃顿 斯佳辉、袁思俊出战 2号桌 19:30,http://1.95.166.182:5008/abc123/967835395
 斯诺克 吴宜泽PK里奇·沃顿 斯佳辉、袁思俊出战 3号桌 19:30,http://1.95.166.182:5008/abc123/967835422

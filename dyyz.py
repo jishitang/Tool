@@ -31,24 +31,33 @@ class Spider(Spider):
     def _pick_host(self):
         # 镜像探活: 挨个试 self.hosts, 第一个能开且像真站点(MacCMS 有 /voddetail 或 /vodsearch 链接)的就定下来。
         # 都没真站点特征但有响应的, 退用第一个能通的; 全挂停在最后一个, 后续仍可重试。
+        # self.diag 记录每个镜像的结果(状态/异常/耗时), 全挂时 homeContent 会把它显示成分类名, 在 App 里就能看到原因。
+        import time as _t
+        self.diag = []
         fallback = None
         for hh in self.hosts:
             self.host = hh
-            try: h = self._get("/")
+            t0 = _t.time()
+            try: h = self._get("/", timeout=8)        # 探活用短超时: 4 个镜像最多 32s, 别让 App 一直转圈
             except Exception: h = ""
+            self.diag.append("%s %s %.1fs" % (hh.replace("https://", ""), self.last_err or ("ok %d字" % len(h)), _t.time() - t0))
             if not h: continue                        # DNS失败/超时/域名过期空响应 -> 试下一个
             if fallback is None: fallback = hh
             if "/voddetail/" in h or "/vodsearch" in h: return
         if fallback: self.host = fallback
 
-    def _get(self, path, ref=""):
+    last_err = ""
+    def _get(self, path, ref="", timeout=20):
         url = self.host + path if path.startswith("/") else path
+        self.last_err = ""
         try:
-            r = self.session.get(url, headers={"Referer": ref or self.host + "/"}, timeout=20)
+            r = self.session.get(url, headers={"Referer": ref or self.host + "/"}, timeout=timeout)
             try: r.encoding = "utf-8"
             except Exception: pass
+            if r.status_code != 200: self.last_err = "http %s" % r.status_code
             return r.text
-        except Exception:
+        except Exception as e:
+            self.last_err = (type(e).__name__ + ": " + str(e))[:90]
             return ""
 
     def _pic(self, inner):
@@ -85,10 +94,20 @@ class Spider(Spider):
             cid, cname = m.group(1), m.group(2).strip()
             if cid in seen or not cname or cname in ("更多",): continue
             seen.add(cid); cls.append({"type_id": cid, "type_name": cname})
+        if not cls:
+            # 站点没拉到/页面不对: 把原因直接显示成分类, 点进去看每个镜像的探活结果(不用看日志)
+            why = self.last_err or ("页面%d字无分类" % len(h))
+            return {"class": [{"type_id": "__diag", "type_name": "⚠连不上站点:" + why[:30]}], "list": []}
         return {"class": cls[:15], "list": self._cards(h)[:60]}
+    def _diag_list(self):
+        rows = [{"vod_id": "__d%d" % i, "vod_name": d, "vod_pic": "", "vod_remarks": "探活"} for i, d in enumerate(getattr(self, "diag", []) or [])]
+        rows.append({"vod_id": "__host", "vod_name": "当前host=" + self.host, "vod_pic": "", "vod_remarks": ""})
+        rows.append({"vod_id": "__err", "vod_name": "最后错误=" + (self.last_err or "无"), "vod_pic": "", "vod_remarks": ""})
+        return {"list": rows, "page": 1, "pagecount": 1, "limit": len(rows), "total": len(rows)}
     def homeVideoContent(self):
         return {"list": self._cards(self._get("/"))[:60]}
     def categoryContent(self, tid, pg, filter, extend):
+        if tid == "__diag": return self._diag_list()
         page = int(pg) if str(pg).isdigit() else 1
         path = f"/vodtype/{tid}.html" if page == 1 else f"/vodtype/{tid}-{page}.html"
         cards = self._cards(self._get(path))

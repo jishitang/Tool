@@ -12,15 +12,34 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 class Spider(Spider):
     def getName(self): return "电影驿站"
     def init(self, extend=""):
-        # 域名失效时改这里(镜像: dyyz.top / dyyz.cc / dyyz2.app)
-        self.host = "https://www.dyyz.top"
+        # 镜像站(任一活的就用; _pick_host() 自动探活并切到第一个能开的真站点)。
+        # ★ 只放能开 /vodsearch 的【真站点】, 别放 dyyz.pw / dyyz.ws 发布页(那是查域名的, 不是站点)。
+        # ★ 与 dyyz.js 的 DYYZ_HOSTS 保持一致(去掉发布页): 域名过期/新增时两边同步改。
+        # 官方永久发布页(自己查最新可用域名): 主 dyyz.pw / 备 dyyz.ws。
+        self.hosts = ["https://www.dyyz.top", "https://www.dyyz.cc", "https://www.dyyz.one", "https://dyyz2.app"]
+        self.host = self.hosts[0]                     # 占位, _pick_host() 会改成真正探通的那个
         self.ua = "Mozilla/5.0 (Linux; Android 12; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36"
         self.session = requests.Session()
         self.session.verify = False
+        self.session.trust_env = False      # 不走 App/系统代理: 站点只接国内 IP, 经海外出口会被拒(2026-10-08 实测)
         self.session.headers.update({"User-Agent": self.ua, "Referer": self.host + "/", "Accept-Language": "zh-CN,zh;q=0.9"})
+        self._pick_host()
     def destroy(self):
         try: self.session.close()
         except Exception: return None
+
+    def _pick_host(self):
+        # 镜像探活: 挨个试 self.hosts, 第一个能开且像真站点(MacCMS 有 /voddetail 或 /vodsearch 链接)的就定下来。
+        # 都没真站点特征但有响应的, 退用第一个能通的; 全挂停在最后一个, 后续仍可重试。
+        fallback = None
+        for hh in self.hosts:
+            self.host = hh
+            try: h = self._get("/")
+            except Exception: h = ""
+            if not h: continue                        # DNS失败/超时/域名过期空响应 -> 试下一个
+            if fallback is None: fallback = hh
+            if "/voddetail/" in h or "/vodsearch" in h: return
+        if fallback: self.host = fallback
 
     def _get(self, path, ref=""):
         url = self.host + path if path.startswith("/") else path

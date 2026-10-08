@@ -42,7 +42,7 @@
    "key": "dsdy",
    "name": "🎬DS电影",
    "type": 3,
-   "api": "https://gitee.com/jishitang/tool/raw/master/dushe28.py",
+   "api": "https://ghfast.top/https://raw.githubusercontent.com/jishitang/Tool/main/ds.py",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1
@@ -51,7 +51,7 @@
    "key": "dyyz",
    "name": "🎬电影驿站",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/jishitang/Tool@main/dyyz.py",
+   "api": "https://ghfast.top/https://raw.githubusercontent.com/jishitang/Tool/main/dyyz.py",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1

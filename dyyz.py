@@ -57,7 +57,15 @@ class Spider(Spider):
             if r.status_code != 200: self.last_err = "http %s" % r.status_code
             return r.text
         except Exception as e:
-            self.last_err = (type(e).__name__ + ": " + str(e))[:90]
+            # 把 requests 一长串异常压成「类型+真因」: DNS解析失败 / 连接超时 / 读超时 / 被拒绝 / SSL / 连接被重置
+            s = str(e)
+            cause = ""
+            for k, v in (("NameResolution", "DNS解析失败"), ("Name or service not known", "DNS解析失败"), ("getaddrinfo", "DNS解析失败"),
+                         ("ConnectTimeout", "连接超时"), ("Read timed out", "读超时"), ("timed out", "超时"),
+                         ("Connection refused", "连接被拒绝"), ("ECONNREFUSED", "连接被拒绝"), ("SSL", "SSL握手失败"),
+                         ("Connection reset", "连接被重置"), ("RemoteDisconnected", "对方断开"), ("Network is unreachable", "网络不可达")):
+                if k in s: cause = v; break
+            self.last_err = (type(e).__name__ + ":" + (cause or s[:60]))[:90]
             return ""
 
     def _pic(self, inner):

@@ -4,10 +4,19 @@
 # 搜索 /vodsearch/词----------页---.html | 详情 /voddetail/{id}.html
 # 选集/线路 /vodplay/{id}-{sid}-{nid}.html | 播放 player_aaaa.url = 直链 m3u8
 import re, json, requests
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
+
+# 海报懒加载(2026-10-09): 站点自家图床 imgapiappdownload.dyyztv.top 已死(302 跳广告页), 这类卡片海报永远出不来。
+# 办法: vod_pic 先给 App 一个本地代理地址 proxy://do=py&siteKey=..&type=poster&name=片名, 列表立刻显示;
+# App 异步加载图片时回调 localProxy -> 豆瓣(带Referer回吐字节) -> TMDB(302跳图) -> 都没有则 404(App 画首字)。
+# 搜索/列表不等海报, 海报各自慢慢出。TMDB 用与 ds.py 同一只读 token(api.tmdb.org/images.tmdb.org 国内可访问)。
+DEAD_IMG_HOSTS = ("imgapiappdownload.dyyztv.top",)
+TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
+TMDB_API = "https://api.tmdb.org/3"
+TMDB_IMG = "https://images.tmdb.org/t/p/w342"
 
 class Spider(Spider):
     def getName(self): return "电影驿站"
@@ -112,7 +121,9 @@ class Spider(Spider):
             name = re.sub(r'(封面图|封面|海报|图片|剧照)$', '', name).strip()
             if not name or len(name) > 60: continue
             rm = re.search(r'class="[^"]*(?:note|remarks|continu|msg|pic-text|score|jidi)[^"]*"[^>]*>\s*([^<]{1,20})', inner, re.I)
-            out.append({"vod_id": vid, "vod_name": name, "vod_pic": self._pic(inner),
+            pic = self._pic(inner)
+            if not pic or any(h in pic for h in DEAD_IMG_HOSTS): pic = self._lazy_pic(name)   # 死图床/无图 -> 懒加载海报
+            out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic,
                         "vod_remarks": (rm.group(1).strip() if rm else "")})
         return out
 
@@ -133,6 +144,62 @@ class Spider(Spider):
         rows.append({"vod_id": "__host", "vod_name": "当前host=" + self.host, "vod_pic": "", "vod_remarks": ""})
         rows.append({"vod_id": "__err", "vod_name": "最后错误=" + (self.last_err or "无"), "vod_pic": "", "vod_remarks": ""})
         return {"list": rows, "page": 1, "pagecount": 1, "limit": len(rows), "total": len(rows)}
+    # ---------- 海报懒加载: 列表先出, 图片由 App 异步回调 localProxy 时再查 ----------
+    def _lazy_pic(self, name):
+        key = getattr(self, "siteKey", "") or "dyyz"
+        return "proxy://do=py&siteKey=%s&type=poster&name=%s" % (key, quote(name, safe=""))
+    def _clean_name(self, name):
+        # 去掉 "《》"、年份/版本后缀, 提高豆瓣/TMDB 命中
+        n = re.sub(r'[《》]', '', name or "")
+        n = re.sub(r'\s*[\(（]\s*(?:19|20)\d{2}\s*[\)）]\s*$', '', n)
+        n = re.sub(r'\s+(?:第[一二三四五六七八九十\d]+[季部]|国语版?|粤语版?|高清|HD|BD|4K)$', '', n)
+        return n.strip() or name
+    def _poster_lookup(self, name):
+        """返回 ('bytes', 图片字节, mime) / ('url', 图片地址) / None。豆瓣优先(国内快, 图要 Referer 故回吐字节), 没中查 TMDB(302 跳图)。"""
+        cache = self.__dict__.setdefault("pcache", {})
+        if name in cache: return cache[name]
+        res = None
+        q = self._clean_name(name)
+        try:
+            r = requests.get("https://movie.douban.com/j/subject_suggest", params={"q": q},
+                             headers={"User-Agent": self.ua, "Referer": "https://movie.douban.com/"}, timeout=6, verify=False)
+            for it in (r.json() or []):
+                img = it.get("img", "")
+                if img:
+                    img = img.replace("s_ratio_poster", "m_ratio_poster")
+                    ri = requests.get(img, headers={"User-Agent": self.ua, "Referer": "https://movie.douban.com/"}, timeout=8, verify=False)
+                    if ri.status_code == 200 and len(ri.content) > 2000:
+                        res = ("bytes", ri.content, ri.headers.get("Content-Type", "image/jpeg").split(";")[0])
+                    break
+        except Exception:
+            pass
+        if res is None:
+            try:
+                r = requests.get(TMDB_API + "/search/multi", params={"query": q, "language": "zh-CN", "include_adult": "false"},
+                                 headers={"accept": "application/json", "Authorization": "Bearer " + TMDB_TOKEN}, timeout=6, verify=False)
+                for it in (r.json().get("results") or []):
+                    if it.get("poster_path"):
+                        res = ("url", TMDB_IMG + it["poster_path"]); break
+            except Exception:
+                pass
+        if res is not None and len(cache) < 400: cache[name] = res   # 只缓存确定结果(含豆瓣字节, 几十KB/张, 上限400)
+        return res
+    def localProxy(self, param):
+        """App 本地代理回调(vod_pic=proxy://...): 返回 [状态码, mime, 字节, 头]。"""
+        try:
+            p = param if isinstance(param, dict) else json.loads(param or "{}")
+            if p.get("type") == "poster":
+                name = unquote(p.get("name", ""))
+                res = self._poster_lookup(name) if name else None
+                if res and res[0] == "bytes":
+                    return [200, res[2], res[1], {"Cache-Control": "max-age=86400"}]
+                if res and res[0] == "url":
+                    return [302, "text/plain", b"", {"Location": res[1], "Cache-Control": "max-age=86400"}]
+                return [404, "text/plain", b"no poster", {}]
+        except Exception as e:
+            return [500, "text/plain", str(e).encode("utf-8"), {}]
+        return [404, "text/plain", b"", {}]
+
     def homeVideoContent(self):
         return {"list": self._cards(self._get("/"))[:60]}
     def categoryContent(self, tid, pg, filter, extend):

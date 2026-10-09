@@ -51,7 +51,7 @@
    "key": "dyyz",
    "name": "🎬电影驿站",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/jishitang/Tool@530d546/dyyz.py",
+   "api": "https://cdn.jsdelivr.net/gh/jishitang/Tool@main/dyyz.py",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1

@@ -150,10 +150,13 @@ class Spider(Spider):
         return "proxy://do=py&siteKey=%s&type=poster&name=%s" % (key, quote(name, safe=""))
     def _clean_name(self, name):
         # 去掉 "《》"、年份/版本后缀, 提高豆瓣/TMDB 命中
-        n = re.sub(r'[《》]', '', name or "")
+        n = name or ""
+        m = re.search(r'《([^》]+)》', n)            # 有书名号就只取书名号里的
+        if m: n = m.group(1)
         n = re.sub(r'\s*[\(（]\s*(?:19|20)\d{2}\s*[\)）]\s*$', '', n)
-        n = re.sub(r'\s+(?:第[一二三四五六七八九十\d]+[季部]|国语版?|粤语版?|高清|HD|BD|4K)$', '', n)
-        return n.strip() or name
+        n = re.sub(r'(?:电视剧|电影|动漫|综艺)?(?:全集|完整版|未删减版?)$', '', n)
+        n = re.sub(r'\s*(?:第[一二三四五六七八九十\d]+[季部]|国语版?|粤语版?|中字|高清|HD|BD|4K)$', '', n)
+        return n.strip(" -_·|:：") or name
     def _poster_lookup(self, name):
         """返回 ('bytes', 图片字节, mime) / ('url', 图片地址) / None。豆瓣优先(国内快, 图要 Referer 故回吐字节), 没中查 TMDB(302 跳图)。"""
         cache = self.__dict__.setdefault("pcache", {})

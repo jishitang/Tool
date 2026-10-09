@@ -23,6 +23,7 @@ class Spider(Spider):
         self.session.verify = False
         self.session.trust_env = False      # 不走 App/系统代理: 站点只接国内 IP, 经海外出口会被拒(2026-10-08 实测)
         self.session.headers.update({"User-Agent": self.ua, "Referer": self.host + "/", "Accept-Language": "zh-CN,zh;q=0.9"})
+        self.ip_mode = ""                     # 非空=「IP直连+Host头(不带SNI)」模式, 域名全被运营商重置时自动启用
         self._pick_host()
     def destroy(self):
         try: self.session.close()
@@ -44,14 +45,34 @@ class Spider(Spider):
             if not h: continue                        # DNS失败/超时/域名过期空响应 -> 试下一个
             if fallback is None: fallback = hh
             if "/voddetail/" in h or "/vodsearch" in h: return
-        if fallback: self.host = fallback
+        if fallback: self.host = fallback; return
+        # 四个域名全连不上(用户家宽+移动流量实测「连接被重置」= 运营商按域名/SNI 拦) →
+        # 改走「IP 直连 + Host 头」: TLS 里不带域名, 站点服务端已验证只认 Host 头也照常出页(2026-10-09 实测)。
+        import socket
+        tried = set()
+        for hh in self.hosts:
+            hn = hh.split("://", 1)[1]
+            try: ip = socket.gethostbyname(hn)
+            except Exception: ip = ""
+            for cand in (ip, "172.83.158.154"):       # 先用现解析的 IP, 再用已知 IP 兜底
+                if not cand or cand in tried: continue
+                tried.add(cand)
+                self.host = hh; self.ip_mode = cand
+                h = self._get("/", timeout=8)
+                self.diag.append("IP直连 %s@%s %s" % (hn, cand, self.last_err or ("ok %d字" % len(h))))
+                if h and ("/voddetail/" in h or "/vodsearch" in h): return
+        self.ip_mode = ""; self.host = self.hosts[0]
 
     last_err = ""
     def _get(self, path, ref="", timeout=20):
         url = self.host + path if path.startswith("/") else path
+        hdr = {"Referer": ref or self.host + "/"}
+        if self.ip_mode and path.startswith("/"):   # IP 直连: 地址换成 IP, 域名放 Host 头, TLS 不带 SNI
+            url = "https://" + self.ip_mode + path
+            hdr["Host"] = self.host.split("://", 1)[1]
         self.last_err = ""
         try:
-            r = self.session.get(url, headers={"Referer": ref or self.host + "/"}, timeout=timeout)
+            r = self.session.get(url, headers=hdr, timeout=timeout)
             try: r.encoding = "utf-8"
             except Exception: pass
             if r.status_code != 200: self.last_err = "http %s" % r.status_code

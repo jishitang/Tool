@@ -13,6 +13,7 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 # 办法: vod_pic 先给 App 一个本地代理地址 proxy://do=py&siteKey=..&type=poster&name=片名, 列表立刻显示;
 # App 异步加载图片时回调 localProxy -> 豆瓣(带Referer回吐字节) -> TMDB(302跳图) -> 都没有则 404(App 画首字)。
 # 搜索/列表不等海报, 海报各自慢慢出。TMDB 用与 ds.py 同一只读 token(api.tmdb.org/images.tmdb.org 国内可访问)。
+VER = "v3"   # 改版标记: v1 原版 / v2 IP直连+诊断 / v3 海报懒加载(绝对代理地址+后台预热)。显示在详情简介开头。
 DEAD_IMG_HOSTS = ("imgapiappdownload.dyyztv.top",)
 TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
 TMDB_API = "https://api.tmdb.org/3"
@@ -125,6 +126,8 @@ class Spider(Spider):
             if not pic or any(h in pic for h in DEAD_IMG_HOSTS): pic = self._lazy_pic(name)   # 死图床/无图 -> 懒加载海报
             out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic,
                         "vod_remarks": (rm.group(1).strip() if rm else "")})
+        try: self._warm_posters(out)
+        except Exception: pass
         return out
 
     def homeContent(self, filter):
@@ -147,7 +150,34 @@ class Spider(Spider):
     # ---------- 海报懒加载: 列表先出, 图片由 App 异步回调 localProxy 时再查 ----------
     def _lazy_pic(self, name):
         key = getattr(self, "siteKey", "") or "dyyz"
-        return "proxy://do=py&siteKey=%s&type=poster&name=%s" % (key, quote(name, safe=""))
+        # 优先用 App 给的绝对地址 http://127.0.0.1:端口/proxy?do=py (任何图片加载路径都认 http), 没有(本机测试)才用 proxy:// 简写
+        base = ""
+        try:
+            if hasattr(self, "getProxyUrl"): base = self.getProxyUrl(True) or ""
+        except Exception:
+            base = ""
+        if not base: base = "proxy://do=py"
+        return "%s&siteKey=%s&type=poster&name=%s" % (base, key, quote(name, safe=""))
+    WARM_POSTERS = True    # 列表返回后, 后台线程预查海报塞进缓存, App 回调时直接命中(避免首张等太久被记成失败)
+    def _warm_posters(self, cards):
+        if not self.WARM_POSTERS: return
+        names = []
+        cache = self.__dict__.setdefault("pcache", {})
+        for c in cards:
+            p = c.get("vod_pic", "")
+            if ("type=poster" in p) and c.get("vod_name") and c["vod_name"] not in cache and c["vod_name"] not in names: names.append(c["vod_name"])
+        if not names: return
+        names = names[:30]
+        import threading
+        def run():
+            try:
+                from concurrent.futures import ThreadPoolExecutor
+                with ThreadPoolExecutor(max_workers=3) as ex: list(ex.map(self._poster_lookup, names))
+            except Exception:
+                for n in names:
+                    try: self._poster_lookup(n)
+                    except Exception: pass
+        threading.Thread(target=run, daemon=True).start()
     def _clean_name(self, name):
         # 去掉 "《》"、年份/版本后缀, 提高豆瓣/TMDB 命中
         n = name or ""
@@ -264,7 +294,7 @@ class Spider(Spider):
         lines.sort(key=lambda l: l[0])   # 静态速度排序: 快的在前, 慢的在后
         pf = [l[1] for l in lines]; pu = [l[2] for l in lines]
         return {"list": [{"vod_id": vid, "vod_name": title or vid, "vod_pic": pic,
-                          "vod_content": (desc.group(1).strip() if desc else ""),
+                          "vod_content": ("[" + VER + "] " + (desc.group(1).strip() if desc else "")).strip(),   # 简介开头带版本标记, 确认 App 加载的是新文件
                           "vod_play_from": "$$$".join(pf) if pf else "电影驿站",
                           "vod_play_url": "$$$".join(pu)}]}
 

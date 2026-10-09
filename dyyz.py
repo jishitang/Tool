@@ -13,7 +13,7 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 # 办法: vod_pic 先给 App 一个本地代理地址 proxy://do=py&siteKey=..&type=poster&name=片名, 列表立刻显示;
 # App 异步加载图片时回调 localProxy -> 豆瓣(带Referer回吐字节) -> TMDB(302跳图) -> 都没有则 404(App 画首字)。
 # 搜索/列表不等海报, 海报各自慢慢出。TMDB 用与 ds.py 同一只读 token(api.tmdb.org/images.tmdb.org 国内可访问)。
-VER = "v3"   # 改版标记: v1 原版 / v2 IP直连+诊断 / v3 海报懒加载(绝对代理地址+后台预热)。显示在详情简介开头。
+VER = "v4"   # 改版标记: v1 原版 / v2 IP直连+诊断 / v3 海报懒加载(App 搜索页不认, 弃用) / v4 死图床→文字海报(剧名+年份·状态; 详情页 剧名+年份·主演) + 详情字段(主演/导演/年份/地区)。显示在详情简介开头。
 DEAD_IMG_HOSTS = ("imgapiappdownload.dyyztv.top",)
 TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
 TMDB_API = "https://api.tmdb.org/3"
@@ -121,14 +121,29 @@ class Spider(Spider):
             name = re.sub(r'\s+', ' ', name).strip()
             name = re.sub(r'(封面图|封面|海报|图片|剧照)$', '', name).strip()
             if not name or len(name) > 60: continue
-            rm = re.search(r'class="[^"]*(?:note|remarks|continu|msg|pic-text|score|jidi)[^"]*"[^>]*>\s*([^<]{1,20})', inner, re.I)
+            rm = re.search(r'class="[^"]*(?:note|remarks|continu|msg|pic-text|score|jidi|public-list-prb)[^"]*"[^>]*>\s*([^<]{1,20})', inner, re.I)
+            remarks = rm.group(1).strip() if rm else ""
+            # 卡片右侧文字块(thumb-else)里通常有 年份/地区/类型: 取年份给文字海报用
+            tail = html[m.end():m.end() + 800]
+            te = re.search(r'thumb-else[^>]*>(.*?)</div>', tail, re.S)
+            year = ""
+            if te:
+                ym = re.search(r'((?:19|20)\d{2})', re.sub(r'<[^>]+>', ' ', te.group(1)))
+                if ym: year = ym.group(1)
             pic = self._pic(inner)
-            if not pic or any(h in pic for h in DEAD_IMG_HOSTS): pic = self._lazy_pic(name)   # 死图床/无图 -> 懒加载海报
-            out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic,
-                        "vod_remarks": (rm.group(1).strip() if rm else "")})
-        try: self._warm_posters(out)
-        except Exception: pass
+            if not pic or any(h in pic for h in DEAD_IMG_HOSTS):     # 死图床/无图 -> 文字海报(剧名 + 年份·状态), 参照 DS
+                pic = self._titimg(name, " · ".join(x for x in (year, remarks) if x))
+            out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic, "vod_year": year,
+                        "vod_remarks": remarks})
         return out
+    def _titimg(self, name, sub=""):
+        """placehold.jp 把文字渲染成海报(中文OK, 支持 %0A 换行): 第1行剧名, 第2行副信息(年份·状态 / 年份·主演)。按名字哈希取深色底+白字。"""
+        import hashlib
+        t = (name or "无名").strip(); disp = t[:12]
+        b = hashlib.md5(t.encode("utf-8")).digest()
+        bg = "%02x%02x%02x" % (b[0] % 110, b[1] % 110, b[2] % 110)
+        txt = quote(disp, safe="") + ("%0A" + quote((sub or "")[:16], safe="") if sub else "")
+        return "https://placehold.jp/22/%s/ffffff/300x420.png?text=%s" % (bg, txt)
 
     def homeContent(self, filter):
         h = self._get("/")
@@ -158,7 +173,7 @@ class Spider(Spider):
             base = ""
         if not base: base = "proxy://do=py"
         return "%s&siteKey=%s&type=poster&name=%s" % (base, key, quote(name, safe=""))
-    WARM_POSTERS = True    # 列表返回后, 后台线程预查海报塞进缓存, App 回调时直接命中(避免首张等太久被记成失败)
+    WARM_POSTERS = False   # v4 起列表不再走懒加载(App 搜索页不认本地代理图), 预热关闭; localProxy 代码保留备用
     def _warm_posters(self, cards):
         if not self.WARM_POSTERS: return
         names = []
@@ -272,6 +287,19 @@ class Spider(Spider):
         title = re.sub(r'(封面图|封面|海报|在线观看|免费观看).*$', '', title).strip()
         pic = self._pic(h)
         desc = re.search(r'(?:vod_content|class="[^"]*(?:content|jianjie|desc|blurb)[^"]*")[^>]*>\s*([^<]{6,})', h, re.I)
+        # 详情字段(MacCMS: <li><em>主演：</em>...</li>): 主演/导演/年份/地区/类型/状态
+        def _field(label):
+            fm = re.search(r'<em[^>]*>\s*' + label + r'\s*[:：]\s*</em>(.*?)</li>', h, re.S)
+            if not fm: return ""
+            v = re.sub(r'<[^>]+>', ' ', fm.group(1)); v = re.sub(r'&nbsp;|\s+', ' ', v).strip(" ,，/")
+            return v
+        actor = _field("主演"); director = _field("导演"); year = _field("年份"); area = _field("地区"); typ = _field("类型"); status = _field("状态")
+        if not year:
+            ym = re.search(r'((?:19|20)\d{2})-\d{2}-\d{2}上映', h) or re.search(r'>\s*((?:19|20)\d{2})\s*<', h)
+            if ym: year = ym.group(1)
+        if not pic or any(x in pic for x in DEAD_IMG_HOSTS):       # 死图床 -> 文字海报: 剧名 / 年份·主演前3
+            top3 = " ".join([a for a in actor.split(" ") if a][:3])
+            pic = self._titimg(title or vid, " · ".join(x for x in (year, top3) if x))
         # 收集 (sid, nid, 集名)
         routes = {}
         for m in re.finditer(r'href="/vodplay/' + re.escape(vid) + r'-(\d+)-(\d+)\.html"[^>]*>\s*(?:<[^>]+>)*\s*([^<]{1,20})', h):
@@ -294,6 +322,7 @@ class Spider(Spider):
         lines.sort(key=lambda l: l[0])   # 静态速度排序: 快的在前, 慢的在后
         pf = [l[1] for l in lines]; pu = [l[2] for l in lines]
         return {"list": [{"vod_id": vid, "vod_name": title or vid, "vod_pic": pic,
+                          "vod_actor": actor, "vod_director": director, "vod_year": year, "vod_area": area, "type_name": typ, "vod_remarks": status,
                           "vod_content": ("[" + VER + "] " + (desc.group(1).strip() if desc else "")).strip(),   # 简介开头带版本标记, 确认 App 加载的是新文件
                           "vod_play_from": "$$$".join(pf) if pf else "电影驿站",
                           "vod_play_url": "$$$".join(pu)}]}

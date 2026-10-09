@@ -293,7 +293,22 @@ class Spider(Spider):
                 title = mt.group(1).strip(); break
         title = re.sub(r'(封面图|封面|海报|在线观看|免费观看).*$', '', title).strip()
         pic = self._pic(h)
-        desc = re.search(r'(?:vod_content|class="[^"]*(?:content|jianjie|desc|blurb)[^"]*")[^>]*>\s*([^<]{6,})', h, re.I)
+        # 简介: 本站放在 <div id="height_limit" class="text cor3">(含<p>/<br>要剥), 退回 meta description(去"xx剧情介绍："前缀), 再退回旧的通用 class 匹配
+        desc = None
+        dm = re.search(r'id="height_limit"[^>]*>(.*?)</div>', h, re.S)
+        dtxt = re.sub(r'<[^>]+>', ' ', dm.group(1)) if dm else ""
+        if not dtxt.strip():
+            mm2 = re.search(r'name="description"\s+content="([^"]+)"', h)
+            dtxt = re.sub(r'^[^：:]{0,40}剧情介绍[：:]\s*', '', mm2.group(1)) if mm2 else ""
+        if not dtxt.strip():
+            dm2 = re.search(r'(?:vod_content|class="[^"]*(?:content|jianjie|desc|blurb)[^"]*")[^>]*>\s*([^<]{6,})', h, re.I)
+            dtxt = dm2.group(1) if dm2 else ""
+        dtxt = re.sub(r'(?:&nbsp;|\s)+', ' ', dtxt).strip()
+        if dtxt:
+            class _D:                       # 兼容下面 desc.group(1) 的写法
+                def __init__(self, t): self.t = t
+                def group(self, i): return self.t
+            desc = _D(dtxt)
         # 详情字段(MacCMS: <li><em>主演：</em>...</li>): 主演/导演/年份/地区/类型/状态
         def _field(label):
             fm = re.search(r'<em[^>]*>\s*' + label + r'\s*[:：]\s*</em>(.*?)</li>', h, re.S)

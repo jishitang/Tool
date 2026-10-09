@@ -123,17 +123,24 @@ class Spider(Spider):
             if not name or len(name) > 60: continue
             rm = re.search(r'class="[^"]*(?:note|remarks|continu|msg|pic-text|score|jidi|public-list-prb)[^"]*"[^>]*>\s*([^<]{1,20})', inner, re.I)
             remarks = rm.group(1).strip() if rm else ""
-            # 卡片右侧文字块(thumb-else)里通常有 年份/地区/类型: 取年份给文字海报用
-            tail = html[m.end():m.end() + 800]
+            # 卡片右侧文字块: thumb-else(年份/地区/类型) + thumb-director(导演) + 主演: 取到下一张卡为止, 别串卡
+            tail = html[m.end():m.end() + 3000]
+            nxt = tail.find('/voddetail/')
+            if nxt > 0: tail = tail[:nxt]
+            year, actor = "", ""
             te = re.search(r'thumb-else[^>]*>(.*?)</div>', tail, re.S)
-            year = ""
             if te:
                 ym = re.search(r'((?:19|20)\d{2})', re.sub(r'<[^>]+>', ' ', te.group(1)))
                 if ym: year = ym.group(1)
+            ta = re.search(r'主演[:：]\s*</a>(.*?)</div>', tail, re.S)
+            if ta:
+                actors = [a.strip() for a in re.findall(r'>\s*([^<>]{1,12}?)\s*</a>', ta.group(1)) if a.strip()]
+                actor = " ".join(actors[:3])
             pic = self._pic(inner)
-            if not pic or any(h in pic for h in DEAD_IMG_HOSTS):     # 死图床/无图 -> 文字海报(剧名 + 年份·状态), 参照 DS
-                pic = self._titimg(name, " · ".join(x for x in (year, remarks) if x))
-            out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic, "vod_year": year,
+            if not pic or any(h in pic for h in DEAD_IMG_HOSTS):     # 死图床/无图 -> 文字海报: 剧名 / 年份·主演(没主演用状态), 参照 DS
+                sub = " · ".join(x for x in (year, actor or remarks) if x)
+                pic = self._titimg(name, sub)
+            out.append({"vod_id": vid, "vod_name": name, "vod_pic": pic, "vod_year": year, "vod_actor": actor,
                         "vod_remarks": remarks})
         return out
     def _titimg(self, name, sub=""):
@@ -291,7 +298,7 @@ class Spider(Spider):
         def _field(label):
             fm = re.search(r'<em[^>]*>\s*' + label + r'\s*[:：]\s*</em>(.*?)</li>', h, re.S)
             if not fm: return ""
-            v = re.sub(r'<[^>]+>', ' ', fm.group(1)); v = re.sub(r'&nbsp;|\s+', ' ', v).strip(" ,，/")
+            v = re.sub(r'<[^>]+>', ' ', fm.group(1)); v = re.sub(r'(?:&nbsp;|\s)+', ' ', v).strip(" ,，/")
             return v
         actor = _field("主演"); director = _field("导演"); year = _field("年份"); area = _field("地区"); typ = _field("类型"); status = _field("状态")
         if not year:

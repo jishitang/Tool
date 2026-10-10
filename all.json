@@ -12,7 +12,7 @@
   },
   {
    "key": "kuwo_py",
-   "name": "🎵酷我音乐",
+   "name": "🎵酷我音乐[听]",
    "type": 3,
    "api": "https://15602.kstore.space/kuwo.py",
    "searchable": 1,

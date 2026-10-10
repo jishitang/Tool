@@ -9,7 +9,7 @@ from base.spider import Spider
 
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-VER="v29"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件
+VER="v30"  # 改版标记: 每次改完 +1; 放在简介开头 [vN], 用来确认 App 加载了新文件。v30: 文字海报两行(片名/年份·主演或状态), 搜索卡片填 vod_year/vod_area/vod_actor
 # 内置 TMDB v4 read token(扩展参数留空时用它 -> 重导丢了扩展参数也有海报)。
 # 只读, 风险低; 想换/作废到 themoviedb.org 后台重新生成即可。填了扩展参数则以扩展参数为准。
 DEFAULT_TMDB="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
@@ -99,13 +99,14 @@ class Spider(Spider):
     def _pic(self,h):
         m=re.search(r'(https?://[^"\']+?\.(?:jpg|jpeg|png|webp))',h)
         return m.group(1) if m else ""
-    def _titimg(self,name):
-        """dushe 真封面被 cdndefend 锁、加载不到 -> 用占位图服务把片名渲染成图(中文OK),
-        每片按名字哈希取不同深色底+白字, 比 App 的大首字占位美观。"""
-        t=(name or "无名").strip(); disp=t[:13]
+    def _titimg(self,name,sub=""):
+        """dushe 真封面被 cdndefend 锁、加载不到 -> 用占位图服务把片名渲染成图(中文OK, %0A 换行):
+        第1行片名, 第2行副信息(年份·主演前3 / 年份·状态), 与 dyyz 一致。每片按名字哈希取不同深色底+白字。"""
+        t=(name or "无名").strip(); disp=t[:12]
         b=hashlib.md5(t.encode("utf-8")).digest()
         bg="%02x%02x%02x"%(b[0]%110,b[1]%110,b[2]%110)  # 深色, 白字才清楚
-        return "https://placehold.jp/24/%s/ffffff/300x420.png?text=%s"%(bg,quote(disp,safe=''))
+        txt=quote(disp,safe='')+("%0A"+quote((sub or "")[:16],safe='') if sub else "")
+        return "https://placehold.jp/22/%s/ffffff/300x420.png?text=%s"%(bg,txt)
     def _tmdb_poster(self,name):
         """查 TMDB 海报 -> image.tmdb.org 地址。命中=url, 确定无匹配='', 网络抖动=None(不缓存/不全局禁用), 401=永久停。"""
         if not self.tmdb or self.tmdb_dead or not name: return ""
@@ -206,13 +207,26 @@ class Spider(Spider):
             name=clean(name)
             if not name or len(name)>60: continue
             seen.add(vid)
-            # 真海报: 跳过 placeholder/logo 占位图, 取真 cover(可能相对路径)
-            # 封面: dushe 真图被 cdndefend 锁加载不到 -> 用片名占位图(中文清晰, 比 App 大首字好看)
-            pic=self._titimg(name)
-            # 状态: v-item-bottom span 或 note/remarks
+            # 状态: v-item-bottom span 或 note/remarks(频道/首页卡片有)
             rm=re.search(r'v-item-bottom[^>]*>\s*<span>\s*([^<]+?)\s*</span>',inner,re.S) \
                or re.search(r'class="[^"]*(?:note|remarks|score|msg)[^"]*"[^>]*>\s*([^<]{1,20})',inner)
-            out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":clean(rm.group(1)) if rm else ""})
+            remarks=clean(rm.group(1)) if rm else ""
+            # 搜索卡片自带 年份/地区/类型(class=tags)、主演(class=actors): 取出来给文字海报和字段用
+            year=area=actor=""
+            tg=re.search(r'class="tags"[^>]*>(.*?)</div>',inner,re.S)
+            if tg:
+                spans=[clean(x) for x in re.findall(r'<span>\s*(.*?)\s*</span>',tg.group(1),re.S)]
+                for sp_ in spans:
+                    if re.fullmatch(r'(?:19|20)\d{2}',sp_): year=sp_
+                    elif not area and sp_ and not re.search(r',',sp_) and not re.fullmatch(r'\d+',sp_): area=sp_
+            ac=re.search(r'class="actors"[^>]*>(.*?)</div>',inner,re.S)
+            if ac:
+                names_=[a.strip() for a in re.split(r'[,，、/ ]+',clean(ac.group(1))) if a.strip()]
+                actor=" ".join(names_[:3])
+            # 封面: dushe 真图被 cdndefend 锁加载不到 -> 文字海报(片名 / 年份·主演前3, 没主演用状态); 豆瓣/TMDB 查到真图再替换
+            sub=" · ".join(x for x in (year,actor or remarks) if x)
+            pic=self._titimg(name,sub)
+            out.append({"vod_id":vid,"vod_name":name,"vod_pic":pic,"vod_remarks":remarks,"vod_year":year,"vod_area":area,"vod_actor":actor})
         return out   # 不在这查TMDB; 由各入口对"当前这一小批"查, 避免整页等很久
 
     PAGE=24   # 分类每App页条数(站点页~48条拆成2个App页; 越小出得快但要多拉几次, 越大拉得少但等久点)

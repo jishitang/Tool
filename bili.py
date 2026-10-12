@@ -211,6 +211,18 @@ class Spider(Spider):
         if pic:
             pic = pic + '@Referer=' + REFERER
         desc = data.get('desc', '') or ''
+        # 年份/导演/演员 等元数据(显示在"站源"和"线路"之间)
+        year = ''
+        try:
+            pd = data.get('pubdate') or data.get('ctime')
+            if pd:
+                year = time.strftime('%Y', time.localtime(int(pd)))
+        except Exception:
+            year = ''
+        owner = (data.get('owner') or {}).get('name', '') or ''   # UP主=导演
+        area = data.get('tname_v2') or data.get('tname') or ''    # 分区=地区
+        staff = data.get('staff') or []                            # 联合投稿成员=演员
+        actor = '、'.join(x.get('name', '') for x in staff if x.get('name')) or owner
         # 分P/cid 走 pagelist, 这个端点轻、稳、不易风控
         pages = []
         if data.get('pages'):
@@ -243,6 +255,10 @@ class Spider(Spider):
             'vod_id': bvid,
             'vod_name': title,
             'vod_pic': pic,
+            'vod_year': year,
+            'vod_area': area,
+            'vod_director': owner,
+            'vod_actor': actor,
             'vod_content': desc,
             'vod_play_from': '$$$'.join(froms),
             'vod_play_url': '$$$'.join(urls),

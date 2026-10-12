@@ -28,6 +28,17 @@
    "homePage": "https://15602.kstore.space/bili.html"
   },
   {
+   "key": "bili_py",
+   "name": "📺哔哩PY┃B站",
+   "type": 3,
+   "api": "https://15602.kstore.space/bili.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "ext": "SESSDATA=e5fe6bf5%2C1801569997%2C147fa%2A82CjChk-zPE4kmjTTJNwimkZXzjpeehEocNoU2RsNx0Mdjnxw0EAjIRA5YZKIIgSRoK8QSVkNEMVkyXzZOb2lCTUNndE9YMmtkQ25NeE5CVnhudURYWk5EcEM2Q0pXNmNwMGtPRzZtczhxUE9kUktkY0RpVGwzdGhpOGdkM2VEUXBGR0NnbDJfQ25BIIEC; bili_jct=2e9aaafd3dba6893ae1bbf07d845440c; DedeUserID=3707048359365243; buvid3=69FE21D4-EF2C-A070-4B97-6691972D407A89603infoc"
+  },
+  {
    "key": "youku",
    "name": "📺优酷视频",
    "type": 3,

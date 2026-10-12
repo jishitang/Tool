@@ -159,39 +159,75 @@ class Spider(Spider):
             })
         return vods
 
-    # ---------------- 首页分类 ----------------
+    # ---------------- 首页分类(B站官方分区·热门榜) ----------------
+    # type_id = 分区 rid(数字); categoryContent 遇数字走分区热门榜, 遇文字走搜索(可混自定义词)
     def homeContent(self, filter):
         cats = [
-            ('影视解说', '影视解说'), ('电视剧', '电视剧'), ('纪录片', '纪录片'),
-            ('音乐MV', '音乐MV'), ('舞蹈', '舞蹈'), ('美食', '美食'),
-            ('儿童动画', '儿童动画'), ('健身', '健身'),
+            ('纪录片', '177'), ('影视', '181'), ('电视剧', '11'), ('音乐', '3'),
+            ('知识', '36'), ('电影', '23'), ('动画', '1'), ('舞蹈', '129'),
+            ('游戏', '4'), ('科技数码', '188'), ('生活', '160'), ('美食', '211'),
+            ('鬼畜', '119'), ('时尚', '155'), ('娱乐', '5'),
         ]
         classes = [{'type_name': n, 'type_id': i} for n, i in cats]
-        base_filter = [
-            {'key': 'order', 'name': '排序', 'value': [
-                {'n': '综合', 'v': '0'}, {'n': '最多点击', 'v': 'click'},
-                {'n': '最新发布', 'v': 'pubdate'}, {'n': '最多弹幕', 'v': 'dm'},
-                {'n': '最多收藏', 'v': 'stow'}]},
-            {'key': 'duration', 'name': '时长', 'value': [
-                {'n': '全部', 'v': '0'}, {'n': '60分钟以上', 'v': '4'},
-                {'n': '30~60分钟', 'v': '3'}, {'n': '10~30分钟', 'v': '2'},
-                {'n': '10分钟以下', 'v': '1'}]},
-        ]
-        filters = {i: base_filter for _, i in cats}
-        return {'class': classes, 'filters': filters}
+        return {'class': classes}
 
     def homeVideoContent(self):
-        return {'list': self._search('影视解说', '1')}
+        # 推荐屏 = 历史纪实纪录片类: 聚合多个相关词(含"凤凰大视野"等节目), 去重合并
+        kws = ['历史纪实纪录片', '凤凰大视野', '历史纪录片']
+        seen, out = set(), []
+        for kw in kws:
+            try:
+                for v in self._search(kw, '1'):
+                    if v['vod_id'] in seen:
+                        continue
+                    seen.add(v['vod_id'])
+                    out.append(v)
+            except Exception:
+                pass
+        return {'list': out[:60]}
 
     # ---------------- 分类内容 ----------------
     def categoryContent(self, tid, pg, filter, extend):
+        if str(tid).isdigit():               # B站分区热门榜(无翻页, 一屏~90条)
+            vods = self._region(tid, pg)
+            return {'list': vods, 'page': int(pg), 'pagecount': 1,
+                    'limit': len(vods) or 90, 'total': len(vods)}
+        # 文字 = 自定义搜索词分类(可翻页)
         extend = extend or {}
-        order = extend.get('order', '')
-        duration = extend.get('duration', '0')
-        keyword = extend.get('tid') or tid
-        vods = self._search(keyword, pg, order, duration)
+        vods = self._search(extend.get('tid') or tid, pg,
+                            extend.get('order', ''), extend.get('duration', '0'))
         return {'list': vods, 'page': int(pg), 'pagecount': 9999,
                 'limit': 20, 'total': 999999}
+
+    # 分区热门榜 → 卡片 (ranking/v2 按热度, 干净无广告刷屏; 无分页)
+    def _region(self, rid, pg='1'):
+        if str(pg) not in ('1', '0'):
+            return []
+        try:
+            r = self.session.get('https://api.bilibili.com/x/web-interface/ranking/v2',
+                                 params={'rid': rid, 'type': 'all'}, timeout=15).json()
+            lst = (r.get('data') or {}).get('list') or []
+        except Exception:
+            lst = []
+        vods = []
+        for it in lst:
+            bvid = it.get('bvid')
+            if not bvid:
+                continue
+            pic = it.get('pic', '') or ''
+            if pic.startswith('//'):
+                pic = 'https:' + pic
+            if pic:
+                pic = pic + '@Referer=' + REFERER
+            owner = (it.get('owner') or {}).get('name', '') or ''
+            try:
+                d = int(it.get('duration', 0) or 0)
+                dur = '%d:%02d' % (d // 60, d % 60)
+            except Exception:
+                dur = ''
+            vods.append({'vod_id': bvid, 'vod_name': it.get('title', '') or '',
+                         'vod_pic': pic, 'vod_remarks': (dur + ' ' + owner).strip()})
+        return vods
 
     # ---------------- 详情(选集) ----------------
     def detailContent(self, ids):

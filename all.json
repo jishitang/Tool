@@ -20,14 +20,6 @@
    "changeable": 1
   },
   {
-   "key": "bili",
-   "name": "📺哔哩哔哩┃B站",
-   "type": 3,
-   "api": "csp_Builtin",
-   "webHome": true,
-   "homePage": "https://15602.kstore.space/bili.html"
-  },
-  {
    "key": "bili_py",
    "name": "📺哔哩PY┃B站",
    "type": 3,
@@ -66,6 +58,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1
+  },
+  {
+   "key": "bili",
+   "name": "📺哔哩哔哩┃B站",
+   "type": 3,
+   "api": "csp_Builtin",
+   "webHome": true,
+   "homePage": "https://15602.kstore.space/bili.html"
   },
   {
    "key": "music_web",

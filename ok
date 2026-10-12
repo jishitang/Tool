@@ -369,6 +369,7 @@ DAZN 1,https://live.catvod.com/?id=L2xyL2RMUTJkRVQ3aldTeXhSaDJaTlNOVnJmT1ZDc0lWQ
 DAZN 2,https://live.catvod.com/?id=L2xyL2RMUTJkRVQ3aldTeXhSaDdaTlNOVnJmT1ZDc0lWQ2VsNmlJTWROMGh8Y2Q9NTVjNmViOTgmY249MWUwZDU4NGMmY3A9ZGM4YzFlZTUmY3U9OTcwZjA2OWYmcnA9ZFBfQmpMZEJqTDFsbmloMm5FRg&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 Catchplay电影台,https://live.catvod.com/?id=L2xyL2RMUTJkRVQ3aldueTZDbkdwQzJ5eHFmQjZXaHVwQzJ5eFUyZ3BOXzRWUG5hQW18Y2Q9NTVjNmViOTgmY249MWUwZDU4NGMmY3A9M2U2NTg0YTcmY3U9OTcwZjA2OWYmcnA9ZFBfQmpMZEJqTDFsbmloMm5FRg&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 动物星球,https://live.catvod.com/?id=L2xyL2RMUTJkRVQ3aldzNHZVYXlWNXQ4UVVJZTZzZkI2V2h1cEMyeXhVMmdwTl80VlBuYUFtfGNkPTU1YzZlYjk4JmNuPTFlMGQ1ODRjJmNwPWQzMDBlYjRlJmN1PTk3MGYwNjlmJnJwPWRQX0JqTGRCakwxbG5paDJuRUY&tk=8c88c6ac0d55a30d16f8e6645363ee7e
+壹新闻,https://live.catvod.com/?id=L2xyL2RMUTJkRVQ3ak5lZ1ZScU5wN2ZPVkNzSVZDZWw2aUlNZE4waHxjZD01NWM2ZWI5OCZjbj0xZTBkNTg0YyZjcD05NTA4ODA0NSZjdT05NzBmMDY5ZiZycD1kUF9CakxkQmpMMWxuaWgybkVG&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 咪咕Ubuntu线,#genre#
 凤凰香港,http://zizi.dpdns.org/api.php?id=mvktJ9EdMZSOudtV21KH#http://zizi.dpdns.org/api.php?id=lenOAKGojOGpxxuF5s9S#http://zizi.dpdns.org/api.php?id=gKgRFxyMUFs89rlM3dYW#http://zizi.dpdns.org/api.php?id=4FD3QJXSP9QUBjhSTUG2#http://zizi.dpdns.org/api.php?id=ybNbqgGA1htoNUrDHOcU#http://zizi.dpdns.org/api.php?id=nSizAscw6foIZ4USfJPt#http://zizi.dpdns.org/api.php?id=ihzkPalD04rLkUYktqfA#http://zizi.dpdns.org/api.php?id=miTS3wXZx6BvyPVsBFrd
 凤凰中文,http://zizi.dpdns.org/api.php?id=EmM5PMrrNxgUI2WMLM8E#http://zizi.dpdns.org/api.php?id=TQsVleEXHfijXu598P7Z#http://zizi.dpdns.org/api.php?id=XxPD2yqX63GMjt2k6dRv#http://zizi.dpdns.org/api.php?id=blNsFFFQKz8InQrA82dV#http://zizi.dpdns.org/api.php?id=wUAAbvcVtSX7QM0mkDcX#http://zizi.dpdns.org/api.php?id=SkGx7w6m5x5O1ynoKRH8
@@ -508,9 +509,9 @@ CETV4,http://1.95.166.182:5008/abc123/923287339
 西甲 巴塞罗那VS赫塔菲 全场回放（张昊泽、李欣） 00:15,http://1.95.166.182:5008/abc123/968265174
 德甲 RB莱比锡VS法兰克福 全场回放（涂远、秦游夏） 00:25,http://1.95.166.182:5008/abc123/968267334
 PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 主赛全场回放（汪乐） 01:55,http://1.95.166.182:5008/abc123/968272188
+PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 主赛全场回放（英文原声） 01:55,http://1.95.166.182:5008/abc123/968273066
 PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 副赛全场回放（汪乐） 01:55,http://1.95.166.182:5008/abc123/968270483
 PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 副赛全场回放（英文原声） 01:55,http://1.95.166.182:5008/abc123/968270386
-PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 PFL摩洛哥站主赛全场回放（英文原声） 01:55,http://1.95.166.182:5008/abc123/968273066
 法甲 摩纳哥VS图卢兹 全场回放（张天翼） 02:30,http://1.95.166.182:5008/abc123/968269582
 法甲 洛里昂VS巴黎FC 全场回放（邵煊） 02:30,http://1.95.166.182:5008/abc123/968270655
 法甲 布雷斯特VS昂热 全场回放（乔迁） 02:30,http://1.95.166.182:5008/abc123/968272336
@@ -521,7 +522,7 @@ PFL 凯恩TKO梅德库里 格穆里判定胜本达乌德 PFL摩洛哥站主赛�
 西甲 皇家马德里VS比利亚雷亚尔 全场回放（林梦鸽、贺宇） 02:30,http://1.95.166.182:5008/abc123/968270725
 西甲 皇家马德里VS比利亚雷亚尔 全场回放（AI智慧观赛） 02:30,http://1.95.166.182:5008/abc123/968270665
 UFC格斗之夜 艾伦裸绞降服邓肯捍卫前五排名 主赛（王琰博、郝俊） 04:55,http://1.95.166.182:5008/abc123/968280558
-UFC格斗之夜 艾伦裸绞降服邓肯捍卫前五排名 主赛全场回放（英文原声） 04:55,http://1.95.166.182:5008/abc123/968281659
+UFC格斗之夜 艾伦裸绞降服邓肯捍卫前五排名 主赛（英文原声） 04:55,http://1.95.166.182:5008/abc123/968281659
 UFC格斗之夜 艾伦裸绞降服邓肯捍卫前五排名 副赛（王琰博、郝俊） 04:55,http://1.95.166.182:5008/abc123/968274809
 UFC格斗之夜 艾伦裸绞降服邓肯捍卫前五排名 副赛（英文原声） 04:55,http://1.95.166.182:5008/abc123/968275876
 NBA 猛龙VS快船 全场回放（刘沛元） 06:25,http://1.95.166.182:5008/abc123/968277535
@@ -686,12 +687,11 @@ NBA 黄蜂VS雄鹿 全场回放（张泽欣） 06:55,http://1.95.166.182:5008/ab
 NBA 黄蜂VS雄鹿 全场回放（英文原声） 06:55,http://1.95.166.182:5008/abc123/968324168
 NBA 掘金VS公牛 全场回放（宋俊潼） 08:55,http://1.95.166.182:5008/abc123/968326767
 NBA 掘金VS公牛 全场回放（英文原声） 08:55,http://1.95.166.182:5008/abc123/968326872
-中乙 山西崇德荣海VS江西庐山 解说 14:50,http://1.95.166.182:5008/abc123/968190403
-CBA CBA联赛新闻发布会 清流播出 14:50,http://1.95.166.182:5008/abc123/968282460
-中乙 大连可为VS杭州临平吴越 解说 15:50,http://1.95.166.182:5008/abc123/968190428
-中乙 广州蒲公英VS上海赛更达 解说 15:50,http://1.95.166.182:5008/abc123/968190435
-NBA经典赛事 奥兰多魔术 vs 克利夫兰骑士 伪直播 18:00,http://1.95.166.182:5008/abc123/968169353
-WTT 侯英超、程靖淇、徐晨皓邀您复盘 侯英超 程靖淇 徐晨皓 19:00,http://1.95.166.182:5008/abc123/968024462
+中乙 山西崇德荣海VS江西庐山 全场回放 14:50,http://1.95.166.182:5008/abc123/968335065
+CBA CBA联赛新闻发布会 全场回放 14:50,http://1.95.166.182:5008/abc123/968332823
+中乙 大连可为VS杭州临平吴越 全场回放 15:50,http://1.95.166.182:5008/abc123/968336027
+中乙 广州蒲公英VS上海赛更达 全场回放 15:50,http://1.95.166.182:5008/abc123/968335911
+NBA经典赛事 奥兰多魔术 vs 克利夫兰骑士 NBA季前赛: 奥兰多魔术 vs 克利夫兰骑士 18:00,http://1.95.166.182:5008/abc123/968169353
 晋超联赛 晋中市VS吕梁市 赛场原声 19:20,http://1.95.166.182:5008/abc123/968009498
 中乙 厦门飞鹭VS泰安天贶 解说 19:20,http://1.95.166.182:5008/abc123/968190499
 中乙 温州俱乐部VS长春喜都 解说 19:20,http://1.95.166.182:5008/abc123/968190475
@@ -731,9 +731,9 @@ NBA 爵士VS马刺 王晓晨 08:55,http://1.95.166.182:5008/abc123/968238403
 NBA 爵士VS马刺 英文原声 08:55,http://1.95.166.182:5008/abc123/968238415
 NBA 爵士VS马刺 智能字幕 08:55,http://1.95.166.182:5008/abc123/968280345
 环广西公路自行车世界巡回赛 环广西公路自行车世界巡回赛 解说 12:30,http://1.95.166.182:5008/abc123/968202475
-BWF 资格赛、1/16决赛 1号场地 15:00,http://1.95.166.182:5008/abc123/968329677
-BWF 资格赛、1/16决赛 2号场地 15:00,http://1.95.166.182:5008/abc123/968329711
-BWF 资格赛、1/16决赛 3号场地 15:00,http://1.95.166.182:5008/abc123/968329736
+BWF 1/16决赛 1号场地 15:00,http://1.95.166.182:5008/abc123/968329677
+BWF 1/16决赛 2号场地 15:00,http://1.95.166.182:5008/abc123/968329711
+BWF 1/16决赛 3号场地 15:00,http://1.95.166.182:5008/abc123/968329736
 亚冠精英 纽卡斯尔喷气机足球俱乐部VS大阪钢巴 鲁靖明 15:30,http://1.95.166.182:5008/abc123/968170631
 亚冠精英 纽卡斯尔喷气机足球俱乐部VS大阪钢巴 赛场原声 15:30,http://1.95.166.182:5008/abc123/968170615
 亚冠精英 上海海港VS大田韩亚市民 娄一晨 刘越 邵凌霄 17:30,http://1.95.166.182:5008/abc123/968170738

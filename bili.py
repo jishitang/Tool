@@ -34,6 +34,11 @@ API_PAGELIST = "https://api.bilibili.com/x/player/pagelist"
 API_PLAYURL = "https://api.bilibili.com/x/player/wbi/playurl"
 REFERER = "https://www.bilibili.com"
 
+# 清晰度 qn → 线路名(非会员最高 1080P; 高档会员专属, 这里也列着, 有就显示)
+QUAL_MAP = [(120, '4K'), (116, '1080P60'), (112, '1080P高码'), (80, '1080P'),
+            (74, '720P60'), (64, '720P'), (32, '480P'), (16, '360P')]
+QUAL_LABEL = dict(QUAL_MAP)
+
 
 class Spider(Spider):
 
@@ -216,23 +221,48 @@ class Spider(Spider):
                 pages = pr.get('data') or []
             except Exception:
                 pages = []
-        eps = []
+        # 组装分P列表 (part名, cid)
+        plist = []
         if len(pages) <= 1:
             cid = data.get('cid') or (pages[0].get('cid') if pages else '')
-            eps.append('%s$%s|%s' % (title, bvid, cid))
+            plist.append((title, cid))
         else:
             for p in pages:
                 part = p.get('part') or ('P' + str(p.get('page')))
-                eps.append('%s$%s|%s' % (part, bvid, p.get('cid')))
+                plist.append((part, p.get('cid')))
+        # 探第一个分P有哪些清晰度(H.264) → 每档做成一条"线路"; 探不到就给默认档
+        quals = self._avail_quals(bvid, plist[0][1]) if plist else []
+        if not quals:
+            quals = [('1080P', 80), ('720P', 64), ('480P', 32)]
+        froms, urls = [], []
+        for label, qn in quals:
+            froms.append(label)
+            eps = ['%s$%s|%s|%d' % (self._clean(nm), bvid, cid, qn) for nm, cid in plist]
+            urls.append('#'.join(eps))
         vod = {
             'vod_id': bvid,
             'vod_name': title,
             'vod_pic': pic,
             'vod_content': desc,
-            'vod_play_from': 'B站',
-            'vod_play_url': '#'.join(eps),
+            'vod_play_from': '$$$'.join(froms),
+            'vod_play_url': '$$$'.join(urls),
         }
         return {'list': [vod]}
+
+    @staticmethod
+    def _clean(s):
+        return str(s or '').replace('$', ' ').replace('#', ' ').strip()
+
+    # 探某 cid 有哪些 H.264 清晰度, 返回 [(线路名, qn), ...] 高→低
+    def _avail_quals(self, bvid, cid):
+        try:
+            params = {'bvid': bvid, 'cid': cid, 'qn': '116', 'fnval': '4048', 'fourk': '1'}
+            r = self.session.get(API_PLAYURL + '?' + urlencode(self._sign(params)), timeout=15).json()
+            vids = ((r.get('data') or {}).get('dash') or {}).get('video') or []
+            ids = sorted({x.get('id', 0) for x in vids if self._is_avc(x)}, reverse=True)
+            return [(QUAL_LABEL.get(q, str(q)), q) for q in ids if q in QUAL_LABEL]
+        except Exception:
+            return []
 
     # ---------------- 搜索 ----------------
     def searchContent(self, key, quick, pg='1'):
@@ -242,14 +272,15 @@ class Spider(Spider):
     # 优先 dash(1080P+, 拼 MPD 经本地代理吐给播放器); 失败自动回退 mp4 单链(720P)。
     def playerContent(self, flag, id, vipFlags):
         self._ensure()
-        try:
-            bvid, cid = id.split('|')
-        except Exception:
+        parts = id.split('|')
+        if len(parts) < 2:
             return {'parse': 0, 'url': '', 'header': {}}
+        bvid, cid = parts[0], parts[1]
+        qn = int(parts[2]) if len(parts) > 2 and str(parts[2]).isdigit() else 80
         hdr = {'User-Agent': UA, 'Referer': REFERER}
-        # 1) dash 1080P
+        # 1) dash: 按线路选中的清晰度 qn
         try:
-            res = self._dash_play(bvid, cid, hdr)
+            res = self._dash_play(bvid, cid, qn, hdr)
             if res:
                 return res
         except Exception:
@@ -262,8 +293,8 @@ class Spider(Spider):
         # 只认 H.264: codecid 7, 或 codecs 以 avc 开头(排除 hev1/hvc1/av01)
         return x.get('codecid') == 7 or str(x.get('codecs', '')).lower().startswith('avc')
 
-    def _dash_play(self, bvid, cid, hdr):
-        params = {'bvid': bvid, 'cid': cid, 'qn': '116',
+    def _dash_play(self, bvid, cid, qn, hdr):
+        params = {'bvid': bvid, 'cid': cid, 'qn': str(qn),
                   'fnval': '4048', 'fourk': '1'}
         r = self.session.get(API_PLAYURL + '?' + urlencode(self._sign(params)), timeout=15).json()
         data = r.get('data') or {}
@@ -272,7 +303,7 @@ class Spider(Spider):
         audios = dash.get('audio') or []
         if not videos or not audios:
             return None
-        # 视频: 只留 H.264, 每个清晰度(id)留码率最高的一条, 再按清晰度高→低排
+        # 只留 H.264, 每个清晰度留码率最高的一条
         best = {}
         for x in videos:
             if not self._is_avc(x):
@@ -280,9 +311,16 @@ class Spider(Spider):
             q = x.get('id', 0)
             if q not in best or x.get('bandwidth', 0) > best[q].get('bandwidth', 0):
                 best[q] = x
-        vlist = [best[q] for q in sorted(best, reverse=True)]
-        if not vlist:   # 极少数视频无 avc → 退回画质最高的任意编码单条
-            vlist = [sorted(videos, key=lambda x: (x.get('id', 0), x.get('bandwidth', 0)))[-1]]
+        if not best:   # 极少数视频无 avc → 退回画质最高的任意编码
+            top = sorted(videos, key=lambda x: (x.get('id', 0), x.get('bandwidth', 0)))[-1]
+            best = {top.get('id', 0): top}
+        # 选中线路对应的清晰度: 命中 qn 就用它, 否则取 ≤qn 的最高, 再否则取最低
+        if qn in best:
+            v = best[qn]
+        else:
+            le = [q for q in best if q <= qn]
+            v = best[max(le)] if le else best[min(best)]
+        vlist = [v]
         # 音频: 优先 AAC(mp4a, 兼容性最好), 取码率最高
         aacs = [x for x in audios if str(x.get('codecs', '')).lower().startswith('mp4a')]
         a = sorted(aacs or audios, key=lambda x: x.get('bandwidth', 0))[-1]

@@ -60,6 +60,15 @@
    "changeable": 1
   },
   {
+   "key": "nivod",
+   "name": "🎬泥视频",
+   "type": 3,
+   "api": "https://15602.kstore.space/nivod.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
    "key": "bili",
    "name": "📺哔哩哔哩┃B站",
    "type": 3,

@@ -20,15 +20,6 @@
    "changeable": 1
   },
   {
-   "key": "qq_py",
-   "name": "🎵QQ音乐[听]",
-   "type": 3,
-   "api": "https://15602.kstore.space/qqmusic.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
-  },
-  {
    "key": "bili_py",
    "name": "📺哔哩PY┃B站",
    "type": 3,
@@ -73,6 +64,15 @@
    "name": "🎬泥视频",
    "type": 3,
    "api": "https://15602.kstore.space/nivod.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "qq_py",
+   "name": "🎵QQ音乐[听]",
+   "type": 3,
+   "api": "https://15602.kstore.space/qqmusic.py",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1

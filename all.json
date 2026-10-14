@@ -54,15 +54,6 @@
    "key": "dyyz",
    "name": "🎬电影驿站",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/jishitang/Tool@main/dyyz.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
-  },
-  {
-   "key": "dyyz2",
-   "name": "🎬电影驿站2",
-   "type": 3,
    "api": "https://15602.kstore.space/dyyz.py",
    "searchable": 1,
    "quickSearch": 1,

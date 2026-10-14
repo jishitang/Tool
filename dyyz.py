@@ -13,7 +13,7 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 # 办法: vod_pic 先给 App 一个本地代理地址 proxy://do=py&siteKey=..&type=poster&name=片名, 列表立刻显示;
 # App 异步加载图片时回调 localProxy -> 豆瓣(带Referer回吐字节) -> TMDB(302跳图) -> 都没有则 404(App 画首字)。
 # 搜索/列表不等海报, 海报各自慢慢出。TMDB 用与 ds.py 同一只读 token(api.tmdb.org/images.tmdb.org 国内可访问)。
-VER = "v4"   # 改版标记: v1 原版 / v2 IP直连+诊断 / v3 海报懒加载(App 搜索页不认, 弃用) / v4 死图床→文字海报(剧名+年份·状态; 详情页 剧名+年份·主演) + 详情字段(主演/导演/年份/地区)。显示在详情简介开头。
+VER = "v7"   # 改版标记: v1 原版 / v2 IP直连+诊断 / v3 海报懒加载(弃用) / v4 死图床→文字海报+详情字段 / v5 搜索按名字过滤填充(误删演员搜结果, 弃用) / v6 改用站点"共N条"信号判有无结果: 无命中(只回热门兜底)返空、有命中原样返回(保住标题+演员+简介广搜)。修"顶端搜索冒无关填充/空格拆词出两次"。 / v7 _pick_host探活改并发(_order_hosts): 串行最坏4×8s=32s→~5s, 保证聚合搜索里dyyz不被超时丢掉(之前经常不出来的根因); IP直连兜底不动。
 DEAD_IMG_HOSTS = ("imgapiappdownload.dyyztv.top",)
 TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjI4MmNhYzM1Nzg2Y2ZiZDhhODVkNjZlNGQ2NTk0NSIsIm5iZiI6MTc4MDc1MTc1NC44MTksInN1YiI6IjZhMjQxZDhhZDJjZWZmMmM0YjA5MDhmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.29KtT3PolioR2YyuWK9mzOAqkGlVyN2p2UI52m3oYaU"
 TMDB_API = "https://api.tmdb.org/3"
@@ -39,17 +39,46 @@ class Spider(Spider):
         try: self.session.close()
         except Exception: return None
 
+    def _order_hosts(self, hosts, timeout=5):
+        # 并发探活: 各镜像同时 ping, 能通的按响应快慢排前、不通的垫后。
+        # 把"串行一个个干等超时"压成"一次并发", init 不再被单个慢站拖死(聚合搜索对每个源有超时窗口)。
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        import time as _t
+        def ping(h):
+            try:
+                r = self.session.get(h + "/", headers={"Referer": h + "/"}, timeout=timeout)
+                return (h, r.status_code == 200)
+            except Exception:
+                return (h, False)
+        res = []
+        try:
+            ex = ThreadPoolExecutor(max_workers=len(hosts))
+            futs = {ex.submit(ping, h): h for h in hosts}
+            order = []
+            for f in as_completed(futs, timeout=timeout + 2):   # 谁先返回谁靠前(最快的排最前)
+                try:
+                    h, ok = f.result()
+                    if ok: order.append(h)
+                except Exception:
+                    pass
+            ex.shutdown(wait=False)
+        except Exception:
+            return hosts
+        order += [h for h in hosts if h not in order]           # 不通的垫后, 一个都不丢
+        return order or hosts
+
     def _pick_host(self):
-        # 镜像探活: 挨个试 self.hosts, 第一个能开且像真站点(MacCMS 有 /voddetail 或 /vodsearch 链接)的就定下来。
+        # 镜像探活: 先并发把能通+最快的站排前面, 再挨个试, 第一个像真站点(MacCMS 有 /voddetail 或 /vodsearch 链接)的就定下来。
         # 都没真站点特征但有响应的, 退用第一个能通的; 全挂停在最后一个, 后续仍可重试。
         # self.diag 记录每个镜像的结果(状态/异常/耗时), 全挂时 homeContent 会把它显示成分类名, 在 App 里就能看到原因。
         import time as _t
         self.diag = []
+        self.hosts = self._order_hosts(self.hosts, 5)   # 并发探活排序: 串行最坏4×8s=32s → ~5s
         fallback = None
         for hh in self.hosts:
             self.host = hh
             t0 = _t.time()
-            try: h = self._get("/", timeout=8)        # 探活用短超时: 4 个镜像最多 32s, 别让 App 一直转圈
+            try: h = self._get("/", timeout=5)        # 探活用短超时(已并发排序, 第一个通常就命中)
             except Exception: h = ""
             self.diag.append("%s %s %.1fs" % (hh.replace("https://", ""), self.last_err or ("ok %d字" % len(h)), _t.time() - t0))
             if not h: continue                        # DNS失败/超时/域名过期空响应 -> 试下一个
@@ -267,6 +296,10 @@ class Spider(Spider):
     def searchContent(self, key, quick, pg="1"):
         page = int(pg) if str(pg).isdigit() else 1
         h = self._get(f"/vodsearch/{quote(key)}----------{page}---.html")
+        # 站点广搜(标题+演员+简介), 命中时页面有"共N条"; 无命中只回"热门"兜底块(无"共N条")。
+        # 用"共N条"判有没有真结果: 没有就返空(不吐热门填充), 有就原样返回(保住演员/模糊搜)。
+        if not re.search(r"共\s*\d+\s*条", h):
+            return {"list": [], "page": page, "pagecount": page, "limit": 0, "total": 0}
         cards = self._cards(h)
         return {"list": cards, "page": page, "pagecount": page + 1 if len(cards) >= 18 else page,
                 "limit": len(cards), "total": 999999}

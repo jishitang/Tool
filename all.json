@@ -60,6 +60,15 @@
    "changeable": 1
   },
   {
+   "key": "dyyz",
+   "name": "🎬电影驿站1",
+   "type": 3,
+   "api": "https://15602.kstore.space/dyyz.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
    "key": "nivod",
    "name": "🎬泥视频",
    "type": 3,

@@ -213,8 +213,10 @@ class Spider(Spider):
             return {'list': []}
 
     def playerContent(self, flag, id, vipFlags):
+        # id 已是可直接播的 m3u8(AES-128, 密钥/分片普通UA即可取) → parse=0 直接播;
+        # 旧版返回 parse=1,jx=1 把现成m3u8丢给VIP解析器→转圈播不出, 已修。
         if id.startswith('http'):
-            return {'parse': 1, 'jx': '1', 'url': id}
+            return {'parse': 0, 'url': id, 'header': {'User-Agent': 'Mozilla/5.0'}}
         return {'parse': 0, 'url': id, 'playUrl': ''}
 
     def searchContent(self, key, quick, pg="1"):

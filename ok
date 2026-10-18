@@ -371,10 +371,10 @@ Catchplay电影台,https://live.catvod.com/?id=L2xyL2RMUTJkRVRoaldueTZDbkdwQzJ5e
 动物星球,https://live.catvod.com/?id=L2xyL2RMUTJkRVRoaldzNHZVYXlWNXQ4UVVJZTZzZkI2V2h1cEMyeXhVMmdwTl80VlBuYUFtfGNkPTA4NjMxODZkJmNuPTFlMGQ1ODRjJmNwPWQzMDBlYjRlJmN1PTk3MGYwNjlmJnJwPWRQX0JqTGRCakwxbG5paDJuRUY&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 壹新闻,https://live.catvod.com/?id=L2xyL2RMUTJkRVRoak5lZ1ZScU5wN2ZPVkNzSVZDZWw2aUlNZE4waHxjZD0wODYzMTg2ZCZjbj0xZTBkNTg0YyZjcD05NTA4ODA0NSZjdT05NzBmMDY5ZiZycD1kUF9CakxkQmpMMWxuaWgybkVG&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 咪咕Ubuntu线,#genre#
-凤凰香港,http://zizi.dpdns.org/api.php?id=mvktJ9EdMZSOudtV21KH#http://zizi.dpdns.org/api.php?id=lenOAKGojOGpxxuF5s9S#http://zizi.dpdns.org/api.php?id=gKgRFxyMUFs89rlM3dYW#http://zizi.dpdns.org/api.php?id=4FD3QJXSP9QUBjhSTUG2#http://zizi.dpdns.org/api.php?id=ybNbqgGA1htoNUrDHOcU#http://zizi.dpdns.org/api.php?id=nSizAscw6foIZ4USfJPt#http://zizi.dpdns.org/api.php?id=ihzkPalD04rLkUYktqfA#http://zizi.dpdns.org/api.php?id=miTS3wXZx6BvyPVsBFrd
-凤凰中文,http://zizi.dpdns.org/api.php?id=EmM5PMrrNxgUI2WMLM8E#http://zizi.dpdns.org/api.php?id=TQsVleEXHfijXu598P7Z#http://zizi.dpdns.org/api.php?id=XxPD2yqX63GMjt2k6dRv#http://zizi.dpdns.org/api.php?id=blNsFFFQKz8InQrA82dV#http://zizi.dpdns.org/api.php?id=wUAAbvcVtSX7QM0mkDcX#http://zizi.dpdns.org/api.php?id=SkGx7w6m5x5O1ynoKRH8
-凤凰资讯,http://zizi.dpdns.org/api.php?id=JIr9jEsSsBCp1Hg157cD#http://zizi.dpdns.org/api.php?id=4iADXFz0sGwYy0h1uhTJ#http://zizi.dpdns.org/api.php?id=hd2Tkr8IJCoouABgiRY4#http://zizi.dpdns.org/api.php?id=63YNxhUo1rtqT4bO8plo#http://zizi.dpdns.org/api.php?id=1dPXW7EqH22A6VqLbF3n#http://zizi.dpdns.org/api.php?id=ZX94r93S4VwubAhefLB8#http://zizi.dpdns.org/api.php?id=xA2Y8PygEfC4dmPh4Bxn#http://zizi.dpdns.org/api.php?id=lolWtlXKJwAcXvc181U3
-凤凰电影台,http://zizi.dpdns.org/api.php?id=rvPb0wkQnwMCvv8lGLkH#http://zizi.dpdns.org/api.php?id=ICAKpETsKmalHVReNrFt
+凤凰香港,http://zizi.dpdns.org/api.php?id=Hu8SKcLy5HiTjUd6ZJgV#http://zizi.dpdns.org/api.php?id=0mQjHOl8b81mSiWc6Ii3#http://zizi.dpdns.org/api.php?id=L1dVXNT1OFkvEqV1fGCD#http://zizi.dpdns.org/api.php?id=IfWIRJEFBlQ8YWb9A1Fc#http://zizi.dpdns.org/api.php?id=eld59PdyIGmKh7LxvD9Z#http://zizi.dpdns.org/api.php?id=lVMCViPpwLFRdriJFfV1#http://zizi.dpdns.org/api.php?id=SA0fBlK7xh5PeZkJLQet#http://zizi.dpdns.org/api.php?id=nrKRMpzZRLTT6Cuj8KZ0
+凤凰中文,http://zizi.dpdns.org/api.php?id=9gg6DOhxeiXEbfVcoRhR#http://zizi.dpdns.org/api.php?id=1MbVf1SXdvzvgYAiBwbM#http://zizi.dpdns.org/api.php?id=3EN5KA8iKm1h6QaF1Kag#http://zizi.dpdns.org/api.php?id=9PC5gsleh5S6WQYnXE6x#http://zizi.dpdns.org/api.php?id=6UjVxT6gNRMWpRRf3zv6#http://zizi.dpdns.org/api.php?id=IghkSNIFvolj9qfafqvo
+凤凰资讯,http://zizi.dpdns.org/api.php?id=JfdF5PuqDbJ1xg5NGQjf#http://zizi.dpdns.org/api.php?id=1HqiskbZ3btAUPbwrBjD#http://zizi.dpdns.org/api.php?id=M9tuFNs6oubH1QhqdILc#http://zizi.dpdns.org/api.php?id=XxS57K28Tb85q39C7s5I#http://zizi.dpdns.org/api.php?id=e0Alm21d8dL77ZvOQ3ZB#http://zizi.dpdns.org/api.php?id=EyDxkRDL1skAOBNQXNfi#http://zizi.dpdns.org/api.php?id=sEjvoX3yXv4SVcleoPbU#http://zizi.dpdns.org/api.php?id=UvUurN3L0PD49WdADOYN
+凤凰电影台,http://zizi.dpdns.org/api.php?id=yqUJcRYKbgnkhQMYuGCe#http://zizi.dpdns.org/api.php?id=rcFViEZPHqc7ad78Gl26
 CCTV1综合,http://1.95.166.182:5008/abc123/608807420
 CCTV2财经,http://1.95.166.182:5008/abc123/631780532
 CCTV3综艺,http://1.95.166.182:5008/abc123/624878271
@@ -564,12 +564,17 @@ BWF 丫邦、凤凰组合会师决赛 【回放】金元浩/徐承宰0-2谢定�
 BWF 丫邦、凤凰组合会师决赛 【回放】铃木阳向/山北奈绪2-1中出堇/高桥美优（鸿昆） 20:00,http://1.95.166.182:5008/abc123/968465957
 BWF 丫邦、凤凰组合会师决赛 【回放】安洗莹2-0奥原希望（鸿昆） 20:00,http://1.95.166.182:5008/abc123/968469782
 BWF 丫邦、凤凰组合会师决赛 【回放】赖浩俊0-2拉尼尔（余博洋） 20:00,http://1.95.166.182:5008/abc123/968471610
-BWF 丫邦、凤凰组合会师决赛 2026BWF丹麦羽毛球公开赛男单半决赛回放：安东森2-1小波波夫（余博洋） 20:00,http://1.95.166.182:5008/abc123/968473636
+BWF 丫邦、凤凰组合会师决赛 【回放】安东森2-1小波波夫（余博洋） 20:00,http://1.95.166.182:5008/abc123/968473636
+BWF 丫邦、凤凰组合会师决赛 【全场回放】一号场地（赛场原声）（一） 20:00,http://1.95.166.182:5008/abc123/968481362
+BWF 丫邦、凤凰组合会师决赛 【全场回放】一号场地（赛场原声）（二） 20:00,http://1.95.166.182:5008/abc123/968480555
+BWF 丫邦、凤凰组合会师决赛 【全场回放】一号场地（英文原声）（一） 20:00,http://1.95.166.182:5008/abc123/968476868
+BWF 丫邦、凤凰组合会师决赛 【全场回放】一号场地（英文原声）（二） 20:00,http://1.95.166.182:5008/abc123/968476841
 中乙 上海赛更达VS广东铭途 全场回放（官方解说） 15:20,http://1.95.166.182:5008/abc123/968453436
 中国乒协会员联赛 单打第一、二阶段、团体第一阶段 全场回放（一） 10:00,http://1.95.166.182:5008/abc123/968453687
 中国乒协会员联赛 单打第一、二阶段、团体第一阶段 全场回放（二） 10:00,http://1.95.166.182:5008/abc123/968459456
 攀岩系列赛 中国攀岩联赛（河北邯郸肥乡站） 2026年中国攀岩联赛河北邯郸肥乡站全场回放（官方解说）（一） 09:00,http://1.95.166.182:5008/abc123/968450893
 攀岩系列赛 中国攀岩联赛（河北邯郸肥乡站） 2026年中国攀岩联赛河北邯郸肥乡站全场回放（官方解说）（三） 09:00,http://1.95.166.182:5008/abc123/968474567
+攀岩系列赛 中国攀岩联赛（河北邯郸肥乡站） 2026年中国攀岩联赛河北邯郸肥乡站全场回放（官方解说）（二） 09:00,http://1.95.166.182:5008/abc123/968476612
 中乙 武汉三镇B队VS泰安天贶 全场回放（官方解说） 16:50,http://1.95.166.182:5008/abc123/968455934
 中国自行车运动协会系列赛 UCI上海场地车世锦赛 2026中国自行车运动协会系列赛UCI上海场地车世锦赛Day4全场回放（官方解说） 17:30,http://1.95.166.182:5008/abc123/968468122
 NBA经典赛事 波士顿凯尔特人 vs 费城76人 全场回放（蔡凯臣、季孟年） 18:00,http://1.95.166.182:5008/abc123/968443210
@@ -578,6 +583,7 @@ NBA经典赛事 波士顿凯尔特人 vs 费城76人 全场回放（蔡凯臣、
 逐马计划 顶峰相见——丰配友对话赵家驹 顶峰相见——丰配友对话赵家驹全场回放（赛场原声） 18:00,http://1.95.166.182:5008/abc123/968453692
 楚超 孝感孝傲江湖队VS宜昌东阳光队 全场回放 18:30,http://1.95.166.182:5008/abc123/968469134
 琼超 琼中VS保亭 全场回放 18:30,http://1.95.166.182:5008/abc123/968467206
+FISE极限运动世界巡回赛 FISE极限运动世界巡回赛上海站 2026FISE极限运动世界巡回赛上海站全场回放（官方解说） 18:45,http://1.95.166.182:5008/abc123/968477173
 中超 大连英博海发VS深圳新鹏城 全场回放（孙雨轩、张辛昕、李子琪） 18:55,http://1.95.166.182:5008/abc123/968460165
 中超 大连英博海发VS深圳新鹏城 全场回放（AI智慧观赛） 18:55,http://1.95.166.182:5008/abc123/968460737
 中超 大连英博海发VS深圳新鹏城 全场回放（智能解说） 18:55,http://1.95.166.182:5008/abc123/968463867
@@ -607,7 +613,7 @@ JCK 杨兴强17秒KO穆罕默德 卢安判定取胜 【副赛】（第二直播�
 中超 云南玉昆VS重庆铜梁龙 全场回放（刘腾、冯潇霆） 19:30,http://1.95.166.182:5008/abc123/968464921
 中超 云南玉昆VS重庆铜梁龙 全场回放 19:30,http://1.95.166.182:5008/abc123/968464995
 中超 青岛海牛VS辽宁铁人楠波湾 全场回放（鲁靖明、王宇） 19:30,http://1.95.166.182:5008/abc123/968462419
-中超 青岛海牛VS辽宁铁人楠波湾 全场回放 19:30,http://1.95.166.182:5008/abc123/968472567
+中超 青岛海牛VS辽宁铁人楠波湾 全场回放（AI智慧观赛） 19:30,http://1.95.166.182:5008/abc123/968463863
 CBA 江苏肯帝亚VS福建晋江文旅 全场回放（吴博文） 19:25,http://1.95.166.182:5008/abc123/968465119
 CBA 江苏肯帝亚VS福建晋江文旅 全场回放（赛场原声） 19:25,http://1.95.166.182:5008/abc123/968469592
 CBA 宁波町渥VS北京控股 全场回放（姜帆、季孟年） 19:25,http://1.95.166.182:5008/abc123/968464436
@@ -639,26 +645,27 @@ CBA 新疆广汇能源VS青岛崂山啤酒 全场回放（赛场原声） 19:50,
 德甲 云达不莱梅VS帕德博恩 全场回放（周楚雄） 21:15,http://1.95.166.182:5008/abc123/968467761
 德甲 汉堡VS斯图加特 全场回放（刘洋） 21:15,http://1.95.166.182:5008/abc123/968467324
 德甲 柏林联VS多特蒙德 全场回放（沈云怡、秦游夏） 21:15,http://1.95.166.182:5008/abc123/968468537
-英超 富勒姆VS赫尔城 全场回放 21:45,http://1.95.166.182:5008/abc123/968469403
+英超 曼城VS伊普斯维奇 全场回放（娄一晨、刘越、邵凌霄） 21:45,http://1.95.166.182:5008/abc123/968476812
+英超 富勒姆VS赫尔城 全场回放（郭灿亮） 21:45,http://1.95.166.182:5008/abc123/968469403
 英超 布伦特福德VS利物浦 全场回放（苏东、徐阳、程思钦） 21:45,http://1.95.166.182:5008/abc123/968470292
 英超 布伦特福德VS利物浦 全场回放（江忠德） 21:45,http://1.95.166.182:5008/abc123/968470072
 西甲 比利亚雷亚尔VS埃尔切 全场回放（李霄） 22:00,http://1.95.166.182:5008/abc123/968471397
-法甲 斯特拉斯堡VS巴黎圣日耳曼 全场回放 23:10,http://1.95.166.182:5008/abc123/968473717
 法甲 斯特拉斯堡VS巴黎圣日耳曼 全场回放（鹿中原、王宇） 23:10,http://1.95.166.182:5008/abc123/968473821
-法甲 斯特拉斯堡VS巴黎圣日耳曼 全场回放 23:10,http://1.95.166.182:5008/abc123/968474069
+法甲 斯特拉斯堡VS巴黎圣日耳曼 全场回放（AI智慧观赛） 23:10,http://1.95.166.182:5008/abc123/968474069
+法甲 斯特拉斯堡VS巴黎圣日耳曼 全场回放（智能解说） 23:10,http://1.95.166.182:5008/abc123/968475044
 意甲 博洛尼亚VS国际米兰 全场回放（刘腾、贺宇） 23:55,http://1.95.166.182:5008/abc123/968474909
-英超 纽卡斯尔联VS阿斯顿维拉 全场回放（AI智慧观赛） 00:25,http://1.95.166.182:5008/abc123/968474745
-英超 纽卡斯尔联VS阿斯顿维拉 全场回放 00:25,http://1.95.166.182:5008/abc123/968474843
 英超 纽卡斯尔联VS阿斯顿维拉 全场回放（刘焕） 00:25,http://1.95.166.182:5008/abc123/968474881
-法甲 里尔VS布雷斯特 乔迁 02:30,http://1.95.166.182:5008/abc123/968376508
-法甲 里尔VS布雷斯特 赛场原声 02:30,http://1.95.166.182:5008/abc123/968376474
-意甲 罗马VS热那亚 鲁靖明 02:30,http://1.95.166.182:5008/abc123/968377603
-意甲 罗马VS热那亚 赛场原声 02:30,http://1.95.166.182:5008/abc123/968377597
-法甲 特鲁瓦VS朗斯 张天翼 02:30,http://1.95.166.182:5008/abc123/968376562
-法甲 特鲁瓦VS朗斯 赛场原声 02:30,http://1.95.166.182:5008/abc123/968376550
-西甲 瓦伦西亚VS毕尔巴鄂竞技 孙雨轩 02:45,http://1.95.166.182:5008/abc123/968376890
-西甲 瓦伦西亚VS毕尔巴鄂竞技 赛场原声 02:45,http://1.95.166.182:5008/abc123/968376882
-西甲 瓦伦西亚VS毕尔巴鄂竞技 智能解说 02:55,http://1.95.166.182:5008/abc123/968412878
+英超 纽卡斯尔联VS阿斯顿维拉 全场回放（AI智慧观赛） 00:25,http://1.95.166.182:5008/abc123/968474745
+西甲 皇家贝蒂斯VS巴塞罗那 全场回放（张昊泽、李欣） 00:25,http://1.95.166.182:5008/abc123/968475360
+西甲 皇家贝蒂斯VS巴塞罗那 全场回放（AI智慧观赛） 00:25,http://1.95.166.182:5008/abc123/968475346
+西甲 皇家贝蒂斯VS巴塞罗那 全场回放（智能解说） 00:25,http://1.95.166.182:5008/abc123/968475382
+德甲 拜仁慕尼黑VSRB莱比锡 全场回放（胡小凡、张力） 00:15,http://1.95.166.182:5008/abc123/968474888
+法甲 里尔VS布雷斯特 全场回放（乔迁） 02:30,http://1.95.166.182:5008/abc123/968479563
+意甲 罗马VS热那亚 全场回放（鲁靖明） 02:30,http://1.95.166.182:5008/abc123/968480776
+法甲 特鲁瓦VS朗斯 全场回放（张天翼） 02:30,http://1.95.166.182:5008/abc123/968480151
+西甲 瓦伦西亚VS毕尔巴鄂竞技 全场回放（孙雨轩） 02:55,http://1.95.166.182:5008/abc123/968480458
+西甲 瓦伦西亚VS毕尔巴鄂竞技 全场回放（AI智慧观赛） 02:55,http://1.95.166.182:5008/abc123/968480562
+西甲 瓦伦西亚VS毕尔巴鄂竞技 全场回放（智能解说） 02:55,http://1.95.166.182:5008/abc123/968480733
 UFC格斗之夜 UFC格斗之夜：巴克利VS马洛特 郑文祺 宋克南 04:55,http://1.95.166.182:5008/abc123/968379074
 UFC格斗之夜 UFC格斗之夜：巴克利VS马洛特 英文原声 04:55,http://1.95.166.182:5008/abc123/968379008
 UFC格斗之夜 UFC格斗之夜：巴克利VS马洛特 智能字幕 04:55,http://1.95.166.182:5008/abc123/968391597
@@ -698,6 +705,8 @@ FISE极限运动世界巡回赛 FISE极限运动世界巡回赛上海站 解说 
 中乙 大连英博B队VS温州俱乐部 解说 15:50,http://1.95.166.182:5008/abc123/968399236
 斯诺克 斯佳辉VS王信伯 肖国栋出战 乔迁 17:00,http://1.95.166.182:5008/abc123/968412240
 斯诺克 斯佳辉VS王信伯 肖国栋出战 涂子轩 17:00,http://1.95.166.182:5008/abc123/968412285
+斯诺克 斯佳辉VS王信伯 肖国栋出战 1号桌 17:00,http://1.95.166.182:5008/abc123/968350930
+斯诺克 斯佳辉VS王信伯 肖国栋出战 2号桌 17:00,http://1.95.166.182:5008/abc123/968350949
 乒乓球亚锦赛 马特、徐晨皓、侯英超、周冠达带您前瞻 周冠达、侯英超、徐晨皓、马特 17:00,http://1.95.166.182:5008/abc123/968419757
 中超 武汉三镇VS上海申花 李欣 徐云龙 程思钦 17:30,http://1.95.166.182:5008/abc123/968376784
 中超 武汉三镇VS上海申花 赛场原声 17:45,http://1.95.166.182:5008/abc123/968376803
@@ -753,6 +762,9 @@ CBA 长白山恩都里VS北京首钢 赛场原声 19:25,http://1.95.166.182:5008
 西甲 奥萨苏纳VS桑坦德竞技 赛场原声 19:45,http://1.95.166.182:5008/abc123/968376911
 斯诺克 黄佳浩、塞尔比、塔猜亚出战 柏林 20:00,http://1.95.166.182:5008/abc123/968412310
 斯诺克 黄佳浩、塞尔比、塔猜亚出战 熊冕 21:00,http://1.95.166.182:5008/abc123/968412332
+斯诺克 黄佳浩、塞尔比、塔猜亚出战 1号桌 20:00,http://1.95.166.182:5008/abc123/968351022
+斯诺克 黄佳浩、塞尔比、塔猜亚出战 2号桌 20:00,http://1.95.166.182:5008/abc123/968351059
+斯诺克 黄佳浩、塞尔比、塔猜亚出战 3号桌 20:00,http://1.95.166.182:5008/abc123/968351087
 英超 利兹联VS曼联 詹俊 张路 李子琪 20:30,http://1.95.166.182:5008/abc123/968376873
 英超 利兹联VS曼联 陈凯冬 何辉 20:45,http://1.95.166.182:5008/abc123/968376880
 英超 利兹联VS曼联 英文原声 20:45,http://1.95.166.182:5008/abc123/968376891
@@ -800,6 +812,9 @@ CBA 长白山恩都里VS北京首钢 赛场原声 19:25,http://1.95.166.182:5008
 西甲 马拉加VS皇家社会 沈云怡 00:15,http://1.95.166.182:5008/abc123/968377032
 西甲 马拉加VS皇家社会 赛场原声 00:15,http://1.95.166.182:5008/abc123/968377014
 斯诺克 卡特VS徐思 罗伯逊登场 朱峰立 02:00,http://1.95.166.182:5008/abc123/968412346
+斯诺克 卡特VS徐思 罗伯逊登场 1号桌 02:00,http://1.95.166.182:5008/abc123/968351116
+斯诺克 卡特VS徐思 罗伯逊登场 2号桌 02:00,http://1.95.166.182:5008/abc123/968351130
+斯诺克 卡特VS徐思 罗伯逊登场 3号桌 02:00,http://1.95.166.182:5008/abc123/968351211
 法甲 里昂VS尼斯 邵煊 02:30,http://1.95.166.182:5008/abc123/968376867
 法甲 里昂VS尼斯 赛场原声 02:30,http://1.95.166.182:5008/abc123/968376845
 意甲 尤文图斯VS拉齐奥 孙雨轩 刘腾 02:30,http://1.95.166.182:5008/abc123/968377433

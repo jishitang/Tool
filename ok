@@ -371,10 +371,10 @@ Catchplay电影台,https://live.catvod.com/?id=L2xyL2RMUTJkRTFOaldueTZDbkdwQzJ5e
 动物星球,https://live.catvod.com/?id=L2xyL2RMUTJkRTFOaldzNHZVYXlWNXQ4UVVJZTZzZkI2V2h1cEMyeXhVMmdwTl80VlBuYUFtfGNkPWFiMzU1ZTBkJmNuPTFlMGQ1ODRjJmNwPWQzMDBlYjRlJmN1PTk3MGYwNjlmJnJwPWRQX0JqTGRCakwxbG5paDJuRUY&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 壹新闻,https://live.catvod.com/?id=L2xyL2RMUTJkRTFOak5lZ1ZScU5wN2ZPVkNzSVZDZWw2aUlNZE4waHxjZD1hYjM1NWUwZCZjbj0xZTBkNTg0YyZjcD05NTA4ODA0NSZjdT05NzBmMDY5ZiZycD1kUF9CakxkQmpMMWxuaWgybkVG&tk=8c88c6ac0d55a30d16f8e6645363ee7e
 咪咕Ubuntu线,#genre#
-凤凰香港,http://zizi.dpdns.org/api.php?id=Hu8SKcLy5HiTjUd6ZJgV#http://zizi.dpdns.org/api.php?id=0mQjHOl8b81mSiWc6Ii3#http://zizi.dpdns.org/api.php?id=L1dVXNT1OFkvEqV1fGCD#http://zizi.dpdns.org/api.php?id=IfWIRJEFBlQ8YWb9A1Fc#http://zizi.dpdns.org/api.php?id=eld59PdyIGmKh7LxvD9Z#http://zizi.dpdns.org/api.php?id=lVMCViPpwLFRdriJFfV1#http://zizi.dpdns.org/api.php?id=SA0fBlK7xh5PeZkJLQet#http://zizi.dpdns.org/api.php?id=nrKRMpzZRLTT6Cuj8KZ0
-凤凰中文,http://zizi.dpdns.org/api.php?id=9gg6DOhxeiXEbfVcoRhR#http://zizi.dpdns.org/api.php?id=1MbVf1SXdvzvgYAiBwbM#http://zizi.dpdns.org/api.php?id=3EN5KA8iKm1h6QaF1Kag#http://zizi.dpdns.org/api.php?id=9PC5gsleh5S6WQYnXE6x#http://zizi.dpdns.org/api.php?id=6UjVxT6gNRMWpRRf3zv6#http://zizi.dpdns.org/api.php?id=IghkSNIFvolj9qfafqvo
-凤凰资讯,http://zizi.dpdns.org/api.php?id=JfdF5PuqDbJ1xg5NGQjf#http://zizi.dpdns.org/api.php?id=1HqiskbZ3btAUPbwrBjD#http://zizi.dpdns.org/api.php?id=M9tuFNs6oubH1QhqdILc#http://zizi.dpdns.org/api.php?id=XxS57K28Tb85q39C7s5I#http://zizi.dpdns.org/api.php?id=e0Alm21d8dL77ZvOQ3ZB#http://zizi.dpdns.org/api.php?id=EyDxkRDL1skAOBNQXNfi#http://zizi.dpdns.org/api.php?id=sEjvoX3yXv4SVcleoPbU#http://zizi.dpdns.org/api.php?id=UvUurN3L0PD49WdADOYN
-凤凰电影台,http://zizi.dpdns.org/api.php?id=yqUJcRYKbgnkhQMYuGCe#http://zizi.dpdns.org/api.php?id=rcFViEZPHqc7ad78Gl26
+凤凰香港,http://zizi.dpdns.org/api.php?id=aAil1X8pQJLxWgqH9RLn#http://zizi.dpdns.org/api.php?id=sSUp2qQPBxU1OFLoL6Tu#http://zizi.dpdns.org/api.php?id=sR5H2EjOCQLtaTnNO5ZB
+凤凰中文,http://zizi.dpdns.org/api.php?id=y64vHoX11NjQLCBYU5gz#http://zizi.dpdns.org/api.php?id=XbuSFf9h17Rzb7cZjkyd
+凤凰资讯,http://zizi.dpdns.org/api.php?id=T91USkhNVfhk5ICg8DDT#http://zizi.dpdns.org/api.php?id=4KH9LxErJhx1TkkONjdR
+凤凰澳门,http://zizi.dpdns.org/api.php?id=xHkQTTe5tbrjLwWzWunr
 CCTV1综合,http://1.95.166.182:5008/abc123/608807420
 CCTV2财经,http://1.95.166.182:5008/abc123/631780532
 CCTV3综艺,http://1.95.166.182:5008/abc123/624878271
@@ -561,17 +561,16 @@ CBA 上海久事VS广东东阳光 全场回放（赛场原声） 19:25,http://1.
 亚冠精英 费尔干纳石油工人VS吉达联合 全场回放（AI智慧观赛） 21:40,http://1.95.166.182:5008/abc123/968811656
 亚冠精英 费尔干纳石油工人VS吉达联合 全场回放（AI智能解说） 21:40,http://1.95.166.182:5008/abc123/968812278
 亚冠精英 艾因VS大不里士拖拉机 全场回放（孙雨轩） 23:45,http://1.95.166.182:5008/abc123/968812918
+亚冠精英 艾因VS大不里士拖拉机 全场回放 23:45,http://1.95.166.182:5008/abc123/968814750
 亚冠精英 吉达国民VS加拉法体育 全场回放（鲁靖明） 23:45,http://1.95.166.182:5008/abc123/968812950
-亚冠精英 胡拜尔库迪西亚VS萨德 涂远 02:00,http://1.95.166.182:5008/abc123/968635116
-亚冠精英 胡拜尔库迪西亚VS萨德 赛场原声 02:00,http://1.95.166.182:5008/abc123/968635107
-亚冠精英 巴格达空军VS塔什干棉农 张昊泽 02:00,http://1.95.166.182:5008/abc123/968635164
-亚冠精英 巴格达空军VS塔什干棉农 赛场原声 02:00,http://1.95.166.182:5008/abc123/968635141
-法甲 巴黎圣日耳曼VS里昂 鹿中原 王宇 03:15,http://1.95.166.182:5008/abc123/968628005
-法甲 巴黎圣日耳曼VS里昂 赛场原声 03:15,http://1.95.166.182:5008/abc123/968627999
-法甲 巴黎圣日耳曼VS里昂 智能解说 03:15,http://1.95.166.182:5008/abc123/968655153
-西甲 塞维利亚VS奥萨苏纳 李霄 03:45,http://1.95.166.182:5008/abc123/968625959
-西甲 塞维利亚VS奥萨苏纳 赛场原声 03:45,http://1.95.166.182:5008/abc123/968625921
-西甲 塞维利亚VS奥萨苏纳 智能解说 03:55,http://1.95.166.182:5008/abc123/968655214
+亚冠精英 胡拜尔库迪西亚VS萨德 全场回放（涂远） 02:00,http://1.95.166.182:5008/abc123/968813712
+亚冠精英 巴格达空军VS塔什干棉农 全场回放（张昊泽） 02:00,http://1.95.166.182:5008/abc123/968815566
+法甲 巴黎圣日耳曼VS里昂 全场回放（鹿中原、王宇） 03:15,http://1.95.166.182:5008/abc123/968815170
+法甲 巴黎圣日耳曼VS里昂 全场回放（智能解说） 03:15,http://1.95.166.182:5008/abc123/968815094
+法甲 巴黎圣日耳曼VS里昂 全场回放（AI观赛） 03:15,http://1.95.166.182:5008/abc123/968815077
+西甲 塞维利亚VS奥萨苏纳 全场回放（李霄） 03:55,http://1.95.166.182:5008/abc123/968815605
+西甲 塞维利亚VS奥萨苏纳 全场回放（AI智能观赛） 03:55,http://1.95.166.182:5008/abc123/968815629
+西甲 塞维利亚VS奥萨苏纳 全场回放（智能解说） 03:55,http://1.95.166.182:5008/abc123/968815637
 NBA 骑士VS森林狼 邵化谦 闫宇峰 06:55,http://1.95.166.182:5008/abc123/968748948
 NBA 骑士VS森林狼 英文原声 06:55,http://1.95.166.182:5008/abc123/968748963
 NBA 黄蜂VS奇才 王凯 06:55,http://1.95.166.182:5008/abc123/968748767
